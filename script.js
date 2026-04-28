@@ -870,8 +870,11 @@
             const cat = CATEGORY_META[p.category] || { icon: 'map-pin', color: 'var(--accent)', emoji: '📍' };
             const thumb = Images.thumbFor(p);
             return `
-                <div class="hot-item" data-place="${escapeHtml(p.name)}">
-                    <div class="hot-item__top">
+                <div class="hot-item" 
+                     data-place="${escapeHtml(p.name)}"
+                     style="background-image: url('${thumb.url}');">
+                    <div class="hot-item__gradient"></div>
+                    <div class="hot-item__content">
                         <div class="hot-item__info">
                             <div class="hot-item__name">${escapeHtml(p.name)}</div>
                             <div class="hot-item__meta">
@@ -885,23 +888,19 @@
                             <i data-lucide="flame"></i> ${p.fire || 0}
                         </div>
                     </div>
-                    <div class="hot-item__thumb skeleton" 
-                         data-name="${escapeHtml(p.name)}"
-                         style="background: ${thumb.fallback};"></div>
                 </div>`;
         }).join('');
 
-        // Async load thumbs from Google
-        $$('.hot-item__thumb', list).forEach(async (el) => {
-            const name = el.dataset.name;
+        // Async load photos from Google to background
+        $$('.hot-item', list).forEach(async (el) => {
+            const name = el.dataset.place;
             const place = state.places.find(p => p.name === name);
             if (!place) return;
 
-            // Try cache first
             let url = place.googleThumb;
             if (!url) {
                 url = await GooglePlaces.getPhotoUrl(name);
-                if (url) place.googleThumb = url; // Cache it
+                if (url) place.googleThumb = url;
             }
             
             if (!url) url = Images.primaryFor(place);
@@ -909,7 +908,7 @@
             const img = new Image();
             img.onload = () => {
                 el.style.backgroundImage = `url('${url}')`;
-                el.classList.remove('skeleton');
+                el.classList.add('is-loaded');
             };
             img.src = url;
         });
