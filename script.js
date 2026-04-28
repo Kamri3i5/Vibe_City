@@ -309,23 +309,80 @@
     }
 
     // ============================================================
-    // Image system (with fallback chain)
+    // CONFIGURATION
     // ============================================================
+    const GOOGLE_API_KEY = "AIzaSyCNa5mvKKVyfhsftHfBvk7xS_s694Ms27E"; 
+
+    // ============================================================
+    // Image system (Google Places + Fallbacks)
+    // ============================================================
+    
+    const GooglePlaces = {
+        async getPhotoUrl(placeName) {
+            if (!GOOGLE_API_KEY) return null;
+            try {
+                const searchUrl = `https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=${encodeURIComponent(placeName)}&inputtype=textquery&fields=photos,place_id&key=${GOOGLE_API_KEY}`;
+                const searchRes = await fetch(searchUrl);
+                const searchData = await searchRes.json();
+                
+                if (searchData.candidates && searchData.candidates[0]?.photos) {
+                    const photoRef = searchData.candidates[0].photos[0].photo_reference;
+                    return `https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=${photoRef}&key=${GOOGLE_API_KEY}`;
+                }
+                return null;
+            } catch (e) {
+                console.error("Google Photos Error:", e);
+                return null;
+            }
+        }
+    };
 
     const Images = {
-        // High-quality dynamic photos based on place name and category
         primaryFor(place) {
             if (place.image && /^https?:\/\//.test(place.image)) return place.image;
-
-            const keywords = [
-                place.category || 'city',
-                'architecture',
-                'modern'
-            ].map(k => encodeURIComponent(k.toLowerCase())).join(',');
-
-            // Using LoremFlickr for stability
             const seed = encodeURIComponent(place.name.replace(/\s+/g, '-').toLowerCase());
-            return `https://loremflickr.com/800/450/${keywords}?lock=${seed}`;
+            return `https://loremflickr.com/800/450/${place.category || 'city'},modern?lock=${seed}`;
+        },
+        async renderHero(place, container) {
+            const cat = CATEGORY_META[place.category] || { emoji: '📍', color: 'var(--accent)' };
+            const fallback = `
+                <div class="place__hero-fallback" style="background: linear-gradient(135deg, ${cat.color}, ${cat.color}88);">
+                    <span>${cat.emoji}</span>
+                </div>`;
+
+            container.innerHTML = `
+                <div class="place__hero-img skeleton is-loading" id="hero-img"></div>
+                ${fallback}
+                <div class="place__hero-overlay"></div>
+                <div class="place__hero-status" id="hero-status"></div>`;
+
+            // Try Google, fallback to primaryFor
+            let url = await GooglePlaces.getPhotoUrl(place.name);
+            if (!url) url = this.primaryFor(place);
+
+            const img = new Image();
+            img.onload = () => {
+                const el = container.querySelector('#hero-img');
+                if (!el) return;
+                el.style.backgroundImage = `url('${url}')`;
+                el.classList.remove('skeleton', 'is-loading');
+            };
+            img.onerror = () => {
+                const el = container.querySelector('#hero-img');
+                if (el) el.remove();
+            };
+            img.src = url;
+        },
+        thumbFor(place) {
+            const cat = CATEGORY_META[place.category] || { emoji: '📍', color: 'var(--accent)' };
+            const url = this.primaryFor(place);
+            return {
+                url,
+                fallback: `linear-gradient(135deg, ${cat.color}, ${cat.color}88)`,
+                emoji: cat.emoji
+            };
+        }
+    };ckr.com/800/450/${keywords}?lock=${seed}`;
         },
         // Render hero with loading + fallback
         renderHero(place, container) {
