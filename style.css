@@ -121,9 +121,9 @@
     bottom: 24px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 1000;
+    z-index: 2000;
+    display: none;
     align-items: center;
-    gap: 20px;
 }
 
 .nav-btn {
@@ -134,7 +134,7 @@
     backdrop-filter: blur(var(--blur));
     -webkit-backdrop-filter: blur(var(--blur));
     border: 1px solid var(--border);
-    color: var(--text-secondary);
+    color: var(--text-primary);
     display: grid;
     place-items: center;
     cursor: pointer;
@@ -1633,13 +1633,8 @@ img { display: block; max-width: 100%; }
         box-shadow: none;
     }
 
-    .mobile-tabs {
-        display: flex;
-        bottom: 20px;
-        padding: 6px;
-        background: rgba(15, 15, 21, 0.6);
-        border: 1px solid rgba(255, 255, 255, 0.08);
-    }
+    .mobile-tabs { display: none !important; }
+    .mobile-nav { display: flex !important; gap: 20px; }
 
     .mobile-tab { width: 56px; height: 44px; }
 

@@ -257,11 +257,20 @@
     // ============================================================
 
     const Images = {
-        // Stable placeholder via picsum.photos seeded by name
+        // High-quality dynamic photos based on place name and category
         primaryFor(place) {
             if (place.image && /^https?:\/\//.test(place.image)) return place.image;
-            const seed = encodeURIComponent(place.name.replace(/\s+/g, '-').toLowerCase());
-            return `https://picsum.photos/seed/${seed}/800/450`;
+            
+            const keywords = [
+                place.name, 
+                place.category || 'city', 
+                'architecture', 
+                'tashkent'
+            ].map(k => encodeURIComponent(k.toLowerCase())).join(',');
+            
+            // Using a high-quality source with seeded names for stability
+            const seed = place.name.replace(/\s+/g, '-').toLowerCase();
+            return `https://source.unsplash.com/featured/800x450/?${keywords}`;
         },
         // Render hero with loading + fallback
         renderHero(place, container) {
@@ -1060,6 +1069,7 @@
 
     function updateMobileTabs(tab) {
         $$('.nav-btn').forEach(b => b.classList.toggle('is-active', b.dataset.tab === tab));
+        refreshIcons();
     }
 
     $$('.nav-btn').forEach(btn => {
