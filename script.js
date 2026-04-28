@@ -46,36 +46,43 @@
     const DEFAULT_PLACES = [
         {
             name: "Бродвей (Сайилгох)", coords: [41.3117, 69.2797], category: "Развлечения",
+            image: "https://images.unsplash.com/photo-1589417852331-97b7b134907a?auto=format&fit=crop&w=800&q=80",
             description: "Главная пешеходная улица Ташкента. Артисты, стритфуд, живая музыка — тут всегда движ.",
             fire: 24, dead: 1, crying: 0
         },
         {
             name: "Magic City", coords: [41.3015, 69.2455], category: "Развлечения",
+            image: "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=800&q=80",
             description: "Тематический парк с замком, фонтанами и ночной подсветкой. Сказка для всех возрастов.",
             fire: 15, dead: 2, crying: 0
         },
         {
             name: "Ташкент Сити", coords: [41.3031, 69.2662], category: "Парк",
+            image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/58/68/73/tashkent-city-park.jpg?w=800&h=-1&s=1",
             description: "Современный деловой комплекс с небоскрёбами, фонтанами и вечерней подсветкой.",
             fire: 8, dead: 0, crying: 0
         },
         {
             name: "Minor Mosque", coords: [41.3330, 69.2815], category: "Культура",
+            image: "https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?auto=format&fit=crop&w=800&q=80",
             description: "Белоснежная мечеть на берегу канала Анхор. Архитектурный шедевр нового Ташкента.",
             fire: 4, dead: 0, crying: 1
         },
         {
             name: "Chorsu Bazaar", coords: [41.3264, 69.2292], category: "Шопинг",
+            image: "https://images.unsplash.com/photo-1623582490530-072836262923?auto=format&fit=crop&w=800&q=80",
             description: "Легендарный базар под голубыми куполами. Специи, сухофрукты, свежий хлеб — аутентичный Ташкент.",
             fire: 10, dead: 1, crying: 0
         },
         {
             name: "Amir Temur Square", coords: [41.3111, 69.2789], category: "Культура",
+            image: "https://images.unsplash.com/photo-1601053159740-4f51e3919e91?auto=format&fit=crop&w=800&q=80",
             description: "Центральная площадь столицы с конной статуей Амира Тимура и фонтанами.",
             fire: 5, dead: 2, crying: 0
         },
         {
             name: "Телебашня Ташкента", coords: [41.3425, 69.2858], category: "Культура",
+            image: "https://images.unsplash.com/photo-1628795175520-fe164f981062?auto=format&fit=crop&w=800&q=80",
             description: "375-метровая телевизионная башня — самое высокое сооружение в Центральной Азии.",
             fire: 7, dead: 1, crying: 0
         },
@@ -91,6 +98,7 @@
         },
         {
             name: "Парк Навруз", coords: [41.3245, 69.3124], category: "Парк",
+            image: "https://images.unsplash.com/photo-1590490359854-dfba19688d70?auto=format&fit=crop&w=800&q=80",
             description: "Огромный этно-парк с озером, каруселями и колесом обозрения.",
             fire: 11, dead: 0, crying: 0
         },
@@ -101,6 +109,7 @@
         },
         {
             name: "Central Asian Plov Center", coords: [41.3225, 69.2878], category: "Еда",
+            image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
             description: "Легендарное место, где готовят 1000 кг плова в день. Must visit для каждого гостя Ташкента.",
             fire: 20, dead: 0, crying: 0
         },
@@ -116,11 +125,13 @@
         },
         {
             name: "Японский сад", coords: [41.3420, 69.2040], category: "Парк",
+            image: "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=800&q=80",
             description: "Тихий уголок Японии в Ташкенте. Мостики, карпы кои, сакура и медитативная атмосфера.",
             fire: 5, dead: 0, crying: 0
         },
         {
             name: "Humo Arena", coords: [41.3150, 69.2950], category: "Развлечения",
+            image: "https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?auto=format&fit=crop&w=800&q=80",
             description: "Современная ледовая арена на 12000 мест. Хоккей, концерты и шоу мирового уровня.",
             fire: 13, dead: 1, crying: 0
         },
@@ -153,9 +164,16 @@
         loadPlaces() {
             try {
                 const raw = localStorage.getItem(STORAGE_KEY);
-                if (!raw) return [...DEFAULT_PLACES];
-                const parsed = JSON.parse(raw);
-                return Array.isArray(parsed) && parsed.length ? parsed : [...DEFAULT_PLACES];
+                let places = raw ? JSON.parse(raw) : [...DEFAULT_PLACES];
+                
+                // DATA MIGRATION: Ensure new images are applied to existing saved places
+                return places.map(p => {
+                    const fresh = DEFAULT_PLACES.find(d => d.name === p.name);
+                    if (fresh && (!p.image || p.image.includes('source.unsplash') || p.image.includes('picsum'))) {
+                        return { ...p, image: fresh.image };
+                    }
+                    return p;
+                });
             } catch {
                 return [...DEFAULT_PLACES];
             }
