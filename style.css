@@ -917,12 +917,14 @@ img { display: block; max-width: 100%; }
 }
 
 .hot-item__thumb {
-    width: 56px;
-    height: 56px;
+    width: 90px;
+    height: 60px;
     border-radius: var(--radius-xs);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     flex-shrink: 0;
+    background-color: var(--bg-panel);
     position: relative;
     overflow: hidden;
 }
@@ -937,9 +939,11 @@ img { display: block; max-width: 100%; }
 .hot-item__name {
     font-size: 13px;
     font-weight: 600;
-    white-space: nowrap;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
     overflow: hidden;
-    text-overflow: ellipsis;
     margin-bottom: 4px;
 }
 .hot-item__meta {
