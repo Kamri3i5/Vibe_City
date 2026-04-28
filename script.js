@@ -1084,25 +1084,39 @@
                     if (!activePanel) return;
                     
                     const delta = currentY - startY;
-                    activePanel.style.transition = '';
+                    const totalHeight = activePanel.offsetHeight;
+                    const currentTranslate = initialTranslate + delta;
                     
-                    if (Math.abs(delta) > 100) {
-                        if (delta > 100) {
-                            // Dragged down
-                            if (initialTranslate === 0) {
-                                activePanel.classList.remove('is-expanded');
-                                activePanel.classList.add('is-peek');
-                            } else {
-                                closeAllPanels();
-                            }
-                        } else if (delta < -100) {
-                            // Dragged up
-                            activePanel.classList.remove('is-peek');
-                            activePanel.classList.add('is-expanded');
-                        }
+                    activePanel.style.transition = 'transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1)';
+                    
+                    // Snap points (relative to 0 which is 75vh height)
+                    const snapPoints = [
+                        { name: 'closed', y: totalHeight },
+                        { name: 'peek', y: totalHeight - (window.innerHeight * 0.3) },
+                        { name: 'expanded', y: 0 }
+                    ];
+
+                    // Find closest snap point
+                    const closest = snapPoints.reduce((prev, curr) => {
+                        return (Math.abs(curr.y - currentTranslate) < Math.abs(prev.y - currentTranslate)) ? curr : prev;
+                    });
+
+                    // Apply state
+                    activePanel.classList.remove('is-peek', 'is-expanded', 'is-mobile-open');
+                    
+                    if (closest.name === 'closed') {
+                        closeAllPanels();
+                    } else if (closest.name === 'peek') {
+                        activePanel.classList.add('is-mobile-open', 'is-peek');
+                        updateMobileTabs(activePanel.id === 'panel-left' ? 'left' : 'right');
+                    } else {
+                        activePanel.classList.add('is-mobile-open', 'is-expanded');
+                        updateMobileTabs(activePanel.id === 'panel-left' ? 'left' : 'right');
                     }
                     
                     activePanel.style.transform = '';
+                    
+                    // Reset
                     activePanel = null;
                     startY = 0; currentY = 0;
                 });
