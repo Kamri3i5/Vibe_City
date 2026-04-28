@@ -979,8 +979,14 @@
     });
 
     // ============================================================
-    // Mobile tabs
+    // Mobile tabs & Swipe-to-close
     // ============================================================
+
+    function closeAllPanels() {
+        $('#panel-left').classList.remove('is-mobile-open');
+        $('#panel-right').classList.remove('is-mobile-open');
+        updateMobileTabs('map');
+    }
 
     function updateMobileTabs(tab) {
         $$('.mobile-tab').forEach(b => b.classList.toggle('is-active', b.dataset.tab === tab));
@@ -989,11 +995,62 @@
     $$('.mobile-tab').forEach(btn => {
         btn.addEventListener('click', () => {
             const tab = btn.dataset.tab;
-            updateMobileTabs(tab);
-            $('#panel-left').classList.toggle('is-mobile-open', tab === 'left');
-            $('#panel-right').classList.toggle('is-mobile-open', tab === 'right');
+            if (tab === 'map') {
+                closeAllPanels();
+            } else {
+                updateMobileTabs(tab);
+                $('#panel-left').classList.toggle('is-mobile-open', tab === 'left');
+                $('#panel-right').classList.toggle('is-mobile-open', tab === 'right');
+            }
         });
     });
+
+    // Swipe handling
+    const MobileSwipe = (() => {
+        let startY = 0;
+        let currentY = 0;
+        let activePanel = null;
+
+        function init() {
+            $$('.panel').forEach(panel => {
+                panel.addEventListener('touchstart', e => {
+                    if (window.innerWidth > 768) return;
+                    startY = e.touches[0].clientY;
+                    activePanel = panel;
+                    panel.style.transition = 'none';
+                }, { passive: true });
+
+                panel.addEventListener('touchmove', e => {
+                    if (!activePanel) return;
+                    currentY = e.touches[0].clientY;
+                    const delta = currentY - startY;
+                    if (delta > 0) {
+                        activePanel.style.transform = `translateY(${delta}px)`;
+                    }
+                }, { passive: true });
+
+                panel.addEventListener('touchend', () => {
+                    if (!activePanel) return;
+                    const delta = currentY - startY;
+                    activePanel.style.transition = '';
+                    
+                    if (delta > 120) {
+                        closeAllPanels();
+                        activePanel.style.transform = '';
+                    } else {
+                        activePanel.style.transform = '';
+                    }
+                    activePanel = null;
+                    startY = 0;
+                    currentY = 0;
+                });
+            });
+        }
+
+        return { init };
+    })();
+
+    MobileSwipe.init();
 
     // ============================================================
     // External: parser hook (kept for compatibility)
