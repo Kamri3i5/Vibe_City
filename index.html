@@ -34,16 +34,27 @@
                 <div class="search__results" id="search-results"></div>
             </div>
         </div>
+        <div class="header__actions">
+            <button class="action-btn js-theme-toggle" aria-label="Сменить тему">
+                <i data-lucide="moon"></i>
+            </button>
+            <button class="action-btn js-locate-btn" aria-label="Моя локация">
+                <i data-lucide="locate"></i>
+            </button>
+            <button class="action-btn profile-btn js-profile-btn" aria-label="Профиль">
+                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="Avatar" class="profile-btn__img">
+            </button>
+        </div>
     </header>
 
     <div class="action-stack">
-        <button class="action-btn profile-btn" id="profile-btn" aria-label="Профиль">
+        <button class="action-btn profile-btn js-profile-btn" aria-label="Профиль">
             <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="Avatar" class="profile-btn__img">
         </button>
-        <button class="action-btn" id="theme-toggle" aria-label="Сменить тему">
+        <button class="action-btn js-theme-toggle" aria-label="Сменить тему">
             <i data-lucide="moon"></i>
         </button>
-        <button class="action-btn" id="locate-btn" aria-label="Моя локация">
+        <button class="action-btn js-locate-btn" aria-label="Моя локация">
             <i data-lucide="locate"></i>
         </button>
     </div>
@@ -138,13 +149,17 @@
             <div class="place" id="place-content"></div>
         </div>
 
-        <!-- Представление профиля -->
-        <div id="view-profile" hidden>
+    </aside>
+
+    <!-- Полноэкранный оверлей профиля -->
+    <div id="profile-overlay" class="overlay" hidden>
+        <div class="overlay__content">
+            <button class="overlay__close" id="profile-close-btn">
+                <i data-lucide="x"></i>
+            </button>
+            
             <div class="profile-header">
-                <button class="back-btn" id="profile-back-btn">
-                    <i data-lucide="arrow-left"></i> На карту
-                </button>
-                <h2 class="section-title" style="margin: 12px 0 0 0;">Твой профиль</h2>
+                <h2 class="section-title">Твой профиль</h2>
             </div>
             
             <div class="card profile-card" style="margin-top: 16px;">
@@ -154,7 +169,7 @@
                     </div>
                     <div class="profile-card__info">
                         <h3 id="user-name">Гость</h3>
-                        <p class="profile-card__rank">Начинающий исследователь</p>
+                        <p class="profile-card__rank">исследователь</p>
                     </div>
                 </div>
                 <div class="profile-stats">
@@ -168,12 +183,12 @@
                     </div>
                     <div class="stat-item">
                         <span class="stat-item__value">1</span>
-                        <span class="stat-item__label">Уровень</span>
+                        <span class="stat-item__label">LVL</span>
                     </div>
                 </div>
             </div>
 
-            <div class="settings-group" style="margin-top: 20px;">
+            <div class="settings-group" style="margin-top: 24px;">
                 <h3 class="section-title">Настройки</h3>
                 <div class="card setting-item">
                     <div class="setting-item__label">
@@ -189,11 +204,11 @@
                 </div>
             </div>
 
-            <button class="btn btn--primary" style="width: 100%; margin-top: 24px;" id="edit-profile-btn">
-                Редактировать профиль
+            <button class="btn btn--primary" style="width: 100%; margin-top: 32px;" id="edit-profile-btn">
+                Редактировать
             </button>
         </div>
-    </aside>
+    </div>
 
     <button class="panel-toggle panel-toggle--right" id="toggle-right" aria-label="Свернуть правую панель">
         <i data-lucide="chevron-left"></i>

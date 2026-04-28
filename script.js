@@ -417,22 +417,22 @@
     }
 
     function showProfile() {
-        $('#view-default').hidden = true;
-        $('#view-detail').hidden = true;
-        $('#view-profile').hidden = false;
+        const overlay = $('#profile-overlay');
+        overlay.hidden = false;
         
         // Update stats
         const myVotes = state.myVotes || [];
         $('#stat-votes').textContent = myVotes.length;
         $('#stat-places').textContent = [...new Set(myVotes.map(v => v.placeId))].length;
         
-        // Mobile: open panel to 80% (expanded)
-        if (window.innerWidth <= 768) {
-            $('#panel-right').classList.add('is-mobile-open', 'is-expanded');
-            $('#panel-right').classList.remove('is-peek');
-            updateMobileTabs('right');
-        }
+        refreshIcons();
     }
+
+    function closeProfile() {
+        $('#profile-overlay').hidden = true;
+    }
+
+    $('#profile-close-btn').addEventListener('click', closeProfile);
 
     function showPlace(place) {
         state.currentPlace = place;
@@ -1067,6 +1067,11 @@
             
             other.classList.remove('is-mobile-open', 'is-peek', 'is-expanded');
             target.classList.add('is-mobile-open', 'is-peek'); 
+
+            // If switching to right panel, ensure it shows default view (Hot List)
+            if (tab === 'right') {
+                showDefaultView();
+            }
         });
     });
 

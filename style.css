@@ -1805,6 +1805,74 @@ img { display: block; max-width: 100%; }
    Utility
    ============================================================ */
 
+/* ============================================================
+   Overlays
+   ============================================================ */
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 5000;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s var(--ease-out);
+}
+
+.overlay:not([hidden]) {
+    opacity: 1;
+    visibility: visible;
+}
+
+.overlay__content {
+    width: 100%;
+    max-width: 440px;
+    background: var(--bg-panel);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
+    border: 1px solid var(--border-strong);
+    border-radius: 32px;
+    padding: 32px 24px;
+    position: relative;
+    transform: scale(0.9) translateY(20px);
+    transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: var(--shadow-lg);
+}
+
+.overlay:not([hidden]) .overlay__content {
+    transform: scale(1) translateY(0);
+}
+
+.overlay__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    display: grid;
+    place-items: center;
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: all var(--t-fast) var(--ease);
+}
+
+.overlay__close:hover {
+    background: var(--accent);
+    border-color: transparent;
+    transform: rotate(90deg);
+}
+
+.overlay__close i { width: 18px; height: 18px; }
+
 .icon-fire { color: var(--fire) !important; }
 .icon-dead { color: var(--dead) !important; }
 .icon-cry { color: var(--cool) !important; }
