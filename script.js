@@ -509,10 +509,11 @@
 
         refreshIcons();
 
-        // Mobile: open right panel
+        // Mobile: open right panel in peek state (30%)
         if (window.innerWidth <= 768) {
-            $('#panel-right').classList.add('is-mobile-open');
-            $('#panel-left').classList.remove('is-mobile-open');
+            $('#panel-right').classList.add('is-mobile-open', 'is-peek');
+            $('#panel-right').classList.remove('is-expanded');
+            $('#panel-left').classList.remove('is-mobile-open', 'is-peek', 'is-expanded');
             updateMobileTabs('right');
         }
     }
@@ -987,8 +988,10 @@
     // ============================================================
 
     function closeAllPanels() {
-        $('#panel-left').classList.remove('is-mobile-open');
-        $('#panel-right').classList.remove('is-mobile-open');
+        $$('.panel').forEach(p => {
+            p.classList.remove('is-mobile-open', 'is-peek', 'is-expanded');
+            p.style.transform = '';
+        });
         updateMobileTabs('map');
     }
 
@@ -1003,17 +1006,21 @@
                 closeAllPanels();
             } else {
                 updateMobileTabs(tab);
-                $('#panel-left').classList.toggle('is-mobile-open', tab === 'left');
-                $('#panel-right').classList.toggle('is-mobile-open', tab === 'right');
+                const target = tab === 'left' ? $('#panel-left') : $('#panel-right');
+                const other = tab === 'left' ? $('#panel-right') : $('#panel-left');
+                
+                other.classList.remove('is-mobile-open', 'is-peek', 'is-expanded');
+                target.classList.add('is-mobile-open', 'is-peek'); // Default to peek
             }
         });
     });
 
-    // Swipe handling
+    // Swipe handling (Snapping Bottom Sheet)
     const MobileSwipe = (() => {
         let startY = 0;
         let currentY = 0;
         let activePanel = null;
+        let initialTranslate = 0;
 
         function init() {
             $$('.panel').forEach(panel => {
@@ -1021,6 +1028,12 @@
                     if (window.innerWidth > 768) return;
                     startY = e.touches[0].clientY;
                     activePanel = panel;
+                    
+                    // Get current translation
+                    const style = window.getComputedStyle(panel);
+                    const matrix = new WebKitCSSMatrix(style.transform);
+                    initialTranslate = matrix.m42;
+                    
                     panel.style.transition = 'none';
                 }, { passive: true });
 
@@ -1028,8 +1041,11 @@
                     if (!activePanel) return;
                     currentY = e.touches[0].clientY;
                     const delta = currentY - startY;
-                    if (delta > 0) {
-                        activePanel.style.transform = `translateY(${delta}px)`;
+                    const newTranslate = initialTranslate + delta;
+                    
+                    // Don't drag above the expanded state (0)
+                    if (newTranslate >= 0) {
+                        activePanel.style.transform = `translateY(${newTranslate}px)`;
                     }
                 }, { passive: true });
 
@@ -1038,15 +1054,29 @@
                     const delta = currentY - startY;
                     activePanel.style.transition = '';
                     
-                    if (delta > 120) {
-                        closeAllPanels();
-                        activePanel.style.transform = '';
-                    } else {
-                        activePanel.style.transform = '';
+                    const totalHeight = activePanel.offsetHeight;
+                    const peekTranslate = totalHeight * 0.6; // approx 30% visible
+                    const currentTranslate = initialTranslate + delta;
+
+                    if (delta > 100) { 
+                        // Dragged down
+                        if (initialTranslate === 0) {
+                            // From expanded to peek
+                            activePanel.classList.remove('is-expanded');
+                            activePanel.classList.add('is-peek');
+                        } else {
+                            // From peek to closed
+                            closeAllPanels();
+                        }
+                    } else if (delta < -100) {
+                        // Dragged up
+                        activePanel.classList.remove('is-peek');
+                        activePanel.classList.add('is-expanded');
                     }
+                    
+                    activePanel.style.transform = ''; // Let CSS classes take over
                     activePanel = null;
-                    startY = 0;
-                    currentY = 0;
+                    startY = 0; currentY = 0;
                 });
             });
         }
