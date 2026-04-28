@@ -899,34 +899,46 @@ img { display: block; max-width: 100%; }
 
 .hot-item {
     display: flex;
+    align-items: center;
     gap: 12px;
-    padding: 10px;
+    padding: 8px;
     background: var(--bg-card);
     border-radius: var(--radius-sm);
     cursor: pointer;
     transition: all var(--t-fast) var(--ease);
-    border: 1px solid transparent;
-    overflow: hidden;
+    border: 1px solid var(--border);
 }
 
 .hot-item:hover {
     background: var(--bg-card-hover);
-    border-color: var(--border);
-    transform: translateY(-1px);
-    box-shadow: var(--shadow-sm);
+    border-color: var(--accent);
+    transform: translateX(4px);
 }
 
 .hot-item__thumb {
-    width: 90px;
+    width: 80px;
     height: 60px;
     border-radius: var(--radius-xs);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     flex-shrink: 0;
-    background-color: var(--bg-panel);
     position: relative;
     overflow: hidden;
+    background-color: #000;
+    /* We will set the background-image in JS for the double-layer effect */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: var(--shadow-sm);
+}
+
+.hot-item__thumb::before {
+    content: '';
+    position: absolute;
+    inset: -10px;
+    background-image: inherit;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px) brightness(0.6);
+    z-index: 0;
 }
 
 .hot-item__thumb--fallback {
