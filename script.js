@@ -973,9 +973,13 @@
 
     $('#back-btn').addEventListener('click', showDefaultView);
 
-    // Click on map closes detail (desktop only)
+    // Click on map closes panels/details
     map.on('click', () => {
-        if (window.innerWidth > 768) showDefaultView();
+        if (window.innerWidth > 768) {
+            showDefaultView();
+        } else {
+            closeAllPanels();
+        }
     });
 
     // ============================================================
