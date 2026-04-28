@@ -1543,6 +1543,8 @@ img { display: block; max-width: 100%; }
         transform: translateX(-50%) translateY(0) !important;
     }
 
+    .panel-toggle { display: none !important; }
+
     .mobile-tabs {
         bottom: 8px;
     }
