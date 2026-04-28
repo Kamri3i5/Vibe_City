@@ -19,15 +19,15 @@
 
     const CATEGORY_META = {
         'Развлечения': { icon: 'ferris-wheel', emoji: '🎡', color: '#a855f7' },
-        'Еда':         { icon: 'utensils',    emoji: '🍜', color: '#f97316' },
-        'Парк':        { icon: 'trees',       emoji: '🌳', color: '#10b981' },
-        'Культура':    { icon: 'landmark',    emoji: '🏛️', color: '#38bdf8' },
-        'Шопинг':      { icon: 'shopping-bag',emoji: '🛍️', color: '#ec4899' }
+        'Еда': { icon: 'utensils', emoji: '🍜', color: '#f97316' },
+        'Парк': { icon: 'trees', emoji: '🌳', color: '#10b981' },
+        'Культура': { icon: 'landmark', emoji: '🏛️', color: '#38bdf8' },
+        'Шопинг': { icon: 'shopping-bag', emoji: '🛍️', color: '#ec4899' }
     };
 
     const VIBE_META = {
-        '🔥': { label: 'Кайф',   key: 'fire',   field: 'fire',   color: 'var(--fire)' },
-        '💀': { label: 'Глухо',  key: 'dead',   field: 'dead',   color: 'var(--dead)' },
+        '🔥': { label: 'Кайф', key: 'fire', field: 'fire', color: 'var(--fire)' },
+        '💀': { label: 'Глухо', key: 'dead', field: 'dead', color: 'var(--dead)' },
         '😭': { label: 'Скучно', key: 'crying', field: 'crying', color: 'var(--cool)' }
     };
 
@@ -35,8 +35,8 @@
     const ICONS = {
         flame: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>`,
         skull: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="12" r="1"/><circle cx="15" cy="12" r="1"/><path d="M8 20v2h8v-2"/><path d="m12.5 17-.5-1-.5 1h1z"/><path d="M16 20a2 2 0 0 0 1.56-3.25 8 8 0 1 0-11.12 0A2 2 0 0 0 8 20"/></svg>`,
-        meh:   `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="8" x2="16" y1="15" y2="15"/><line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/></svg>`,
-        star:  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`
+        meh: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="8" x2="16" y1="15" y2="15"/><line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/></svg>`,
+        star: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`
     };
 
     // ============================================================
@@ -44,63 +44,101 @@
     // ============================================================
 
     const DEFAULT_PLACES = [
-        { name: "Бродвей (Сайилгох)", coords: [41.3117, 69.2797], category: "Развлечения",
-          description: "Главная пешеходная улица Ташкента. Артисты, стритфуд, живая музыка — тут всегда движ.",
-          fire: 24, dead: 1, crying: 0 },
-        { name: "Magic City", coords: [41.3015, 69.2455], category: "Развлечения",
-          description: "Тематический парк с замком, фонтанами и ночной подсветкой. Сказка для всех возрастов.",
-          fire: 15, dead: 2, crying: 0 },
-        { name: "Ташкент Сити", coords: [41.3031, 69.2662], category: "Парк",
-          description: "Современный деловой комплекс с небоскрёбами, фонтанами и вечерней подсветкой.",
-          fire: 8, dead: 0, crying: 0 },
-        { name: "Minor Mosque", coords: [41.3330, 69.2815], category: "Культура",
-          description: "Белоснежная мечеть на берегу канала Анхор. Архитектурный шедевр нового Ташкента.",
-          fire: 4, dead: 0, crying: 1 },
-        { name: "Chorsu Bazaar", coords: [41.3264, 69.2292], category: "Шопинг",
-          description: "Легендарный базар под голубыми куполами. Специи, сухофрукты, свежий хлеб — аутентичный Ташкент.",
-          fire: 10, dead: 1, crying: 0 },
-        { name: "Amir Temur Square", coords: [41.3111, 69.2789], category: "Культура",
-          description: "Центральная площадь столицы с конной статуей Амира Тимура и фонтанами.",
-          fire: 5, dead: 2, crying: 0 },
-        { name: "Телебашня Ташкента", coords: [41.3425, 69.2858], category: "Культура",
-          description: "375-метровая телевизионная башня — самое высокое сооружение в Центральной Азии.",
-          fire: 7, dead: 1, crying: 0 },
-        { name: "Театр Навои", coords: [41.3131, 69.2768], category: "Культура",
-          description: "Государственный академический Большой театр имени Алишера Навои. Опера и балет мирового уровня.",
-          fire: 3, dead: 0, crying: 0 },
-        { name: "Хазрати Имам", coords: [41.3382, 69.2327], category: "Культура",
-          description: "Священный исламский комплекс с мечетями и медресе. Хранится старейший Коран в мире.",
-          fire: 6, dead: 0, crying: 0 },
-        { name: "Парк Навруз", coords: [41.3245, 69.3124], category: "Парк",
-          description: "Огромный этно-парк с озером, каруселями и колесом обозрения.",
-          fire: 11, dead: 0, crying: 0 },
-        { name: "Oqtepa Lavash (Чиланзар)", coords: [41.2858, 69.2131], category: "Еда",
-          description: "Культовый ташкентский фастфуд. Самса, лаваш и шаурма — очередь показатель качества.",
-          fire: 9, dead: 3, crying: 0 },
-        { name: "Central Asian Plov Center", coords: [41.3225, 69.2878], category: "Еда",
-          description: "Легендарное место, где готовят 1000 кг плова в день. Must visit для каждого гостя Ташкента.",
-          fire: 20, dead: 0, crying: 0 },
-        { name: "ТЦ Samarqand Darvoza", coords: [41.3272, 69.2339], category: "Шопинг",
-          description: "Современный торговый центр рядом с Чорсу. Бренды, кинотеатр, фудкорт.",
-          fire: 3, dead: 5, crying: 1 },
-        { name: "Mega Planet", coords: [41.2978, 69.2176], category: "Шопинг",
-          description: "Один из крупнейших ТРЦ Ташкента. IMAX кинотеатр, боулинг, рестораны.",
-          fire: 4, dead: 2, crying: 0 },
-        { name: "Японский сад", coords: [41.3420, 69.2040], category: "Парк",
-          description: "Тихий уголок Японии в Ташкенте. Мостики, карпы кои, сакура и медитативная атмосфера.",
-          fire: 5, dead: 0, crying: 0 },
-        { name: "Humo Arena", coords: [41.3150, 69.2950], category: "Развлечения",
-          description: "Современная ледовая арена на 12000 мест. Хоккей, концерты и шоу мирового уровня.",
-          fire: 13, dead: 1, crying: 0 },
-        { name: "Набережная Анхор", coords: [41.3280, 69.2750], category: "Парк",
-          description: "Набережная канала Анхор — популярное место для вечерних прогулок и джоггинга.",
-          fire: 7, dead: 0, crying: 0 },
-        { name: "Музей Искусств", coords: [41.3065, 69.2755], category: "Культура",
-          description: "Государственный музей искусств Узбекистана. Коллекция от древности до современности.",
-          fire: 2, dead: 0, crying: 0 },
-        { name: "Лаби Хауз Ресторан", coords: [41.3090, 69.2650], category: "Еда",
-          description: "Уютный ресторан узбекской кухни с летней террасой. Шашлык, манты и лагман.",
-          fire: 8, dead: 1, crying: 0 }
+        {
+            name: "Бродвей (Сайилгох)", coords: [41.3117, 69.2797], category: "Развлечения",
+            description: "Главная пешеходная улица Ташкента. Артисты, стритфуд, живая музыка — тут всегда движ.",
+            fire: 24, dead: 1, crying: 0
+        },
+        {
+            name: "Magic City", coords: [41.3015, 69.2455], category: "Развлечения",
+            description: "Тематический парк с замком, фонтанами и ночной подсветкой. Сказка для всех возрастов.",
+            fire: 15, dead: 2, crying: 0
+        },
+        {
+            name: "Ташкент Сити", coords: [41.3031, 69.2662], category: "Парк",
+            description: "Современный деловой комплекс с небоскрёбами, фонтанами и вечерней подсветкой.",
+            fire: 8, dead: 0, crying: 0
+        },
+        {
+            name: "Minor Mosque", coords: [41.3330, 69.2815], category: "Культура",
+            description: "Белоснежная мечеть на берегу канала Анхор. Архитектурный шедевр нового Ташкента.",
+            fire: 4, dead: 0, crying: 1
+        },
+        {
+            name: "Chorsu Bazaar", coords: [41.3264, 69.2292], category: "Шопинг",
+            description: "Легендарный базар под голубыми куполами. Специи, сухофрукты, свежий хлеб — аутентичный Ташкент.",
+            fire: 10, dead: 1, crying: 0
+        },
+        {
+            name: "Amir Temur Square", coords: [41.3111, 69.2789], category: "Культура",
+            description: "Центральная площадь столицы с конной статуей Амира Тимура и фонтанами.",
+            fire: 5, dead: 2, crying: 0
+        },
+        {
+            name: "Телебашня Ташкента", coords: [41.3425, 69.2858], category: "Культура",
+            description: "375-метровая телевизионная башня — самое высокое сооружение в Центральной Азии.",
+            fire: 7, dead: 1, crying: 0
+        },
+        {
+            name: "Театр Навои", coords: [41.3131, 69.2768], category: "Культура",
+            description: "Государственный академический Большой театр имени Алишера Навои. Опера и балет мирового уровня.",
+            fire: 3, dead: 0, crying: 0
+        },
+        {
+            name: "Хазрати Имам", coords: [41.3382, 69.2327], category: "Культура",
+            description: "Священный исламский комплекс с мечетями и медресе. Хранится старейший Коран в мире.",
+            fire: 6, dead: 0, crying: 0
+        },
+        {
+            name: "Парк Навруз", coords: [41.3245, 69.3124], category: "Парк",
+            description: "Огромный этно-парк с озером, каруселями и колесом обозрения.",
+            fire: 11, dead: 0, crying: 0
+        },
+        {
+            name: "Oqtepa Lavash (Чиланзар)", coords: [41.2858, 69.2131], category: "Еда",
+            description: "Культовый ташкентский фастфуд. Самса, лаваш и шаурма — очередь показатель качества.",
+            fire: 9, dead: 3, crying: 0
+        },
+        {
+            name: "Central Asian Plov Center", coords: [41.3225, 69.2878], category: "Еда",
+            description: "Легендарное место, где готовят 1000 кг плова в день. Must visit для каждого гостя Ташкента.",
+            fire: 20, dead: 0, crying: 0
+        },
+        {
+            name: "ТЦ Samarqand Darvoza", coords: [41.3272, 69.2339], category: "Шопинг",
+            description: "Современный торговый центр рядом с Чорсу. Бренды, кинотеатр, фудкорт.",
+            fire: 3, dead: 5, crying: 1
+        },
+        {
+            name: "Mega Planet", coords: [41.2978, 69.2176], category: "Шопинг",
+            description: "Один из крупнейших ТРЦ Ташкента. IMAX кинотеатр, боулинг, рестораны.",
+            fire: 4, dead: 2, crying: 0
+        },
+        {
+            name: "Японский сад", coords: [41.3420, 69.2040], category: "Парк",
+            description: "Тихий уголок Японии в Ташкенте. Мостики, карпы кои, сакура и медитативная атмосфера.",
+            fire: 5, dead: 0, crying: 0
+        },
+        {
+            name: "Humo Arena", coords: [41.3150, 69.2950], category: "Развлечения",
+            description: "Современная ледовая арена на 12000 мест. Хоккей, концерты и шоу мирового уровня.",
+            fire: 13, dead: 1, crying: 0
+        },
+        {
+            name: "Набережная Анхор", coords: [41.3280, 69.2750], category: "Парк",
+            description: "Набережная канала Анхор — популярное место для вечерних прогулок и джоггинга.",
+            fire: 7, dead: 0, crying: 0
+        },
+        {
+            name: "Музей Искусств", coords: [41.3065, 69.2755], category: "Культура",
+            description: "Государственный музей искусств Узбекистана. Коллекция от древности до современности.",
+            fire: 2, dead: 0, crying: 0
+        },
+        {
+            name: "Лаби Хауз Ресторан", coords: [41.3090, 69.2650], category: "Еда",
+            description: "Уютный ресторан узбекской кухни с летней террасой. Шашлык, манты и лагман.",
+            fire: 8, dead: 1, crying: 0
+        }
     ].map((p, i) => ({
         ...p,
         myVibe: null,
@@ -260,14 +298,14 @@
         // High-quality dynamic photos based on place name and category
         primaryFor(place) {
             if (place.image && /^https?:\/\//.test(place.image)) return place.image;
-            
+
             const keywords = [
-                place.name, 
-                place.category || 'city', 
-                'architecture', 
+                place.name,
+                place.category || 'city',
+                'architecture',
                 'tashkent'
             ].map(k => encodeURIComponent(k.toLowerCase())).join(',');
-            
+
             // Using a high-quality source with seeded names for stability
             const seed = place.name.replace(/\s+/g, '-').toLowerCase();
             return `https://source.unsplash.com/featured/800x450/?${keywords}`;
@@ -363,9 +401,9 @@
 
     function createMarkerIcon(status, isHot, justVoted) {
         const svg = status === 'event' ? ICONS.star
-                  : status === 'dead'  ? ICONS.skull
-                  : status === 'mid'   ? ICONS.meh
-                  : ICONS.flame;
+            : status === 'dead' ? ICONS.skull
+                : status === 'mid' ? ICONS.meh
+                    : ICONS.flame;
         const classes = [
             'marker__inner',
             `marker--${status}`,
@@ -427,12 +465,12 @@
     function showProfile() {
         const overlay = $('#profile-overlay');
         overlay.hidden = false;
-        
+
         // Update stats
         const myVotes = state.myVotes || [];
         $('#stat-votes').textContent = myVotes.length;
         $('#stat-places').textContent = [...new Set(myVotes.map(v => v.placeId))].length;
-        
+
         refreshIcons();
     }
 
@@ -579,7 +617,7 @@
         }
 
         place.lastUpdate = Date.now();
-        
+
         // Track personal history
         if (place.myVibe) {
             state.myVotes.push({ placeId: place.name, vibe, ts: Date.now() });
@@ -1076,11 +1114,11 @@
         btn.addEventListener('click', () => {
             const tab = btn.dataset.tab;
             if (!tab) return;
-            
+
             updateMobileTabs(tab);
             const target = tab === 'left' ? $('#panel-left') : $('#panel-right');
             const other = tab === 'left' ? $('#panel-right') : $('#panel-left');
-            
+
             // Harmonious switch: close other first, then open target
             if (other.classList.contains('is-mobile-open')) {
                 other.classList.remove('is-mobile-open', 'is-peek', 'is-expanded');
@@ -1113,7 +1151,7 @@
             $$('.panel').forEach(panel => {
                 panel.addEventListener('touchstart', e => {
                     if (window.innerWidth > 768) return;
-                    
+
                     const isExpanded = panel.classList.contains('is-expanded');
                     const isAtTop = panel.scrollTop <= 0;
                     const touchY = e.touches[0].clientY;
@@ -1124,14 +1162,14 @@
                     if (!isExpanded || isAtTop || isTouchInHeader) {
                         startY = touchY;
                         activePanel = panel;
-                        
+
                         const style = window.getComputedStyle(panel);
                         const matrix = new WebKitCSSMatrix(style.transform);
                         initialTranslate = matrix.m42;
-                        
+
                         panel.style.transition = 'none';
                         // Force dragging if not fully expanded
-                        isDragging = !isExpanded || isTouchInHeader; 
+                        isDragging = !isExpanded || isTouchInHeader;
                     }
                 }, { passive: true });
 
@@ -1171,13 +1209,13 @@
 
                 panel.addEventListener('touchend', e => {
                     if (!activePanel) return;
-                    
+
                     const delta = currentY - startY;
                     const totalHeight = activePanel.offsetHeight;
                     const currentTranslate = initialTranslate + delta;
-                    
+
                     activePanel.style.transition = 'transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1)';
-                    
+
                     // Snap points (relative to 0 which is 75vh height)
                     const snapPoints = [
                         { name: 'closed', y: totalHeight },
@@ -1192,7 +1230,7 @@
 
                     // Apply state
                     activePanel.classList.remove('is-peek', 'is-expanded', 'is-mobile-open');
-                    
+
                     if (closest.name === 'closed') {
                         closeAllPanels();
                     } else if (closest.name === 'peek') {
@@ -1202,9 +1240,9 @@
                         activePanel.classList.add('is-mobile-open', 'is-expanded');
                         updateMobileTabs(activePanel.id === 'panel-left' ? 'left' : 'right');
                     }
-                    
+
                     activePanel.style.transform = '';
-                    
+
                     // Reset
                     activePanel = null;
                     startY = 0; currentY = 0;
@@ -1221,7 +1259,7 @@
     // External: parser hook (kept for compatibility)
     // ============================================================
 
-    window.parseTelegramPost = function(text) {
+    window.parseTelegramPost = function (text) {
         const found = state.places.find(p => text.toLowerCase().includes(p.name.toLowerCase()));
         if (!found) return;
         const event = {

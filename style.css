@@ -121,7 +121,7 @@
     bottom: 24px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 2000;
+    z-index: 900; /* Lower than panels */
     display: none;
     align-items: center;
 }
@@ -140,6 +140,18 @@
     cursor: pointer;
     box-shadow: var(--shadow-lg);
     transition: all var(--t-fast) var(--ease);
+}
+
+.nav-btn i, .nav-btn svg { 
+    width: 24px; 
+    height: 24px; 
+    stroke-width: 2px;
+}
+
+.nav-btn i, .nav-btn svg { 
+    width: 24px; 
+    height: 24px; 
+    stroke-width: 2px;
 }
 
 .nav-btn--main {

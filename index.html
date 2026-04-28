@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru" data-theme="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>VibeCity — Живой Пульс Ташкента</title>
-    
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    
+
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
-    
+
     <!-- App CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div id="map"></div>
 
@@ -134,7 +136,7 @@
                 <span class="badge" id="live-events-count">0</span>
             </div>
             <div class="hot-list" id="hot-list"></div>
-            
+
             <div class="card__header" style="padding: 16px 4px 12px 4px;">
                 <h3 class="card__title"><i data-lucide="calendar" style="color: var(--accent-2)"></i> События</h3>
             </div>
@@ -157,15 +159,16 @@
             <button class="overlay__close" id="profile-close-btn">
                 <i data-lucide="x"></i>
             </button>
-            
+
             <div class="profile-header">
                 <h2 class="section-title">Твой профиль</h2>
             </div>
-            
+
             <div class="card profile-card" style="margin-top: 16px;">
                 <div class="profile-card__main">
                     <div class="profile-card__avatar">
-                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="Avatar" id="user-avatar-big">
+                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="Avatar"
+                            id="user-avatar-big">
                     </div>
                     <div class="profile-card__info">
                         <h3 id="user-name">Гость</h3>
@@ -220,19 +223,22 @@
     <!-- Mobile Nav -->
     <div class="mobile-nav">
         <button class="nav-btn" data-tab="left" aria-label="Лента">
-            <i data-lucide="layout-list"></i>
+            <i data-lucide="list"></i>
         </button>
         <button class="nav-btn nav-btn--main" id="checkin-btn" aria-label="Пульс">
             <i data-lucide="zap"></i>
         </button>
         <button class="nav-btn" data-tab="right" aria-label="Карта">
-            <i data-lucide="map-pin"></i>
+            <i data-lucide="map"></i>
         </button>
     </div>
 
     <!-- Scripts -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
     <script src="https://unpkg.com/lucide@latest"></script>
+    <div id="toast" class="toast"></div>
+
     <script src="script.js"></script>
 </body>
+
 </html>
