@@ -13,6 +13,8 @@
     const EVENTS_KEY = 'vibecity_events';
     const FEED_KEY = 'vibecity_feed';
     const THEME_KEY = 'vibecity_theme';
+    const SESSION_TOKEN_KEY = 'vibecity_session_token';
+    const API_BASE = 'http://localhost:8000';
 
     const TASHKENT_CENTER = [41.3111, 69.2797];
     const DEFAULT_ZOOM = 13;
@@ -217,7 +219,7 @@
     // ============================================================
 
     const state = {
-        places: Storage.loadPlaces(),
+        places: [],
         events: Storage.loadEvents(),
         feed: Storage.loadFeed(),
         theme: Storage.loadTheme(),
@@ -233,6 +235,85 @@
 
     const $ = (sel, root = document) => root.querySelector(sel);
     const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+
+    function generateSessionToken() {
+        return `session_${Date.now()}_${Math.random().toString(36).slice(2, 12)}`;
+    }
+
+    function getSessionToken() {
+        let token = localStorage.getItem(SESSION_TOKEN_KEY);
+        if (!token) {
+            token = generateSessionToken();
+            localStorage.setItem(SESSION_TOKEN_KEY, token);
+        }
+        return token;
+    }
+
+    function buildFallbackPlace(place, fallbackIndex = 0) {
+        return {
+            id: place.id ?? `fallback-${fallbackIndex}`,
+            name: place.title || place.name || 'Place',
+            coords: [
+                Number(place.lat ?? place.coords?.[0] ?? TASHKENT_CENTER[0]),
+                Number(place.lng ?? place.coords?.[1] ?? TASHKENT_CENTER[1])
+            ],
+            category: place.category || 'Place',
+            image: place.image || null,
+            description: place.description || place.address || '',
+            fire: Number(place.fire || 0),
+            dead: Number(place.dead || 0),
+            crying: Number(place.crying ?? place.neutral ?? 0),
+            myVibe: place.myVibe || null,
+            lastUpdate: place.lastUpdate || Date.now()
+        };
+    }
+
+    function mapApiPlaceToFrontend(apiPlace) {
+        const fallback = DEFAULT_PLACES.find(place => place.name === apiPlace.title);
+
+        return {
+            id: Number(apiPlace.id),
+            name: apiPlace.title,
+            coords: [Number(apiPlace.lat), Number(apiPlace.lng)],
+            category: fallback?.category || 'Place',
+            image: fallback?.image || null,
+            description: fallback?.description || apiPlace.address || '',
+            fire: Number(apiPlace.fire || 0),
+            dead: Number(apiPlace.dead || 0),
+            crying: Number(apiPlace.neutral || 0),
+            myVibe: null,
+            lastUpdate: apiPlace.last_activity_at ? new Date(apiPlace.last_activity_at).getTime() : Date.now()
+        };
+    }
+
+    async function fetchPlacesFromApi() {
+        const response = await fetch(`${API_BASE}/places`);
+        if (!response.ok) {
+            throw new Error(`Failed to load places: ${response.status}`);
+        }
+
+        const places = await response.json();
+        return places.map(mapApiPlaceToFrontend);
+    }
+
+    async function sendVibeToApi(placeId, vibeKey) {
+        const response = await fetch(`${API_BASE}/places/${placeId}/vibes`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                session_token: getSessionToken(),
+                vibe: vibeKey
+            })
+        });
+
+        const payload = await response.json().catch(() => ({}));
+
+        if (!response.ok) {
+            throw new Error(payload.error || payload.errors?.join(', ') || `Failed to vote: ${response.status}`);
+        }
+
+        return payload;
+    }
 
     function placeKey(p) {
         return p.isEvent ? `event:${p.name}:${p.coords.join(',')}` : `place:${p.name}`;
@@ -666,42 +747,42 @@
     // Voting
     // ============================================================
 
-    function handleVote(vibe) {
+    async function handleVote(vibe) {
         if (!state.currentPlace) return;
         const place = state.currentPlace;
         const meta = VIBE_META[vibe];
         if (!meta) return;
 
-        if (place.myVibe === vibe) {
-            // Toggle off
-            place[meta.field] = Math.max(0, (place[meta.field] || 0) - 1);
-            place.myVibe = null;
-        } else {
-            // Remove previous if any
-            if (place.myVibe && VIBE_META[place.myVibe]) {
-                const prev = VIBE_META[place.myVibe];
-                place[prev.field] = Math.max(0, (place[prev.field] || 0) - 1);
-            }
-            place[meta.field] = (place[meta.field] || 0) + 1;
-            place.myVibe = vibe;
-
-            // Add to feed
-            addFeedItem({
-                vibe, place: place.name, category: place.category, ts: Date.now()
-            });
+        if (!place.id || String(place.id).startsWith('fallback-')) {
+            Toast.show('Это локальная demo-точка без backend id', '⚠️');
+            return;
         }
 
+        const backendVibe = meta.key === 'crying' ? 'neutral' : meta.key;
+
+        try {
+            await sendVibeToApi(place.id, backendVibe);
+        } catch (error) {
+            Toast.show(error.message || 'Не удалось отправить вайб', '⚠️');
+            return;
+        }
+
+        if (place.myVibe && VIBE_META[place.myVibe]) {
+            const prev = VIBE_META[place.myVibe];
+            place[prev.field] = Math.max(0, (place[prev.field] || 0) - 1);
+        }
+
+        place[meta.field] = (place[meta.field] || 0) + 1;
+        place.myVibe = vibe;
         place.lastUpdate = Date.now();
 
-        // Track personal history
-        if (place.myVibe) {
-            state.myVotes.push({ placeId: place.name, vibe, ts: Date.now() });
-            localStorage.setItem('vibecity_my_votes', JSON.stringify(state.myVotes));
-        }
+        addFeedItem({
+            vibe, place: place.name, category: place.category, ts: Date.now()
+        });
 
-        Storage.savePlaces(state.places);
+        state.myVotes.push({ placeId: place.id, vibe, ts: Date.now() });
+        localStorage.setItem('vibecity_my_votes', JSON.stringify(state.myVotes));
 
-        // Re-render everything affected
         renderMarkers();
         flashMarker(place);
         showPlace(place);
@@ -709,7 +790,7 @@
         renderTopList();
         renderPulse();
 
-        Toast.show(place.myVibe ? `Голос засчитан · ${meta.label}` : 'Голос отменён', vibe);
+        Toast.show(`Голос засчитан · ${meta.label}`, vibe);
     }
 
     // ============================================================
@@ -1396,7 +1477,7 @@
 
     window.addEventListener('storage', e => {
         if (e.key === STORAGE_KEY) {
-            state.places = Storage.loadPlaces();
+            state.places = Storage.loadPlaces().map((place, index) => buildFallbackPlace(place, index));
             renderMarkers();
             renderHotList();
             renderTopList();
@@ -1413,8 +1494,16 @@
     // Init
     // ============================================================
 
-    function init() {
+    async function init() {
+        state.places = Storage.loadPlaces().map((place, index) => buildFallbackPlace(place, index));
         seedFeedIfEmpty();
+
+        try {
+            state.places = await fetchPlacesFromApi();
+        } catch (error) {
+            Toast.show('API недоступен, показаны локальные данные', '⚠️');
+        }
+
         renderMarkers();
         renderHotList();
         renderTopList();
