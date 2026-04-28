@@ -1029,60 +1029,79 @@
         let currentY = 0;
         let activePanel = null;
         let initialTranslate = 0;
+        let isDragging = false;
 
         function init() {
             $$('.panel').forEach(panel => {
                 panel.addEventListener('touchstart', e => {
                     if (window.innerWidth > 768) return;
-                    startY = e.touches[0].clientY;
-                    activePanel = panel;
                     
-                    // Get current translation
-                    const style = window.getComputedStyle(panel);
-                    const matrix = new WebKitCSSMatrix(style.transform);
-                    initialTranslate = matrix.m42;
-                    
-                    panel.style.transition = 'none';
+                    // Only start dragging if at the top of content or touching the top area
+                    const isAtTop = panel.scrollTop <= 0;
+                    const touchY = e.touches[0].clientY;
+                    const panelRect = panel.getBoundingClientRect();
+                    const isTouchInHeader = (touchY - panelRect.top) < 60;
+
+                    if (isAtTop || isTouchInHeader) {
+                        startY = touchY;
+                        activePanel = panel;
+                        
+                        const style = window.getComputedStyle(panel);
+                        const matrix = new WebKitCSSMatrix(style.transform);
+                        initialTranslate = matrix.m42;
+                        
+                        panel.style.transition = 'none';
+                        isDragging = false; 
+                    }
                 }, { passive: true });
 
                 panel.addEventListener('touchmove', e => {
                     if (!activePanel) return;
+                    
                     currentY = e.touches[0].clientY;
                     const delta = currentY - startY;
-                    const newTranslate = initialTranslate + delta;
                     
-                    // Don't drag above the expanded state (0)
-                    if (newTranslate >= 0) {
-                        activePanel.style.transform = `translateY(${newTranslate}px)`;
-                    }
-                }, { passive: true });
+                    // Only drag if moving downwards from any state, or upwards from peek
+                    const isMovingDown = delta > 0;
+                    const isMovingUp = delta < 0;
 
-                panel.addEventListener('touchend', () => {
+                    if (isMovingDown || (isMovingUp && activePanel.classList.contains('is-peek'))) {
+                        const newTranslate = initialTranslate + delta;
+                        
+                        // Resistance when pulling up beyond expanded
+                        if (newTranslate < 0) {
+                            activePanel.style.transform = `translateY(${newTranslate * 0.2}px)`;
+                        } else {
+                            activePanel.style.transform = `translateY(${newTranslate}px)`;
+                            // Prevent scrolling while dragging panel
+                            if (Math.abs(delta) > 10) isDragging = true;
+                        }
+                    }
+                }, { passive: false });
+
+                panel.addEventListener('touchend', e => {
                     if (!activePanel) return;
+                    
                     const delta = currentY - startY;
                     activePanel.style.transition = '';
                     
-                    const totalHeight = activePanel.offsetHeight;
-                    const peekTranslate = totalHeight * 0.6; // approx 30% visible
-                    const currentTranslate = initialTranslate + delta;
-
-                    if (delta > 100) { 
-                        // Dragged down
-                        if (initialTranslate === 0) {
-                            // From expanded to peek
-                            activePanel.classList.remove('is-expanded');
-                            activePanel.classList.add('is-peek');
-                        } else {
-                            // From peek to closed
-                            closeAllPanels();
+                    if (Math.abs(delta) > 100) {
+                        if (delta > 100) {
+                            // Dragged down
+                            if (initialTranslate === 0) {
+                                activePanel.classList.remove('is-expanded');
+                                activePanel.classList.add('is-peek');
+                            } else {
+                                closeAllPanels();
+                            }
+                        } else if (delta < -100) {
+                            // Dragged up
+                            activePanel.classList.remove('is-peek');
+                            activePanel.classList.add('is-expanded');
                         }
-                    } else if (delta < -100) {
-                        // Dragged up
-                        activePanel.classList.remove('is-peek');
-                        activePanel.classList.add('is-expanded');
                     }
                     
-                    activePanel.style.transform = ''; // Let CSS classes take over
+                    activePanel.style.transform = '';
                     activePanel = null;
                     startY = 0; currentY = 0;
                 });
