@@ -412,7 +412,6 @@
     function showDefaultView() {
         $('#view-default').hidden = false;
         $('#view-detail').hidden = true;
-        $('#view-profile').hidden = true;
         state.currentPlace = null;
     }
 
@@ -965,7 +964,6 @@
     // ============================================================
 
     $$('.js-profile-btn').forEach(btn => btn.addEventListener('click', showProfile));
-    $('#profile-back-btn').addEventListener('click', showDefaultView);
 
     $('#edit-profile-btn').addEventListener('click', () => {
         const currentName = $('#user-name').textContent;
@@ -1040,6 +1038,13 @@
         }
     });
 
+    // Extra safety for mobile: click on map container directly
+    $('#map').addEventListener('click', (e) => {
+        if (window.innerWidth <= 768 && e.target.id === 'map') {
+            closeAllPanels();
+        }
+    });
+
     // ============================================================
     // Mobile tabs & Swipe-to-close
     // ============================================================
@@ -1049,7 +1054,7 @@
             p.classList.remove('is-mobile-open', 'is-peek', 'is-expanded');
             p.style.transform = '';
         });
-        updateMobileTabs('map');
+        updateMobileTabs(null);
     }
 
     function updateMobileTabs(tab) {
@@ -1065,12 +1070,16 @@
             const target = tab === 'left' ? $('#panel-left') : $('#panel-right');
             const other = tab === 'left' ? $('#panel-right') : $('#panel-left');
             
-            other.classList.remove('is-mobile-open', 'is-peek', 'is-expanded');
-            target.classList.add('is-mobile-open', 'is-peek'); 
-
-            // If switching to right panel, ensure it shows default view (Hot List)
-            if (tab === 'right') {
-                showDefaultView();
+            // Harmonious switch: close other first, then open target
+            if (other.classList.contains('is-mobile-open')) {
+                other.classList.remove('is-mobile-open', 'is-peek', 'is-expanded');
+                setTimeout(() => {
+                    target.classList.add('is-mobile-open', 'is-expanded');
+                    if (tab === 'right') showDefaultView();
+                }, 150);
+            } else {
+                target.classList.add('is-mobile-open', 'is-expanded');
+                if (tab === 'right') showDefaultView();
             }
         });
     });
