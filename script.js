@@ -871,21 +871,23 @@
             const thumb = Images.thumbFor(p);
             return `
                 <div class="hot-item" data-place="${escapeHtml(p.name)}">
+                    <div class="hot-item__top">
+                        <div class="hot-item__info">
+                            <div class="hot-item__name">${escapeHtml(p.name)}</div>
+                            <div class="hot-item__meta">
+                                <span class="hot-item__cat">
+                                    <i data-lucide="${cat.icon}" style="color:${cat.color};"></i>
+                                    ${escapeHtml(p.category)}
+                                </span>
+                            </div>
+                        </div>
+                        <div class="hot-item__fire">
+                            <i data-lucide="flame"></i> ${p.fire || 0}
+                        </div>
+                    </div>
                     <div class="hot-item__thumb skeleton" 
                          data-name="${escapeHtml(p.name)}"
                          style="background: ${thumb.fallback};"></div>
-                    <div class="hot-item__info">
-                        <div class="hot-item__name">${escapeHtml(p.name)}</div>
-                        <div class="hot-item__meta">
-                            <span class="hot-item__cat">
-                                <i data-lucide="${cat.icon}" style="color:${cat.color};"></i>
-                                ${escapeHtml(p.category)}
-                            </span>
-                        </div>
-                    </div>
-                    <div class="hot-item__fire">
-                        <i data-lucide="flame"></i> ${p.fire || 0}
-                    </div>
                 </div>`;
         }).join('');
 
