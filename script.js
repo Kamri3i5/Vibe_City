@@ -426,9 +426,10 @@
         $('#stat-votes').textContent = myVotes.length;
         $('#stat-places').textContent = [...new Set(myVotes.map(v => v.placeId))].length;
         
-        // Mobile: open panel
+        // Mobile: open panel to 80% (expanded)
         if (window.innerWidth <= 768) {
-            $('#panel-right').classList.add('is-mobile-open', 'is-peek');
+            $('#panel-right').classList.add('is-mobile-open', 'is-expanded');
+            $('#panel-right').classList.remove('is-peek');
             updateMobileTabs('right');
         }
     }
@@ -956,14 +957,14 @@
         Toast.show(state.theme === 'dark' ? 'Тёмная тема' : 'Светлая тема', state.theme === 'dark' ? '🌙' : '☀️');
     }
 
-    $('#theme-toggle').addEventListener('click', toggleTheme);
+    $$('.js-theme-toggle').forEach(btn => btn.addEventListener('click', toggleTheme));
     $('#theme-toggle-profile').addEventListener('click', toggleTheme);
 
     // ============================================================
     // Profile
     // ============================================================
 
-    $('#profile-btn').addEventListener('click', showProfile);
+    $$('.js-profile-btn').forEach(btn => btn.addEventListener('click', showProfile));
     $('#profile-back-btn').addEventListener('click', showDefaultView);
 
     $('#edit-profile-btn').addEventListener('click', () => {
@@ -985,23 +986,25 @@
     // Geolocation
     // ============================================================
 
-    $('#locate-btn').addEventListener('click', () => {
-        if (!navigator.geolocation) {
-            Toast.show('Геолокация недоступна', '⚠️');
-            return;
-        }
-        Toast.show('Определяю местоположение...', '📍');
-        navigator.geolocation.getCurrentPosition(
-            pos => {
-                const { latitude, longitude } = pos.coords;
-                map.flyTo([latitude, longitude], 16, { duration: 1.4 });
-                L.circleMarker([latitude, longitude], {
-                    radius: 8, fillColor: '#3b82f6', fillOpacity: 1, color: 'white', weight: 3
-                }).addTo(map).bindPopup('Вы здесь');
-                Toast.show('Вы здесь!', '📍');
-            },
-            () => Toast.show('Не удалось определить местоположение', '⚠️')
-        );
+    $$('.js-locate-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            if (!navigator.geolocation) {
+                Toast.show('Геолокация недоступна', '⚠️');
+                return;
+            }
+            Toast.show('Определяю местоположение...', '📍');
+            navigator.geolocation.getCurrentPosition(
+                pos => {
+                    const { latitude, longitude } = pos.coords;
+                    map.flyTo([latitude, longitude], 16, { duration: 1.4 });
+                    L.circleMarker([latitude, longitude], {
+                        radius: 8, fillColor: '#3b82f6', fillOpacity: 1, color: 'white', weight: 3
+                    }).addTo(map).bindPopup('Вы здесь');
+                    Toast.show('Вы здесь!', '📍');
+                },
+                () => Toast.show('Не удалось определить местоположение', '⚠️')
+            );
+        });
     });
 
     // ============================================================
