@@ -1515,6 +1515,41 @@ img { display: block; max-width: 100%; }
     .place__name { font-size: 22px; }
     .counters { grid-template-columns: repeat(3, 1fr); padding: 10px; }
 }
+@media (max-width: 932px) and (orientation: landscape) {
+    :root {
+        --header-h: 48px;
+    }
+    
+    .header {
+        background: var(--bg-panel); /* Solid background in landscape */
+        backdrop-filter: blur(20px);
+        border-bottom: 1px solid var(--border);
+    }
+    
+    .panel {
+        height: 85vh; /* More height in landscape to see content */
+        max-width: 400px;
+        left: 50% !important;
+        transform: translateX(-50%) translateY(100%);
+    }
+    
+    .panel.is-peek {
+        transform: translateX(-50%) translateY(60vh) !important;
+    }
+    
+    .panel.is-expanded,
+    .panel--left.is-mobile-open,
+    .panel--right.is-mobile-open {
+        transform: translateX(-50%) translateY(0) !important;
+    }
+
+    .mobile-tabs {
+        bottom: 8px;
+    }
+    
+    .place__hero { height: 140px; }
+}
+
 @media (max-width: 480px) {
     .search { flex: 1; }
     .search__field { height: 36px; font-size: 13px; }

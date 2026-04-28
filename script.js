@@ -1068,12 +1068,14 @@
 
                     if (isMovingDown || (isMovingUp && activePanel.classList.contains('is-peek'))) {
                         const newTranslate = initialTranslate + delta;
-                        
+                        const isLandscape = window.innerWidth > window.innerHeight && window.innerWidth <= 932;
+                        const x = isLandscape ? '-50%' : '0';
+
                         // Resistance when pulling up beyond expanded
                         if (newTranslate < 0) {
-                            activePanel.style.transform = `translateY(${newTranslate * 0.2}px)`;
+                            activePanel.style.transform = `translate3d(${x}, ${newTranslate * 0.2}px, 0)`;
                         } else {
-                            activePanel.style.transform = `translateY(${newTranslate}px)`;
+                            activePanel.style.transform = `translate3d(${x}, ${newTranslate}px, 0)`;
                             // Prevent scrolling while dragging panel
                             if (Math.abs(delta) > 10) isDragging = true;
                         }
