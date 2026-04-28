@@ -165,6 +165,7 @@
         events: Storage.loadEvents(),
         feed: Storage.loadFeed(),
         theme: Storage.loadTheme(),
+        myVotes: JSON.parse(localStorage.getItem('vibecity_my_votes') || '[]'),
         activeFilter: 'all',
         currentPlace: null,
         markers: new Map() // place name -> marker
@@ -421,8 +422,9 @@
         $('#view-profile').hidden = false;
         
         // Update stats
-        $('#stat-votes').textContent = state.votes.length;
-        $('#stat-places').textContent = [...new Set(state.votes.map(v => v.placeId))].length;
+        const myVotes = state.myVotes || [];
+        $('#stat-votes').textContent = myVotes.length;
+        $('#stat-places').textContent = [...new Set(myVotes.map(v => v.placeId))].length;
         
         // Mobile: open panel
         if (window.innerWidth <= 768) {
@@ -568,6 +570,13 @@
         }
 
         place.lastUpdate = Date.now();
+        
+        // Track personal history
+        if (place.myVibe) {
+            state.myVotes.push({ placeId: place.name, vibe, ts: Date.now() });
+            localStorage.setItem('vibecity_my_votes', JSON.stringify(state.myVotes));
+        }
+
         Storage.savePlaces(state.places);
 
         // Re-render everything affected
