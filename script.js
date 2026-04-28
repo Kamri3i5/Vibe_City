@@ -338,6 +338,9 @@
             themeIcon.setAttribute('data-lucide', isDark ? 'sun' : 'moon');
             refreshIcons();
         }
+        // Update profile toggle
+        const profToggle = $('#theme-toggle-profile');
+        if (profToggle) profToggle.classList.toggle('is-active', isDark);
     }
 
     // Init theme
@@ -408,7 +411,24 @@
     function showDefaultView() {
         $('#view-default').hidden = false;
         $('#view-detail').hidden = true;
+        $('#view-profile').hidden = true;
         state.currentPlace = null;
+    }
+
+    function showProfile() {
+        $('#view-default').hidden = true;
+        $('#view-detail').hidden = true;
+        $('#view-profile').hidden = false;
+        
+        // Update stats
+        $('#stat-votes').textContent = state.votes.length;
+        $('#stat-places').textContent = [...new Set(state.votes.map(v => v.placeId))].length;
+        
+        // Mobile: open panel
+        if (window.innerWidth <= 768) {
+            $('#panel-right').classList.add('is-mobile-open', 'is-peek');
+            updateMobileTabs('right');
+        }
     }
 
     function showPlace(place) {
@@ -920,20 +940,37 @@
     // Theme toggle
     // ============================================================
 
-    $('#theme-toggle').addEventListener('click', () => {
+    function toggleTheme() {
         state.theme = state.theme === 'dark' ? 'light' : 'dark';
         Storage.saveTheme(state.theme);
         applyTheme(state.theme);
         Toast.show(state.theme === 'dark' ? 'Тёмная тема' : 'Светлая тема', state.theme === 'dark' ? '🌙' : '☀️');
-    });
+    }
+
+    $('#theme-toggle').addEventListener('click', toggleTheme);
+    $('#theme-toggle-profile').addEventListener('click', toggleTheme);
 
     // ============================================================
     // Profile
     // ============================================================
 
-    $('#profile-btn').addEventListener('click', () => {
-        Toast.show('Профиль скоро появится', '👤');
+    $('#profile-btn').addEventListener('click', showProfile);
+    $('#profile-back-btn').addEventListener('click', showDefaultView);
+
+    $('#edit-profile-btn').addEventListener('click', () => {
+        const currentName = $('#user-name').textContent;
+        const newName = prompt('Как тебя зовут?', currentName);
+        if (newName && newName.trim()) {
+            const name = newName.trim().slice(0, 20);
+            $('#user-name').textContent = name;
+            localStorage.setItem('vibe_user_name', name);
+            Toast.show('Имя сохранено!', '👤');
+        }
     });
+
+    // Load saved name
+    const savedName = localStorage.getItem('vibe_user_name');
+    if (savedName) $('#user-name').textContent = savedName;
 
     // ============================================================
     // Geolocation

@@ -152,6 +152,62 @@
             </button>
             <div class="place" id="place-content"></div>
         </div>
+
+        <!-- Представление профиля -->
+        <div id="view-profile" hidden>
+            <div class="profile-header">
+                <button class="back-btn" id="profile-back-btn">
+                    <i data-lucide="arrow-left"></i> На карту
+                </button>
+                <h2 class="section-title" style="margin: 12px 0 0 0;">Твой профиль</h2>
+            </div>
+            
+            <div class="card profile-card" style="margin-top: 16px;">
+                <div class="profile-card__main">
+                    <div class="profile-card__avatar">
+                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="Avatar" id="user-avatar-big">
+                    </div>
+                    <div class="profile-card__info">
+                        <h3 id="user-name">Гость</h3>
+                        <p class="profile-card__rank">Начинающий исследователь</p>
+                    </div>
+                </div>
+                <div class="profile-stats">
+                    <div class="stat-item">
+                        <span class="stat-item__value" id="stat-votes">0</span>
+                        <span class="stat-item__label">Голосов</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-item__value" id="stat-places">0</span>
+                        <span class="stat-item__label">Мест</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-item__value">1</span>
+                        <span class="stat-item__label">Уровень</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="settings-group" style="margin-top: 20px;">
+                <h3 class="section-title">Настройки</h3>
+                <div class="card setting-item">
+                    <div class="setting-item__label">
+                        <i data-lucide="moon"></i> <span>Тёмная тема</span>
+                    </div>
+                    <button class="toggle-switch" id="theme-toggle-profile"></button>
+                </div>
+                <div class="card setting-item">
+                    <div class="setting-item__label">
+                        <i data-lucide="bell"></i> <span>Уведомления</span>
+                    </div>
+                    <button class="toggle-switch is-active"></button>
+                </div>
+            </div>
+
+            <button class="btn btn--primary" style="width: 100%; margin-top: 24px;" id="edit-profile-btn">
+                Редактировать профиль
+            </button>
+        </div>
     </aside>
 
     <button class="panel-toggle panel-toggle--right" id="toggle-right" aria-label="Свернуть правую панель">
