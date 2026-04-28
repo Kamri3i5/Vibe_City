@@ -1082,14 +1082,14 @@
                 panel.addEventListener('touchstart', e => {
                     if (window.innerWidth > 768) return;
                     
-                    // Only start dragging if at the top of content or touching the top area
+                    const isExpanded = panel.classList.contains('is-expanded');
                     const isAtTop = panel.scrollTop <= 0;
                     const touchY = e.touches[0].clientY;
                     const panelRect = panel.getBoundingClientRect();
-                    // Increased drag zone to 80px for better grip
                     const isTouchInHeader = (touchY - panelRect.top) < 80;
 
-                    if (isAtTop || isTouchInHeader) {
+                    // IMPORTANT: If not expanded, ALWAYS drag the panel, don't scroll content
+                    if (!isExpanded || isAtTop || isTouchInHeader) {
                         startY = touchY;
                         activePanel = panel;
                         
@@ -1098,7 +1098,8 @@
                         initialTranslate = matrix.m42;
                         
                         panel.style.transition = 'none';
-                        isDragging = isTouchInHeader; // Force dragging if started in header
+                        // Force dragging if not fully expanded
+                        isDragging = !isExpanded || isTouchInHeader; 
                     }
                 }, { passive: true });
 
@@ -1129,6 +1130,10 @@
                             ticking = false;
                         });
                         ticking = true;
+                    }
+
+                    if (isDragging && e.cancelable) {
+                        e.preventDefault();
                     }
                 }, { passive: false });
 
