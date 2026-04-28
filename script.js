@@ -400,21 +400,20 @@
                     el.style.backgroundImage = `url('${url}')`;
                     el.classList.remove('skeleton', 'is-loading');
                 }
-                if (fb) fb.style.display = 'none'; // Hide fallback on success
+                if (fb) fb.style.display = 'none';
             };
             img.onerror = () => {
                 const el = container.querySelector('#hero-img');
                 const fb = container.querySelector('#hero-fallback');
                 if (el) el.remove();
-                if (fb) fb.style.display = 'flex'; // Ensure fallback is visible on error
+                if (fb) fb.style.display = 'flex';
             };
             img.src = url;
         },
         thumbFor(place) {
             const cat = CATEGORY_META[place.category] || { emoji: '📍', color: 'var(--accent)' };
-            const url = this.primaryFor(place);
             return {
-                url,
+                url: this.primaryFor(place),
                 fallback: `linear-gradient(135deg, ${cat.color}, ${cat.color}88)`,
                 emoji: cat.emoji
             };

@@ -577,7 +577,13 @@ img { display: block; max-width: 100%; }
     flex-direction: column;
     gap: var(--gap);
     overflow-y: auto;
-    padding-right: 4px;
+    padding: 16px;
+    background: var(--bg-panel);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
     transition: transform var(--t-slow) var(--ease-out), opacity var(--t) var(--ease);
     will-change: transform;
 }
