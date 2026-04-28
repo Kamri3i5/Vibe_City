@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VibeCity — живая карта Ташкента. Узнай, где сейчас движ, а где глухо.">
+    <title>VibeCity — Где сейчас движ?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="map"></div>
+
+    <!-- Верхняя панель с логотипом, поиском и фильтрами -->
+    <header id="top-bar">
+        <div class="logo">
+            <h1>VibeCity</h1>
+            <span class="logo-sub">Ташкент · live</span>
+        </div>
+        <div class="search-container">
+            <i data-lucide="search" class="search-icon"></i>
+            <input type="text" id="search-input" placeholder="Найти место...">
+        </div>
+    </header>
+
+    <!-- Фильтры категорий -->
+    <div id="category-filters">
+        <button class="filter-btn active" data-category="all">
+            <i data-lucide="layout-grid"></i> Все
+        </button>
+        <button class="filter-btn" data-category="Развлечения">
+            <i data-lucide="ferris-wheel"></i> Развлечения
+        </button>
+        <button class="filter-btn" data-category="Еда">
+            <i data-lucide="utensils"></i> Еда
+        </button>
+        <button class="filter-btn" data-category="Парк">
+            <i data-lucide="trees"></i> Парки
+        </button>
+        <button class="filter-btn" data-category="Культура">
+            <i data-lucide="landmark"></i> Культура
+        </button>
+        <button class="filter-btn" data-category="Шопинг">
+            <i data-lucide="shopping-bag"></i> Шопинг
+        </button>
+    </div>
+
+    <!-- Список Hot Places (боковая панель) -->
+    <div id="hot-places">
+        <div class="hot-header">
+            <h2><i data-lucide="trending-up"></i> Сейчас горит</h2>
+        </div>
+        <div id="places-list"></div>
+    </div>
+
+    <!-- Кнопки управления (тема, геолокация) -->
+    <div id="map-controls">
+        <button id="theme-toggle" class="control-btn" title="Сменить тему">
+            <i data-lucide="sun"></i>
+        </button>
+        <button id="locate-btn" class="control-btn" title="Моё местоположение">
+            <i data-lucide="locate"></i>
+        </button>
+        <button id="zoom-in" class="control-btn" title="Приблизить">
+            <i data-lucide="plus"></i>
+        </button>
+        <button id="zoom-out" class="control-btn" title="Отдалить">
+            <i data-lucide="minus"></i>
+        </button>
+    </div>
+
+    <!-- Информационная панель места -->
+    <div id="info-panel" class="info-panel">
+        <button class="close-btn" id="close-panel"><i data-lucide="x"></i></button>
+        <div class="panel-content">
+            <div id="panel-image" class="panel-image"></div>
+
+            <div class="panel-header">
+                <div>
+                    <h2 id="panel-name">Название места</h2>
+                    <p id="panel-category" class="category">Категория</p>
+            <div id="panel-event-timer" class="event-timer" style="display: none;">
+                <i data-lucide="sparkles"></i> <span>Событие активно</span>
+            </div>
+                </div>
+                <div id="panel-status" class="status-badge status-fire">
+                    <i data-lucide="flame"></i> Fire
+                </div>
+            </div>
+
+            <p id="panel-description" class="panel-desc"></p>
+
+            <!-- Freshness indicator -->
+            <div id="freshness" class="freshness">
+                <i data-lucide="clock"></i>
+                <span id="freshness-text">Данные свежие · обновлено только что</span>
+            </div>
+
+            <div class="vibe-section">
+                <h3>Как тут сейчас?</h3>
+                <div class="vibe-counters">
+                    <div class="vibe-item">
+                        <i data-lucide="flame" class="icon-fire"></i>
+                        <span id="count-fire">0</span>
+                        <small>Огонь</small>
+                    </div>
+                    <div class="vibe-item">
+                        <i data-lucide="skull" class="icon-dead"></i>
+                        <span id="count-dead">0</span>
+                        <small>Глухо</small>
+                    </div>
+                    <div class="vibe-item">
+                        <i data-lucide="frown" class="icon-crying"></i>
+                        <span id="count-crying">0</span>
+                        <small>Скучно</small>
+                    </div>
+                </div>
+
+                <!-- Crowdedness bar -->
+                <div class="crowd-section">
+                    <div class="crowd-label">
+                        <i data-lucide="users"></i>
+                        <span>Загруженность</span>
+                        <span id="crowd-estimate" class="crowd-num">~200 чел.</span>
+                    </div>
+                    <div class="crowd-bar">
+                        <div id="crowd-fill" class="crowd-fill" style="width: 40%"></div>
+                    </div>
+                </div>
+
+                <div class="vibe-actions">
+                    <button class="vote-btn vote-fire" onclick="handleVote('🔥')">
+                        <i data-lucide="flame"></i> Кайф
+                    </button>
+                    <button class="vote-btn vote-dead" onclick="handleVote('💀')">
+                        <i data-lucide="skull"></i> Глухо
+                    </button>
+                    <button class="vote-btn vote-cry" onclick="handleVote('😭')">
+                        <i data-lucide="frown"></i> Скучно
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast notification -->
+    <div id="toast" class="toast"></div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
