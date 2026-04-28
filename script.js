@@ -314,24 +314,57 @@
     const GOOGLE_API_KEY = "AIzaSyCNa5mvKKVyfhsftHfBvk7xS_s694Ms27E"; 
 
     // ============================================================
-    // Image system (Google Places + Fallbacks)
+    // Image system (Official Google SDK + Fallbacks)
     // ============================================================
     
+    // ============================================================
+    // Image system (Modern Google Places API New + Fallbacks)
+    // ============================================================
+    
+    const loadGoogleSDK = () => {
+        if (window.google && window.google.maps) return Promise.resolve();
+        return new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            // Using the modern bootstrap loader
+            script.innerHTML = `(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src='https://maps.'+c+'apis.com/maps/api/js?'+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?(console.warn(p+" only loads once. Ignoring:",g),u()):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
+                key: "${GOOGLE_API_KEY}",
+                v: "weekly"
+            });`;
+            document.head.appendChild(script);
+            
+            // Wait for google.maps to be defined
+            const check = setInterval(() => {
+                if (window.google && window.google.maps && window.google.maps.importLibrary) {
+                    clearInterval(check);
+                    resolve();
+                }
+            }, 100);
+            setTimeout(() => { clearInterval(check); reject(); }, 5000);
+        });
+    };
+
     const GooglePlaces = {
         async getPhotoUrl(placeName) {
             if (!GOOGLE_API_KEY) return null;
             try {
-                const searchUrl = `https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=${encodeURIComponent(placeName)}&inputtype=textquery&fields=photos,place_id&key=${GOOGLE_API_KEY}`;
-                const searchRes = await fetch(searchUrl);
-                const searchData = await searchRes.json();
-                
-                if (searchData.candidates && searchData.candidates[0]?.photos) {
-                    const photoRef = searchData.candidates[0].photos[0].photo_reference;
-                    return `https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=${photoRef}&key=${GOOGLE_API_KEY}`;
+                await loadGoogleSDK();
+                const { Place } = await google.maps.importLibrary("places");
+
+                const request = {
+                    textQuery: placeName,
+                    fields: ['photos', 'displayName', 'id'],
+                    language: 'ru'
+                };
+
+                const { places } = await Place.searchByText(request);
+
+                if (places && places.length > 0 && places[0].photos && places[0].photos.length > 0) {
+                    // Use the new getURI method for the first photo
+                    return places[0].photos[0].getURI({ maxWidth: 800 });
                 }
                 return null;
             } catch (e) {
-                console.error("Google Photos Error:", e);
+                console.error("Google Places (New) Error:", e);
                 return null;
             }
         }
@@ -346,7 +379,7 @@
         async renderHero(place, container) {
             const cat = CATEGORY_META[place.category] || { emoji: '📍', color: 'var(--accent)' };
             const fallback = `
-                <div class="place__hero-fallback" style="background: linear-gradient(135deg, ${cat.color}, ${cat.color}88);">
+                <div class="place__hero-fallback" id="hero-fallback" style="background: linear-gradient(135deg, ${cat.color}, ${cat.color}88);">
                     <span>${cat.emoji}</span>
                 </div>`;
 
@@ -356,63 +389,27 @@
                 <div class="place__hero-overlay"></div>
                 <div class="place__hero-status" id="hero-status"></div>`;
 
-            // Try Google, fallback to primaryFor
             let url = await GooglePlaces.getPhotoUrl(place.name);
             if (!url) url = this.primaryFor(place);
 
             const img = new Image();
             img.onload = () => {
                 const el = container.querySelector('#hero-img');
-                if (!el) return;
-                el.style.backgroundImage = `url('${url}')`;
-                el.classList.remove('skeleton', 'is-loading');
+                const fb = container.querySelector('#hero-fallback');
+                if (el) {
+                    el.style.backgroundImage = `url('${url}')`;
+                    el.classList.remove('skeleton', 'is-loading');
+                }
+                if (fb) fb.style.display = 'none'; // Hide fallback on success
             };
             img.onerror = () => {
                 const el = container.querySelector('#hero-img');
+                const fb = container.querySelector('#hero-fallback');
                 if (el) el.remove();
+                if (fb) fb.style.display = 'flex'; // Ensure fallback is visible on error
             };
             img.src = url;
         },
-        thumbFor(place) {
-            const cat = CATEGORY_META[place.category] || { emoji: '📍', color: 'var(--accent)' };
-            const url = this.primaryFor(place);
-            return {
-                url,
-                fallback: `linear-gradient(135deg, ${cat.color}, ${cat.color}88)`,
-                emoji: cat.emoji
-            };
-        }
-    };ckr.com/800/450/${keywords}?lock=${seed}`;
-        },
-        // Render hero with loading + fallback
-        renderHero(place, container) {
-            const cat = CATEGORY_META[place.category] || { emoji: '📍', color: 'var(--accent)' };
-            const fallback = `
-                <div class="place__hero-fallback" style="background: linear-gradient(135deg, ${cat.color}, ${cat.color}88);">
-                    <span>${cat.emoji}</span>
-                </div>`;
-
-            container.innerHTML = `
-                <div class="place__hero-img skeleton is-loading" id="hero-img"></div>
-                ${fallback}
-                <div class="place__hero-overlay"></div>
-                <div class="place__hero-status" id="hero-status"></div>`;
-
-            const url = this.primaryFor(place);
-            const img = new Image();
-            img.onload = () => {
-                const el = container.querySelector('#hero-img');
-                if (!el) return;
-                el.style.backgroundImage = `url('${url}')`;
-                el.classList.remove('skeleton', 'is-loading');
-            };
-            img.onerror = () => {
-                const el = container.querySelector('#hero-img');
-                if (el) el.remove();
-            };
-            img.src = url;
-        },
-        // Small thumb (for hot list)
         thumbFor(place) {
             const cat = CATEGORY_META[place.category] || { emoji: '📍', color: 'var(--accent)' };
             const url = this.primaryFor(place);
@@ -551,6 +548,11 @@
     function closeProfile() {
         $('#profile-overlay').hidden = true;
     }
+
+    // Close profile by clicking outside the content box
+    $('#profile-overlay').addEventListener('click', (e) => {
+        if (e.target.id === 'profile-overlay') closeProfile();
+    });
 
     $('#profile-close-btn').addEventListener('click', closeProfile);
 
@@ -870,8 +872,9 @@
             const thumb = Images.thumbFor(p);
             return `
                 <div class="hot-item" data-place="${escapeHtml(p.name)}">
-                    <div class="hot-item__thumb"
-                         style="background-image: url('${thumb.url}'), ${thumb.fallback};"></div>
+                    <div class="hot-item__thumb skeleton" 
+                         data-name="${escapeHtml(p.name)}"
+                         style="background: ${thumb.fallback};"></div>
                     <div class="hot-item__info">
                         <div class="hot-item__name">${escapeHtml(p.name)}</div>
                         <div class="hot-item__meta">
@@ -886,6 +889,29 @@
                     </div>
                 </div>`;
         }).join('');
+
+        // Async load thumbs from Google
+        $$('.hot-item__thumb', list).forEach(async (el) => {
+            const name = el.dataset.name;
+            const place = state.places.find(p => p.name === name);
+            if (!place) return;
+
+            // Try cache first
+            let url = place.googleThumb;
+            if (!url) {
+                url = await GooglePlaces.getPhotoUrl(name);
+                if (url) place.googleThumb = url; // Cache it
+            }
+            
+            if (!url) url = Images.primaryFor(place);
+
+            const img = new Image();
+            img.onload = () => {
+                el.style.backgroundImage = `url('${url}')`;
+                el.classList.remove('skeleton');
+            };
+            img.src = url;
+        });
 
         $$('.hot-item', list).forEach(el => {
             el.addEventListener('click', () => {
