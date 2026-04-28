@@ -854,14 +854,15 @@
 
         function pick(place) {
             if (!place) return;
-            input.value = '';
+            input.value = place.name; // Fill search with the name
             close();
-            map.flyTo(place.coords, 16, { duration: 1 });
+            map.flyTo(place.coords, 16, { duration: 1.2 });
             showPlace(place);
         }
 
         function close() {
             results.classList.remove('is-open');
+            results.innerHTML = ''; // Clear items to trigger CSS :empty state
             active = -1;
         }
 
