@@ -1040,7 +1040,8 @@
                     const isAtTop = panel.scrollTop <= 0;
                     const touchY = e.touches[0].clientY;
                     const panelRect = panel.getBoundingClientRect();
-                    const isTouchInHeader = (touchY - panelRect.top) < 60;
+                    // Increased drag zone to 80px for better grip
+                    const isTouchInHeader = (touchY - panelRect.top) < 80;
 
                     if (isAtTop || isTouchInHeader) {
                         startY = touchY;
@@ -1051,7 +1052,7 @@
                         initialTranslate = matrix.m42;
                         
                         panel.style.transition = 'none';
-                        isDragging = false; 
+                        isDragging = isTouchInHeader; // Force dragging if started in header
                     }
                 }, { passive: true });
 
