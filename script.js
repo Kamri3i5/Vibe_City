@@ -1050,23 +1050,27 @@
     }
 
     function updateMobileTabs(tab) {
-        $$('.mobile-tab').forEach(b => b.classList.toggle('is-active', b.dataset.tab === tab));
+        $$('.nav-btn').forEach(b => b.classList.toggle('is-active', b.dataset.tab === tab));
     }
 
-    $$('.mobile-tab').forEach(btn => {
+    $$('.nav-btn').forEach(btn => {
         btn.addEventListener('click', () => {
             const tab = btn.dataset.tab;
-            if (tab === 'map') {
-                closeAllPanels();
-            } else {
-                updateMobileTabs(tab);
-                const target = tab === 'left' ? $('#panel-left') : $('#panel-right');
-                const other = tab === 'left' ? $('#panel-right') : $('#panel-left');
-                
-                other.classList.remove('is-mobile-open', 'is-peek', 'is-expanded');
-                target.classList.add('is-mobile-open', 'is-peek'); // Default to peek
-            }
+            if (!tab) return;
+            
+            updateMobileTabs(tab);
+            const target = tab === 'left' ? $('#panel-left') : $('#panel-right');
+            const other = tab === 'left' ? $('#panel-right') : $('#panel-left');
+            
+            other.classList.remove('is-mobile-open', 'is-peek', 'is-expanded');
+            target.classList.add('is-mobile-open', 'is-peek'); 
         });
+    });
+
+    $('#checkin-btn').addEventListener('click', () => {
+        Toast.show('Делись своим вайбом!', '✨');
+        $('#panel-left').classList.add('is-mobile-open', 'is-expanded');
+        updateMobileTabs('left');
     });
 
     // Swipe handling (Snapping Bottom Sheet)

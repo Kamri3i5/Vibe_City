@@ -1,78 +1,73 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="theme-color" content="#08080c">
-    <meta name="description" content="VibeCity — живая карта Ташкента. Узнай, где сейчас движ, а где глухо.">
-    <title>VibeCity — Где сейчас движ?</title>
-
+    <title>VibeCity — Живой Пульс Ташкента</title>
+    
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+    
+    <!-- App CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Карта (фоновый слой) -->
-    <div id="map" aria-label="Карта Ташкента"></div>
+    <div id="map"></div>
 
-    <!-- Шапка: бренд, поиск, фильтры, действия -->
-    <header class="header" role="banner">
-        <a href="#" class="brand" aria-label="VibeCity">
-            <div class="brand__mark">V</div>
-            <div class="brand__title">
-                <span class="brand__name">VibeCity</span>
-                <span class="brand__sub">Ташкент <span class="live-dot" aria-hidden="true"></span> live</span>
+    <header class="header">
+        <div class="brand">
+            <h1 class="brand__name">VibeCity</h1>
+            <div class="brand__status">
+                <span class="status-dot"></span>
+                <span>Ташкент · Live</span>
             </div>
-        </a>
-
-        <div class="search">
-            <i data-lucide="search" class="search__icon" aria-hidden="true"></i>
-            <input
-                type="text"
-                id="search"
-                class="search__field"
-                placeholder="Найти место, район, кафе..."
-                autocomplete="off"
-                aria-label="Поиск мест"
-            >
-            <div class="search__results" id="search-results" role="listbox"></div>
         </div>
-
-        <nav class="filters" id="filters" aria-label="Категории">
-            <button class="chip is-active" data-cat="all">
-                <i data-lucide="layout-grid"></i><span>Все</span>
-            </button>
-            <button class="chip" data-cat="Развлечения">
-                <i data-lucide="ferris-wheel"></i><span>Развлечения</span>
-            </button>
-            <button class="chip" data-cat="Еда">
-                <i data-lucide="utensils"></i><span>Еда</span>
-            </button>
-            <button class="chip" data-cat="Парк">
-                <i data-lucide="trees"></i><span>Парки</span>
-            </button>
-            <button class="chip" data-cat="Культура">
-                <i data-lucide="landmark"></i><span>Культура</span>
-            </button>
-            <button class="chip" data-cat="Шопинг">
-                <i data-lucide="shopping-bag"></i><span>Шопинг</span>
-            </button>
-        </nav>
-
-        <div class="header__actions">
-            <button class="icon-btn" id="locate-btn" title="Моё местоположение" aria-label="Моё местоположение">
-                <i data-lucide="locate"></i>
-            </button>
-            <button class="icon-btn" id="theme-toggle" title="Сменить тему" aria-label="Сменить тему">
-                <i data-lucide="sun"></i>
-            </button>
-            <button class="profile-btn" id="profile-btn" aria-label="Профиль">
-                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="Avatar" class="profile-btn__img">
-            </button>
+        <div class="header__search">
+            <div class="search">
+                <i data-lucide="search" class="search__icon"></i>
+                <input type="text" class="search__field" id="search" placeholder="Найти место...">
+                <div class="search__results" id="search-results"></div>
+            </div>
         </div>
     </header>
+
+    <div class="action-stack">
+        <button class="action-btn profile-btn" id="profile-btn" aria-label="Профиль">
+            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="Avatar" class="profile-btn__img">
+        </button>
+        <button class="action-btn" id="theme-toggle" aria-label="Сменить тему">
+            <i data-lucide="moon"></i>
+        </button>
+        <button class="action-btn" id="locate-btn" aria-label="Моя локация">
+            <i data-lucide="locate"></i>
+        </button>
+    </div>
+
+    <nav class="filters" id="filters" aria-label="Категории">
+        <button class="chip is-active" data-cat="all">
+            <i data-lucide="layout-grid"></i><span>Все</span>
+        </button>
+        <button class="chip" data-cat="Развлечения">
+            <i data-lucide="ferris-wheel"></i><span>Развлечения</span>
+        </button>
+        <button class="chip" data-cat="Еда">
+            <i data-lucide="utensils"></i><span>Еда</span>
+        </button>
+        <button class="chip" data-cat="Парк">
+            <i data-lucide="trees"></i><span>Парки</span>
+        </button>
+        <button class="chip" data-cat="Культура">
+            <i data-lucide="landmark"></i><span>Культура</span>
+        </button>
+        <button class="chip" data-cat="Шопинг">
+            <i data-lucide="shopping-bag"></i><span>Шопинг</span>
+        </button>
+    </nav>
 
     <!-- Левая панель: пульс, топ, активность -->
     <aside class="panel panel--left" id="panel-left" aria-label="Активность города">
@@ -96,53 +91,43 @@
                     <div class="pulse__label">Вайб</div>
                 </div>
             </div>
-            <div class="vibe-bar"><div class="vibe-bar__fill" id="vibe-bar" style="width: 0%"></div></div>
+            <div class="vibe-meter">
+                <div class="vibe-meter__fill" id="vibe-bar"></div>
+            </div>
         </section>
 
-        <!-- Top of day -->
-        <section class="card">
+        <!-- Top Today -->
+        <section class="card card--scroll">
             <div class="card__header">
                 <h3 class="card__title"><i data-lucide="trophy" class="icon-trophy"></i> Топ сегодня</h3>
+                <span class="hot-count" id="hot-count"></span>
             </div>
-            <ol class="top-list" id="top-list"></ol>
+            <ul class="top-list" id="top-list"></ul>
         </section>
 
-        <!-- Activity feed -->
-        <section class="card">
+        <!-- Activity Feed -->
+        <section class="card card--scroll">
             <div class="card__header">
-                <h3 class="card__title"><i data-lucide="zap"></i> Лента активности</h3>
+                <h3 class="card__title"><i data-lucide="zap" class="icon-fire"></i> Лента активности</h3>
             </div>
             <ul class="feed" id="feed"></ul>
         </section>
     </aside>
 
-    <button class="panel-toggle panel-toggle--left" id="toggle-left" aria-label="Свернуть левую панель">
-        <i data-lucide="chevron-left"></i>
-    </button>
-
-    <!-- Правая панель: hot now / детали -->
-    <aside class="panel panel--right" id="panel-right" aria-label="Детали">
-        <!-- Дефолтное представление -->
+    <!-- Правая панель: детали, события, профиль -->
+    <aside class="panel panel--right" id="panel-right" aria-label="Детали и события">
+        <!-- Список событий (вид по умолчанию) -->
         <div id="view-default">
-            <section class="card">
-                <div class="card__header">
-                    <h3 class="card__title"><i data-lucide="flame" class="icon-fire"></i> Сейчас горит</h3>
-                    <span id="hot-count" class="badge badge--live" style="background:rgba(255,87,34,0.12);color:var(--fire);border-color:rgba(255,87,34,0.25);"></span>
-                </div>
-                <div class="hot-list" id="hot-list"></div>
-            </section>
-
-            <section class="card" style="margin-top: var(--gap);">
-                <div class="card__header">
-                    <h3 class="card__title"><i data-lucide="sparkles"></i> События</h3>
-                </div>
-                <div class="events-list" id="events-list"></div>
-            </section>
-
-            <section class="card cta" style="margin-top: var(--gap);">
-                <h3>Поделись вайбом ✨</h3>
-                <p>Кликни на любое место и оцени атмосферу. Так ты помогаешь городу узнать, где сейчас живо.</p>
-            </section>
+            <div class="card__header" style="padding: 0 4px 12px 4px;">
+                <h3 class="card__title"><i data-lucide="flame" class="icon-fire"></i> Сейчас горит</h3>
+                <span class="badge" id="live-events-count">0</span>
+            </div>
+            <div class="hot-list" id="hot-list"></div>
+            
+            <div class="card__header" style="padding: 16px 4px 12px 4px;">
+                <h3 class="card__title"><i data-lucide="calendar" style="color: var(--accent-2)"></i> События</h3>
+            </div>
+            <div id="events-list"></div>
         </div>
 
         <!-- Детальное представление (показывается при клике на маркер) -->
@@ -211,27 +196,28 @@
     </aside>
 
     <button class="panel-toggle panel-toggle--right" id="toggle-right" aria-label="Свернуть правую панель">
+        <i data-lucide="chevron-left"></i>
+    </button>
+    <button class="panel-toggle panel-toggle--left" id="toggle-left" aria-label="Свернуть левую панель">
         <i data-lucide="chevron-right"></i>
     </button>
 
-    <!-- Мобильные табы -->
-    <nav class="mobile-tabs" aria-label="Навигация">
-        <button class="mobile-tab" data-tab="left" aria-label="Активность">
-            <i data-lucide="bar-chart-2"></i>
+    <!-- Mobile Nav -->
+    <div class="mobile-nav">
+        <button class="nav-btn" data-tab="left" aria-label="Лента">
+            <i data-lucide="layout-list"></i>
         </button>
-        <button class="mobile-tab is-active" data-tab="map" aria-label="Карта">
-            <i data-lucide="map"></i>
+        <button class="nav-btn nav-btn--main" id="checkin-btn" aria-label="Пульс">
+            <i data-lucide="zap"></i>
         </button>
-        <button class="mobile-tab" data-tab="right" aria-label="Hot Now">
-            <i data-lucide="flame"></i>
+        <button class="nav-btn" data-tab="right" aria-label="Карта">
+            <i data-lucide="map-pin"></i>
         </button>
-    </nav>
+    </div>
 
-    <!-- Toast -->
-    <div class="toast" id="toast" role="status" aria-live="polite"></div>
-
+    <!-- Scripts -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
