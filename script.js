@@ -300,15 +300,14 @@
             if (place.image && /^https?:\/\//.test(place.image)) return place.image;
 
             const keywords = [
-                place.name,
                 place.category || 'city',
                 'architecture',
-                'tashkent'
+                'modern'
             ].map(k => encodeURIComponent(k.toLowerCase())).join(',');
 
-            // Using a high-quality source with seeded names for stability
-            const seed = place.name.replace(/\s+/g, '-').toLowerCase();
-            return `https://source.unsplash.com/featured/800x450/?${keywords}`;
+            // Using LoremFlickr for stability
+            const seed = encodeURIComponent(place.name.replace(/\s+/g, '-').toLowerCase());
+            return `https://loremflickr.com/800/450/${keywords}?lock=${seed}`;
         },
         // Render hero with loading + fallback
         renderHero(place, container) {
