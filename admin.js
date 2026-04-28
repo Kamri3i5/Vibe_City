@@ -198,8 +198,8 @@ function updateDashboard() {
 function initAdminMap() {
     if (adminMap) return;
     adminMap = L.map('admin-map', { zoomControl: false }).setView([41.3, 69.27], 12);
-    L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
-        maxZoom: 20
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        maxZoom: 20, attribution: '&copy; CartoDB &copy; OpenStreetMap'
     }).addTo(adminMap);
 
     // Ставим маркеры
@@ -296,8 +296,8 @@ window.editPlace = function(idx) {
 function initForm() {
     // Мини-карта для выбора координат
     pickerMap = L.map('picker-map', { zoomControl: false }).setView([41.3, 69.27], 12);
-    L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
-        maxZoom: 20
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        maxZoom: 20, attribution: '&copy; CartoDB &copy; OpenStreetMap'
     }).addTo(pickerMap);
 
     pickerMarker = L.marker([41.3, 69.27]).addTo(pickerMap);
