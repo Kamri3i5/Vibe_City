@@ -294,6 +294,13 @@
     <div id="register-overlay" class="overlay" hidden>
         <div class="overlay__content overlay__content--auth">
             <div class="auth-header">
+                <!-- Language Selector for Registration -->
+                <div class="lang-selector" style="justify-content: center; margin-bottom: 24px;">
+                    <button class="lang-btn js-lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn js-lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn js-lang-btn" data-lang="uz">UZ</button>
+                </div>
+
                 <div class="auth-logo">
                     <i data-lucide="zap" class="auth-logo__icon"></i>
                 </div>
@@ -319,7 +326,7 @@
                 </div>
 
                 <button class="btn btn--primary" id="register-submit-btn" style="width: 100%;">
-                    <span data-i18n="reg_submit">Начать</span>
+                    <span data-i18n="reg_start">Начать</span>
                 </button>
 
                 <div class="auth-divider">

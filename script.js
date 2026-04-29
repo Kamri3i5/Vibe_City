@@ -460,6 +460,7 @@
             state.lang = lang;
             localStorage.setItem(LANG_KEY, lang);
             this.updateDOM();
+            
             // Re-render components that have dynamic text
             renderMarkers();
             renderHotList();
@@ -468,6 +469,11 @@
             renderFeed();
             renderEvents();
             if (state.currentPlace) showPlace(state.currentPlace);
+
+            // Re-render Google button if on registration screen
+            if (typeof Auth !== 'undefined' && document.getElementById("google-signin-btn")) {
+                Auth.initGoogleAuth();
+            }
         },
         updateDOM() {
             $$('[data-i18n]').forEach(el => {
@@ -1940,14 +1946,24 @@
                 return;
             }
 
+            // Clear previous button if any
+            const btnContainer = document.getElementById("google-signin-btn");
+            if (btnContainer) btnContainer.innerHTML = '';
+
             google.accounts.id.initialize({
-                client_id: "967135382385-eghfamejucht6odhrlrv53h8dc0gddgm.apps.googleusercontent.com", // Ваш официальный Client ID
+                client_id: "967135382385-eghfamejucht6odhrlrv53h8dc0gddgm.apps.googleusercontent.com",
                 callback: (res) => this.handleGoogleResponse(res)
             });
 
             google.accounts.id.renderButton(
-                document.getElementById("google-signin-btn"),
-                { theme: state.theme === 'dark' ? "filled_black" : "outline", size: "large", width: 280, text: "continue_with" }
+                btnContainer,
+                { 
+                    theme: state.theme === 'dark' ? "filled_black" : "outline", 
+                    size: "large", 
+                    width: 280, 
+                    text: "continue_with",
+                    locale: state.lang // Устанавливаем язык кнопки Google
+                }
             );
         },
 
