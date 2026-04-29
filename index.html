@@ -26,13 +26,13 @@
             <h1 class="brand__name">VibeCity</h1>
             <div class="brand__status">
                 <span class="status-dot"></span>
-                <span>Ташкент · Live</span>
+                <span data-i18n="brand_status">Ташкент · Live</span>
             </div>
         </div>
         <div class="header__search">
             <div class="search">
                 <i data-lucide="search" class="search__icon"></i>
-                <input type="text" class="search__field" id="search" placeholder="Найти место...">
+                <input type="text" class="search__field" id="search" placeholder="Найти место..." data-i18n="search_placeholder">
                 <div class="search__results" id="search-results"></div>
             </div>
         </div>
@@ -63,22 +63,22 @@
 
     <nav class="filters" id="filters" aria-label="Категории">
         <button class="chip is-active" data-cat="all">
-            <i data-lucide="layout-grid"></i><span>Все</span>
+            <i data-lucide="layout-grid"></i><span data-i18n="all">Все</span>
         </button>
         <button class="chip" data-cat="Развлечения">
-            <i data-lucide="ferris-wheel"></i><span>Развлечения</span>
+            <i data-lucide="ferris-wheel"></i><span data-i18n="cat_fun">Развлечения</span>
         </button>
         <button class="chip" data-cat="Еда">
-            <i data-lucide="utensils"></i><span>Еда</span>
+            <i data-lucide="utensils"></i><span data-i18n="cat_food">Еда</span>
         </button>
         <button class="chip" data-cat="Парк">
-            <i data-lucide="trees"></i><span>Парки</span>
+            <i data-lucide="trees"></i><span data-i18n="cat_park">Парки</span>
         </button>
         <button class="chip" data-cat="Культура">
-            <i data-lucide="landmark"></i><span>Культура</span>
+            <i data-lucide="landmark"></i><span data-i18n="cat_culture">Культура</span>
         </button>
         <button class="chip" data-cat="Шопинг">
-            <i data-lucide="shopping-bag"></i><span>Шопинг</span>
+            <i data-lucide="shopping-bag"></i><span data-i18n="cat_shop">Шопинг</span>
         </button>
     </nav>
 
@@ -87,21 +87,21 @@
         <!-- Pulse -->
         <section class="card">
             <div class="card__header">
-                <h3 class="card__title"><i data-lucide="activity"></i> Пульс города</h3>
+                <h3 class="card__title"><i data-lucide="activity"></i> <span data-i18n="pulse_title">Пульс города</span></h3>
                 <span class="badge badge--live"><span class="live-dot"></span> live</span>
             </div>
             <div class="pulse">
                 <div class="pulse__stat">
                     <div class="pulse__value" id="pulse-online">—</div>
-                    <div class="pulse__label">Онлайн</div>
+                    <div class="pulse__label" data-i18n="pulse_online">Онлайн</div>
                 </div>
                 <div class="pulse__stat">
                     <div class="pulse__value" id="pulse-votes">—</div>
-                    <div class="pulse__label">Голосов</div>
+                    <div class="pulse__label" data-i18n="pulse_votes">Голосов</div>
                 </div>
                 <div class="pulse__stat">
-                    <div class="pulse__value pulse__value--fire" id="pulse-vibe">—</div>
-                    <div class="pulse__label">Вайб</div>
+                    <div class="pulse__value" id="pulse-vibe">—</div>
+                    <div class="pulse__label" data-i18n="pulse_vibe">Вайб</div>
                 </div>
             </div>
             <div class="vibe-meter">
@@ -112,7 +112,7 @@
         <!-- Top Today -->
         <section class="card card--scroll">
             <div class="card__header">
-                <h3 class="card__title"><i data-lucide="trophy" class="icon-trophy"></i> Топ сегодня</h3>
+                <h3 class="card__title"><i data-lucide="trophy" class="icon-trophy"></i> <span data-i18n="top_today">Топ сегодня</span></h3>
                 <span class="hot-count" id="hot-count"></span>
             </div>
             <ul class="top-list" id="top-list"></ul>
@@ -121,7 +121,7 @@
         <!-- Activity Feed -->
         <section class="card card--scroll">
             <div class="card__header">
-                <h3 class="card__title"><i data-lucide="zap" class="icon-fire"></i> Лента активности</h3>
+                <h3 class="card__title"><i data-lucide="zap" class="icon-fire"></i> <span data-i18n="activity_feed">Лента активности</span></h3>
             </div>
             <ul class="feed" id="feed"></ul>
         </section>
@@ -132,13 +132,13 @@
         <!-- Список событий (вид по умолчанию) -->
         <div id="view-default">
             <div class="card__header" style="padding: 0 4px 12px 4px;">
-                <h3 class="card__title"><i data-lucide="flame" class="icon-fire"></i> Сейчас горит</h3>
+                <h3 class="card__title"><i data-lucide="flame" class="icon-fire"></i> <span data-i18n="now_burning">Сейчас горит</span></h3>
                 <span class="badge" id="live-events-count">0</span>
             </div>
             <div class="hot-list" id="hot-list"></div>
 
             <div class="card__header" style="padding: 16px 4px 12px 4px;">
-                <h3 class="card__title"><i data-lucide="calendar" style="color: var(--accent-2)"></i> События</h3>
+                <h3 class="card__title"><i data-lucide="calendar" style="color: var(--accent-2)"></i> <span data-i18n="events">События</span></h3>
             </div>
             <div id="events-list"></div>
         </div>
@@ -146,7 +146,7 @@
         <!-- Детальное представление (показывается при клике на маркер) -->
         <div id="view-detail" hidden>
             <button class="back-btn" id="back-btn">
-                <i data-lucide="arrow-left"></i> Назад
+                <i data-lucide="arrow-left"></i> <span data-i18n="back">Назад</span>
             </button>
             <div class="place" id="place-content"></div>
         </div>
@@ -161,55 +161,125 @@
             </button>
 
             <div class="profile-header">
-                <h2 class="section-title">Твой профиль</h2>
+                <h2 class="section-title" data-i18n="profile_title">Твой профиль</h2>
             </div>
 
-            <div class="card profile-card" style="margin-top: 16px;">
-                <div class="profile-card__main">
-                    <div class="profile-card__avatar">
-                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="Avatar"
-                            id="user-avatar-big">
+            <div id="profile-view-mode">
+                <div class="card profile-card" style="margin-top: 16px;">
+                    <div class="profile-card__main">
+                        <div class="profile-card__avatar">
+                            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" alt="Avatar"
+                                id="user-avatar-big">
+                        </div>
+                        <div class="profile-card__info">
+                            <h3 id="user-name">Гость</h3>
+                            <p class="profile-card__rank" data-i18n="rank_explorer">исследователь</p>
+                        </div>
                     </div>
-                    <div class="profile-card__info">
-                        <h3 id="user-name">Гость</h3>
-                        <p class="profile-card__rank">исследователь</p>
+                    <div class="profile-stats">
+                        <div class="stat-item">
+                            <span class="stat-item__value" id="stat-votes">0</span>
+                            <span class="stat-item__label" data-i18n="votes_label">Голосов</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-item__value" id="stat-places">0</span>
+                            <span class="stat-item__label" data-i18n="places_label">Мест</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-item__value">1</span>
+                            <span class="stat-item__label" data-i18n="lvl_label">LVL</span>
+                        </div>
                     </div>
                 </div>
-                <div class="profile-stats">
-                    <div class="stat-item">
-                        <span class="stat-item__value" id="stat-votes">0</span>
-                        <span class="stat-item__label">Голосов</span>
+
+                <div class="settings-group" style="margin-top: 24px;">
+                    <h3 class="section-title" data-i18n="settings">Настройки</h3>
+                    <div class="card setting-item">
+                        <div class="setting-item__label">
+                            <i data-lucide="moon"></i> <span data-i18n="theme_dark">Тёмная тема</span>
+                        </div>
+                        <button class="toggle-switch" id="theme-toggle-profile"></button>
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-item__value" id="stat-places">0</span>
-                        <span class="stat-item__label">Мест</span>
+                    <div class="card setting-item">
+                        <div class="setting-item__label">
+                            <i data-lucide="bell"></i> <span data-i18n="notifications">Уведомления</span>
+                        </div>
+                        <button class="toggle-switch is-active" id="notif-toggle-profile"></button>
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-item__value">1</span>
-                        <span class="stat-item__label">LVL</span>
+                    <div class="card setting-item">
+                        <div class="setting-item__label">
+                            <i data-lucide="languages"></i> <span data-i18n="language">Язык</span>
+                        </div>
+                        <div class="lang-selector">
+                            <button class="lang-btn js-lang-btn" data-lang="ru">RU</button>
+                            <button class="lang-btn js-lang-btn" data-lang="en">EN</button>
+                            <button class="lang-btn js-lang-btn" data-lang="uz">UZ</button>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn btn--primary" style="width: 100%; margin-top: 32px;" id="edit-profile-btn" data-i18n="edit_btn">
+                    Редактировать
+                </button>
+            </div>
+
+            <div id="profile-edit-mode" hidden>
+                <div class="auth-form" style="margin-top: 24px;">
+                    <div class="input-group">
+                        <label for="edit-name" class="input-label" data-i18n="reg_name_label">Как тебя зовут?</label>
+                        <div class="input-wrapper">
+                            <i data-lucide="user" class="input-icon"></i>
+                            <input type="text" id="edit-name" class="input-field" placeholder="Твоё имя или никнейм" maxlength="20" data-i18n="reg_name_placeholder">
+                        </div>
+                    </div>
+
+                    <div class="avatar-select">
+                        <p class="input-label" data-i18n="edit_avatar">Изменить аватар</p>
+                        <div class="avatar-grid" id="edit-avatar-grid">
+                            <!-- Будет заполнено через JS -->
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 12px; margin-top: 32px;">
+                        <button class="btn btn--secondary" style="flex: 1;" id="cancel-edit-btn" data-i18n="back">Назад</button>
+                        <button class="btn btn--primary" style="flex: 2;" id="save-profile-btn" data-i18n="save_btn">Сохранить</button>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <div class="settings-group" style="margin-top: 24px;">
-                <h3 class="section-title">Настройки</h3>
-                <div class="card setting-item">
-                    <div class="setting-item__label">
-                        <i data-lucide="moon"></i> <span>Тёмная тема</span>
-                    </div>
-                    <button class="toggle-switch" id="theme-toggle-profile"></button>
+    <!-- Регистрация (первый вход) -->
+    <div id="register-overlay" class="overlay" hidden>
+        <div class="overlay__content overlay__content--auth">
+            <div class="auth-header">
+                <div class="auth-logo">
+                    <i data-lucide="zap" class="auth-logo__icon"></i>
                 </div>
-                <div class="card setting-item">
-                    <div class="setting-item__label">
-                        <i data-lucide="bell"></i> <span>Уведомления</span>
-                    </div>
-                    <button class="toggle-switch is-active"></button>
-                </div>
+                <h2 class="auth-title" data-i18n="welcome_title">Добро пожаловать в VibeCity</h2>
+                <p class="auth-subtitle" data-i18n="welcome_subtitle">Узнай, чем дышит Ташкент прямо сейчас</p>
             </div>
 
-            <button class="btn btn--primary" style="width: 100%; margin-top: 32px;" id="edit-profile-btn">
-                Редактировать
-            </button>
+            <div class="auth-form">
+                <div class="input-group">
+                    <label for="reg-name" class="input-label" data-i18n="reg_name_label">Как тебя зовут?</label>
+                    <div class="input-wrapper">
+                        <i data-lucide="user" class="input-icon"></i>
+                        <input type="text" id="reg-name" class="input-field" placeholder="Твоё имя или никнейм" maxlength="20" data-i18n="reg_name_placeholder">
+                    </div>
+                </div>
+
+                <div class="avatar-select">
+                    <p class="input-label" data-i18n="reg_avatar_label">Выбери аватар</p>
+                    <div class="avatar-grid" id="avatar-grid">
+                        <!-- Будет заполнено через JS -->
+                    </div>
+                </div>
+
+                <button class="btn btn--primary btn--large" id="register-submit-btn" style="width: 100%;" data-i18n="reg_start">
+                    Начать исследовать
+                </button>
+            </div>
         </div>
     </div>
 

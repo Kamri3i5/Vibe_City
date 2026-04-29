@@ -13,6 +13,191 @@
     const EVENTS_KEY = 'vibecity_events';
     const FEED_KEY = 'vibecity_feed';
     const THEME_KEY = 'vibecity_theme';
+    const USER_KEY = 'vibecity_user';
+    const LANG_KEY = 'vibecity_lang';
+
+    const TRANSLATIONS = {
+        ru: {
+            brand_status: "Ташкент · Live",
+            search_placeholder: "Найти место...",
+            all: "Все",
+            cat_fun: "Развлечения",
+            cat_food: "Еда",
+            cat_park: "Парки",
+            cat_culture: "Культура",
+            cat_shop: "Шопинг",
+            pulse_title: "Пульс города",
+            pulse_online: "Онлайн",
+            pulse_votes: "Голосов",
+            pulse_vibe: "Вайб",
+            top_today: "Топ сегодня",
+            activity_feed: "Лента активности",
+            now_burning: "Сейчас горит",
+            events: "События",
+            profile_title: "Твой профиль",
+            rank_explorer: "исследователь",
+            votes_label: "Голосов",
+            places_label: "Мест",
+            lvl_label: "LVL",
+            settings: "Настройки",
+            theme_dark: "Тёмная тема",
+            notifications: "Уведомления",
+            language: "Язык",
+            edit_btn: "Редактировать",
+            back: "Назад",
+            welcome_title: "Добро пожаловать в VibeCity",
+            welcome_subtitle: "Узнай, чем дышит Ташкент прямо сейчас",
+            reg_name_label: "Как тебя зовут?",
+            reg_name_placeholder: "Твоё имя или никнейм",
+            reg_avatar_label: "Выбери аватар",
+            reg_start: "Начать исследовать",
+            vibe_fire: "Кайф",
+            vibe_dead: "Глухо",
+            vibe_cry: "Скучно",
+            how_is_it: "Как тут сейчас?",
+            crowdedness: "Загруженность",
+            current_occupancy: "Сейчас здесь",
+            your_vote: "Твой голос",
+            toast_voted: "Голос засчитан",
+            toast_unvoted: "Голос отменён",
+            toast_name_saved: "Имя сохранено!",
+            toast_notif_on: "Уведомления включены",
+            toast_notif_off: "Уведомления выключены",
+            toast_lang_changed: "Язык изменён",
+            toast_loc_error: "Геолокация недоступна",
+            toast_loc_finding: "Определяю местоположение...",
+            toast_loc_success: "Вы здесь!",
+            toast_update: "Данные обновлены",
+            share: "Поделиться",
+            toast_shared: "Ссылка скопирована!",
+            save_btn: "Сохранить",
+            edit_avatar: "Изменить аватар",
+            empty_feed: "Пока тихо",
+            empty_events: "Скоро появится",
+            empty_search: "Ничего не нашлось",
+            anon_user: "Кто-то"
+        },
+        en: {
+            brand_status: "Tashkent · Live",
+            search_placeholder: "Search places...",
+            all: "All",
+            cat_fun: "Entertainment",
+            cat_food: "Food",
+            cat_park: "Parks",
+            cat_culture: "Culture",
+            cat_shop: "Shopping",
+            pulse_title: "City Pulse",
+            pulse_online: "Online",
+            pulse_votes: "Votes",
+            pulse_vibe: "Vibe",
+            top_today: "Top Today",
+            activity_feed: "Activity Feed",
+            now_burning: "Now Burning",
+            events: "Events",
+            profile_title: "Your Profile",
+            rank_explorer: "explorer",
+            votes_label: "Votes",
+            places_label: "Places",
+            lvl_label: "LVL",
+            settings: "Settings",
+            theme_dark: "Dark Theme",
+            notifications: "Notifications",
+            language: "Language",
+            edit_btn: "Edit Profile",
+            back: "Back",
+            welcome_title: "Welcome to VibeCity",
+            welcome_subtitle: "See what Tashkent is breathing right now",
+            reg_name_label: "What's your name?",
+            reg_name_placeholder: "Your name or nickname",
+            reg_avatar_label: "Choose avatar",
+            reg_start: "Start Exploring",
+            vibe_fire: "Fire",
+            vibe_dead: "Dead",
+            vibe_cry: "Boring",
+            how_is_it: "How's it now?",
+            crowdedness: "Crowdedness",
+            current_occupancy: "Currently here",
+            your_vote: "Your Vote",
+            toast_voted: "Vote counted",
+            toast_unvoted: "Vote canceled",
+            toast_name_saved: "Name saved!",
+            toast_notif_on: "Notifications enabled",
+            toast_notif_off: "Notifications disabled",
+            toast_lang_changed: "Language changed",
+            toast_loc_error: "Geolocation unavailable",
+            toast_loc_finding: "Locating...",
+            toast_loc_success: "You are here!",
+            toast_update: "Data updated",
+            share: "Share",
+            toast_shared: "Link copied!",
+            save_btn: "Save",
+            edit_avatar: "Change Avatar",
+            empty_feed: "Quiet for now",
+            empty_events: "Coming soon",
+            empty_search: "No results",
+            anon_user: "Someone"
+        },
+        uz: {
+            brand_status: "Toshkent · Live",
+            search_placeholder: "Joyni izlash...",
+            all: "Hammasi",
+            cat_fun: "Ko'ngilochar",
+            cat_food: "Taomlar",
+            cat_park: "Bog'lar",
+            cat_culture: "Madaniyat",
+            cat_shop: "Xaridlar",
+            pulse_title: "Shahar pulsi",
+            pulse_online: "Onlayn",
+            pulse_votes: "Ovozlar",
+            pulse_vibe: "Vayb",
+            top_today: "Bugun topda",
+            activity_feed: "Faollik tasmasi",
+            now_burning: "Hozir qizg'in",
+            events: "Tadbirlar",
+            profile_title: "Sizning profilingiz",
+            rank_explorer: "tadqiqotchi",
+            votes_label: "Ovozlar",
+            places_label: "Joylar",
+            lvl_label: "LVL",
+            settings: "Sozlamalar",
+            theme_dark: "Tungi mavzu",
+            notifications: "Bildirishnomalar",
+            language: "Til",
+            edit_btn: "Tahrirlash",
+            back: "Orqaga",
+            welcome_title: "VibeCity-ga xush kelibsiz",
+            welcome_subtitle: "Toshkent hozir nima bilan nafas olayotganini biling",
+            reg_name_label: "Ismingiz nima?",
+            reg_name_placeholder: "Ismingiz yoki taxallusingiz",
+            reg_avatar_label: "Avatar tanlang",
+            reg_start: "Tadqiqotni boshlash",
+            vibe_fire: "Kayf",
+            vibe_dead: "Jimjit",
+            vibe_cry: "Zerikarli",
+            how_is_it: "Hozir bu yerda qanday?",
+            crowdedness: "Bandlik",
+            current_occupancy: "Hozir bu yerda",
+            your_vote: "Sizning ovozingiz",
+            toast_voted: "Ovoz qabul qilindi",
+            toast_unvoted: "Ovoz bekor qilindi",
+            toast_name_saved: "Ism saqlandi!",
+            toast_notif_on: "Bildirishnomalar yoqildi",
+            toast_notif_off: "Bildirishnomalar o'chirildi",
+            toast_lang_changed: "Til o'zgartirildi",
+            toast_loc_error: "Geolokatsiya mavjud emas",
+            toast_loc_finding: "Joylashuv aniqlanmoqda...",
+            toast_loc_success: "Siz shu yerdasiz!",
+            toast_update: "Ma'lumotlar yangilandi",
+            share: "Ulashish",
+            toast_shared: "Havola nusxalandi!",
+            save_btn: "Saqlash",
+            edit_avatar: "Avatarni o'zgartirish",
+            empty_feed: "Hozircha tinch",
+            empty_events: "Tez orada",
+            empty_search: "Hech narsa topilmadi",
+            anon_user: "Kimdir"
+        }
+    };
 
     const TASHKENT_CENTER = [41.3111, 69.2797];
     const DEFAULT_ZOOM = 13;
@@ -58,7 +243,7 @@
         },
         {
             name: "Ташкент Сити", coords: [41.3031, 69.2662], category: "Парк",
-            image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/58/68/73/tashkent-city-park.jpg?w=800&h=-1&s=1",
+            image: "https://images.unsplash.com/photo-1589417852331-97b7b134907a?auto=format&fit=crop&w=800&q=80",
             description: "Современный деловой комплекс с небоскрёбами, фонтанами и вечерней подсветкой.",
             fire: 8, dead: 0, crying: 0
         },
@@ -209,6 +394,15 @@
         },
         saveTheme(theme) {
             localStorage.setItem(THEME_KEY, theme);
+        },
+        loadUser() {
+            try {
+                const raw = localStorage.getItem(USER_KEY);
+                return raw ? JSON.parse(raw) : null;
+            } catch { return null; }
+        },
+        saveUser(user) {
+            localStorage.setItem(USER_KEY, JSON.stringify(user));
         }
     };
 
@@ -224,7 +418,48 @@
         myVotes: JSON.parse(localStorage.getItem('vibecity_my_votes') || '[]'),
         activeFilter: 'all',
         currentPlace: null,
-        markers: new Map() // place name -> marker
+        markers: new Map(), // place name -> marker
+        user: Storage.loadUser(),
+        lang: localStorage.getItem(LANG_KEY) || 'ru'
+    };
+
+    // ============================================================
+    // i18n
+    // ============================================================
+
+    const i18n = {
+        t(key) {
+            return TRANSLATIONS[state.lang]?.[key] || TRANSLATIONS.ru[key] || key;
+        },
+        setLang(lang) {
+            if (!TRANSLATIONS[lang]) return;
+            state.lang = lang;
+            localStorage.setItem(LANG_KEY, lang);
+            this.updateDOM();
+            // Re-render components that have dynamic text
+            renderMarkers();
+            renderHotList();
+            renderTopList();
+            renderPulse();
+            renderFeed();
+            renderEvents();
+            if (state.currentPlace) showPlace(state.currentPlace);
+        },
+        updateDOM() {
+            $$('[data-i18n]').forEach(el => {
+                const key = el.dataset.i18n;
+                if (el.tagName === 'INPUT' && el.placeholder) {
+                    el.placeholder = this.t(key);
+                } else {
+                    // Preserve icons if they exist
+                    const icon = el.querySelector('i[data-lucide]');
+                    el.textContent = this.t(key);
+                    if (icon) el.prepend(icon);
+                }
+            });
+            // Update lucide icons as they might have been overwritten by textContent
+            refreshIcons();
+        }
     };
 
     // ============================================================
@@ -536,16 +771,35 @@
         const overlay = $('#profile-overlay');
         overlay.hidden = false;
 
+        // Update user info in profile
+        if (state.user) {
+            $('#user-name').textContent = state.user.name;
+            $('#user-avatar-big').src = state.user.avatar;
+            $$('.profile-btn__img').forEach(img => img.src = state.user.avatar);
+        }
+
         // Update stats
         const myVotes = state.myVotes || [];
         $('#stat-votes').textContent = myVotes.length;
         $('#stat-places').textContent = [...new Set(myVotes.map(v => v.placeId))].length;
+
+        // Update active language button
+        $$('.js-lang-btn').forEach(btn => {
+            btn.classList.toggle('is-active', btn.dataset.lang === state.lang);
+        });
+
+        const notifToggle = $('#notif-toggle-profile');
+        if (notifToggle && state.user) {
+            notifToggle.classList.toggle('is-active', !!state.user.notificationsEnabled);
+        }
 
         refreshIcons();
     }
 
     function closeProfile() {
         $('#profile-overlay').hidden = true;
+        $('#profile-view-mode').hidden = false;
+        $('#profile-edit-mode').hidden = true;
     }
 
     // Close profile by clicking outside the content box
@@ -570,7 +824,7 @@
                     <h2 class="place__name">${escapeHtml(place.name)}</h2>
                     <span class="place__cat">
                         <i data-lucide="${cat.icon}"></i>
-                        ${escapeHtml(place.category || 'Место')}
+                        <span data-i18n="cat_${place.category === 'Развлечения' ? 'fun' : place.category === 'Еда' ? 'food' : place.category === 'Парк' ? 'park' : place.category === 'Культура' ? 'culture' : 'shop'}">${escapeHtml(place.category || 'Место')}</span>
                     </span>
                 </div>
             </div>
@@ -579,35 +833,35 @@
 
             <div class="freshness ${fresh.cls}">
                 <i data-lucide="clock"></i>
-                <span>${fresh.text}</span>
+                <span data-i18n="freshness_${fresh.cls || 'recent'}">${fresh.text}</span>
             </div>
 
             <div>
-                <div class="section-title">Как тут сейчас?</div>
+                <div class="section-title" data-i18n="how_is_it">Как тут сейчас?</div>
                 <div class="counters">
                     <div class="counter counter--fire">
                         <i data-lucide="flame"></i>
                         <div class="counter__value">${place.fire || 0}</div>
-                        <div class="counter__label">Огонь</div>
+                        <div class="counter__label" data-i18n="vibe_fire">Огонь</div>
                     </div>
                     <div class="counter counter--dead">
                         <i data-lucide="skull"></i>
                         <div class="counter__value">${place.dead || 0}</div>
-                        <div class="counter__label">Глухо</div>
+                        <div class="counter__label" data-i18n="vibe_dead">Глухо</div>
                     </div>
                     <div class="counter counter--cry">
                         <i data-lucide="frown"></i>
                         <div class="counter__value">${place.crying || 0}</div>
-                        <div class="counter__label">Скучно</div>
+                        <div class="counter__label" data-i18n="vibe_cry">Скучно</div>
                     </div>
                 </div>
             </div>
 
             <div>
-                <div class="section-title">Загруженность</div>
+                <div class="section-title" data-i18n="crowdedness">Загруженность</div>
                 <div class="crowd-row">
                     <i data-lucide="users"></i>
-                    <span>Сейчас здесь</span>
+                    <span data-i18n="current_occupancy">Сейчас здесь</span>
                     <span class="crowd-row__num">${crowd.estimate} чел.</span>
                 </div>
                 <div class="crowd-bar">
@@ -616,21 +870,27 @@
             </div>
 
             <div>
-                <div class="section-title">Твой голос</div>
+                <div class="section-title" data-i18n="your_vote">Твой голос</div>
                 <div class="votes">
                     <button class="vote vote--fire ${place.myVibe === '🔥' ? 'is-active' : ''}" data-vibe="🔥">
                         <i data-lucide="flame"></i>
-                        <span>Кайф</span>
+                        <span data-i18n="vibe_fire">Кайф</span>
                     </button>
                     <button class="vote vote--dead ${place.myVibe === '💀' ? 'is-active' : ''}" data-vibe="💀">
                         <i data-lucide="skull"></i>
-                        <span>Глухо</span>
+                        <span data-i18n="vibe_dead">Глухо</span>
                     </button>
                     <button class="vote vote--cry ${place.myVibe === '😭' ? 'is-active' : ''}" data-vibe="😭">
                         <i data-lucide="frown"></i>
-                        <span>Скучно</span>
+                        <span data-i18n="vibe_cry">Скучно</span>
                     </button>
                 </div>
+            </div>
+
+            <div style="margin-top: 8px;">
+                <button class="btn btn--secondary" style="width: 100%;" id="share-btn">
+                    <i data-lucide="share-2"></i> <span data-i18n="share">Поделиться</span>
+                </button>
             </div>
         `;
 
@@ -650,6 +910,17 @@
         $$('.vote', $('#place-content')).forEach(btn => {
             btn.addEventListener('click', () => handleVote(btn.dataset.vibe));
         });
+
+        // Wire share button
+        const shareBtn = $('#share-btn');
+        if (shareBtn) {
+            shareBtn.addEventListener('click', () => {
+                const url = window.location.href.split('?')[0] + `?place=${encodeURIComponent(place.name)}`;
+                navigator.clipboard.writeText(url).then(() => {
+                    Toast.show(i18n.t('toast_shared'), '🔗');
+                });
+            });
+        }
 
         refreshIcons();
 
@@ -709,7 +980,7 @@
         renderTopList();
         renderPulse();
 
-        Toast.show(place.myVibe ? `Голос засчитан · ${meta.label}` : 'Голос отменён', vibe);
+        Toast.show(place.myVibe ? `${i18n.t('toast_voted')} · ${i18n.t('vibe_' + meta.field)}` : i18n.t('toast_unvoted'), vibe);
     }
 
     // ============================================================
@@ -750,7 +1021,7 @@
         const list = $('#feed');
         if (!list) return;
         if (state.feed.length === 0) {
-            list.innerHTML = `<div class="empty"><i data-lucide="zap-off"></i><p>Пока тихо</p></div>`;
+            list.innerHTML = `<div class="empty"><i data-lucide="zap-off"></i><p data-i18n="empty_feed">${i18n.t('empty_feed')}</p></div>`;
             refreshIcons();
             return;
         }
@@ -760,7 +1031,7 @@
                 <li class="feed-item" data-place="${escapeHtml(item.place)}">
                     <div class="feed-item__icon feed-item__icon--${meta.key}">${item.vibe}</div>
                     <div class="feed-item__text">
-                        <strong>${escapeHtml(item.anon || 'Кто-то')}</strong> в <strong>${escapeHtml(item.place)}</strong>
+                        <strong>${escapeHtml(item.anon || i18n.t('anon_user'))}</strong> in <strong>${escapeHtml(item.place)}</strong>
                         <div class="feed-item__time">${relativeTime(item.ts)}</div>
                     </div>
                 </li>`;
@@ -818,7 +1089,7 @@
         const sorted = [...filtered].sort((a, b) => (b.fire || 0) - (a.fire || 0)).slice(0, 5);
 
         if (sorted.length === 0) {
-            list.innerHTML = `<div class="empty"><i data-lucide="search-x"></i><p>Нет мест</p></div>`;
+            list.innerHTML = `<div class="empty"><i data-lucide="search-x"></i><p data-i18n="empty_search">${i18n.t('empty_search')}</p></div>`;
             refreshIcons();
             return;
         }
@@ -861,7 +1132,7 @@
         const sorted = [...filtered].sort((a, b) => (b.fire || 0) - (a.fire || 0)).slice(0, 8);
 
         if (sorted.length === 0) {
-            list.innerHTML = `<div class="empty"><i data-lucide="search-x"></i><p>В этой категории пока пусто</p></div>`;
+            list.innerHTML = `<div class="empty"><i data-lucide="search-x"></i><p data-i18n="empty_search">${i18n.t('empty_search')}</p></div>`;
             refreshIcons();
             return;
         }
@@ -880,7 +1151,7 @@
                             <div class="hot-item__meta">
                                 <span class="hot-item__cat">
                                     <i data-lucide="${cat.icon}" style="color:${cat.color};"></i>
-                                    ${escapeHtml(p.category)}
+                                    ${i18n.t('cat_' + (p.category === 'Развлечения' ? 'fun' : p.category === 'Еда' ? 'food' : p.category === 'Парк' ? 'park' : p.category === 'Культура' ? 'culture' : 'shop'))}
                                 </span>
                             </div>
                         </div>
@@ -933,7 +1204,7 @@
         const list = $('#events-list');
         if (!list) return;
         if (state.events.length === 0) {
-            list.innerHTML = `<div class="empty"><i data-lucide="calendar-x"></i><p>Скоро появится</p></div>`;
+            list.innerHTML = `<div class="empty"><i data-lucide="calendar-x"></i><p data-i18n="empty_events">${i18n.t('empty_events')}</p></div>`;
             refreshIcons();
             return;
         }
@@ -969,7 +1240,7 @@
 
         function render(matches) {
             if (matches.length === 0) {
-                results.innerHTML = `<div class="search__empty">Ничего не нашлось</div>`;
+                results.innerHTML = `<div class="search__empty" data-i18n="empty_search">${i18n.t('empty_search')}</div>`;
                 results.classList.add('is-open');
                 return;
             }
@@ -982,7 +1253,7 @@
                         </div>
                         <div style="flex:1;min-width:0;">
                             <div class="search__result-name">${escapeHtml(p.name)}</div>
-                            <div class="search__result-cat">${escapeHtml(p.category)}</div>
+                            <div class="search__result-cat">${i18n.t('cat_' + (p.category === 'Развлечения' ? 'fun' : p.category === 'Еда' ? 'food' : p.category === 'Парк' ? 'park' : p.category === 'Культура' ? 'culture' : 'shop'))}</div>
                         </div>
                         <div class="search__result-fire">
                             <i data-lucide="flame" style="width:12px;height:12px"></i> ${p.fire || 0}
@@ -1107,6 +1378,23 @@
     $$('.js-theme-toggle').forEach(btn => btn.addEventListener('click', toggleTheme));
     $('#theme-toggle-profile').addEventListener('click', toggleTheme);
 
+    $$('.js-lang-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            i18n.setLang(btn.dataset.lang);
+            Toast.show(i18n.t('toast_lang_changed'), '🌐');
+        });
+    });
+
+    $('#notif-toggle-profile').addEventListener('click', (e) => {
+        const btn = e.currentTarget;
+        const isActive = btn.classList.toggle('is-active');
+        if (state.user) {
+            state.user.notificationsEnabled = isActive;
+            Storage.saveUser(state.user);
+        }
+        Toast.show(isActive ? i18n.t('toast_notif_on') : i18n.t('toast_notif_off'), isActive ? '🔔' : '🔕');
+    });
+
     // ============================================================
     // Profile
     // ============================================================
@@ -1114,13 +1402,53 @@
     $$('.js-profile-btn').forEach(btn => btn.addEventListener('click', showProfile));
 
     $('#edit-profile-btn').addEventListener('click', () => {
-        const currentName = $('#user-name').textContent;
-        const newName = prompt('Как тебя зовут?', currentName);
-        if (newName && newName.trim()) {
-            const name = newName.trim().slice(0, 20);
-            $('#user-name').textContent = name;
-            localStorage.setItem('vibe_user_name', name);
-            Toast.show('Имя сохранено!', '👤');
+        if (!state.user) return;
+        $('#profile-view-mode').hidden = true;
+        $('#profile-edit-mode').hidden = false;
+        $('#edit-name').value = state.user.name;
+        
+        // Render avatar options in edit mode
+        const grid = $('#edit-avatar-grid');
+        grid.innerHTML = '';
+        state.avatarOptions.forEach(url => {
+            const opt = document.createElement('div');
+            opt.className = `avatar-option ${url === state.user.avatar ? 'is-selected' : ''}`;
+            opt.innerHTML = `<img src="${url}" alt="Avatar">`;
+            opt.addEventListener('click', () => {
+                $$('.avatar-option', grid).forEach(el => el.classList.remove('is-selected'));
+                opt.classList.add('is-selected');
+                state.tempEditAvatar = url;
+            });
+            grid.appendChild(opt);
+        });
+        state.tempEditAvatar = state.user.avatar;
+    });
+
+    $('#cancel-edit-btn').addEventListener('click', () => {
+        $('#profile-view-mode').hidden = false;
+        $('#profile-edit-mode').hidden = true;
+    });
+
+    $('#save-profile-btn').addEventListener('click', () => {
+        const newName = $('#edit-name').value.trim();
+        if (!newName) {
+            $('#edit-name').classList.add('is-invalid');
+            return;
+        }
+        
+        if (state.user) {
+            state.user.name = newName.slice(0, 20);
+            state.user.avatar = state.tempEditAvatar;
+            Storage.saveUser(state.user);
+            
+            // Sync UI
+            $('#user-name').textContent = state.user.name;
+            $('#user-avatar-big').src = state.user.avatar;
+            $$('.profile-btn__img').forEach(img => img.src = state.user.avatar);
+            
+            Toast.show(i18n.t('toast_name_saved'), '👤');
+            $('#profile-view-mode').hidden = false;
+            $('#profile-edit-mode').hidden = true;
         }
     });
 
@@ -1135,10 +1463,10 @@
     $$('.js-locate-btn').forEach(btn => {
         btn.addEventListener('click', () => {
             if (!navigator.geolocation) {
-                Toast.show('Геолокация недоступна', '⚠️');
+                Toast.show(i18n.t('toast_loc_error'), '⚠️');
                 return;
             }
-            Toast.show('Определяю местоположение...', '📍');
+            Toast.show(i18n.t('toast_loc_finding'), '📍');
             navigator.geolocation.getCurrentPosition(
                 pos => {
                     const { latitude, longitude } = pos.coords;
@@ -1146,9 +1474,9 @@
                     L.circleMarker([latitude, longitude], {
                         radius: 8, fillColor: '#3b82f6', fillOpacity: 1, color: 'white', weight: 3
                     }).addTo(map).bindPopup('Вы здесь');
-                    Toast.show('Вы здесь!', '📍');
+                    Toast.show(i18n.t('toast_loc_success'), '📍');
                 },
-                () => Toast.show('Не удалось определить местоположение', '⚠️')
+                () => Toast.show(i18n.t('toast_loc_error'), '⚠️')
             );
         });
     });
@@ -1234,7 +1562,7 @@
     });
 
     $('#checkin-btn').addEventListener('click', () => {
-        Toast.show('Делись своим вайбом!', '✨');
+        Toast.show(i18n.t('welcome_subtitle'), '✨');
         $('#panel-left').classList.add('is-mobile-open', 'is-expanded');
         updateMobileTabs('left');
     });
@@ -1374,7 +1702,7 @@
         Storage.saveEvents(state.events);
         renderMarkers();
         renderEvents();
-        Toast.show('Новое событие добавлено!', '✨');
+        Toast.show(i18n.t('toast_update'), '✨');
     };
 
     // ============================================================
@@ -1401,7 +1729,7 @@
             renderHotList();
             renderTopList();
             renderPulse();
-            Toast.show('Данные обновлены', '🔄');
+            Toast.show(i18n.t('toast_update'), '🔄');
         } else if (e.key === EVENTS_KEY) {
             state.events = Storage.loadEvents();
             renderMarkers();
@@ -1410,10 +1738,94 @@
     });
 
     // ============================================================
+    // Auth module
+    // ============================================================
+
+    const Auth = {
+        selectedAvatar: null,
+        avatars: [],
+
+        init() {
+            if (!state.user) {
+                this.showRegistration();
+            } else {
+                this.updateUI();
+            }
+
+            $('#register-submit-btn').addEventListener('click', () => this.handleRegister());
+            
+            // Allow selecting avatar
+            $('#avatar-grid').addEventListener('click', (e) => {
+                const option = e.target.closest('.avatar-option');
+                if (option) {
+                    $$('.avatar-option').forEach(el => el.classList.remove('is-selected'));
+                    option.classList.add('is-selected');
+                    this.selectedAvatar = option.dataset.url;
+                }
+            });
+        },
+
+        showRegistration() {
+            const overlay = $('#register-overlay');
+            overlay.hidden = false;
+
+            // Generate random avatars
+            const grid = $('#avatar-grid');
+            const seeds = ['Felix', 'Aneka', 'Milo', 'Max', 'Luna', 'Jack', 'Zoe', 'Leo'];
+            this.avatars = seeds.map(s => `https://api.dicebear.com/7.x/avataaars/svg?seed=${s + Math.random()}`);
+            
+            grid.innerHTML = this.avatars.map((url, i) => `
+                <div class="avatar-option ${i === 0 ? 'is-selected' : ''}" data-url="${url}">
+                    <img src="${url}" alt="Avatar ${i}">
+                </div>
+            `).join('');
+            
+            this.selectedAvatar = this.avatars[0];
+            refreshIcons();
+        },
+
+        handleRegister() {
+            const nameInput = $('#reg-name');
+            const name = nameInput.value.trim();
+
+            if (!name) {
+                nameInput.classList.add('is-invalid');
+                Toast.show(i18n.t('reg_name_label'), '🤔');
+                return;
+            }
+
+            state.user = {
+                name: name,
+                avatar: this.selectedAvatar,
+                regDate: Date.now()
+            };
+
+            Storage.saveUser(state.user);
+            this.updateUI();
+            
+            $('#register-overlay').hidden = true;
+            Toast.show(`${state.lang === 'ru' ? 'Привет' : state.lang === 'en' ? 'Hello' : 'Salom'}, ${name}!`, '👋');
+            
+            // Update seed feed names with actual user name for some items
+            seedFeedIfEmpty();
+        },
+
+        updateUI() {
+            if (!state.user) return;
+            const nameEls = $$('#user-name');
+            const avatarEls = $$('.profile-btn__img, #user-avatar-big');
+            
+            nameEls.forEach(el => el.textContent = state.user.name);
+            avatarEls.forEach(el => el.src = state.user.avatar);
+        }
+    };
+
+    // ============================================================
     // Init
     // ============================================================
 
     function init() {
+        Auth.init();
         seedFeedIfEmpty();
         renderMarkers();
         renderHotList();
@@ -1422,6 +1834,7 @@
         renderFeed();
         renderEvents();
         showDefaultView();
+        i18n.updateDOM();
         refreshIcons();
     }
 
