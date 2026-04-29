@@ -2005,10 +2005,16 @@
         METRO_LINES.forEach(line => {
             line.stations.forEach(s => {
                 const icon = L.divIcon({
-                    className: 'metro-map-marker',
-                    html: `<div style="width: 12px; height: 12px; background: ${line.color}; border: 2px solid white; border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.3);"></div>`,
-                    iconSize: [12, 12],
-                    iconAnchor: [6, 6]
+                    className: 'metro-icon-marker',
+                    html: `
+                        <div style="position: relative; width: 24px; height: 24px;">
+                            <div style="position: absolute; inset: -4px; background: ${line.color}; border-radius: 50%; opacity: 0.3; filter: blur(4px);"></div>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BC%D0%B5%D1%82%D1%80%D0%BE_%D0%B2_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5_%D0%B1%D1%80%D0%B5%D0%BD%D0%B4%D0%B0_%D0%BC%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0.svg/1280px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BC%D0%B5%D1%82%D1%80%D0%BE_%D0%B2_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5_%D0%B1%D1%80%D0%B5%D0%BD%D0%B4%D0%B0_%D0%BC%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0.svg.png" 
+                                 style="width: 24px; height: 24px; display: block; position: relative; z-index: 1;">
+                        </div>
+                    `,
+                    iconSize: [24, 24],
+                    iconAnchor: [12, 12]
                 });
 
                 L.marker(s.coords, { icon: icon })
