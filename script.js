@@ -603,7 +603,9 @@
     };
 
     const GooglePlaces = {
+        cache: new Map(), // Кэш для URL фотографий
         async getPhotoUrl(placeName) {
+            if (this.cache.has(placeName)) return this.cache.get(placeName);
             if (!GOOGLE_API_KEY) return null;
             try {
                 await loadGoogleSDK();
@@ -611,19 +613,20 @@
 
                 const request = {
                     textQuery: placeName,
-                    fields: ['photos', 'displayName', 'id'],
+                    fields: ['photos'],
                     language: 'ru'
                 };
 
                 const { places } = await Place.searchByText(request);
 
                 if (places && places.length > 0 && places[0].photos && places[0].photos.length > 0) {
-                    // Use the new getURI method for the first photo
-                    return places[0].photos[0].getURI({ maxWidth: 800 });
+                    const url = places[0].photos[0].getURI({ maxWidth: 800 });
+                    this.cache.set(placeName, url);
+                    return url;
                 }
                 return null;
             } catch (e) {
-                console.error("Google Places (New) Error:", e);
+                console.error("Google Places Error:", e);
                 return null;
             }
         }
@@ -635,44 +638,56 @@
             const seed = encodeURIComponent(place.name.replace(/\s+/g, '-').toLowerCase());
             return `https://loremflickr.com/800/450/${place.category || 'city'},modern?lock=${seed}`;
         },
+        async preload() {
+            // Предзагружаем фото для всех мест в фоне
+            state.places.forEach(async p => {
+                const url = await GooglePlaces.getPhotoUrl(p.name);
+                if (url) {
+                    const img = new Image();
+                    img.src = url; // Браузер закэширует саму картинку
+                }
+            });
+        },
         async renderHero(place, container) {
             const cat = CATEGORY_META[place.category] || { emoji: '📍', color: 'var(--accent)' };
+            
+            // Если URL уже в кэше, показываем его без задержки
+            const cachedUrl = GooglePlaces.cache.get(place.name);
+            let url = cachedUrl;
+
             const fallback = `
-                <div class="place__hero-fallback" id="hero-fallback" style="background: linear-gradient(135deg, ${cat.color}, ${cat.color}88);">
+                <div class="place__hero-fallback" id="hero-fallback" style="background: linear-gradient(135deg, ${cat.color}, ${cat.color}88); display: ${url ? 'none' : 'grid'};">
                     <span>${cat.emoji}</span>
                 </div>`;
 
             container.innerHTML = `
-                <div class="place__hero-img skeleton is-loading" id="hero-img"></div>
+                <div class="place__hero-img ${url ? '' : 'skeleton is-loading'}" id="hero-img" ${url ? `style="background-image: url('${url}'); opacity: 1;"` : ''}></div>
                 ${fallback}
                 <div class="place__hero-overlay"></div>
                 <div class="place__hero-status" id="hero-status"></div>`;
 
-            let url = await GooglePlaces.getPhotoUrl(place.name);
-            if (!url) url = this.primaryFor(place);
+            if (!url) {
+                url = await GooglePlaces.getPhotoUrl(place.name);
+                if (!url) url = this.primaryFor(place);
 
-            const img = new Image();
-            img.onload = () => {
-                const el = container.querySelector('#hero-img');
-                const fb = container.querySelector('#hero-fallback');
-                if (el) {
-                    el.style.backgroundImage = `url('${url}')`;
-                    el.classList.remove('skeleton', 'is-loading');
-                }
-                if (fb) fb.style.display = 'none';
-            };
-            img.onerror = () => {
-                const el = container.querySelector('#hero-img');
-                const fb = container.querySelector('#hero-fallback');
-                if (el) el.remove();
-                if (fb) fb.style.display = 'flex';
-            };
-            img.src = url;
+                const img = new Image();
+                img.onload = () => {
+                    const el = container.querySelector('#hero-img');
+                    const fb = container.querySelector('#hero-fallback');
+                    if (el) {
+                        el.style.backgroundImage = `url('${url}')`;
+                        el.classList.remove('skeleton', 'is-loading');
+                        el.style.opacity = '1';
+                    }
+                    if (fb) fb.style.display = 'none';
+                };
+                img.src = url;
+            }
         },
         thumbFor(place) {
             const cat = CATEGORY_META[place.category] || { emoji: '📍', color: 'var(--accent)' };
             return {
-                url: this.primaryFor(place),
+                url: GooglePlaces.cache.get(place.name) || this.primaryFor(place),
                 fallback: `linear-gradient(135deg, ${cat.color}, ${cat.color}88)`,
                 emoji: cat.emoji
             };
@@ -2074,6 +2089,9 @@
         showDefaultView();
         i18n.updateDOM();
         refreshIcons();
+
+        // Фоновая предзагрузка фото для "мгновенного" отображения
+        Images.preload();
     }
 
     if (document.readyState === 'loading') {
