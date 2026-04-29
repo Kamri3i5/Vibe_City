@@ -1420,20 +1420,7 @@
     });
 
     // ============================================================
-    // Metro Map
-    // ============================================================
-
-    $$('.js-metro-btn').forEach(btn => btn.addEventListener('click', () => {
-        $('#metro-overlay').hidden = false;
-    }));
-
-    $('#metro-close-btn').addEventListener('click', () => {
-        $('#metro-overlay').hidden = true;
-    });
-
-    $('#metro-overlay').addEventListener('click', (e) => {
-        if (e.target.id === 'metro-overlay') $('#metro-overlay').hidden = true;
-    });
+    // Profile
 
     // ============================================================
     // Profile
@@ -1718,10 +1705,135 @@
             });
         }
 
-        return { init };
+        // ============================================================
+    // Interactive Metro Map
+    // ============================================================
+
+    const MetroMap = (() => {
+        const lines = [
+            {
+                id: 'chilanzar',
+                color: '#ef4444',
+                label: 'Chilonzor',
+                stations: [
+                    { name: 'Chinor', x: 50, y: 550, coords: [41.2222, 69.1950] },
+                    { name: 'Yangihayot', x: 100, y: 500, coords: [41.2350, 69.2050] },
+                    { name: 'Chilonzor', x: 150, y: 450, coords: [41.2730, 69.2085] },
+                    { name: 'Novza', x: 200, y: 400, coords: [41.2858, 69.2131] },
+                    { name: 'Bunyodkor', x: 250, y: 350, coords: [41.3031, 69.2405] },
+                    { name: 'Paxtakor', x: 350, y: 250, coords: [41.3125, 69.2625], transfer: 'uzbekistan' },
+                    { name: 'Mustaqillik', x: 450, y: 250, coords: [41.3150, 69.2700] },
+                    { name: 'Amir Temur', x: 550, y: 250, coords: [41.3111, 69.2789], transfer: 'yunusabad' },
+                    { name: 'Hamid Olimjon', x: 650, y: 200, coords: [41.3210, 69.2890] },
+                    { name: 'B.I.Yuli', x: 750, y: 150, coords: [41.3260, 69.3270] }
+                ]
+            },
+            {
+                id: 'uzbekistan',
+                color: '#3b82f6',
+                label: 'Oʻzbekiston',
+                stations: [
+                    { name: 'Beruniy', x: 100, y: 100, coords: [41.3450, 69.2050] },
+                    { name: 'Tinchlik', x: 150, y: 150, coords: [41.3380, 69.2180] },
+                    { name: 'Chorsu', x: 200, y: 200, coords: [41.3264, 69.2292] },
+                    { name: 'A.Navoiy', x: 350, y: 250, coords: [41.3140, 69.2580], transfer: 'chilanzar' },
+                    { name: 'Kosmonavtlar', x: 450, y: 350, coords: [41.3065, 69.2650] },
+                    { name: 'Oybek', x: 550, y: 450, coords: [41.2980, 69.2750], transfer: 'yunusabad' },
+                    { name: 'Toshkent', x: 650, y: 500, coords: [41.3010, 69.2880] },
+                    { name: 'Doʻstlik', x: 750, y: 550, coords: [41.2950, 69.3180] }
+                ]
+            },
+            {
+                id: 'yunusabad',
+                color: '#10b981',
+                label: 'Yunusobod',
+                stations: [
+                    { name: 'Turkiston', x: 550, y: 50, coords: [41.3650, 69.2900] },
+                    { name: 'Yunusobod', x: 550, y: 100, coords: [41.3550, 69.2880] },
+                    { name: 'Bodomzor', x: 550, y: 150, coords: [41.3420, 69.2850] },
+                    { name: 'Minor', x: 550, y: 200, coords: [41.3280, 69.2820] },
+                    { name: 'Y.Rajabiy', x: 550, y: 250, coords: [41.3115, 69.2795], transfer: 'chilanzar' },
+                    { name: 'Ming Oʻrik', x: 550, y: 450, coords: [41.3000, 69.2755], transfer: 'uzbekistan' }
+                ]
+            }
+        ];
+
+        function render() {
+            const container = $('#metro-map-svg-container');
+            if (!container) return;
+
+            const svg = `
+                <svg viewBox="0 0 850 650" width="100%" height="100%" class="metro-svg" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                            <feGaussianBlur stdDeviation="3" result="blur" />
+                            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                        </filter>
+                    </defs>
+                    
+                    <!-- Lines -->
+                    ${lines.map(line => `
+                        <path d="M ${line.stations.map(s => `${s.x},${s.y}`).join(' L ')}" 
+                              fill="none" 
+                              stroke="${line.color}" 
+                              stroke-width="8" 
+                              stroke-linecap="round" 
+                              stroke-linejoin="round"
+                              opacity="0.8" />
+                    `).join('')}
+
+                    <!-- Stations -->
+                    ${lines.flatMap(line => line.stations.map(s => `
+                        <g class="metro-node" data-name="${s.name}" data-coords="${s.coords.join(',')}" style="cursor: pointer;">
+                            <circle cx="${s.x}" cy="${s.y}" r="${s.transfer ? 8 : 6}" 
+                                    fill="${s.transfer ? 'white' : line.color}" 
+                                    stroke="${line.color}" 
+                                    stroke-width="3" />
+                            <text x="${s.x + 12}" y="${s.y + 4}" 
+                                  fill="currentColor" 
+                                  font-size="12" 
+                                  font-weight="${s.transfer ? 'bold' : 'normal'}"
+                                  class="metro-text">${s.name}</text>
+                        </g>
+                    `)).join('')}
+                </svg>
+            `;
+
+            container.innerHTML = svg;
+
+            // Events
+            $$('.metro-node', container).forEach(node => {
+                node.addEventListener('click', () => {
+                    const coords = node.dataset.coords.split(',').map(Number);
+                    const name = node.dataset.name;
+                    
+                    $('#metro-overlay').hidden = true;
+                    map.flyTo(coords, 16, { duration: 1.5 });
+                    
+                    L.popup()
+                        .setLatLng(coords)
+                        .setContent(`<div class="popup-vibe"><strong>${name}</strong><br>Metro Station</div>`)
+                        .openOn(map);
+                });
+            });
+        }
+
+        return { render };
     })();
 
-    MobileSwipe.init();
+    // Initialize metro map when overlay opens
+    $$('.js-metro-btn').forEach(btn => btn.addEventListener('click', () => {
+        $('#metro-overlay').hidden = false;
+        MetroMap.render();
+    }));
+
+    $('#metro-close-btn').addEventListener('click', () => {
+        $('#metro-overlay').hidden = true;
+    });
+
+    $('#metro-overlay').addEventListener('click', (e) => {
+        if (e.target.id === 'metro-overlay') $('#metro-overlay').hidden = true;
+    });
 
     // ============================================================
     // External: parser hook (kept for compatibility)
