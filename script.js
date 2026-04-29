@@ -2038,9 +2038,9 @@
                                 font-size: 12px; 
                                 font-weight: 600; 
                                 color: var(--text-secondary); 
-                                text-shadow: 0 0 3px white, 0 0 3px white;
+                                text-shadow: 0 0 4px var(--bg-panel);
                                 white-space: nowrap;
-                                opacity: 0.8;
+                                opacity: 0.7;
                                 pointer-events: none;
                             ">${s.name}</span>
                         </div>
