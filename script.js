@@ -2001,12 +2001,15 @@
         }
     ];
 
+    let metroLayer = L.layerGroup();
+
     function renderMetroMarkers() {
-        // Создаем отдельный слой для метро, чтобы он был ПОД ивентами
         if (!map.getPane('metroPane')) {
             map.createPane('metroPane');
-            map.getPane('metroPane').style.zIndex = 250; // Ниже обычных маркеров (600)
+            map.getPane('metroPane').style.zIndex = 250;
         }
+
+        metroLayer.clearLayers();
 
         METRO_LINES.forEach(line => {
             line.stations.forEach(s => {
@@ -2035,10 +2038,24 @@
                     icon: icon,
                     pane: 'metroPane',
                     interactive: false 
-                }).addTo(map);
+                }).addTo(metroLayer);
             });
         });
+
+        // Первоначальная проверка зума
+        updateMetroVisibility();
     }
+
+    function updateMetroVisibility() {
+        if (map.getZoom() >= 13) {
+            if (!map.hasLayer(metroLayer)) metroLayer.addTo(map);
+        } else {
+            if (map.hasLayer(metroLayer)) map.removeLayer(metroLayer);
+        }
+    }
+
+    // Слушатель изменения зума
+    map.on('zoomend', updateMetroVisibility);
 
     // ============================================================
     // Init
