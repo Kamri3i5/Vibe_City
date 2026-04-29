@@ -1919,7 +1919,7 @@
             }
 
             google.accounts.id.initialize({
-                client_id: "872223841122-k8h819894v2is95r9kclm8d4g56561k4.apps.googleusercontent.com", // Вставьте ваш Client ID сюда
+                client_id: "967135382385-eghfamejucht6odhrlrv53h8dc0gddgm.apps.googleusercontent.com", // Ваш официальный Client ID
                 callback: (res) => this.handleGoogleResponse(res)
             });
 
