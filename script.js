@@ -570,7 +570,7 @@
     // ============================================================
     // CONFIGURATION
     // ============================================================
-    const GOOGLE_API_KEY = typeof CONFIG !== 'undefined' ? CONFIG.GOOGLE_API_KEY : ""; 
+    const GOOGLE_API_KEY = "AIzaSyCNa5mvKKVyfhsftHfBvk7xS_s694Ms27E"; 
 
     // ============================================================
     // Image system (Official Google SDK + Fallbacks)
