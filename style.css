@@ -1,5 +1,5 @@
-/* ============================================================
-   VibeCity — Design System
+﻿/* ============================================================
+   VibeCity â€” Design System
    ============================================================ */
 
 :root {
@@ -1062,7 +1062,7 @@ img { display: block; max-width: 100%; }
 }
 
 /* ============================================================
-   Place Detail (right panel — replaces default view)
+   Place Detail (right panel â€” replaces default view)
    ============================================================ */
 
 .place {
@@ -1976,11 +1976,11 @@ img { display: block; max-width: 100%; }
 
 .toast span { font-size: 1.2em; }
 
-[data-cat="Развлечения"] { --cat: var(--cat-fun); }
-[data-cat="Еда"] { --cat: var(--cat-food); }
-[data-cat="Парк"] { --cat: var(--cat-park); }
-[data-cat="Культура"] { --cat: var(--cat-culture); }
-[data-cat="Шопинг"] { --cat: var(--cat-shop); }
+[data-cat="Ð Ð°Ð·Ð²Ð»ÐµÑ‡ÐµÐ½Ð¸Ñ"] { --cat: var(--cat-fun); }
+[data-cat="Ð•Ð´Ð°"] { --cat: var(--cat-food); }
+[data-cat="ÐŸÐ°Ñ€Ðº"] { --cat: var(--cat-park); }
+[data-cat="ÐšÑƒÐ»ÑŒÑ‚ÑƒÑ€Ð°"] { --cat: var(--cat-culture); }
+[data-cat="Ð¨Ð¾Ð¿Ð¸Ð½Ð³"] { --cat: var(--cat-shop); }
 
 .sr-only {
     position: absolute;
@@ -2161,27 +2161,37 @@ img { display: block; max-width: 100%; }
     color: white;
 }
 
+
 /* Metro Map Mobile Improvements */
 .metro-map-container {
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     cursor: grab;
+    background: #0b0f1a !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.metro-map-container:active {
+    cursor: grabbing;
 }
 .metro-map-container::-webkit-scrollbar {
     display: none;
 }
 .metro-svg {
-    min-width: 800px; /* ????????? ?????? ??? ??????????? ??????? ?? ????????? */
+    min-width: 600px;
     height: auto;
     transition: transform 0.3s ease;
+}
+.metro-text {
+    font-family: 'Inter', sans-serif !important;
+    fill: #f8fafc !important;
 }
 @media (max-width: 768px) {
     .metro-map-container {
         padding: 10px !important;
-        justify-content: flex-start !important;
-        align-items: flex-start !important;
-    }
-    .metro-text {
-        font-size: 14px !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 }

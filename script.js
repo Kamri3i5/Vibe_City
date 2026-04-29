@@ -1774,9 +1774,9 @@
             }
 
             const isMobile = window.innerWidth <= 768;
-            const nodeRadius = isMobile ? 8 : 6;
-            const transferRadius = isMobile ? 10 : 8;
-            const fontSize = isMobile ? 16 : 12;
+            const nodeRadius = isMobile ? 6 : 5;
+            const transferRadius = isMobile ? 8 : 7;
+            const fontSize = isMobile ? 13 : 11;
 
             const svg = `
                 <svg viewBox="0 0 850 650" class="metro-svg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
@@ -1792,30 +1792,30 @@
                         <path d="M ${line.stations.map(s => `${s.x},${s.y}`).join(' L ')}" 
                               fill="none" 
                               stroke="${line.color}" 
-                              stroke-width="${isMobile ? 10 : 8}" 
+                              stroke-width="${isMobile ? 8 : 6}" 
                               stroke-linecap="round" 
                               stroke-linejoin="round"
-                              opacity="0.9" />
+                              opacity="1" />
                     `).join('')}
 
                     <!-- Stations -->
                     ${lines.flatMap(line => line.stations.map(s => {
-                        let dx = 14, dy = 5, anchor = 'start';
-                        if (s.labelPos === 'top') { dx = 0; dy = -20; anchor = 'middle'; }
-                        if (s.labelPos === 'bottom') { dx = 0; dy = 28; anchor = 'middle'; }
-                        if (s.labelPos === 'left') { dx = -14; dy = 5; anchor = 'end'; }
-                        if (s.labelPos === 'right') { dx = 14; dy = 5; anchor = 'start'; }
+                        let dx = 12, dy = 4, anchor = 'start';
+                        if (s.labelPos === 'top') { dx = 0; dy = -16; anchor = 'middle'; }
+                        if (s.labelPos === 'bottom') { dx = 0; dy = 24; anchor = 'middle'; }
+                        if (s.labelPos === 'left') { dx = -12; dy = 4; anchor = 'end'; }
+                        if (s.labelPos === 'right') { dx = 12; dy = 4; anchor = 'start'; }
 
                         return `
                             <g class="metro-node" data-name="${s.name}" data-coords="${s.coords.join(',')}" style="cursor: pointer;">
                                 <circle cx="${s.x}" cy="${s.y}" r="${s.transfer ? transferRadius : nodeRadius}" 
                                         fill="${s.transfer ? 'white' : line.color}" 
                                         stroke="${line.color}" 
-                                        stroke-width="3" />
+                                        stroke-width="2.5" />
                                 <text x="${s.x + dx}" y="${s.y + dy}" 
                                       fill="currentColor" 
                                       font-size="${fontSize}" 
-                                      font-weight="${s.transfer ? 'bold' : 'normal'}"
+                                      font-weight="${s.transfer ? 'bold' : '500'}"
                                       text-anchor="${anchor}"
                                       class="metro-text">${s.name}</text>
                             </g>
