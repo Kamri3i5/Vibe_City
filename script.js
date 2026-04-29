@@ -70,12 +70,19 @@
             toast_update: "Данные обновлены",
             share: "Поделиться",
             toast_shared: "Ссылка скопирована!",
+            feed_in: "в",
             save_btn: "Сохранить",
             edit_avatar: "Изменить аватар",
             empty_feed: "Пока тихо",
             empty_events: "Скоро появится",
             empty_search: "Ничего не нашлось",
-            anon_user: "Кто-то"
+            anon_user: "Кто-то",
+            time_now: "только что",
+            time_min: "мин назад",
+            time_hour: "ч назад",
+            time_day: "д назад",
+            time_actual: "актуально",
+            time_old: "устарело"
         },
         en: {
             brand_status: "Tashkent · Live",
@@ -130,12 +137,19 @@
             toast_update: "Data updated",
             share: "Share",
             toast_shared: "Link copied!",
+            feed_in: "at",
             save_btn: "Save",
             edit_avatar: "Change Avatar",
             empty_feed: "Quiet for now",
             empty_events: "Coming soon",
             empty_search: "No results",
-            anon_user: "Someone"
+            anon_user: "Someone",
+            time_now: "just now",
+            time_min: "min ago",
+            time_hour: "h ago",
+            time_day: "d ago",
+            time_actual: "active",
+            time_old: "stale"
         },
         uz: {
             brand_status: "Toshkent · Live",
@@ -190,12 +204,19 @@
             toast_update: "Ma'lumotlar yangilandi",
             share: "Ulashish",
             toast_shared: "Havola nusxalandi!",
+            feed_in: "joyida",
             save_btn: "Saqlash",
             edit_avatar: "Avatarni o'zgartirish",
             empty_feed: "Hozircha tinch",
             empty_events: "Tez orada",
             empty_search: "Hech narsa topilmadi",
-            anon_user: "Kimdir"
+            anon_user: "Kimdir",
+            time_now: "hozirgina",
+            time_min: "daq oldin",
+            time_hour: "soat oldin",
+            time_day: "kun oldin",
+            time_actual: "faol",
+            time_old: "eskirgan"
         }
     };
 
@@ -502,22 +523,22 @@
     function getFreshness(lastUpdate) {
         const diff = Date.now() - (lastUpdate || 0);
         const min = Math.floor(diff / 60000);
-        if (min < 1) return { text: 'Только что', cls: '' };
-        if (min < 60) return { text: `${min} мин назад`, cls: '' };
+        if (min < 1) return { text: i18n.t('time_now'), cls: '' };
+        if (min < 60) return { text: `${min} ${i18n.t('time_min')}`, cls: '' };
         const hr = Math.floor(min / 60);
-        if (hr < 3) return { text: `${hr} ч назад · актуально`, cls: 'is-stale' };
-        return { text: `${hr} ч назад · устарело`, cls: 'is-old' };
+        if (hr < 3) return { text: `${hr} ${i18n.t('time_hour')} · ${i18n.t('time_actual')}`, cls: 'is-stale' };
+        return { text: `${hr} ${i18n.t('time_hour')} · ${i18n.t('time_old')}`, cls: 'is-old' };
     }
 
     function relativeTime(ts) {
         const diff = Date.now() - ts;
         const sec = Math.floor(diff / 1000);
-        if (sec < 60) return 'только что';
+        if (sec < 60) return i18n.t('time_now');
         const min = Math.floor(sec / 60);
-        if (min < 60) return `${min} мин назад`;
+        if (min < 60) return `${min} ${i18n.t('time_min')}`;
         const hr = Math.floor(min / 60);
-        if (hr < 24) return `${hr} ч назад`;
-        return `${Math.floor(hr / 24)} д назад`;
+        if (hr < 24) return `${hr} ${i18n.t('time_hour')}`;
+        return `${Math.floor(hr / 24)} ${i18n.t('time_day')}`;
     }
 
     function fmtNumber(n) {
@@ -1031,7 +1052,7 @@
                 <li class="feed-item" data-place="${escapeHtml(item.place)}">
                     <div class="feed-item__icon feed-item__icon--${meta.key}">${item.vibe}</div>
                     <div class="feed-item__text">
-                        <strong>${escapeHtml(item.anon || i18n.t('anon_user'))}</strong> in <strong>${escapeHtml(item.place)}</strong>
+                        <strong>${escapeHtml(item.anon || i18n.t('anon_user'))}</strong> ${i18n.t('feed_in')} <strong>${escapeHtml(item.place)}</strong>
                         <div class="feed-item__time">${relativeTime(item.ts)}</div>
                     </div>
                 </li>`;

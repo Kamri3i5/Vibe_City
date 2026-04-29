@@ -43,10 +43,10 @@
     --cat-shop: #ec4899;
 
     /* Layout */
-    --header-h: 64px;
+    --header-h: 80px;
     --left-w: 320px;
     --right-w: 380px;
-    --gap: 12px;
+    --gap: 20px;
 
     /* Effects */
     --blur: 24px;
@@ -641,13 +641,13 @@ img { display: block; max-width: 100%; }
 .panel-toggle svg { width: 14px; height: 14px; transition: transform var(--t) var(--ease); }
 
 .panel-toggle--left {
-    left: calc(var(--left-w) + var(--gap) + 2px);
+    left: calc(var(--left-w) + var(--gap) + 1px);
     border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
     border-left: none;
 }
 
 .panel-toggle--right {
-    right: calc(var(--right-w) + var(--gap) + 2px);
+    right: calc(var(--right-w) + var(--gap) + 1px);
     border-radius: var(--radius-sm) 0 0 var(--radius-sm);
     border-right: none;
 }
