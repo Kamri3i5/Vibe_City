@@ -2162,7 +2162,7 @@ img { display: block; max-width: 100%; }
 }
 
 
-/* Metro Map Theme Fix */
+/* Metro Map Theme & Aspect Ratio Fix */
 .metro-map-container {
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
@@ -2173,6 +2173,7 @@ img { display: block; max-width: 100%; }
     justify-content: center;
     padding: 30px;
     border-radius: var(--radius-lg);
+    overflow: auto;
 }
 .metro-map-container:active {
     cursor: grabbing;
@@ -2181,9 +2182,12 @@ img { display: block; max-width: 100%; }
     display: none;
 }
 .metro-svg {
-    min-width: 600px;
-    height: auto;
+    min-width: 650px;
+    width: 100% !important;
+    height: auto !important;
+    display: block;
     transition: transform 0.3s ease;
+    flex-shrink: 0; /* Чтобы flexbox не сплющивал SVG */
 }
 .metro-text {
     font-family: 'Inter', sans-serif !important;
@@ -2193,7 +2197,7 @@ img { display: block; max-width: 100%; }
 @media (max-width: 768px) {
     .metro-map-container {
         padding: 10px !important;
-        justify-content: center !important;
+        justify-content: flex-start !important;
         align-items: center !important;
     }
 }

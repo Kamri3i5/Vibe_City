@@ -1731,7 +1731,7 @@
             const fontSize = isMobile ? 13 : 11;
 
             const svg = `
-                <svg viewBox="0 0 850 650" class="metro-svg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+                <svg viewBox="0 0 850 650" width="100%" height="auto" class="metro-svg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
                     <defs>
                         <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
                             <feGaussianBlur stdDeviation="3" result="blur" />
