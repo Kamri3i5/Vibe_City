@@ -2160,3 +2160,28 @@ img { display: block; max-width: 100%; }
     background: var(--accent);
     color: white;
 }
+
+/* Metro Map Mobile Improvements */
+.metro-map-container {
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    cursor: grab;
+}
+.metro-map-container::-webkit-scrollbar {
+    display: none;
+}
+.metro-svg {
+    min-width: 800px; /* ????????? ?????? ??? ??????????? ??????? ?? ????????? */
+    height: auto;
+    transition: transform 0.3s ease;
+}
+@media (max-width: 768px) {
+    .metro-map-container {
+        padding: 10px !important;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+    }
+    .metro-text {
+        font-size: 14px !important;
+    }
+}

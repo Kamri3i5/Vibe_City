@@ -1767,8 +1767,19 @@
             const container = $('#metro-map-svg-container');
             if (!container) return;
 
+            // На мобильных убираем центрирование через стили
+            if (window.innerWidth <= 768) {
+                container.style.justifyContent = 'flex-start';
+                container.style.alignItems = 'flex-start';
+            }
+
+            const isMobile = window.innerWidth <= 768;
+            const nodeRadius = isMobile ? 8 : 6;
+            const transferRadius = isMobile ? 10 : 8;
+            const fontSize = isMobile ? 16 : 12;
+
             const svg = `
-                <svg viewBox="0 0 850 650" width="100%" height="100%" class="metro-svg" xmlns="http://www.w3.org/2000/svg">
+                <svg viewBox="0 0 850 650" class="metro-svg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
                     <defs>
                         <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
                             <feGaussianBlur stdDeviation="3" result="blur" />
@@ -1781,29 +1792,29 @@
                         <path d="M ${line.stations.map(s => `${s.x},${s.y}`).join(' L ')}" 
                               fill="none" 
                               stroke="${line.color}" 
-                              stroke-width="8" 
+                              stroke-width="${isMobile ? 10 : 8}" 
                               stroke-linecap="round" 
                               stroke-linejoin="round"
-                              opacity="0.8" />
+                              opacity="0.9" />
                     `).join('')}
 
                     <!-- Stations -->
                     ${lines.flatMap(line => line.stations.map(s => {
-                        let dx = 12, dy = 4, anchor = 'start';
-                        if (s.labelPos === 'top') { dx = 0; dy = -15; anchor = 'middle'; }
-                        if (s.labelPos === 'bottom') { dx = 0; dy = 22; anchor = 'middle'; }
-                        if (s.labelPos === 'left') { dx = -12; dy = 4; anchor = 'end'; }
-                        if (s.labelPos === 'right') { dx = 12; dy = 4; anchor = 'start'; }
+                        let dx = 14, dy = 5, anchor = 'start';
+                        if (s.labelPos === 'top') { dx = 0; dy = -20; anchor = 'middle'; }
+                        if (s.labelPos === 'bottom') { dx = 0; dy = 28; anchor = 'middle'; }
+                        if (s.labelPos === 'left') { dx = -14; dy = 5; anchor = 'end'; }
+                        if (s.labelPos === 'right') { dx = 14; dy = 5; anchor = 'start'; }
 
                         return `
                             <g class="metro-node" data-name="${s.name}" data-coords="${s.coords.join(',')}" style="cursor: pointer;">
-                                <circle cx="${s.x}" cy="${s.y}" r="${s.transfer ? 8 : 6}" 
+                                <circle cx="${s.x}" cy="${s.y}" r="${s.transfer ? transferRadius : nodeRadius}" 
                                         fill="${s.transfer ? 'white' : line.color}" 
                                         stroke="${line.color}" 
                                         stroke-width="3" />
                                 <text x="${s.x + dx}" y="${s.y + dy}" 
                                       fill="currentColor" 
-                                      font-size="12" 
+                                      font-size="${fontSize}" 
                                       font-weight="${s.transfer ? 'bold' : 'normal'}"
                                       text-anchor="${anchor}"
                                       class="metro-text">${s.name}</text>
