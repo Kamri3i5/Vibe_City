@@ -82,7 +82,8 @@
             time_hour: "ч назад",
             time_day: "д назад",
             time_actual: "актуально",
-            time_old: "устарело"
+            time_old: "устарело",
+            metro_map: "Карта метро"
         },
         en: {
             brand_status: "Tashkent · Live",
@@ -149,7 +150,8 @@
             time_hour: "h ago",
             time_day: "d ago",
             time_actual: "active",
-            time_old: "stale"
+            time_old: "stale",
+            metro_map: "Metro Map"
         },
         uz: {
             brand_status: "Toshkent · Live",
@@ -216,7 +218,8 @@
             time_hour: "soat oldin",
             time_day: "kun oldin",
             time_actual: "faol",
-            time_old: "eskirgan"
+            time_old: "eskirgan",
+            metro_map: "Metro xaritasi"
         }
     };
 
@@ -1414,6 +1417,22 @@
             Storage.saveUser(state.user);
         }
         Toast.show(isActive ? i18n.t('toast_notif_on') : i18n.t('toast_notif_off'), isActive ? '🔔' : '🔕');
+    });
+
+    // ============================================================
+    // Metro Map
+    // ============================================================
+
+    $$('.js-metro-btn').forEach(btn => btn.addEventListener('click', () => {
+        $('#metro-overlay').hidden = false;
+    }));
+
+    $('#metro-close-btn').addEventListener('click', () => {
+        $('#metro-overlay').hidden = true;
+    });
+
+    $('#metro-overlay').addEventListener('click', (e) => {
+        if (e.target.id === 'metro-overlay') $('#metro-overlay').hidden = true;
     });
 
     // ============================================================
