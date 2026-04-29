@@ -1910,6 +1910,28 @@
 
             // Google Sign-In Initialization
             this.initGoogleAuth();
+
+            // Logout button
+            $('#logout-btn').addEventListener('click', () => this.logout());
+        },
+
+        logout() {
+            if (!confirm(state.lang === 'ru' ? 'Вы уверены, что хотите выйти?' : 'Are you sure you want to logout?')) return;
+
+            // Clear Google session if active
+            if (state.user && state.user.authMethod === 'google' && typeof google !== 'undefined') {
+                google.accounts.id.disableAutoSelect();
+            }
+
+            // Clear state and storage
+            state.user = null;
+            Storage.saveUser(null);
+            
+            // Show registration again
+            closeProfile();
+            this.showRegistration();
+            
+            Toast.show(state.lang === 'ru' ? 'Вы вышли из системы' : 'Logged out', '👋');
         },
 
         initGoogleAuth() {
