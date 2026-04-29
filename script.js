@@ -374,7 +374,7 @@
             try {
                 const raw = localStorage.getItem(STORAGE_KEY);
                 let places = raw ? JSON.parse(raw) : [...DEFAULT_PLACES];
-                
+
                 // DATA MIGRATION: Ensure new images are applied to existing saved places
                 return places.map(p => {
                     const fresh = DEFAULT_PLACES.find(d => d.name === p.name);
@@ -570,16 +570,16 @@
     // ============================================================
     // CONFIGURATION
     // ============================================================
-    const GOOGLE_API_KEY = "AIzaSyCNa5mvKKVyfhsftHfBvk7xS_s694Ms27E"; 
+    const GOOGLE_API_KEY = "AIzaSyCNa5mvKKVyfhsftHfBvk7xS_s694Ms27E";
 
     // ============================================================
     // Image system (Official Google SDK + Fallbacks)
     // ============================================================
-    
+
     // ============================================================
     // Image system (Modern Google Places API New + Fallbacks)
     // ============================================================
-    
+
     const loadGoogleSDK = () => {
         if (window.google && window.google.maps) return Promise.resolve();
         return new Promise((resolve, reject) => {
@@ -590,7 +590,7 @@
                 v: "weekly"
             });`;
             document.head.appendChild(script);
-            
+
             // Wait for google.maps to be defined
             const check = setInterval(() => {
                 if (window.google && window.google.maps && window.google.maps.importLibrary) {
@@ -1197,7 +1197,7 @@
                 url = await GooglePlaces.getPhotoUrl(name);
                 if (url) place.googleThumb = url;
             }
-            
+
             if (!url) url = Images.primaryFor(place);
 
             const img = new Image();
@@ -1433,7 +1433,7 @@
         $('#profile-view-mode').hidden = true;
         $('#profile-edit-mode').hidden = false;
         $('#edit-name').value = state.user.name;
-        
+
         // Render avatar options in edit mode
         const grid = $('#edit-avatar-grid');
         grid.innerHTML = '';
@@ -1462,17 +1462,17 @@
             $('#edit-name').classList.add('is-invalid');
             return;
         }
-        
+
         if (state.user) {
             state.user.name = newName.slice(0, 20);
             state.user.avatar = state.tempEditAvatar;
             Storage.saveUser(state.user);
-            
+
             // Sync UI
             $('#user-name').textContent = state.user.name;
             $('#user-avatar-big').src = state.user.avatar;
             $$('.profile-btn__img').forEach(img => img.src = state.user.avatar);
-            
+
             Toast.show(i18n.t('toast_name_saved'), '👤');
             $('#profile-view-mode').hidden = false;
             $('#profile-edit-mode').hidden = true;
@@ -1752,13 +1752,13 @@
 
                     <!-- Stations -->
                     ${METRO_LINES.flatMap(line => line.stations.map(s => {
-                        let dx = 12, dy = 4, anchor = 'start';
-                        if (s.labelPos === 'top') { dx = 0; dy = -16; anchor = 'middle'; }
-                        if (s.labelPos === 'bottom') { dx = 0; dy = 24; anchor = 'middle'; }
-                        if (s.labelPos === 'left') { dx = -12; dy = 4; anchor = 'end'; }
-                        if (s.labelPos === 'right') { dx = 12; dy = 4; anchor = 'start'; }
+                let dx = 12, dy = 4, anchor = 'start';
+                if (s.labelPos === 'top') { dx = 0; dy = -16; anchor = 'middle'; }
+                if (s.labelPos === 'bottom') { dx = 0; dy = 24; anchor = 'middle'; }
+                if (s.labelPos === 'left') { dx = -12; dy = 4; anchor = 'end'; }
+                if (s.labelPos === 'right') { dx = 12; dy = 4; anchor = 'start'; }
 
-                        return `
+                return `
                             <g class="metro-node" data-name="${s.name}" data-coords="${s.coords.join(',')}" style="cursor: pointer;">
                                 <circle cx="${s.x}" cy="${s.y}" r="${s.transfer ? transferRadius : nodeRadius}" 
                                         fill="${s.transfer ? 'white' : line.color}" 
@@ -1772,7 +1772,7 @@
                                       class="metro-text">${s.name}</text>
                             </g>
                         `;
-                    })).join('')}
+            })).join('')}
                 </svg>
             `;
 
@@ -1783,10 +1783,10 @@
                 node.addEventListener('click', () => {
                     const coords = node.dataset.coords.split(',').map(Number);
                     const name = node.dataset.name;
-                    
+
                     $('#metro-overlay').hidden = true;
                     map.flyTo(coords, 16, { duration: 1.5 });
-                    
+
                     L.popup()
                         .setLatLng(coords)
                         .setContent(`<div class="popup-vibe"><strong>${name}</strong><br>Metro Station</div>`)
@@ -1882,7 +1882,7 @@
             }
 
             $('#register-submit-btn').addEventListener('click', () => this.handleRegister());
-            
+
             // Allow selecting avatar
             $('#avatar-grid').addEventListener('click', (e) => {
                 const option = e.target.closest('.avatar-option');
@@ -1902,13 +1902,13 @@
             const grid = $('#avatar-grid');
             const seeds = ['Felix', 'Aneka', 'Milo', 'Max', 'Luna', 'Jack', 'Zoe', 'Leo'];
             this.avatars = seeds.map(s => `https://api.dicebear.com/7.x/avataaars/svg?seed=${s + Math.random()}`);
-            
+
             grid.innerHTML = this.avatars.map((url, i) => `
                 <div class="avatar-option ${i === 0 ? 'is-selected' : ''}" data-url="${url}">
                     <img src="${url}" alt="Avatar ${i}">
                 </div>
             `).join('');
-            
+
             this.selectedAvatar = this.avatars[0];
             refreshIcons();
         },
@@ -1931,10 +1931,10 @@
 
             Storage.saveUser(state.user);
             this.updateUI();
-            
+
             $('#register-overlay').hidden = true;
             Toast.show(`${state.lang === 'ru' ? 'Привет' : state.lang === 'en' ? 'Hello' : 'Salom'}, ${name}!`, '👋');
-            
+
             // Update seed feed names with actual user name for some items
             seedFeedIfEmpty();
         },
@@ -1943,7 +1943,7 @@
             if (!state.user) return;
             const nameEls = $$('#user-name');
             const avatarEls = $$('.profile-btn__img, #user-avatar-big');
-            
+
             nameEls.forEach(el => el.textContent = state.user.name);
             avatarEls.forEach(el => el.src = state.user.avatar);
         }
@@ -2002,24 +2002,40 @@
     ];
 
     function renderMetroMarkers() {
+        // Создаем отдельный слой для метро, чтобы он был ПОД ивентами
+        if (!map.getPane('metroPane')) {
+            map.createPane('metroPane');
+            map.getPane('metroPane').style.zIndex = 250; // Ниже обычных маркеров (600)
+        }
+
         METRO_LINES.forEach(line => {
             line.stations.forEach(s => {
                 const icon = L.divIcon({
-                    className: 'metro-icon-marker',
+                    className: 'metro-label-marker',
                     html: `
-                        <div style="position: relative; width: 24px; height: 24px;">
-                            <div style="position: absolute; inset: -4px; background: ${line.color}; border-radius: 50%; opacity: 0.3; filter: blur(4px);"></div>
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BC%D0%B5%D1%82%D1%80%D0%BE_%D0%B2_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5_%D0%B1%D1%80%D0%B5%D0%BD%D0%B4%D0%B0_%D0%BC%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0.svg/1280px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BC%D0%B5%D1%82%D1%80%D0%BE_%D0%B2_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5_%D0%B1%D1%80%D0%B5%D0%BD%D0%B4%D0%B0_%D0%BC%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0.svg.png" 
-                                 style="width: 24px; height: 24px; display: block; position: relative; z-index: 1;">
+                        <div style="display: flex; align-items: center; gap: 4px; pointer-events: none;">
+                            <div style="width: 6px; height: 6px; background: ${line.color}; border-radius: 50%; flex-shrink: 0; box-shadow: 0 0 2px rgba(0,0,0,0.3);"></div>
+                            <span style="
+                                font-family: 'Inter', sans-serif; 
+                                font-size: 10px; 
+                                font-weight: 600; 
+                                color: var(--text-secondary); 
+                                text-shadow: 0 0 3px white, 0 0 3px white;
+                                white-space: nowrap;
+                                opacity: 0.8;
+                                pointer-events: none;
+                            ">${s.name}</span>
                         </div>
                     `,
-                    iconSize: [24, 24],
-                    iconAnchor: [12, 12]
+                    iconSize: [0, 0],
+                    iconAnchor: [0, 0]
                 });
 
-                L.marker(s.coords, { icon: icon })
-                    .addTo(map)
-                    .bindPopup(`<div style="font-weight: bold; font-family: 'Inter', sans-serif;">${s.name}</div>`, { closeButton: false });
+                L.marker(s.coords, { 
+                    icon: icon,
+                    pane: 'metroPane',
+                    interactive: false 
+                }).addTo(map);
             });
         });
     }
