@@ -1815,7 +1815,7 @@
                                 <text x="${s.x + dx}" y="${s.y + dy}" 
                                       fill="currentColor" 
                                       font-size="${fontSize}" 
-                                      font-weight="${s.transfer ? 'bold' : '500'}"
+                                      font-weight="${s.transfer ? 'bold' : '600'}"
                                       text-anchor="${anchor}"
                                       class="metro-text">${s.name}</text>
                             </g>

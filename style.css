@@ -2162,16 +2162,17 @@ img { display: block; max-width: 100%; }
 }
 
 
-/* Metro Map Mobile Improvements */
+/* Metro Map Theme Fix */
 .metro-map-container {
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     cursor: grab;
-    background: #0b0f1a !important;
+    background: var(--bg-elevated) !important;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 30px;
+    border-radius: var(--radius-lg);
 }
 .metro-map-container:active {
     cursor: grabbing;
@@ -2186,7 +2187,8 @@ img { display: block; max-width: 100%; }
 }
 .metro-text {
     font-family: 'Inter', sans-serif !important;
-    fill: #f8fafc !important;
+    fill: var(--text-primary) !important;
+    font-weight: 600 !important;
 }
 @media (max-width: 768px) {
     .metro-map-container {
