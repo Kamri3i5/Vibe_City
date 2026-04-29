@@ -1715,54 +1715,6 @@
     // ============================================================
 
     const MetroMap = (() => {
-        const lines = [
-            {
-                id: 'chilanzar',
-                color: '#ef4444',
-                label: 'Chilonzor',
-                stations: [
-                    { name: 'Chinor', x: 50, y: 550, coords: [41.2222, 69.1950], labelPos: 'left' },
-                    { name: 'Yangihayot', x: 100, y: 500, coords: [41.2350, 69.2050], labelPos: 'left' },
-                    { name: 'Chilonzor', x: 150, y: 450, coords: [41.2730, 69.2085], labelPos: 'left' },
-                    { name: 'Novza', x: 200, y: 400, coords: [41.2858, 69.2131], labelPos: 'left' },
-                    { name: 'Bunyodkor', x: 250, y: 350, coords: [41.3031, 69.2405], labelPos: 'left' },
-                    { name: 'Paxtakor', x: 350, y: 250, coords: [41.3125, 69.2625], transfer: 'uzbekistan', labelPos: 'top' },
-                    { name: 'Mustaqillik', x: 450, y: 250, coords: [41.3150, 69.2700], labelPos: 'top' },
-                    { name: 'Amir Temur', x: 550, y: 250, coords: [41.3111, 69.2789], transfer: 'yunusabad', labelPos: 'top' },
-                    { name: 'Hamid Olimjon', x: 650, y: 200, coords: [41.3210, 69.2890], labelPos: 'top' },
-                    { name: 'B.I.Yuli', x: 750, y: 150, coords: [41.3260, 69.3270], labelPos: 'right' }
-                ]
-            },
-            {
-                id: 'uzbekistan',
-                color: '#3b82f6',
-                label: 'Oʻzbekiston',
-                stations: [
-                    { name: 'Beruniy', x: 100, y: 100, coords: [41.3450, 69.2050], labelPos: 'left' },
-                    { name: 'Tinchlik', x: 150, y: 150, coords: [41.3380, 69.2180], labelPos: 'left' },
-                    { name: 'Chorsu', x: 200, y: 200, coords: [41.3264, 69.2292], labelPos: 'left' },
-                    { name: 'A.Navoiy', x: 350, y: 250, coords: [41.3140, 69.2580], transfer: 'chilanzar', labelPos: 'bottom' },
-                    { name: 'Kosmonavtlar', x: 450, y: 350, coords: [41.3065, 69.2650], labelPos: 'right' },
-                    { name: 'Oybek', x: 550, y: 450, coords: [41.2980, 69.2750], transfer: 'yunusabad', labelPos: 'bottom' },
-                    { name: 'Toshkent', x: 650, y: 500, coords: [41.3010, 69.2880], labelPos: 'right' },
-                    { name: 'Doʻstlik', x: 750, y: 550, coords: [41.2950, 69.3180], labelPos: 'right' }
-                ]
-            },
-            {
-                id: 'yunusabad',
-                color: '#10b981',
-                label: 'Yunusobod',
-                stations: [
-                    { name: 'Turkiston', x: 550, y: 50, coords: [41.3650, 69.2900], labelPos: 'right' },
-                    { name: 'Yunusobod', x: 550, y: 100, coords: [41.3550, 69.2880], labelPos: 'right' },
-                    { name: 'Bodomzor', x: 550, y: 150, coords: [41.3420, 69.2850], labelPos: 'right' },
-                    { name: 'Minor', x: 550, y: 200, coords: [41.3280, 69.2820], labelPos: 'right' },
-                    { name: 'Y.Rajabiy', x: 550, y: 250, coords: [41.3115, 69.2795], transfer: 'chilanzar', labelPos: 'right' },
-                    { name: 'Ming Oʻrik', x: 550, y: 450, coords: [41.3000, 69.2755], transfer: 'uzbekistan', labelPos: 'left' }
-                ]
-            }
-        ];
-
         function render() {
             const container = $('#metro-map-svg-container');
             if (!container) return;
@@ -1788,7 +1740,7 @@
                     </defs>
                     
                     <!-- Lines -->
-                    ${lines.map(line => `
+                    ${METRO_LINES.map(line => `
                         <path d="M ${line.stations.map(s => `${s.x},${s.y}`).join(' L ')}" 
                               fill="none" 
                               stroke="${line.color}" 
@@ -1799,7 +1751,7 @@
                     `).join('')}
 
                     <!-- Stations -->
-                    ${lines.flatMap(line => line.stations.map(s => {
+                    ${METRO_LINES.flatMap(line => line.stations.map(s => {
                         let dx = 12, dy = 4, anchor = 'start';
                         if (s.labelPos === 'top') { dx = 0; dy = -16; anchor = 'middle'; }
                         if (s.labelPos === 'bottom') { dx = 0; dy = 24; anchor = 'middle'; }
@@ -1998,6 +1950,75 @@
     };
 
     // ============================================================
+    // Metro Map Data & Markers
+    // ============================================================
+
+    const METRO_LINES = [
+        {
+            id: 'chilanzar',
+            color: '#ef4444',
+            label: 'Chilonzor',
+            stations: [
+                { name: 'Chinor', x: 50, y: 550, coords: [41.2222, 69.1950], labelPos: 'left' },
+                { name: 'Yangihayot', x: 100, y: 500, coords: [41.2350, 69.2050], labelPos: 'left' },
+                { name: 'Chilonzor', x: 150, y: 450, coords: [41.2730, 69.2085], labelPos: 'left' },
+                { name: 'Novza', x: 200, y: 400, coords: [41.2858, 69.2131], labelPos: 'left' },
+                { name: 'Bunyodkor', x: 250, y: 350, coords: [41.3031, 69.2405], labelPos: 'left' },
+                { name: 'Paxtakor', x: 350, y: 250, coords: [41.3125, 69.2625], transfer: 'uzbekistan', labelPos: 'top' },
+                { name: 'Mustaqillik', x: 450, y: 250, coords: [41.3150, 69.2700], labelPos: 'top' },
+                { name: 'Amir Temur', x: 550, y: 250, coords: [41.3111, 69.2789], transfer: 'yunusabad', labelPos: 'top' },
+                { name: 'Hamid Olimjon', x: 650, y: 200, coords: [41.3210, 69.2890], labelPos: 'top' },
+                { name: 'B.I.Yuli', x: 750, y: 150, coords: [41.3260, 69.3270], labelPos: 'right' }
+            ]
+        },
+        {
+            id: 'uzbekistan',
+            color: '#3b82f6',
+            label: 'Oʻzbekiston',
+            stations: [
+                { name: 'Beruniy', x: 100, y: 100, coords: [41.3450, 69.2050], labelPos: 'left' },
+                { name: 'Tinchlik', x: 150, y: 150, coords: [41.3380, 69.2180], labelPos: 'left' },
+                { name: 'Chorsu', x: 200, y: 200, coords: [41.3264, 69.2292], labelPos: 'left' },
+                { name: 'A.Navoiy', x: 350, y: 250, coords: [41.3140, 69.2580], transfer: 'chilanzar', labelPos: 'bottom' },
+                { name: 'Kosmonavtlar', x: 450, y: 350, coords: [41.3065, 69.2650], labelPos: 'right' },
+                { name: 'Oybek', x: 550, y: 450, coords: [41.2980, 69.2750], transfer: 'yunusabad', labelPos: 'bottom' },
+                { name: 'Toshkent', x: 650, y: 500, coords: [41.3010, 69.2880], labelPos: 'right' },
+                { name: 'Doʻstlik', x: 750, y: 550, coords: [41.2950, 69.3180], labelPos: 'right' }
+            ]
+        },
+        {
+            id: 'yunusabad',
+            color: '#10b981',
+            label: 'Yunusobod',
+            stations: [
+                { name: 'Turkiston', x: 550, y: 50, coords: [41.3650, 69.2900], labelPos: 'right' },
+                { name: 'Yunusobod', x: 550, y: 100, coords: [41.3550, 69.2880], labelPos: 'right' },
+                { name: 'Bodomzor', x: 550, y: 150, coords: [41.3420, 69.2850], labelPos: 'right' },
+                { name: 'Minor', x: 550, y: 200, coords: [41.3280, 69.2820], labelPos: 'right' },
+                { name: 'Y.Rajabiy', x: 550, y: 250, coords: [41.3115, 69.2795], transfer: 'chilanzar', labelPos: 'right' },
+                { name: 'Ming Oʻrik', x: 550, y: 450, coords: [41.3000, 69.2755], transfer: 'uzbekistan', labelPos: 'left' }
+            ]
+        }
+    ];
+
+    function renderMetroMarkers() {
+        METRO_LINES.forEach(line => {
+            line.stations.forEach(s => {
+                const icon = L.divIcon({
+                    className: 'metro-map-marker',
+                    html: `<div style="width: 12px; height: 12px; background: ${line.color}; border: 2px solid white; border-radius: 50%; box-shadow: 0 0 5px rgba(0,0,0,0.3);"></div>`,
+                    iconSize: [12, 12],
+                    iconAnchor: [6, 6]
+                });
+
+                L.marker(s.coords, { icon: icon })
+                    .addTo(map)
+                    .bindPopup(`<div style="font-weight: bold; font-family: 'Inter', sans-serif;">${s.name}</div>`, { closeButton: false });
+            });
+        });
+    }
+
+    // ============================================================
     // Init
     // ============================================================
 
@@ -2005,6 +2026,7 @@
         Auth.init();
         seedFeedIfEmpty();
         renderMarkers();
+        renderMetroMarkers();
         renderHotList();
         renderTopList();
         renderPulse();
