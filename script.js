@@ -2017,7 +2017,7 @@
                             <div style="width: 6px; height: 6px; background: ${line.color}; border-radius: 50%; flex-shrink: 0; box-shadow: 0 0 2px rgba(0,0,0,0.3);"></div>
                             <span style="
                                 font-family: 'Inter', sans-serif; 
-                                font-size: 10px; 
+                                font-size: 12px; 
                                 font-weight: 600; 
                                 color: var(--text-secondary); 
                                 text-shadow: 0 0 3px white, 0 0 3px white;
