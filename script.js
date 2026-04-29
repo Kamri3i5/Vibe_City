@@ -1907,6 +1907,57 @@
                     this.selectedAvatar = option.dataset.url;
                 }
             });
+
+            // Google Sign-In Initialization
+            this.initGoogleAuth();
+        },
+
+        initGoogleAuth() {
+            if (typeof google === 'undefined') {
+                setTimeout(() => this.initGoogleAuth(), 500);
+                return;
+            }
+
+            google.accounts.id.initialize({
+                client_id: "872223841122-k8h819894v2is95r9kclm8d4g56561k4.apps.googleusercontent.com", // Вставьте ваш Client ID сюда
+                callback: (res) => this.handleGoogleResponse(res)
+            });
+
+            google.accounts.id.renderButton(
+                document.getElementById("google-signin-btn"),
+                { theme: state.theme === 'dark' ? "filled_black" : "outline", size: "large", width: 280, text: "continue_with" }
+            );
+        },
+
+        handleGoogleResponse(response) {
+            try {
+                // Декодируем JWT токен от Google (на клиенте)
+                const base64Url = response.credential.split('.')[1];
+                const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+                const jsonPayload = decodeURIComponent(atob(base64).split('').map(c => {
+                    return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+                }).join(''));
+
+                const user = JSON.parse(jsonPayload);
+                
+                // Сохраняем данные из Google в наш профиль
+                state.user = {
+                    name: user.name,
+                    avatar: user.picture,
+                    email: user.email,
+                    regDate: Date.now(),
+                    authMethod: 'google'
+                };
+
+                Storage.saveUser(state.user);
+                this.updateUI();
+                $('#register-overlay').hidden = true;
+                
+                Toast.show(`${state.lang === 'ru' ? 'Добро пожаловать' : 'Welcome'}, ${user.given_name}!`, '🚀');
+            } catch (e) {
+                console.error("Google Auth Error:", e);
+                Toast.show("Ошибка входа через Google", "❌");
+            }
         },
 
         showRegistration() {

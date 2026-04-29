@@ -16,6 +16,8 @@
 
     <!-- App CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- Google Identity Services SDK -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
 </head>
 
 <body>
@@ -312,10 +314,16 @@
                     </div>
                 </div>
 
-                <button class="btn btn--primary btn--large" id="register-submit-btn" style="width: 100%;"
-                    data-i18n="reg_start">
-                    Начать исследовать
+                <button class="btn btn--primary" id="register-submit-btn" style="width: 100%;">
+                    <span data-i18n="reg_submit">Начать</span>
                 </button>
+
+                <div class="auth-divider">
+                    <span>или</span>
+                </div>
+
+                <!-- Google Sign-In Button -->
+                <div id="google-signin-btn" style="display: flex; justify-content: center;"></div>
             </div>
         </div>
     </div>
