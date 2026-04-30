@@ -12,8 +12,8 @@
     --bg-card-active: rgba(255, 255, 255, 0.10);
 
     /* Borders */
-    --border: rgba(255, 255, 255, 0.07);
-    --border-strong: rgba(255, 255, 255, 0.14);
+    --border: rgba(255, 255, 255, 0.05); /* Делаем границы почти невидимыми */
+    --border-strong: rgba(255, 255, 255, 0.1);
 
     /* Text */
     --text-primary: #f4f4f5;
@@ -314,8 +314,8 @@ body.light-mode {
     --bg-card: rgba(0, 0, 0, 0.03);
     --bg-card-hover: rgba(0, 0, 0, 0.06);
     --bg-card-active: rgba(0, 0, 0, 0.09);
-    --border: rgba(0, 0, 0, 0.06);
-    --border-strong: rgba(0, 0, 0, 0.12);
+    --border: rgba(0, 0, 0, 0.04); /* В светлой теме еще прозрачнее */
+    --border-strong: rgba(0, 0, 0, 0.08);
     --text-primary: #18181b;
     --text-secondary: #52525b;
     --text-tertiary: #71717a;
@@ -710,7 +710,7 @@ img { display: block; max-width: 100%; }
     background: var(--bg-panel);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 14px;
+    padding: 16px; /* Чуть больше паддинга для воздуха */
     box-shadow: var(--shadow-md);
     flex-shrink: 0;
 }
@@ -791,7 +791,7 @@ img { display: block; max-width: 100%; }
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--radius-sm);
-    padding: 10px 8px;
+    padding: 10px 4px;
     text-align: center;
     transition: all var(--t-fast) var(--ease);
 }
@@ -823,8 +823,7 @@ img { display: block; max-width: 100%; }
 }
 
 .pulse__stat--weather {
-    border-color: var(--info);
-    background: rgba(56, 189, 248, 0.05);
+    background: rgba(56, 189, 248, 0.03); /* Еще мягче фон */
     display: none; /* Скрыто по умолчанию */
 }
 
