@@ -1,4 +1,4 @@
-﻿/* ============================================================
+/* ============================================================
    VibeCity â€” Design System
    ============================================================ */
 
@@ -69,6 +69,40 @@
     --t: 0.3s;
     --t-slow: 0.5s;
 }
+
+/* ============================================================
+   Performance Tiers Overrides
+   ============================================================ */
+
+/* Low Performance (Weak devices) */
+.perf-low {
+    --blur: 0px; /* Disable blur */
+    --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.2);
+    --shadow-glow: none;
+}
+
+.perf-low * {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    transition-duration: 0s !important; /* Disable animations for snappiness */
+}
+
+.perf-low .status-dot,
+.perf-low .live-dot,
+.perf-low .marker__ripple {
+    animation: none !important;
+}
+
+/* Medium Performance */
+.perf-medium {
+    --blur: 12px;
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Optimization Helpers */
+.will-change-transform { will-change: transform; }
+.will-change-opacity { will-change: opacity; }
 
 /* ============================================================
    Floating Actions (Action Stack)

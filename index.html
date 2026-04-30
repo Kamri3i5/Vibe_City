@@ -13,6 +13,8 @@
 
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
 
     <!-- App CSS -->
     <link rel="stylesheet" href="style.css">
@@ -92,7 +94,7 @@
     </nav>
 
     <!-- Левая панель: пульс, топ, активность -->
-    <aside class="panel panel--left" id="panel-left" aria-label="Активность города">
+    <aside class="panel panel--left will-change-transform" id="panel-left" aria-label="Активность города">
         <!-- Pulse -->
         <section class="card">
             <div class="card__header">
@@ -140,7 +142,7 @@
     </aside>
 
     <!-- Правая панель: детали, события, профиль -->
-    <aside class="panel panel--right" id="panel-right" aria-label="Детали и события">
+    <aside class="panel panel--right will-change-transform" id="panel-right" aria-label="Детали и события">
         <!-- Список событий (вид по умолчанию) -->
         <div id="view-default">
             <div class="card__header" style="padding: 0 4px 12px 4px;">
@@ -361,6 +363,7 @@
 
     <!-- Scripts -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <div id="toast" class="toast"></div>
 

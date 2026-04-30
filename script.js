@@ -444,7 +444,38 @@
         currentPlace: null,
         markers: new Map(), // place name -> marker
         user: Storage.loadUser(),
-        lang: localStorage.getItem(LANG_KEY) || 'ru'
+        lang: localStorage.getItem(LANG_KEY) || 'ru',
+        perf: 'medium', // Will be updated on init
+        markerCluster: null // Cluster group
+    };
+
+    // ============================================================
+    // Performance Module
+    // ============================================================
+
+    const Perf = {
+        init() {
+            // Get hardware info
+            const cores = navigator.hardwareConcurrency || 4;
+            const ram = navigator.deviceMemory || 4; // GB (not supported in all browsers)
+            const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+            if (cores <= 4 || ram <= 2 || (isMobile && ram <= 4)) {
+                state.perf = 'low';
+            } else if (cores >= 8 && ram >= 8) {
+                state.perf = 'high';
+            } else {
+                state.perf = 'medium';
+            }
+
+            document.body.classList.add(`perf-${state.perf}`);
+            console.log(`[VibeCity] Device Performance: ${state.perf.toUpperCase()} (${cores} cores, ~${ram}GB RAM)`);
+        },
+        getMaxImageWidth() {
+            if (state.perf === 'low') return 400;
+            if (state.perf === 'medium') return 640;
+            return 1080;
+        }
     };
 
     // ============================================================
@@ -626,7 +657,7 @@
                 const { places } = await Place.searchByText(request);
 
                 if (places && places.length > 0 && places[0].photos && places[0].photos.length > 0) {
-                    const url = places[0].photos[0].getURI({ maxWidth: 800 });
+                    const url = places[0].photos[0].getURI({ maxWidth: Perf.getMaxImageWidth() });
                     this.cache.set(placeName, url);
                     return url;
                 }
@@ -642,7 +673,9 @@
         primaryFor(place) {
             if (place.image && /^https?:\/\//.test(place.image)) return place.image;
             const seed = encodeURIComponent(place.name.replace(/\s+/g, '-').toLowerCase());
-            return `https://loremflickr.com/800/450/${place.category || 'city'},modern?lock=${seed}`;
+            const width = Perf.getMaxImageWidth();
+            const height = Math.round(width * 0.5625);
+            return `https://loremflickr.com/${width}/${height}/${place.category || 'city'},modern?lock=${seed}`;
         },
         async preload() {
             // Предзагружаем фото для всех мест в фоне
@@ -770,8 +803,19 @@
     }
 
     function renderMarkers() {
+        // Init cluster if not exists
+        if (!state.markerCluster) {
+            state.markerCluster = L.markerClusterGroup({
+                showCoverageOnHover: false,
+                maxClusterRadius: 50,
+                spiderfyOnMaxZoom: true,
+                disableClusteringAtZoom: 16
+            });
+            map.addLayer(state.markerCluster);
+        }
+
         // Clear existing
-        state.markers.forEach(m => map.removeLayer(m));
+        state.markerCluster.clearLayers();
         state.markers.clear();
 
         const all = [...state.places, ...state.events];
@@ -782,11 +826,14 @@
         filtered.forEach(place => {
             const status = getStatus(place);
             const isHot = status === 'fire' && place.fire >= 10;
-            const marker = L.marker(place.coords, { icon: createMarkerIcon(status, isHot, false) }).addTo(map);
+            const marker = L.marker(place.coords, { icon: createMarkerIcon(status, isHot, false) });
+            
             marker.on('click', e => {
                 L.DomEvent.stopPropagation(e);
                 showPlace(place);
             });
+            
+            state.markerCluster.addLayer(marker);
             state.markers.set(placeKey(place), marker);
         });
     }
@@ -2166,6 +2213,7 @@
     // ============================================================
 
     function init() {
+        Perf.init(); // Detect device power first
         Auth.init();
         seedFeedIfEmpty();
         renderMarkers();
