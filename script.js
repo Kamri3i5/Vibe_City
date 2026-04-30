@@ -649,7 +649,7 @@
                 const { Place } = await google.maps.importLibrary("places");
 
                 const request = {
-                    textQuery: placeName,
+                    textQuery: `${placeName}, Ташкент`,
                     fields: ['photos'],
                     language: 'ru'
                 };
