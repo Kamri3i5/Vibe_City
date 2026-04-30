@@ -506,7 +506,7 @@
 
             tempEl.innerHTML = `<span class="weather-icon">${info.emoji}</span>${temp}°`;
             descEl.textContent = state.lang === 'ru' ? info.ru : (state.lang === 'uz' ? info.uz : info.en);
-            el.hidden = false;
+            el.removeAttribute('hidden');
         },
         getWeatherInfo(code) {
             // WMO Weather interpretation codes (WW)

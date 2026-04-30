@@ -688,16 +688,18 @@ img { display: block; max-width: 100%; }
 
 .panel.is-collapsed + .panel-toggle--left,
 .panel-toggle--left.is-flipped {
-    left: 0;
-    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    left: 8px; /* Небольшой отступ от края */
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
 }
 
 .panel-toggle--left.is-flipped svg { transform: rotate(180deg); }
 .panel-toggle--right.is-flipped svg { transform: rotate(180deg); }
 
 .panel-toggle--right.is-flipped {
-    right: 0;
-    border-radius: var(--radius-sm) 0 0 var(--radius-sm);
+    right: 8px; /* Небольшой отступ от края */
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
 }
 
 /* ============================================================
@@ -823,6 +825,13 @@ img { display: block; max-width: 100%; }
 .pulse__stat--weather {
     border-color: var(--info);
     background: rgba(56, 189, 248, 0.05);
+    display: none; /* Скрыто по умолчанию */
+}
+
+/* Показываем только когда есть данные */
+.pulse__stat--weather:not([hidden]) {
+    display: flex;
+    flex-direction: column;
 }
 
 .weather-icon {
