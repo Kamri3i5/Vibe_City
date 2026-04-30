@@ -648,8 +648,11 @@
                 await loadGoogleSDK();
                 const { Place } = await google.maps.importLibrary("places");
 
+                // Очищаем название от текста в скобках для лучшего поиска
+                const cleanName = placeName.replace(/\(.*\)/, '').trim();
+                
                 const request = {
-                    textQuery: `${placeName}, Ташкент`,
+                    textQuery: `${cleanName}, Ташкент`,
                     fields: ['photos'],
                     language: 'ru'
                 };
