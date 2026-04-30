@@ -479,6 +479,48 @@
     };
 
     // ============================================================
+    // Weather Module (Open-Meteo API)
+    // ============================================================
+
+    const Weather = {
+        async init() {
+            try {
+                const res = await fetch('https://api.open-meteo.com/v1/forecast?latitude=41.3111&longitude=69.2797&current=temperature_2m,weather_code&timezone=auto');
+                const data = await res.json();
+                if (data && data.current) {
+                    this.render(data.current);
+                }
+            } catch (e) {
+                console.error("Weather Error:", e);
+            }
+        },
+        render(current) {
+            const el = $('#weather-stat');
+            const tempEl = $('#weather-temp');
+            const descEl = $('#weather-desc');
+            if (!el || !tempEl) return;
+
+            const temp = Math.round(current.temperature_2m);
+            const code = current.weather_code;
+            const info = this.getWeatherInfo(code);
+
+            tempEl.innerHTML = `<span class="weather-icon">${info.emoji}</span>${temp}°`;
+            descEl.textContent = state.lang === 'ru' ? info.ru : (state.lang === 'uz' ? info.uz : info.en);
+            el.hidden = false;
+        },
+        getWeatherInfo(code) {
+            // WMO Weather interpretation codes (WW)
+            if (code === 0) return { emoji: '☀️', ru: 'Ясно', en: 'Clear', uz: 'Musaffo' };
+            if (code <= 3) return { emoji: '🌤️', ru: 'Облачно', en: 'Cloudy', uz: 'Bulutli' };
+            if (code <= 48) return { emoji: '🌫️', ru: 'Туман', en: 'Fog', uz: 'Tuman' };
+            if (code <= 67) return { emoji: '🌧️', ru: 'Дождь', en: 'Rain', uz: 'Yomgʻir' };
+            if (code <= 77) return { emoji: '❄️', ru: 'Снег', en: 'Snow', uz: 'Qor' };
+            if (code <= 82) return { emoji: '🌦️', ru: 'Ливень', en: 'Showers', uz: 'Jala' };
+            return { emoji: '⛈️', ru: 'Гроза', en: 'Storm', uz: 'Boʻron' };
+        }
+    };
+
+    // ============================================================
     // i18n
     // ============================================================
 
@@ -2217,6 +2259,7 @@
 
     function init() {
         Perf.init(); // Detect device power first
+        Weather.init(); // Load weather
         Auth.init();
         seedFeedIfEmpty();
         renderMarkers();

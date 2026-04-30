@@ -774,9 +774,15 @@ img { display: block; max-width: 100%; }
 
 .pulse {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr); /* 2x2 for better fit on small screens */
     gap: 8px;
     margin-bottom: 12px;
+}
+
+@media (min-width: 350px) {
+    .pulse {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 .pulse__stat {
@@ -809,6 +815,21 @@ img { display: block; max-width: 100%; }
     color: var(--text-tertiary);
     text-transform: uppercase;
     letter-spacing: 0.6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pulse__stat--weather {
+    border-color: var(--info);
+    background: rgba(56, 189, 248, 0.05);
+}
+
+.weather-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4px;
+    color: var(--warm);
 }
 
 .vibe-bar {
