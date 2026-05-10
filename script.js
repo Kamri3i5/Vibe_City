@@ -13,6 +13,7 @@
     const EVENTS_KEY = 'vibecity_events';
     const FEED_KEY = 'vibecity_feed';
     const THEME_KEY = 'vibecity_theme';
+    const SESSION_TOKEN_KEY = 'vibecity_session_token';
     const USER_KEY = 'vibecity_user';
     const LANG_KEY = 'vibecity_lang';
 
@@ -533,7 +534,7 @@
             state.lang = lang;
             localStorage.setItem(LANG_KEY, lang);
             this.updateDOM();
-            
+
             // Re-render components that have dynamic text
             renderMarkers();
             renderHotList();
@@ -692,7 +693,7 @@
 
                 // Очищаем название от текста в скобках для лучшего поиска
                 const cleanName = placeName.replace(/\(.*\)/, '').trim();
-                
+
                 const request = {
                     textQuery: `${cleanName}, Ташкент`,
                     fields: ['photos'],
@@ -734,7 +735,7 @@
         },
         async renderHero(place, container) {
             const cat = CATEGORY_META[place.category] || { emoji: '📍', color: 'var(--accent)' };
-            
+
             // Если URL уже в кэше, показываем его без задержки
             const cachedUrl = GooglePlaces.cache.get(place.name);
             let url = cachedUrl;
@@ -872,12 +873,12 @@
             const status = getStatus(place);
             const isHot = status === 'fire' && place.fire >= 10;
             const marker = L.marker(place.coords, { icon: createMarkerIcon(status, isHot, false) });
-            
+
             marker.on('click', e => {
                 L.DomEvent.stopPropagation(e);
                 showPlace(place);
             });
-            
+
             state.markerCluster.addLayer(marker);
             state.markers.set(placeKey(place), marker);
         });
@@ -1074,11 +1075,18 @@
     // Voting
     // ============================================================
 
-    function handleVote(vibe) {
+    async function handleVote(vibe) {
         if (!state.currentPlace) return;
         const place = state.currentPlace;
         const meta = VIBE_META[vibe];
         if (!meta) return;
+
+        try {
+            await sendVibeToApi(place.id, meta.key);
+        } catch (error) {
+            Toast.show(error.message || 'Vote failed', '💀');
+            return;
+        }
 
         if (place.myVibe === vibe) {
             // Toggle off
@@ -2024,11 +2032,11 @@
             // Clear state and storage
             state.user = null;
             Storage.saveUser(null);
-            
+
             // Show registration again
             closeProfile();
             this.showRegistration();
-            
+
             Toast.show(state.lang === 'ru' ? 'Вы вышли из системы' : 'Logged out', '👋');
         },
 
@@ -2049,10 +2057,10 @@
 
             google.accounts.id.renderButton(
                 btnContainer,
-                { 
-                    theme: state.theme === 'dark' ? "filled_black" : "outline", 
-                    size: "large", 
-                    width: 280, 
+                {
+                    theme: state.theme === 'dark' ? "filled_black" : "outline",
+                    size: "large",
+                    width: 280,
                     text: "continue_with",
                     locale: state.lang // Устанавливаем язык кнопки Google
                 }
@@ -2069,7 +2077,7 @@
                 }).join(''));
 
                 const user = JSON.parse(jsonPayload);
-                
+
                 // Сохраняем данные из Google в наш профиль
                 state.user = {
                     name: user.name,
@@ -2082,7 +2090,7 @@
                 Storage.saveUser(state.user);
                 this.updateUI();
                 $('#register-overlay').hidden = true;
-                
+
                 Toast.show(`${state.lang === 'ru' ? 'Добро пожаловать' : 'Welcome'}, ${user.given_name}!`, '🚀');
             } catch (e) {
                 console.error("Google Auth Error:", e);
@@ -2230,10 +2238,10 @@
                     iconAnchor: [0, 0]
                 });
 
-                L.marker(s.coords, { 
+                L.marker(s.coords, {
                     icon: icon,
                     pane: 'metroPane',
-                    interactive: false 
+                    interactive: false
                 }).addTo(metroLayer);
             });
         });
@@ -2249,6 +2257,60 @@
             if (map.hasLayer(metroLayer)) map.removeLayer(metroLayer);
         }
     }
+    const API_BASE = 'http://localhost:8000';
+
+    function mapApiPlace(place) {
+        return {
+            id: place.id,
+            name: place.title,
+            coords: [Number(place.lat), Number(place.lng)],
+            address: place.address || '',
+            category: place.category || 'Место',
+            image: place.image || '',
+            fire: Number(place.fire || 0),
+            dead: Number(place.dead || 0),
+            crying: Number(place.neutral || 0),
+            lastUpdate: place.last_activity_at ? new Date(place.last_activity_at).getTime() : Date.now()
+        };
+    }
+
+    function getSessionToken() {
+        let token = localStorage.getItem(SESSION_TOKEN_KEY);
+        if (!token) {
+            token = `session_${Math.random().toString(36).slice(2)}_${Date.now()}`;
+            localStorage.setItem(SESSION_TOKEN_KEY, token);
+        }
+        return token;
+    }
+
+    async function fetchPlacesFromApi() {
+        const res = await fetch(`${API_BASE}/places`);
+        if (!res.ok) throw new Error(`Failed to fetch places: ${res.status}`);
+        const data = await res.json();
+        return data.map(mapApiPlace);
+    }
+
+    async function sendVibeToApi(placeId, vibeKey) {
+        const backendVibe = vibeKey === 'crying' ? 'neutral' : vibeKey;
+
+        const res = await fetch(`${API_BASE}/places/${placeId}/vibes`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                session_token: getSessionToken(),
+                vibe: backendVibe
+            })
+        });
+
+        const data = await res.json().catch(() => ({}));
+
+        if (!res.ok) {
+            throw new Error(data.error || 'Vote request failed');
+        }
+
+        return data;
+    }
+
 
     // Слушатель изменения зума
     map.on('zoomend', updateMetroVisibility);
@@ -2257,10 +2319,18 @@
     // Init
     // ============================================================
 
-    function init() {
+    async function init() {
         Perf.init(); // Detect device power first
         Weather.init(); // Load weather
         Auth.init();
+
+        try {
+            state.places = await fetchPlacesFromApi();
+            Storage.savePlaces(state.places);
+        } catch (error) {
+            console.error('API places load failed:', error);
+        }
+
         seedFeedIfEmpty();
         renderMarkers();
         renderMetroMarkers();
