@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-07-03T13:41:32.784Z",
+  "updatedAt": "2026-07-03T19:01:16.318Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:03:iman-holding",
+      "title": "IMAN Holding запускает Adl Neobank – один из первых необанков в Узбекистане",
+      "description": "IMAN Holding представил IMANUM 5.0 – обновленное суперприложение, объединяющее финансовые и инвестиционные продукты холдинга. Одним из ключевых элементов станет Adl Neobank, а также сервисы для инвестиций, рассрочки и управления финансами.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/03/iman-holding",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/155b819e74fc0eb2a5f3e846d25f8f0f_m.webp",
+      "category": "city",
+      "published": 1783094400000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:03:cardxabarbot",
+      "title": "Тратить с умом: UZCARD предлагает протестировать новый ИИ-бот в Telegram, который считает расходы",
+      "description": "В CardXabarBot появился Mini-App со встроенным ИИ для держателей UZCARD:  собирает данные о доходах и расходах на один экран и дает советы, как распорядиться бюджетом.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/03/cardxabarbot",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/10b43385a3331cccee39e9a1a4283a3a_m.webp",
+      "category": "city",
+      "published": 1783087200000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:03:magic-safari",
       "title": "Magic Safari приглашает гостей на сафари-экскурсии и вечернее африканское шоу",
@@ -111,26 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/06/0eff3d60d0e2cb7cc65749af1cb214ee_m.webp",
       "category": "city",
       "published": 1782482280000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:06:26:inkuzart",
-      "title": "«Выбери жизнь»: Inkuzart представил работу, посвященную борьбе с наркоманией",
-      "description": "Известный уличный художник, известный под псевдонимом inkuzart, поделился новым граффити на своей странице в Instagram. Работа посвящена 26 июня, Международному дню борьбы с наркоманией.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/06/26/inkuzart",
-      "image": "https://www.afisha.uz/uploads/media/2026/06/3ddcaa20830defaa012d8eecd8ff7e2a_m.webp",
-      "category": "city",
-      "published": 1782480922000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:06:26:27-28-june",
-      "title": "Куда пойти на выходных в Ташкенте, 27 и 28 июня",
-      "description": "«Супергёрл» и еще пять кинопремьер, летний и эко-фестиваль, квизы «Гравити Фолз» и танцевальные, спектакли и выставки, творческие мастер-классы, женский арт-релакс и другие мероприятия предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/06/26/27-28-june",
-      "image": "https://www.afisha.uz/uploads/media/2026/06/4fffb59a6431f1d60849550e757c8f07_m.webp",
-      "category": "city",
-      "published": 1782470700000,
       "venue": null
     },
     {
