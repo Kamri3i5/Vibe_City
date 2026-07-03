@@ -21,7 +21,6 @@
                 <input type="password" id="pin-input" maxlength="4" placeholder="••••" autocomplete="off">
             </div>
             <button id="pin-submit" class="btn-primary">Войти</button>
-            <p class="pin-hint">PIN по умолчанию: 1234</p>
         </div>
     </div>
 
@@ -43,6 +42,9 @@
                 </button>
                 <button class="nav-btn" data-tab="add-place">
                     <i data-lucide="plus-circle"></i> Добавить место
+                </button>
+                <button class="nav-btn" data-tab="events">
+                    <i data-lucide="sparkles"></i> Ивенты
                 </button>
                 <button class="nav-btn" data-tab="telegram">
                     <i data-lucide="send"></i> Телеграм-парсер
@@ -212,6 +214,61 @@
                 </div>
             </section>
 
+            <!-- TAB: Events -->
+            <section id="tab-events" class="tab-content">
+                <div class="page-header">
+                    <h1>Ивенты</h1>
+                    <p class="subtitle">Что происходит прямо сейчас в локациях города</p>
+                </div>
+                <div class="card">
+                    <form id="event-form" class="place-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Локация *</label>
+                                <select id="ev-place" class="input" required>
+                                    <option value="">Выберите место...</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Длительность</label>
+                                <select id="ev-hours" class="input">
+                                    <option value="4">4 часа</option>
+                                    <option value="8">8 часов</option>
+                                    <option value="24" selected>Сутки</option>
+                                    <option value="72">3 дня</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Название ивента *</label>
+                            <input type="text" id="ev-title" class="input"
+                                placeholder="Фестиваль плова в Ташкент Сити" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Описание</label>
+                            <textarea id="ev-desc" class="input" rows="3"
+                                placeholder="Что происходит, во сколько, для кого..."></textarea>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn-primary btn-lg">
+                                <i data-lucide="sparkles"></i> Запустить ивент
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Events List -->
+                <div class="card" style="margin-top: 20px;">
+                    <h3>Активные ивенты</h3>
+                    <div id="events-list" class="events-list">
+                        <p class="empty-state">Пока нет активных ивентов</p>
+                    </div>
+                </div>
+            </section>
+
             <!-- TAB: Telegram Parser -->
             <section id="tab-telegram" class="tab-content">
                 <div class="page-header">
@@ -230,14 +287,6 @@
                     <div id="parse-result" class="parse-result" style="display: none;">
                         <h3>Результат парсинга</h3>
                         <div id="parse-output"></div>
-                    </div>
-                </div>
-
-                <!-- Events List -->
-                <div class="card" style="margin-top: 20px;">
-                    <h3>Активные ивенты</h3>
-                    <div id="events-list" class="events-list">
-                        <p class="empty-state">Пока нет активных ивентов</p>
                     </div>
                 </div>
             </section>

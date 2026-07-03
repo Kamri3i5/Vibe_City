@@ -1,37 +1,45 @@
 // ===== ADMIN PANEL — VibeCity =====
 
-const ADMIN_PIN = '1234';
+// Уровни доступа: PIN → роль
+//  owner  — полный доступ (всё, включая удаление и сброс данных)
+//  editor — только добавление/редактирование мест и запуск ивентов
+const ADMIN_PINS = {
+    '1234': 'owner',
+    '7777': 'editor'
+};
+let adminRole = null;
+
 const STORAGE_KEY = 'vibecity_places';
 const EVENTS_KEY = 'vibecity_events';
 
 // Дефолтные данные (если localStorage пуст)
 const DEFAULT_PLACES = [
     {
-        name: "Бродвей (Сайилгох)", coords: [41.3117, 69.2797], category: "Развлечения",
+        name: "Бродвей (Сайилгох)", coords: [41.3126, 69.2746], category: "Развлечения",
         description: "Пешеходная улица с уличными художниками и стритфудом.",
-        image: "https://lh5.googleusercontent.com/p/AF1QipP_2v0-M-E-p8rS9z0Q5m8Y7x0R6-P8x3-U-r-s=w1000",
+        image: "",
         fire: 24, dead: 1, crying: 0, myVibe: null, lastUpdate: Date.now() - 1000 * 60 * 15
     },
     {
-        name: "Magic City", coords: [41.3015, 69.2455], category: "Развлечения",
+        name: "Magic City", coords: [41.3036, 69.2450], category: "Развлечения",
         description: "Тематический парк с замком и поющими фонтанами.",
-        image: "https://lh5.googleusercontent.com/p/AF1QipNX9v0-M-E-p8rS9z0Q5m8Y7x0R6-P8x3-U-r-s=w1000",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Magic_city_tungi_ko%27rinishi.jpg/960px-Magic_city_tungi_ko%27rinishi.jpg",
         fire: 15, dead: 2, crying: 0, myVibe: null, lastUpdate: Date.now() - 1000 * 60 * 40
     },
     {
-        name: "Ташкент Сити", coords: [41.3031, 69.2662], category: "Парк",
+        name: "Ташкент Сити", coords: [41.3165, 69.2484], category: "Парк",
         description: "Современный парк с небоскребами и планетарием.",
-        image: "https://lh5.googleusercontent.com/p/AF1QipNq4w8k2rZ0M-Q_G3S_q0o0H6S7LzN6x3_Q8-s=w1000",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Tashkent_city_8.jpg/960px-Tashkent_city_8.jpg",
         fire: 8, dead: 0, crying: 0, myVibe: null, lastUpdate: Date.now() - 1000 * 60 * 5
     },
     {
-        name: "Minor Mosque", coords: [41.3330, 69.2815], category: "Культура",
+        name: "Minor Mosque", coords: [41.3345, 69.2770], category: "Культура",
         description: "Белоснежная мечеть на берегу канала.",
-        image: "https://lh5.googleusercontent.com/p/AF1QipO9v0-M-E-p8rS9z0Q5m8Y7x0R6-P8x3-U-r-s=w1000",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Minor_Mosque_Tashkent.jpg/960px-Minor_Mosque_Tashkent.jpg",
         fire: 4, dead: 0, crying: 0, myVibe: null, lastUpdate: Date.now() - 1000 * 60 * 120
     },
     {
-        name: "Chorsu Bazaar", coords: [41.3264, 69.2292], category: "Шопинг",
+        name: "Chorsu Bazaar", coords: [41.3262, 69.2369], category: "Шопинг",
         description: "Исторический базар под огромным куполом.",
         image: "", fire: 10, dead: 1, crying: 0, myVibe: null, lastUpdate: Date.now() - 1000 * 60 * 30
     },
@@ -92,7 +100,9 @@ function initAuth() {
     const pinSubmit = document.getElementById('pin-submit');
 
     // Проверяем, авторизован ли уже
-    if (sessionStorage.getItem('vibecity_admin') === 'true') {
+    const savedRole = sessionStorage.getItem('vibecity_admin');
+    if (savedRole === 'owner' || savedRole === 'editor') {
+        adminRole = savedRole;
         lockScreen.style.display = 'none';
         adminApp.style.display = 'flex';
         initAdmin();
@@ -100,8 +110,10 @@ function initAuth() {
     }
 
     const tryLogin = () => {
-        if (pinInput.value === ADMIN_PIN) {
-            sessionStorage.setItem('vibecity_admin', 'true');
+        const role = ADMIN_PINS[pinInput.value];
+        if (role) {
+            adminRole = role;
+            sessionStorage.setItem('vibecity_admin', role);
             lockScreen.style.display = 'none';
             adminApp.style.display = 'flex';
             initAdmin();
@@ -138,10 +150,21 @@ window.switchTab = function(tabId) {
     if (tabId === 'add-place' && pickerMap) {
         setTimeout(() => pickerMap.invalidateSize(), 100);
     }
+    // Список локаций мог измениться — обновляем селект
+    if (tabId === 'events') {
+        populateEventPlaces();
+    }
 };
 
 // ===== ИНИЦИАЛИЗАЦИЯ АДМИНКИ =====
+function applyRole() {
+    document.body.classList.add('role-' + adminRole);
+    const badge = document.querySelector('.sidebar-logo .badge');
+    if (badge) badge.textContent = adminRole === 'owner' ? 'OWNER' : 'EDITOR';
+}
+
 function initAdmin() {
+    applyRole();
     loadPlaces();
     loadEvents();
 
@@ -158,6 +181,10 @@ function initAdmin() {
 
     // Сброс данных к дефолтным
     document.getElementById('reset-data-btn').onclick = () => {
+        if (adminRole !== 'owner') {
+            showToast('⛔ Сброс доступен только владельцу');
+            return;
+        }
         if (confirm('Сбросить все данные к начальным? Это удалит все изменения.')) {
             localStorage.removeItem(STORAGE_KEY);
             localStorage.removeItem(EVENTS_KEY);
@@ -175,6 +202,9 @@ function initAdmin() {
 
     // Форма
     initForm();
+
+    // Форма ивентов
+    initEventForm();
 
     // Парсер
     initParser();
@@ -249,6 +279,10 @@ function renderTable() {
 let deleteIdx = -1;
 
 window.confirmDelete = function(idx) {
+    if (adminRole !== 'owner') {
+        showToast('⛔ Удаление доступно только владельцу');
+        return;
+    }
     deleteIdx = idx;
     document.getElementById('confirm-title').textContent = `Удалить "${places[idx].name}"?`;
     document.getElementById('confirm-modal').style.display = 'flex';
@@ -356,29 +390,104 @@ window.resetForm = function() {
     document.getElementById('form-title').textContent = 'Добавить место';
 };
 
+// ===== ФОРМА ИВЕНТОВ =====
+function populateEventPlaces() {
+    const select = document.getElementById('ev-place');
+    if (!select) return;
+    const current = select.value;
+    select.innerHTML = '<option value="">Выберите место...</option>' +
+        [...places]
+            .sort((a, b) => a.name.localeCompare(b.name, 'ru'))
+            .map(p => `<option value="${p.name.replace(/"/g, '&quot;')}">${p.name} · ${p.category}</option>`)
+            .join('');
+    select.value = current;
+}
+
+function initEventForm() {
+    populateEventPlaces();
+
+    document.getElementById('event-form').onsubmit = (e) => {
+        e.preventDefault();
+
+        const placeName = document.getElementById('ev-place').value;
+        const title = document.getElementById('ev-title').value.trim();
+        const desc = document.getElementById('ev-desc').value.trim();
+        const hours = parseInt(document.getElementById('ev-hours').value, 10) || 24;
+
+        const place = places.find(p => p.name === placeName);
+        if (!place || !title) {
+            showToast('Выбери локацию и укажи название');
+            return;
+        }
+
+        events.push({
+            name: title,
+            originalPlace: place.name,
+            description: desc || `${title} — ${place.name}`,
+            coords: place.coords,
+            category: place.category,
+            isEvent: true,
+            fire: 0, dead: 0, crying: 0, myVibe: null,
+            createdAt: Date.now(),
+            lastUpdate: Date.now(),
+            expiresAt: Date.now() + hours * 60 * 60 * 1000
+        });
+
+        saveEvents();
+        renderEvents();
+        updateDashboard();
+        document.getElementById('event-form').reset();
+        showToast(`✨ Ивент «${title}» запущен в «${place.name}»`);
+    };
+}
+
 // ===== ТЕЛЕГРАМ ПАРСЕР =====
+
+// Варианты названия места: полное, до скобок и внутри скобок.
+// "Oqtepa Lavash (Чиланзар)" -> ["oqtepa lavash (чиланзар)", "oqtepa lavash", "чиланзар"]
+function placeAliases(p) {
+    const names = [p.name];
+    const m = p.name.match(/^(.+?)\s*\((.+?)\)\s*$/);
+    if (m) names.push(m[1], m[2]);
+    return names.map(n => n.trim().toLowerCase()).filter(n => n.length >= 3);
+}
+
+// Название ивента = первые предложения поста (короткие «Внимание!» пропускаем)
+function extractEventTitle(text) {
+    const parts = text.split(/[.!?\n]/).map(s => s.trim()).filter(Boolean);
+    let title = '';
+    for (const p of parts) {
+        title = title ? title + '. ' + p : p;
+        if (title.length >= 15) break;
+    }
+    if (!title) return 'Событие';
+    return title.length > 70 ? title.slice(0, 67) + '…' : title;
+}
+
 function initParser() {
     document.getElementById('parse-btn').onclick = () => {
         const text = document.getElementById('tg-text').value.trim();
         if (!text) return showToast('Вставь текст поста');
 
         const lowerText = text.toLowerCase();
-        const matches = places.filter(p => lowerText.includes(p.name.toLowerCase()));
+        const matches = places.filter(p => placeAliases(p).some(a => lowerText.includes(a)));
 
         const resultDiv = document.getElementById('parse-result');
         const outputDiv = document.getElementById('parse-output');
 
         if (matches.length > 0) {
             resultDiv.style.display = 'block';
-            outputDiv.innerHTML = matches.map(m => `
+            outputDiv.innerHTML = `
+                <p class="form-hint">📌 Ивент: «${extractEventTitle(text)}»</p>
+            ` + matches.map(m => `
                 <div class="parse-match">
                     <span>✨</span>
                     <div>
                         <strong>${m.name}</strong><br>
                         <small>${m.category} · 🔥 ${m.fire}</small>
                     </div>
-                    <button class="btn-primary" style="margin-left:auto; padding: 6px 14px; font-size: 12px;" 
-                            onclick="createEvent('${m.name}', '${text.replace(/'/g, "\\'")}')">
+                    <button class="btn-primary" style="margin-left:auto; padding: 6px 14px; font-size: 12px;"
+                            onclick="createEventFromPost('${m.name.replace(/'/g, "\\'")}', '${text.replace(/'/g, "\\'").replace(/\n/g, ' ')}')">
                         Создать ивент
                     </button>
                 </div>
@@ -390,18 +499,23 @@ function initParser() {
     };
 }
 
-window.createEvent = function(placeName, postText) {
+// ВАЖНО: имя не должно совпадать с document.createEvent —
+// в инлайновых onclick document перекрывает глобальную функцию
+window.createEventFromPost = function(placeName, postText) {
     const place = places.find(p => p.name === placeName);
     if (!place) return;
 
     const newEvent = {
-        name: `ИВЕНТ: ${place.name}`,
+        name: extractEventTitle(postText),
         originalPlace: place.name,
         description: postText,
         coords: place.coords,
         category: place.category,
         isEvent: true,
-        createdAt: Date.now()
+        fire: 0, dead: 0, crying: 0, myVibe: null,
+        createdAt: Date.now(),
+        lastUpdate: Date.now(),
+        expiresAt: Date.now() + 24 * 60 * 60 * 1000
     };
 
     events.push(newEvent);
@@ -424,14 +538,18 @@ function renderEvents() {
         return;
     }
 
-    container.innerHTML = events.map((ev, i) => `
+    container.innerHTML = events.map((ev, i) => {
+        const until = ev.expiresAt
+            ? ` · до ${new Date(ev.expiresAt).toLocaleString('ru-RU', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}`
+            : '';
+        return `
         <div class="event-item">
             <span>✨</span>
             <strong>${ev.name}</strong>
-            <small style="color: var(--text-muted)">${new Date(ev.createdAt).toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit' })}</small>
+            <small style="color: var(--text-muted)">${ev.originalPlace ? '📍 ' + ev.originalPlace : ''}${until}</small>
             <button class="remove-event" onclick="removeEvent(${i})">✕</button>
-        </div>
-    `).join('');
+        </div>`;
+    }).join('');
 }
 
 // ===== ЗАПУСК =====

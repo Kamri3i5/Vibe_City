@@ -617,3 +617,9 @@ select.input {
     .form-row { grid-template-columns: 1fr; }
     .stats-grid { grid-template-columns: 1fr 1fr; }
 }
+
+/* ===== Роли: editor не видит удаление и сброс ===== */
+body.role-editor .delete-btn,
+body.role-editor #reset-data-btn {
+    display: none !important;
+}

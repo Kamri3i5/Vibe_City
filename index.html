@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>VibeCity — Живой Пульс Ташкента</title>
+    <meta name="description" content="VibeCity — живая карта Ташкента. Смотри, где сейчас движ: рейтинги мест в реальном времени, события, пульс города и карта метро.">
+    <meta name="theme-color" content="#08080c">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236366f1' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolygon points='13 2 3 14 12 14 11 22 21 10 12 10 13 2'/%3E%3C/svg%3E">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="VibeCity — Живой Пульс Ташкента">
+    <meta property="og:description" content="Живая карта города: где сейчас движ, а где тихо. Голосуй за вайб мест и следи за пульсом Ташкента.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ru_RU">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,6 +32,11 @@
 </head>
 
 <body>
+    <noscript>
+        <div style="position:fixed;inset:0;z-index:9999;display:grid;place-items:center;background:#08080c;color:#f4f4f5;font-family:sans-serif;text-align:center;padding:24px;">
+            Для работы VibeCity нужен включённый JavaScript.
+        </div>
+    </noscript>
     <div id="map"></div>
 
     <header class="header">
@@ -104,8 +118,8 @@
             </div>
             <div class="pulse">
                 <div class="pulse__stat">
-                    <div class="pulse__value" id="pulse-online">—</div>
-                    <div class="pulse__label" data-i18n="pulse_online">Онлайн</div>
+                    <div class="pulse__value" id="pulse-events">—</div>
+                    <div class="pulse__label" data-i18n="pulse_events">Событий</div>
                 </div>
                 <div class="pulse__stat">
                     <div class="pulse__value" id="pulse-votes">—</div>
@@ -159,8 +173,11 @@
             <div class="card__header" style="padding: 16px 4px 12px 4px;">
                 <h3 class="card__title"><i data-lucide="calendar" style="color: var(--accent-2)"></i> <span
                         data-i18n="events">События</span></h3>
+                <span class="events-updated" id="events-updated"></span>
             </div>
             <div id="events-list"></div>
+            <p class="events-attribution"><span data-i18n="events_by">по данным</span> <a
+                    href="https://www.afisha.uz" target="_blank" rel="noopener">Afisha.uz</a></p>
         </div>
 
         <!-- Детальное представление (показывается при клике на маркер) -->
@@ -174,7 +191,7 @@
     </aside>
 
     <!-- Полноэкранный оверлей профиля -->
-    <div id="profile-overlay" class="overlay" hidden>
+    <div id="profile-overlay" class="overlay" role="dialog" aria-modal="true" aria-label="Профиль" hidden>
         <div class="overlay__content">
             <button class="overlay__close" id="profile-close-btn">
                 <i data-lucide="x"></i>
@@ -193,7 +210,8 @@
                         </div>
                         <div class="profile-card__info">
                             <h3 id="user-name">Гость</h3>
-                            <p class="profile-card__rank" data-i18n="rank_explorer">исследователь</p>
+                            <p class="profile-card__rank" id="user-rank">исследователь</p>
+                            <p class="profile-card__since" id="user-since"></p>
                         </div>
                     </div>
                     <div class="profile-stats">
@@ -206,9 +224,15 @@
                             <span class="stat-item__label" data-i18n="places_label">Мест</span>
                         </div>
                         <div class="stat-item">
-                            <span class="stat-item__value">1</span>
+                            <span class="stat-item__value" id="stat-level">1</span>
                             <span class="stat-item__label" data-i18n="lvl_label">LVL</span>
                         </div>
+                    </div>
+                    <div class="level-progress">
+                        <div class="level-progress__bar">
+                            <div class="level-progress__fill" id="level-fill"></div>
+                        </div>
+                        <span class="level-progress__hint" id="level-hint"></span>
                     </div>
                 </div>
 
@@ -278,7 +302,7 @@
     </div>
 
     <!-- Метро оверлей -->
-    <div id="metro-overlay" class="overlay" hidden>
+    <div id="metro-overlay" class="overlay" role="dialog" aria-modal="true" aria-label="Карта метро" hidden>
         <div class="overlay__content"
             style="max-width: 1000px; height: 90vh; display: flex; flex-direction: column; padding: 40px 24px 24px 24px;">
             <button class="overlay__close" id="metro-close-btn">
@@ -297,7 +321,7 @@
     </div>
 
     <!-- Регистрация (первый вход) -->
-    <div id="register-overlay" class="overlay" hidden>
+    <div id="register-overlay" class="overlay" role="dialog" aria-modal="true" aria-label="Добро пожаловать" hidden>
         <div class="overlay__content overlay__content--auth">
             <div class="auth-header">
                 <!-- Language Selector for Registration -->
@@ -312,6 +336,12 @@
                 </div>
                 <h2 class="auth-title" data-i18n="welcome_title">Добро пожаловать в VibeCity</h2>
                 <p class="auth-subtitle" data-i18n="welcome_subtitle">Узнай, чем дышит Ташкент прямо сейчас</p>
+
+                <ul class="auth-features">
+                    <li><i data-lucide="map-pin"></i> <span data-i18n="feat_map">Живая карта мест и событий</span></li>
+                    <li><i data-lucide="flame"></i> <span data-i18n="feat_vote">Голосуй за вайб: кайф, глухо или скучно</span></li>
+                    <li><i data-lucide="activity"></i> <span data-i18n="feat_pulse">Следи за пульсом города в реальном времени</span></li>
+                </ul>
             </div>
 
             <div class="auth-form">
@@ -336,7 +366,7 @@
                 </button>
 
                 <div class="auth-divider">
-                    <span>или</span>
+                    <span data-i18n="or_divider">или</span>
                 </div>
 
                 <!-- Google Sign-In Button -->
@@ -368,8 +398,9 @@
     <!-- Scripts -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
     <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/lucide@0.469.0"></script>
     <div id="toast" class="toast"></div>
+    <input type="file" id="avatar-file" accept="image/*" hidden>
 
     <script src="script.js"></script>
 </body>

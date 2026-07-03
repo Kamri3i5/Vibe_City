@@ -1,0 +1,407 @@
+{
+  "updatedAt": "2026-07-02T08:14:44.665Z",
+  "source": "https://www.afisha.uz",
+  "attribution": "Данные о событиях: Afisha.uz",
+  "events": [
+    {
+      "id": "ru:gorod:2026:07:02:buses",
+      "title": "В Ташкенте изменили пять автобусных маршрутов",
+      "description": "Автобусы №17, 24 и 60 увеличат интервалы из-за объездов, а №83 и 199 сократят.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/02/buses",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/98b5a021372d240d3173202effc3be58_m.webp",
+      "category": "city",
+      "published": 1782969180000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:02:stop",
+      "title": "На проспекте Мустакиллик почти на две недели ограничат движение",
+      "description": "Закроют проезжую часть по направлению от улицы Мирзо Улугбека до улицы Оккургон.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/02/stop",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/209e38f370bb4378ac73746f9e32ae8a_m.webp",
+      "category": "city",
+      "published": 1782968470000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:01:chery",
+      "title": "Гибридные технологии Chery CSH открывают новые горизонты комфорта",
+      "description": "Chery Uzbekistan представила гибридную технологию CSH. Запас хода более 1200 км, передовая шумоизоляция и выносливость, доказанная пробегом в 12 000 км, задают новые стандарты надежности для семейных поездок.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/01/chery",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/bf115c49d9ccc4ab0000c421507acfb1_m.webp",
+      "category": "city",
+      "published": 1782900000000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:01:haval",
+      "title": "Ночь в музее: Haval начал обратный отсчет до запуска нового H7",
+      "description": "Бренд Haval оригинально анонсировал скорый запуск технологичного внедорожника H7 в Узбекистане, устроив для блогеров ночной квест в музее. Новинка сочетает в себе системы помощи водителю и современные технологии.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/01/haval",
+      "image": "https://www.afisha.uz/uploads/media/2026/06/533f217cb3745d2481f3d72f68065949_m.webp",
+      "category": "city",
+      "published": 1782885600000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:06:29:weather",
+      "title": "В столице ожидаются грозы и до +33°",
+      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 29 июня по 3 июля.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/06/29/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/06/899f578bcd2a2ab58d93e1a9b76d6ad6_m.webp",
+      "category": "city",
+      "published": 1782708498000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:06:27:ultimate",
+      "title": "Концертный тур узбекских рэперов Ultimate Tour пройдет в восьми городах Узбекистана",
+      "description": "На сцене выступят Massa, Doxxim, Asl Wayne, Minor, AbroBey и Mubinlolo.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/06/27/ultimate",
+      "image": "https://www.afisha.uz/uploads/media/2026/06/f8f7bc6910e70c766d0fa8e7001817bc_m.webp",
+      "category": "concert",
+      "published": 1782532800000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:06:26:hyuston-vi-hev-a-problem",
+      "title": "Более 4000 узбекистанцев вышли на марш в Хьюстоне. Фото",
+      "description": "В Хьюстоне, США, состоялся марш в поддержку национальной сборной, участвующей в чемпионате мира по футболу, в котором приняли участие более 4000 жителей Узбекистана. Об этом сообщило Туристическое управление.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/06/26/hyuston-vi-hev-a-problem",
+      "image": "https://www.afisha.uz/uploads/media/2026/06/0eff3d60d0e2cb7cc65749af1cb214ee_m.webp",
+      "category": "city",
+      "published": 1782482280000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:06:26:inkuzart",
+      "title": "«Выбери жизнь»: Inkuzart представил работу, посвященную борьбе с наркоманией",
+      "description": "Известный уличный художник, известный под псевдонимом inkuzart, поделился новым граффити на своей странице в Instagram. Работа посвящена 26 июня, Международному дню борьбы с наркоманией.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/06/26/inkuzart",
+      "image": "https://www.afisha.uz/uploads/media/2026/06/3ddcaa20830defaa012d8eecd8ff7e2a_m.webp",
+      "category": "city",
+      "published": 1782480922000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:06:26:27-28-june",
+      "title": "Куда пойти на выходных в Ташкенте, 27 и 28 июня",
+      "description": "«Супергёрл» и еще пять кинопремьер, летний и эко-фестиваль, квизы «Гравити Фолз» и танцевальные, спектакли и выставки, творческие мастер-классы, женский арт-релакс и другие мероприятия предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/06/26/27-28-june",
+      "image": "https://www.afisha.uz/uploads/media/2026/06/4fffb59a6431f1d60849550e757c8f07_m.webp",
+      "category": "city",
+      "published": 1782470700000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:06:26:weather",
+      "title": "В столицу возвращается жара в +39°",
+      "description": "Прогноз погода в Ташкенте на выходные 27 и 28 июня.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/06/26/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/06/fde2d1ee0669b59f6353ca135572e564_m.webp",
+      "category": "city",
+      "published": 1782470545000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:06:25:record",
+      "title": "20 тысяч участников: «Андижанская полька» вошла в Книгу рекордов Гиннесса",
+      "description": "Флешмоб прошел в рамках международного мероприятия «Андижан — культурная столица тюркского мира — 2026».",
+      "url": "https://www.afisha.uz/ru/gorod/2026/06/25/record",
+      "image": "https://www.afisha.uz/uploads/media/2026/06/1d0112109be16a7d618ab46083079cb3_m.webp",
+      "category": "city",
+      "published": 1782387383000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:06:25:hitayvakfi",
+      "title": "Молодые художники из Узбекистана могут выиграть грант на поездку на Венецианскую биеннале",
+      "description": "Открыт прием заявок на международный конкурс среди студентов творческих направлений.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/06/25/hitayvakfi",
+      "image": "https://www.afisha.uz/uploads/media/2026/06/a9ef71cb32904e0bb9b1de814921f8ff_m.webp",
+      "category": "city",
+      "published": 1782372000000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:06:24:capri-sun",
+      "title": "Capri-Sun запускает производство в Узбекистане и выходит на рынок Центральной Азии",
+      "description": "19 июня состоялась презентация Capri-Sun – одного из самых узнаваемых брендов детских напитков в мире. Выход бренда на рынок Узбекистана стал первым этапом его развития в Центральной Азии и результатом партнерства с Navruz International Corp.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/06/24/capri-sun",
+      "image": "https://www.afisha.uz/uploads/media/2026/06/4b77315bfbb0421a44b2ad4e32945b5a_m.webp",
+      "category": "city",
+      "published": 1782316800000,
+      "venue": null
+    },
+    {
+      "id": "ru:exhibitions:2026:06:15:watches-wonders",
+      "title": "Время чудес: что показали на выставке Watches & Wonders",
+      "description": "Женевский салон Watches & Wonders обозначил ключевые тренды года. В их числе — популярность скелетонов, циферблаты из натуральных минералов и технологическое обновление культовых исторических коллекций.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/06/15/watches-wonders",
+      "image": "https://www.afisha.uz/uploads/media/2026/06/60ed79225899d549dfbb2a3e69eba4e1_m.webp",
+      "category": "exhibition",
+      "published": 1781510400000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:06:12:lejend",
+      "title": "Концерт Джона Ледженда прошел на площади Регистан",
+      "description": "8 июня на площади Регистан в Самарканде состоялся концерт американского певца и автора песен Джона Ледженда, обладателя премий «Грэмми», «Оскар», «Тони» и «Эмми».",
+      "url": "https://www.afisha.uz/ru/concerts/2026/06/12/lejend",
+      "image": "https://www.afisha.uz/uploads/media/2026/06/e245d59de0b135c90904697889d4532d_m.webp",
+      "category": "concert",
+      "published": 1781267046000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:06:11:toxis",
+      "title": "Концерт TOXI$ в Ташкенте перенесли на осень",
+      "description": "Организаторы сообщили, что решение принято по причинам, не зависящим от артиста и организаторов мероприятия.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/06/11/toxis",
+      "image": "https://www.afisha.uz/uploads/media/2026/06/ca36378e9bfb5f80df6a5e6b671ae977_m.webp",
+      "category": "concert",
+      "published": 1781181629000,
+      "venue": null
+    },
+    {
+      "id": "ru:exhibitions:2026:06:09:x-ray",
+      "title": "Эстетика многослойности: в Ташкенте открылась выставка Бобура Алимходжаева Duality: X-Ray of Memory",
+      "description": "Центральной частью экспозиции стали шесть уникальных фотопанно. Бобур Алимходжаев решился на смелый технологический эксперимент и распечатал свои кадры на шелковой ткани.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/06/09/x-ray",
+      "image": "https://www.afisha.uz/uploads/media/2026/06/ca5ecdad3be776c3362c20ff8f997cb7_m.webp",
+      "category": "exhibition",
+      "published": 1780987260000,
+      "venue": null
+    },
+    {
+      "id": "ru:exhibitions:2026:06:04:bukhara-biennial",
+      "title": "Художественным руководителем второй Бухарской биеннале в 2027 станет Кулапат Янтрасаст",
+      "description": "Весной 2026 года он спроектировал национальный павильон «Когда цветут абрикосы» на Миланской неделе дизайна.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/06/04/bukhara-biennial",
+      "image": "https://www.afisha.uz/uploads/media/2026/06/d6c4774505c3c9a9a8fd72952eb5a681_m.webp",
+      "category": "exhibition",
+      "published": 1780574820000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:06:04:konservatoriya",
+      "title": "Как выглядит концертный зал Государственной консерватории после обновления в 2026. Фото",
+      "description": "На смену старым зеленым стенам пришли чистые белые стены и потолок, которые мгновенно расширили пространство и наполнили его воздухом.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/06/04/konservatoriya",
+      "image": "https://www.afisha.uz/uploads/media/2026/06/0f9fe82a33d1ee6055459bafefa7c50b_m.webp",
+      "category": "concert",
+      "published": 1780571760000,
+      "venue": null
+    },
+    {
+      "id": "ru:exhibitions:2026:06:01:cca",
+      "title": "Объявлена дата открытия Центра Современного Искусства в Ташкенте",
+      "description": "Открытие начнется с выставки «Хикмах» (Hikmah). Название переводится как «мудрость» и обращается к темам прозрения, интеллекта и божественного знания.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/06/01/cca",
+      "image": "https://www.afisha.uz/uploads/media/2026/06/70b4e314b84e5aeccc54c4b8ab5029e3_m.webp",
+      "category": "exhibition",
+      "published": 1780320994000,
+      "venue": null
+    },
+    {
+      "id": "ru:exhibitions:2026:05:21:marionettes",
+      "title": "В Ташкенте открылась выставка швейцарского художника Петера Эршмана",
+      "description": "Экспозиция посвящена отношениям человека с технологиями, природой и окружающим миром.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/05/21/marionettes",
+      "image": "https://www.afisha.uz/uploads/media/2026/05/12df874e91234f73366bbdee773ef1f9_m.webp",
+      "category": "exhibition",
+      "published": 1779340524000,
+      "venue": null
+    },
+    {
+      "id": "ru:exhibitions:2026:05:19:dog-fest-2026",
+      "title": "Как прошел Dog Festival 2026 в Ташкенте. Фото",
+      "description": "Фотограф Афиши подготовил фоторепортаж.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/05/19/dog-fest-2026",
+      "image": "https://www.afisha.uz/uploads/media/2026/05/e4bc18644b10f231816f29fa9252d39b_m.webp",
+      "category": "exhibition",
+      "published": 1779173433000,
+      "venue": null
+    },
+    {
+      "id": "ru:theatres:2026:05:18:toshkent-bahori",
+      "title": "В Ташкенте стартовал фестиваль «Тошкент бахори»",
+      "description": "С 15 по 24 мая Ташкент принимает VIII Международный фестиваль оперы и балета «Тошкент бахори», который вновь превращает столицу в одну из главных площадок мирового музыкального искусства.",
+      "url": "https://www.afisha.uz/ru/theatres/2026/05/18/toshkent-bahori",
+      "image": "https://www.afisha.uz/uploads/media/2026/05/6e50a15c226351e6945816460c3f0771_m.webp",
+      "category": "theatre",
+      "published": 1779094020000,
+      "venue": null
+    },
+    {
+      "id": "ru:exhibitions:2026:05:16:pharma-eurasia",
+      "title": "Pharma Eurasia & MedTech 2026: в Ташкенте пройдет выставка фармацевтической отрасли",
+      "description": "С 20 по 22 мая в Tashkent Pharma Park пройдет международная выставка Pharma Eurasia & MedTech 2026. Площадка объединит производителей, дистрибьюторов и поставщиков решений для фармацевтики и медицины.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/05/16/pharma-eurasia",
+      "image": "https://www.afisha.uz/uploads/media/2026/05/fff55c4cef921db222834a740adee383_m.webp",
+      "category": "exhibition",
+      "published": 1778918400000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:05:01:burak",
+      "title": "Выступление Бурака Озчивита в Ташкенте перенесено",
+      "description": "Спекталь «Самая красивая девушка Стамбула» состоится в конце мая.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/05/01/burak",
+      "image": "https://www.afisha.uz/uploads/media/2026/05/749063407fc994194952975a1aec5f8e_m.webp",
+      "category": "concert",
+      "published": 1777616160000,
+      "venue": null
+    },
+    {
+      "id": "ru:exhibitions:2026:04:22:kiut",
+      "title": "В университете Кимё проходит выставка Art Engineering 2026, посвященная экологическим решениям",
+      "description": "20 апреля в университете Кимё состоялось открытие выставки Art Engineering 2026, посвящённой экологическим проблемам и их осмыслению через технологические и художественные решения. Экспозиция будет открыта до 25 апреля.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/04/22/kiut",
+      "image": "https://www.afisha.uz/uploads/media/2026/04/c1981db620c88fe3ebdec89ae6b75949_m.webp",
+      "category": "exhibition",
+      "published": 1776830400000,
+      "venue": null
+    },
+    {
+      "id": "ru:exhibitions:2026:04:20:dilorom-mamedova",
+      "title": "Галерея ARTepa и «100 уникальных работ» Дилором Мамедовой",
+      "description": "В экспозицию вошли произведения разных периодов творчества художницы, в которых отразился ее визуальный язык, сформированный за годы работы и пронизанный уважением к традициям Узбекистана.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/04/20/dilorom-mamedova",
+      "image": "https://www.afisha.uz/uploads/media/2026/04/bb10c1396fe72c10608de10772e761bc_m.webp",
+      "category": "exhibition",
+      "published": 1776681917000,
+      "venue": null
+    },
+    {
+      "id": "ru:exhibitions:2026:04:11:my-fair",
+      "title": "Выставка «Образование и профессия 2026» пройдет в 12-ти городах Узбекистана",
+      "description": "С 13 апреля по 16 мая при поддержке Агентства по делам молодежи и Министерства дошкольного и школьного образования, в 12 городах Узбекистана пройдет масштабное мероприятие в сфере образования – международная выставка «Образование и профессия 2026».",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/04/11/my-fair",
+      "image": "https://www.afisha.uz/uploads/media/2026/04/ad1c7d9cc47fdca98b4f8f41678e2bd8_m.webp",
+      "category": "exhibition",
+      "published": 1775887200000,
+      "venue": null
+    },
+    {
+      "id": "ru:exhibitions:2026:04:09:xamar",
+      "title": "Арт-галерея Xamar объявляет о закрытии",
+      "description": "Пространство функционирует до конца апреля.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/04/09/xamar",
+      "image": "https://www.afisha.uz/uploads/media/2026/04/947b0c50733bf8b39c477533edc714ea_m.webp",
+      "category": "exhibition",
+      "published": 1775726280000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:04:06:jazz-festival",
+      "title": "В Ташкенте пройдет Международный фестиваль джаза",
+      "description": "На сцене выступят мировые звезды джаза, в том числе Леонид Агутин вместе с Therr Maitz, а также Стэнли Кларк и Курт Эллинг.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/04/06/jazz-festival",
+      "image": "https://www.afisha.uz/uploads/media/2026/04/af38b01ff713a3a7b6a03ad765e6fd91_m.webp",
+      "category": "concert",
+      "published": 1775471880000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:03:31:jony",
+      "title": "Jony анонсировал перенос своего концерта в Ташкенте",
+      "description": "Он связан с тем, что артист сорвал голос.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/03/31/jony",
+      "image": "https://www.afisha.uz/uploads/media/2026/03/0044cba89c684370bd06c194700362db_m.webp",
+      "category": "concert",
+      "published": 1774955220000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:03:19:pubg-mobile",
+      "title": "8-я годовщина PUBG Mobile в СНГ & Навруз: Boundless Music фестиваль пройдет в Ташкенте",
+      "description": "С 21 по 22 марта в Ташкенте пройдет масштабный фестиваль, посвященный празднику Навруз и 8-й годовщине PUBG Mobile в странах СНГ.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/03/19/pubg-mobile",
+      "image": "https://www.afisha.uz/uploads/media/2026/03/4001f00e07fe609385ee5d3dc372e391_m.webp",
+      "category": "concert",
+      "published": 1773936000000,
+      "venue": null
+    },
+    {
+      "id": "ru:theatres:2026:03:19:nedelya-teatrov",
+      "title": "В Государственных театрах Узбекистана пройдет Неделя открытых дверей. Программа",
+      "description": "Показы спектаклей будут бесплатными, а пригласительные можно получить в кассах театров.",
+      "url": "https://www.afisha.uz/ru/theatres/2026/03/19/nedelya-teatrov",
+      "image": "https://www.afisha.uz/uploads/media/2026/03/75d1f29f8f8c5ed54e1f54ee354b59a6_m.webp",
+      "category": "theatre",
+      "published": 1773908640000,
+      "venue": null
+    },
+    {
+      "id": "ru:exhibitions:2026:03:11:van-gog",
+      "title": "Мультимедийная выставка «Быть Ван Гогом» продлевается",
+      "description": "Выставка открыта ежедневно с 10:00 до 23:00.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/03/11/van-gog",
+      "image": "https://www.afisha.uz/uploads/media/2026/03/7b66c5c54dea102830d32503c15ad11c_m.webp",
+      "category": "exhibition",
+      "published": 1773223800000,
+      "venue": null
+    },
+    {
+      "id": "ru:theatres:2026:03:06:match",
+      "title": "В театре-студии «Дийдор» состоится премьера спектакля «Матч»",
+      "description": "8 марта молодежная экспериментальная театральная студия «Дийдор» представит новую пьесу под названием «Матч».",
+      "url": "https://www.afisha.uz/ru/theatres/2026/03/06/match",
+      "image": "https://www.afisha.uz/uploads/media/2026/03/349e5ee66219e0d5dbb397497ef6a29f_m.webp",
+      "category": "theatre",
+      "published": 1772799259000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:03:02:jenisbek-piyazov",
+      "title": "Женисбек Пиязов представил новую песню Yonimda boʻlgin",
+      "description": "Народный артист Узбекистана и Каракалпакстана, оперный певец Дженисбек Пиязов представил свою новую песню Yonimda boʻlgin и видеоклип.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/03/02/jenisbek-piyazov",
+      "image": "https://www.afisha.uz/uploads/media/2026/03/40fa75da3542585a5a1307d16a7a95f6_m.webp",
+      "category": "concert",
+      "published": 1772451529000,
+      "venue": null
+    },
+    {
+      "id": "ru:theatres:2026:02:20:tickets",
+      "title": "«Афиша» открыла онлайн-продажу билетов в Русский драматический театр",
+      "description": "На сайте доступен репертуар на ближайший месяц, а также открыта возможность покупки билетов онлайн.",
+      "url": "https://www.afisha.uz/ru/theatres/2026/02/20/tickets",
+      "image": "https://www.afisha.uz/uploads/media/2026/02/25c6edbcee31795e2b7cf38d7d2cf35d_m.webp",
+      "category": "theatre",
+      "published": 1771596660000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:02:15:basta",
+      "title": "Концерт Басты перенесен на новую дату",
+      "description": "Все приобретенные билеты действительны на новую дату.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/02/15/basta",
+      "image": "https://www.afisha.uz/uploads/media/2026/02/bda8e322b323a01c389c9e372129effa_m.webp",
+      "category": "concert",
+      "published": 1771164179000,
+      "venue": null
+    },
+    {
+      "id": "ru:theatres:2026:02:13:mtu-tickets",
+      "title": "Afisha.uz запустила продажи билетов на спектакли Молодежного театра",
+      "description": "Спектакли Государственного молодежного театра Узбекистана проводятся на сцене ТЮЗа.",
+      "url": "https://www.afisha.uz/ru/theatres/2026/02/13/mtu-tickets",
+      "image": "https://www.afisha.uz/uploads/media/2026/02/47b3adb48a7dadbd7b21705c59f8d9c2_m.webp",
+      "category": "theatre",
+      "published": 1770990180000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:02:13:afisha14",
+      "title": "Промокоды от Afisha.uz в честь 14 февраля на семь концертов в Ташкенте",
+      "description": "Скидки по промокодам «Афиши» распространяются на концерты Jony, Алессандро Сафина и L’One, а также музыкальное шоу «Нотрдам Де Пари» и другие мероприятия.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/02/13/afisha14",
+      "image": "https://www.afisha.uz/uploads/media/2026/02/9d4e828b35627033f1cd5c4e150d6bd7_m.webp",
+      "category": "concert",
+      "published": 1770980142000,
+      "venue": null
+    }
+  ]
+}

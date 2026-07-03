@@ -83,7 +83,47 @@
             time_day: "д назад",
             time_actual: "актуально",
             time_old: "устарело",
-            metro_map: "Карта метро"
+            metro_map: "Карта метро",
+            metro_station: "Станция метро",
+            or_divider: "или",
+            logout: "Выйти",
+            logout_confirm: "Вы уверены, что хотите выйти?",
+            logged_out: "Вы вышли из системы",
+            people_suffix: "чел.",
+            theme_dark_on: "Тёмная тема",
+            theme_light_on: "Светлая тема",
+            hello: "Привет",
+            welcome_short: "Добро пожаловать",
+            google_error: "Ошибка входа через Google",
+            feat_map: "Живая карта мест и событий",
+            feat_vote: "Голосуй за вайб: кайф, глухо или скучно",
+            feat_pulse: "Следи за пульсом города в реальном времени",
+            pulse_events: "Событий",
+            events_by: "по данным",
+            events_updated: "обновлено",
+            event_read: "Читать на Afisha.uz",
+            taxi_btn: "Такси сюда",
+            member_since: "с нами с",
+            rank_1: "новичок",
+            rank_2: "исследователь",
+            rank_3: "знаток города",
+            rank_4: "легенда города",
+            level_hint: "до следующего уровня",
+            level_max: "максимальный уровень",
+            feed_new_event: "Новое событие",
+            feed_you: "Ты",
+            reg_name_error: "Имя — минимум 2 символа",
+            afisha_concert: "Концерт",
+            afisha_theatre: "Театр",
+            afisha_exhibition: "Выставка",
+            afisha_city: "Город",
+            upload_avatar: "Своё фото",
+            avatar_error: "Не удалось загрузить фото",
+            chat_title: "Чат места",
+            chat_placeholder: "Что тут происходит?",
+            chat_empty: "Тут пока тихо — напиши первым!",
+            chat_slow: "Не так быстро 🙂",
+            chat_note: "Демо-чат: до подключения сервера сообщения видны только на этом устройстве"
         },
         en: {
             brand_status: "Tashkent · Live",
@@ -151,7 +191,47 @@
             time_day: "d ago",
             time_actual: "active",
             time_old: "stale",
-            metro_map: "Metro Map"
+            metro_map: "Metro Map",
+            metro_station: "Metro station",
+            or_divider: "or",
+            logout: "Log out",
+            logout_confirm: "Are you sure you want to log out?",
+            logged_out: "Logged out",
+            people_suffix: "ppl",
+            theme_dark_on: "Dark theme",
+            theme_light_on: "Light theme",
+            hello: "Hello",
+            welcome_short: "Welcome",
+            google_error: "Google sign-in failed",
+            feat_map: "Live map of places and events",
+            feat_vote: "Vote the vibe: fire, dead or boring",
+            feat_pulse: "Watch the city pulse in real time",
+            pulse_events: "Events",
+            events_by: "powered by",
+            events_updated: "updated",
+            event_read: "Read on Afisha.uz",
+            taxi_btn: "Taxi here",
+            member_since: "member since",
+            rank_1: "newbie",
+            rank_2: "explorer",
+            rank_3: "city expert",
+            rank_4: "city legend",
+            level_hint: "to the next level",
+            level_max: "max level",
+            feed_new_event: "New event",
+            feed_you: "You",
+            reg_name_error: "Name must be at least 2 characters",
+            afisha_concert: "Concert",
+            afisha_theatre: "Theatre",
+            afisha_exhibition: "Exhibition",
+            afisha_city: "City",
+            upload_avatar: "Your photo",
+            avatar_error: "Couldn't load the photo",
+            chat_title: "Place chat",
+            chat_placeholder: "What's happening here?",
+            chat_empty: "Quiet here — be the first to write!",
+            chat_slow: "Not so fast 🙂",
+            chat_note: "Demo chat: messages stay on this device until a backend is connected"
         },
         uz: {
             brand_status: "Toshkent · Live",
@@ -219,7 +299,47 @@
             time_day: "kun oldin",
             time_actual: "faol",
             time_old: "eskirgan",
-            metro_map: "Metro xaritasi"
+            metro_map: "Metro xaritasi",
+            metro_station: "Metro bekati",
+            or_divider: "yoki",
+            logout: "Chiqish",
+            logout_confirm: "Chiqishga ishonchingiz komilmi?",
+            logged_out: "Tizimdan chiqdingiz",
+            people_suffix: "kishi",
+            theme_dark_on: "Tungi mavzu",
+            theme_light_on: "Kunduzgi mavzu",
+            hello: "Salom",
+            welcome_short: "Xush kelibsiz",
+            google_error: "Google orqali kirishda xatolik",
+            feat_map: "Joylar va tadbirlarning jonli xaritasi",
+            feat_vote: "Vayb uchun ovoz bering: kayf, jimjit yoki zerikarli",
+            feat_pulse: "Shahar pulsini real vaqtda kuzating",
+            pulse_events: "Tadbirlar",
+            events_by: "manba:",
+            events_updated: "yangilandi",
+            event_read: "Afisha.uz'da o'qish",
+            taxi_btn: "Taksi chaqirish",
+            member_since: "a'zo:",
+            rank_1: "yangi",
+            rank_2: "tadqiqotchi",
+            rank_3: "shahar bilimdoni",
+            rank_4: "shahar afsonasi",
+            level_hint: "keyingi darajagacha",
+            level_max: "eng yuqori daraja",
+            feed_new_event: "Yangi tadbir",
+            feed_you: "Siz",
+            reg_name_error: "Ism kamida 2 ta belgidan iborat bo'lsin",
+            afisha_concert: "Konsert",
+            afisha_theatre: "Teatr",
+            afisha_exhibition: "Ko'rgazma",
+            afisha_city: "Shahar",
+            upload_avatar: "O'z rasmingiz",
+            avatar_error: "Rasm yuklanmadi",
+            chat_title: "Joy chati",
+            chat_placeholder: "Bu yerda nima bo'lyapti?",
+            chat_empty: "Hozircha jim — birinchi bo'lib yozing!",
+            chat_slow: "Shoshilmang 🙂",
+            chat_note: "Demo-chat: server ulangunga qadar xabarlar faqat shu qurilmada ko'rinadi"
         }
     };
 
@@ -235,9 +355,9 @@
     };
 
     const VIBE_META = {
-        '🔥': { label: 'Кайф', key: 'fire', field: 'fire', color: 'var(--fire)' },
-        '💀': { label: 'Глухо', key: 'dead', field: 'dead', color: 'var(--dead)' },
-        '😭': { label: 'Скучно', key: 'crying', field: 'crying', color: 'var(--cool)' }
+        '🔥': { label: 'Кайф', key: 'fire', field: 'fire', labelKey: 'vibe_fire', color: 'var(--fire)' },
+        '💀': { label: 'Глухо', key: 'dead', field: 'dead', labelKey: 'vibe_dead', color: 'var(--dead)' },
+        '😭': { label: 'Скучно', key: 'crying', field: 'crying', labelKey: 'vibe_cry', color: 'var(--cool)' }
     };
 
     // SVG icons (inline so markers don't depend on lucide)
@@ -254,103 +374,104 @@
 
     const DEFAULT_PLACES = [
         {
-            name: "Бродвей (Сайилгох)", coords: [41.3117, 69.2797], category: "Развлечения",
-            image: "https://images.unsplash.com/photo-1589417852331-97b7b134907a?auto=format&fit=crop&w=800&q=80",
+            name: "Бродвей (Сайилгох)", coords: [41.3126, 69.2746], category: "Развлечения",
             description: "Главная пешеходная улица Ташкента. Артисты, стритфуд, живая музыка — тут всегда движ.",
             fire: 24, dead: 1, crying: 0
         },
         {
-            name: "Magic City", coords: [41.3015, 69.2455], category: "Развлечения",
-            image: "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=800&q=80",
+            name: "Magic City", coords: [41.3036, 69.2450], category: "Развлечения",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Magic_city_tungi_ko%27rinishi.jpg/960px-Magic_city_tungi_ko%27rinishi.jpg",
             description: "Тематический парк с замком, фонтанами и ночной подсветкой. Сказка для всех возрастов.",
             fire: 15, dead: 2, crying: 0
         },
         {
-            name: "Ташкент Сити", coords: [41.3031, 69.2662], category: "Парк",
-            image: "https://images.unsplash.com/photo-1589417852331-97b7b134907a?auto=format&fit=crop&w=800&q=80",
+            name: "Ташкент Сити", coords: [41.3165, 69.2484], category: "Парк",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Tashkent_city_8.jpg/960px-Tashkent_city_8.jpg",
             description: "Современный деловой комплекс с небоскрёбами, фонтанами и вечерней подсветкой.",
             fire: 8, dead: 0, crying: 0
         },
         {
-            name: "Minor Mosque", coords: [41.3330, 69.2815], category: "Культура",
-            image: "https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?auto=format&fit=crop&w=800&q=80",
+            name: "Minor Mosque", coords: [41.3345, 69.2770], category: "Культура",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Minor_Mosque_Tashkent.jpg/960px-Minor_Mosque_Tashkent.jpg",
             description: "Белоснежная мечеть на берегу канала Анхор. Архитектурный шедевр нового Ташкента.",
             fire: 4, dead: 0, crying: 1
         },
         {
-            name: "Chorsu Bazaar", coords: [41.3264, 69.2292], category: "Шопинг",
-            image: "https://images.unsplash.com/photo-1623582490530-072836262923?auto=format&fit=crop&w=800&q=80",
+            name: "Chorsu Bazaar", coords: [41.3262, 69.2369], category: "Шопинг",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Chorsu_Market_general_view.jpg/960px-Chorsu_Market_general_view.jpg",
             description: "Легендарный базар под голубыми куполами. Специи, сухофрукты, свежий хлеб — аутентичный Ташкент.",
             fire: 10, dead: 1, crying: 0
         },
         {
             name: "Amir Temur Square", coords: [41.3111, 69.2789], category: "Культура",
-            image: "https://images.unsplash.com/photo-1601053159740-4f51e3919e91?auto=format&fit=crop&w=800&q=80",
             description: "Центральная площадь столицы с конной статуей Амира Тимура и фонтанами.",
             fire: 5, dead: 2, crying: 0
         },
         {
-            name: "Телебашня Ташкента", coords: [41.3425, 69.2858], category: "Культура",
-            image: "https://images.unsplash.com/photo-1628795175520-fe164f981062?auto=format&fit=crop&w=800&q=80",
+            name: "Телебашня Ташкента", coords: [41.3456, 69.2847], category: "Культура",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Tashkent_TV_Tower_179.jpg/960px-Tashkent_TV_Tower_179.jpg",
             description: "375-метровая телевизионная башня — самое высокое сооружение в Центральной Азии.",
             fire: 7, dead: 1, crying: 0
         },
         {
-            name: "Театр Навои", coords: [41.3131, 69.2768], category: "Культура",
+            name: "Театр Навои", coords: [41.3092, 69.2715], category: "Культура",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Navoi_Theater_-_Tashkent.jpg/960px-Navoi_Theater_-_Tashkent.jpg",
             description: "Государственный академический Большой театр имени Алишера Навои. Опера и балет мирового уровня.",
             fire: 3, dead: 0, crying: 0
         },
         {
-            name: "Хазрати Имам", coords: [41.3382, 69.2327], category: "Культура",
+            name: "Хазрати Имам", coords: [41.3373, 69.2401], category: "Культура",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Barakhan_Madrasah_Tashkent.jpg/960px-Barakhan_Madrasah_Tashkent.jpg",
             description: "Священный исламский комплекс с мечетями и медресе. Хранится старейший Коран в мире.",
             fire: 6, dead: 0, crying: 0
         },
         {
-            name: "Парк Навруз", coords: [41.3245, 69.3124], category: "Парк",
-            image: "https://images.unsplash.com/photo-1590490359854-dfba19688d70?auto=format&fit=crop&w=800&q=80",
+            name: "Парк Навруз", coords: [41.3260, 69.2661], category: "Парк",
             description: "Огромный этно-парк с озером, каруселями и колесом обозрения.",
             fire: 11, dead: 0, crying: 0
         },
         {
-            name: "Oqtepa Lavash (Чиланзар)", coords: [41.2858, 69.2131], category: "Еда",
+            name: "Oqtepa Lavash (Чиланзар)", coords: [41.3001, 69.2098], category: "Еда",
             description: "Культовый ташкентский фастфуд. Самса, лаваш и шаурма — очередь показатель качества.",
             fire: 9, dead: 3, crying: 0
         },
         {
-            name: "Central Asian Plov Center", coords: [41.3225, 69.2878], category: "Еда",
-            image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+            name: "Central Asian Plov Center", coords: [41.3407, 69.2836], category: "Еда",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Central_Asian_Plov_Centre_in_Tashkent.jpg/960px-Central_Asian_Plov_Centre_in_Tashkent.jpg",
             description: "Легендарное место, где готовят 1000 кг плова в день. Must visit для каждого гостя Ташкента.",
             fire: 20, dead: 0, crying: 0
         },
         {
-            name: "ТЦ Samarqand Darvoza", coords: [41.3272, 69.2339], category: "Шопинг",
+            name: "ТЦ Samarqand Darvoza", coords: [41.3177, 69.2312], category: "Шопинг",
             description: "Современный торговый центр рядом с Чорсу. Бренды, кинотеатр, фудкорт.",
             fire: 3, dead: 5, crying: 1
         },
         {
-            name: "Mega Planet", coords: [41.2978, 69.2176], category: "Шопинг",
+            name: "Mega Planet", coords: [41.3673, 69.2911], category: "Шопинг",
             description: "Один из крупнейших ТРЦ Ташкента. IMAX кинотеатр, боулинг, рестораны.",
             fire: 4, dead: 2, crying: 0
         },
         {
-            name: "Японский сад", coords: [41.3420, 69.2040], category: "Парк",
-            image: "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=800&q=80",
+            name: "Японский сад", coords: [41.3396, 69.2820], category: "Парк",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Japanese_garden_Tashkent_01.jpg/960px-Japanese_garden_Tashkent_01.jpg",
             description: "Тихий уголок Японии в Ташкенте. Мостики, карпы кои, сакура и медитативная атмосфера.",
             fire: 5, dead: 0, crying: 0
         },
         {
-            name: "Humo Arena", coords: [41.3150, 69.2950], category: "Развлечения",
-            image: "https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?auto=format&fit=crop&w=800&q=80",
+            name: "Humo Arena", coords: [41.3080, 69.2519], category: "Развлечения",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Humo_Arena_2019.jpg/960px-Humo_Arena_2019.jpg",
             description: "Современная ледовая арена на 12000 мест. Хоккей, концерты и шоу мирового уровня.",
             fire: 13, dead: 1, crying: 0
         },
         {
             name: "Набережная Анхор", coords: [41.3280, 69.2750], category: "Парк",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Anhor_kanali_va_O%CA%BBrda_ko%CA%BBprigi.jpg/960px-Anhor_kanali_va_O%CA%BBrda_ko%CA%BBprigi.jpg",
             description: "Набережная канала Анхор — популярное место для вечерних прогулок и джоггинга.",
             fire: 7, dead: 0, crying: 0
         },
         {
-            name: "Музей Искусств", coords: [41.3065, 69.2755], category: "Культура",
+            name: "Музей Искусств", coords: [41.3026, 69.2787], category: "Культура",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Museum_of_Arts_of_Uzbekistan_1.jpg/960px-Museum_of_Arts_of_Uzbekistan_1.jpg",
             description: "Государственный музей искусств Узбекистана. Коллекция от древности до современности.",
             fire: 2, dead: 0, crying: 0
         },
@@ -375,13 +496,16 @@
                 const raw = localStorage.getItem(STORAGE_KEY);
                 let places = raw ? JSON.parse(raw) : [...DEFAULT_PLACES];
 
-                // DATA MIGRATION: Ensure new images are applied to existing saved places
+                // DATA MIGRATION: подтягиваем актуальные фото и координаты из дефолтов
                 return places.map(p => {
                     const fresh = DEFAULT_PLACES.find(d => d.name === p.name);
-                    if (fresh && (!p.image || p.image.includes('source.unsplash') || p.image.includes('picsum'))) {
-                        return { ...p, image: fresh.image };
-                    }
-                    return p;
+                    if (!fresh) return p;
+                    const isStock = p.image && /unsplash|picsum|loremflickr|googleusercontent/.test(p.image);
+                    return {
+                        ...p,
+                        coords: fresh.coords, // координаты выверены по OSM
+                        image: (!p.image || isStock) ? fresh.image : p.image
+                    };
                 });
             } catch {
                 return [...DEFAULT_PLACES];
@@ -394,7 +518,9 @@
         loadEvents() {
             try {
                 const raw = localStorage.getItem(EVENTS_KEY);
-                return raw ? JSON.parse(raw) : [];
+                const arr = raw ? JSON.parse(raw) : [];
+                // Истёкшие ивенты не показываем
+                return arr.filter(e => !e.expiresAt || e.expiresAt > Date.now());
             } catch { return []; }
         },
         saveEvents(events) {
@@ -405,9 +531,16 @@
             try {
                 const raw = localStorage.getItem(FEED_KEY);
                 const arr = raw ? JSON.parse(raw) : [];
-                // Drop entries older than 24h
+                // Drop entries older than 24h + оставляем один вайб-чек на место
                 const cutoff = Date.now() - 24 * 60 * 60 * 1000;
-                return arr.filter(e => e.ts > cutoff);
+                const seenPlaces = new Set();
+                return arr.filter(e => {
+                    if (e.ts <= cutoff) return false;
+                    if (e.type) return true;
+                    if (seenPlaces.has(e.place)) return false;
+                    seenPlaces.add(e.place);
+                    return true;
+                });
             } catch { return []; }
         },
         saveFeed(feed) {
@@ -542,6 +675,7 @@
             renderFeed();
             renderEvents();
             if (state.currentPlace) showPlace(state.currentPlace);
+            if (!$('#profile-overlay').hidden) showProfile(); // обновить динамические тексты профиля
 
             // Re-render Google button if on registration screen
             if (typeof Auth !== 'undefined' && document.getElementById("google-signin-btn")) {
@@ -647,131 +781,48 @@
     }
 
     // ============================================================
-    // CONFIGURATION
+    // Image system (curated images + gradient fallback)
     // ============================================================
-    const GOOGLE_API_KEY = "AIzaSyCNa5mvKKVyfhsftHfBvk7xS_s694Ms27E";
-
-    // ============================================================
-    // Image system (Official Google SDK + Fallbacks)
-    // ============================================================
-
-    // ============================================================
-    // Image system (Modern Google Places API New + Fallbacks)
-    // ============================================================
-
-    const loadGoogleSDK = () => {
-        if (window.google && window.google.maps) return Promise.resolve();
-        return new Promise((resolve, reject) => {
-            const script = document.createElement('script');
-            // Using the modern bootstrap loader
-            script.innerHTML = `(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src='https://maps.'+c+'apis.com/maps/api/js?'+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?(console.warn(p+" only loads once. Ignoring:",g),u()):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
-                key: "${GOOGLE_API_KEY}",
-                v: "weekly"
-            });`;
-            document.head.appendChild(script);
-
-            // Wait for google.maps to be defined
-            const check = setInterval(() => {
-                if (window.google && window.google.maps && window.google.maps.importLibrary) {
-                    clearInterval(check);
-                    resolve();
-                }
-            }, 100);
-            setTimeout(() => { clearInterval(check); reject(); }, 5000);
-        });
-    };
-
-    const GooglePlaces = {
-        cache: new Map(), // Кэш для URL фотографий
-        async getPhotoUrl(placeName) {
-            if (this.cache.has(placeName)) return this.cache.get(placeName);
-            if (!GOOGLE_API_KEY) return null;
-            try {
-                await loadGoogleSDK();
-                const { Place } = await google.maps.importLibrary("places");
-
-                // Очищаем название от текста в скобках для лучшего поиска
-                const cleanName = placeName.replace(/\(.*\)/, '').trim();
-                
-                const request = {
-                    textQuery: `${cleanName}, Ташкент`,
-                    fields: ['photos'],
-                    language: 'ru'
-                };
-
-                const { places } = await Place.searchByText(request);
-
-                if (places && places.length > 0 && places[0].photos && places[0].photos.length > 0) {
-                    const url = places[0].photos[0].getURI({ maxWidth: Perf.getMaxImageWidth() });
-                    this.cache.set(placeName, url);
-                    return url;
-                }
-                return null;
-            } catch (e) {
-                console.error("Google Places Error:", e);
-                return null;
-            }
-        }
-    };
 
     const Images = {
         primaryFor(place) {
             if (place.image && /^https?:\/\//.test(place.image)) return place.image;
-            const seed = encodeURIComponent(place.name.replace(/\s+/g, '-').toLowerCase());
-            const width = Perf.getMaxImageWidth();
-            const height = Math.round(width * 0.5625);
-            return `https://loremflickr.com/${width}/${height}/${place.category || 'city'},modern?lock=${seed}`;
+            return null;
         },
-        async preload() {
-            // Предзагружаем фото для всех мест в фоне
-            state.places.forEach(async p => {
-                const url = await GooglePlaces.getPhotoUrl(p.name);
-                if (url) {
-                    const img = new Image();
-                    img.src = url; // Браузер закэширует саму картинку
-                }
-            });
-        },
-        async renderHero(place, container) {
+        renderHero(place, container) {
             const cat = CATEGORY_META[place.category] || { emoji: '📍', color: 'var(--accent)' };
-            
-            // Если URL уже в кэше, показываем его без задержки
-            const cachedUrl = GooglePlaces.cache.get(place.name);
-            let url = cachedUrl;
-
-            const fallback = `
-                <div class="place__hero-fallback" id="hero-fallback" style="background: linear-gradient(135deg, ${cat.color}, ${cat.color}88); display: ${url ? 'none' : 'grid'};">
-                    <span>${cat.emoji}</span>
-                </div>`;
+            const url = this.primaryFor(place);
 
             container.innerHTML = `
-                <div class="place__hero-img ${url ? '' : 'skeleton is-loading'}" id="hero-img" ${url ? `style="background-image: url('${url}'); opacity: 1;"` : ''}></div>
-                ${fallback}
+                <div class="place__hero-img ${url ? 'skeleton is-loading' : ''}" id="hero-img"></div>
+                <div class="place__hero-fallback" id="hero-fallback" style="background: linear-gradient(135deg, ${cat.color}, ${cat.color}88); display: ${url ? 'none' : 'grid'};">
+                    <span>${cat.emoji}</span>
+                </div>
                 <div class="place__hero-overlay"></div>
                 <div class="place__hero-status" id="hero-status"></div>`;
 
-            if (!url) {
-                url = await GooglePlaces.getPhotoUrl(place.name);
-                if (!url) url = this.primaryFor(place);
+            if (!url) return;
 
-                const img = new Image();
-                img.onload = () => {
-                    const el = container.querySelector('#hero-img');
-                    const fb = container.querySelector('#hero-fallback');
-                    if (el) {
-                        el.style.backgroundImage = `url('${url}')`;
-                        el.classList.remove('skeleton', 'is-loading');
-                        el.style.opacity = '1';
-                    }
-                    if (fb) fb.style.display = 'none';
-                };
-                img.src = url;
-            }
+            const img = new Image();
+            img.onload = () => {
+                const el = container.querySelector('#hero-img');
+                if (!el) return;
+                el.style.backgroundImage = `url('${url}')`;
+                el.classList.remove('skeleton', 'is-loading');
+                el.style.opacity = '1';
+            };
+            img.onerror = () => {
+                const el = container.querySelector('#hero-img');
+                const fb = container.querySelector('#hero-fallback');
+                if (el) el.classList.remove('skeleton', 'is-loading');
+                if (fb) fb.style.display = 'grid';
+            };
+            img.src = url;
         },
         thumbFor(place) {
             const cat = CATEGORY_META[place.category] || { emoji: '📍', color: 'var(--accent)' };
             return {
-                url: GooglePlaces.cache.get(place.name) || this.primaryFor(place),
+                url: this.primaryFor(place),
                 fallback: `linear-gradient(135deg, ${cat.color}, ${cat.color}88)`,
                 emoji: cat.emoji
             };
@@ -809,19 +860,17 @@
             map.removeLayer(tileLayers.dark);
             tileLayers.light.addTo(map);
         }
-        const themeIcon = $('#theme-toggle i');
-        if (themeIcon) {
-            themeIcon.setAttribute('data-lucide', isDark ? 'sun' : 'moon');
-            refreshIcons();
-        }
+        $$('.js-theme-toggle [data-lucide]').forEach(icon => {
+            icon.setAttribute('data-lucide', isDark ? 'sun' : 'moon');
+        });
+        refreshIcons();
         // Update profile toggle
         const profToggle = $('#theme-toggle-profile');
         if (profToggle) profToggle.classList.toggle('is-active', isDark);
     }
 
-    // Init theme
-    if (state.theme === 'dark') tileLayers.dark.addTo(map);
-    else { document.body.classList.add('light-mode'); tileLayers.light.addTo(map); }
+    // Init theme (tiles, body class and toggle icons in one place)
+    applyTheme(state.theme);
 
     // ============================================================
     // Markers
@@ -904,6 +953,29 @@
         state.currentPlace = null;
     }
 
+    // Уровни считаются из реальных действий пользователя
+    const RANK_STEPS = [
+        { min: 0, key: 'rank_1' },
+        { min: 5, key: 'rank_2' },
+        { min: 15, key: 'rank_3' },
+        { min: 30, key: 'rank_4' }
+    ];
+
+    function getLevelInfo(votes) {
+        let idx = 0;
+        for (let i = 0; i < RANK_STEPS.length; i++) {
+            if (votes >= RANK_STEPS[i].min) idx = i;
+        }
+        const next = RANK_STEPS[idx + 1] || null;
+        return {
+            level: idx + 1,
+            rankKey: RANK_STEPS[idx].key,
+            next,
+            toNext: next ? next.min - votes : 0,
+            progress: next ? (votes - RANK_STEPS[idx].min) / (next.min - RANK_STEPS[idx].min) : 1
+        };
+    }
+
     function showProfile() {
         const overlay = $('#profile-overlay');
         overlay.hidden = false;
@@ -919,6 +991,33 @@
         const myVotes = state.myVotes || [];
         $('#stat-votes').textContent = myVotes.length;
         $('#stat-places').textContent = [...new Set(myVotes.map(v => v.placeId))].length;
+
+        // Уровень, ранг и прогресс — из реальной истории голосов
+        const level = getLevelInfo(myVotes.length);
+        const levelEl = $('#stat-level');
+        if (levelEl) levelEl.textContent = level.level;
+        const rankEl = $('#user-rank');
+        if (rankEl) rankEl.textContent = i18n.t(level.rankKey);
+        const fillEl = $('#level-fill');
+        if (fillEl) fillEl.style.width = Math.round(level.progress * 100) + '%';
+        const hintEl = $('#level-hint');
+        if (hintEl) {
+            hintEl.textContent = level.next
+                ? `${myVotes.length}/${level.next.min} · ${i18n.t('level_hint')}`
+                : i18n.t('level_max');
+        }
+
+        // Дата регистрации
+        const sinceEl = $('#user-since');
+        if (sinceEl) {
+            if (state.user && state.user.regDate) {
+                const locale = state.lang === 'en' ? 'en-US' : state.lang === 'uz' ? 'uz-UZ' : 'ru-RU';
+                const date = new Date(state.user.regDate).toLocaleDateString(locale, { day: 'numeric', month: 'short', year: 'numeric' });
+                sinceEl.textContent = `${i18n.t('member_since')} ${date}`;
+            } else {
+                sinceEl.textContent = '';
+            }
+        }
 
         // Update active language button
         $$('.js-lang-btn').forEach(btn => {
@@ -970,7 +1069,7 @@
 
             <div class="freshness ${fresh.cls}">
                 <i data-lucide="clock"></i>
-                <span data-i18n="freshness_${fresh.cls || 'recent'}">${fresh.text}</span>
+                <span>${fresh.text}</span>
             </div>
 
             <div>
@@ -999,7 +1098,7 @@
                 <div class="crowd-row">
                     <i data-lucide="users"></i>
                     <span data-i18n="current_occupancy">Сейчас здесь</span>
-                    <span class="crowd-row__num">${crowd.estimate} чел.</span>
+                    <span class="crowd-row__num">${crowd.estimate} ${i18n.t('people_suffix')}</span>
                 </div>
                 <div class="crowd-bar">
                     <div class="crowd-bar__fill" style="width: ${crowd.percent}%"></div>
@@ -1024,8 +1123,24 @@
                 </div>
             </div>
 
-            <div style="margin-top: 8px;">
-                <button class="btn btn--secondary" style="width: 100%;" id="share-btn">
+            <div class="chat">
+                <div class="section-title" data-i18n="chat_title">${escapeHtml(i18n.t('chat_title'))}</div>
+                <div class="chat__messages" id="chat-messages"></div>
+                <form class="chat__form" id="chat-form">
+                    <input type="text" class="chat__input" id="chat-input" maxlength="200"
+                        placeholder="${escapeHtml(i18n.t('chat_placeholder'))}" autocomplete="off">
+                    <button type="submit" class="chat__send" aria-label="Send">
+                        <i data-lucide="send"></i>
+                    </button>
+                </form>
+                <p class="chat__note">${escapeHtml(i18n.t('chat_note'))}</p>
+            </div>
+
+            <div style="margin-top: 8px; display: flex; gap: 10px;">
+                <button class="btn btn--taxi" style="flex: 1.2;" id="taxi-btn">
+                    <span class="btn--taxi__emoji">🚕</span> <span data-i18n="taxi_btn">Такси сюда</span>
+                </button>
+                <button class="btn btn--secondary" style="flex: 1;" id="share-btn">
                     <i data-lucide="share-2"></i> <span data-i18n="share">Поделиться</span>
                 </button>
             </div>
@@ -1047,6 +1162,28 @@
         $$('.vote', $('#place-content')).forEach(btn => {
             btn.addEventListener('click', () => handleVote(btn.dataset.vibe));
         });
+
+        // Wire chat
+        Chat.render(place);
+        const chatForm = $('#chat-form');
+        if (chatForm) {
+            chatForm.addEventListener('submit', e => {
+                e.preventDefault();
+                const inp = $('#chat-input');
+                if (inp && Chat.send(place, inp.value)) inp.value = '';
+            });
+        }
+
+        // Wire taxi button: deeplink открывает приложение Yandex Go (или веб-версию)
+        const taxiBtn = $('#taxi-btn');
+        if (taxiBtn) {
+            taxiBtn.addEventListener('click', () => {
+                const [lat, lon] = place.coords;
+                // Универсальный deeplink Yandex Go: открывает приложение на мобильном, веб — на десктопе
+                const url = `https://3.redirect.appmetrica.yandex.com/route?end-lat=${lat}&end-lon=${lon}&appmetrica_tracking_id=1178268795219780156&ref=vibecity`;
+                window.open(url, '_blank', 'noopener');
+            });
+        }
 
         // Wire share button
         const shareBtn = $('#share-btn');
@@ -1101,13 +1238,15 @@
 
         place.lastUpdate = Date.now();
 
-        // Track personal history
+        // Track personal history: one entry per place, removed on unvote
+        state.myVotes = state.myVotes.filter(v => v.placeId !== place.name);
         if (place.myVibe) {
             state.myVotes.push({ placeId: place.name, vibe, ts: Date.now() });
-            localStorage.setItem('vibecity_my_votes', JSON.stringify(state.myVotes));
         }
+        localStorage.setItem('vibecity_my_votes', JSON.stringify(state.myVotes));
 
-        Storage.savePlaces(state.places);
+        if (place.isEvent) Storage.saveEvents(state.events);
+        else Storage.savePlaces(state.places);
 
         // Re-render everything affected
         renderMarkers();
@@ -1117,41 +1256,110 @@
         renderTopList();
         renderPulse();
 
-        Toast.show(place.myVibe ? `${i18n.t('toast_voted')} · ${i18n.t('vibe_' + meta.field)}` : i18n.t('toast_unvoted'), vibe);
+        Toast.show(place.myVibe ? `${i18n.t('toast_voted')} · ${i18n.t(meta.labelKey)}` : i18n.t('toast_unvoted'), vibe);
     }
+
+    // ============================================================
+    // Чат мест: локальное демо-хранилище + модерация (антимат, rate-limit)
+    // Структура готова к замене на Firebase/Supabase: load/save/send/render
+    // ============================================================
+
+    const Chat = {
+        RATE_MS: 3000,
+        MAX_LEN: 200,
+        lastSent: 0,
+
+        key(place) {
+            return 'vibecity_chat:' + place.name;
+        },
+        load(place) {
+            try { return JSON.parse(localStorage.getItem(this.key(place)) || '[]'); }
+            catch { return []; }
+        },
+        save(place, msgs) {
+            localStorage.setItem(this.key(place), JSON.stringify(msgs.slice(-50)));
+        },
+
+        // Замена «маскировочных» символов на кириллицу для проверки
+        LOOKALIKES: {
+            '@': 'а', '0': 'о', '3': 'з', '1': 'и', '!': 'и', '$': 'с', '4': 'ч',
+            'a': 'а', 'b': 'б', 'c': 'с', 'e': 'е', 'k': 'к', 'm': 'м', 's': 'с',
+            'o': 'о', 'p': 'р', 't': 'т', 'x': 'х', 'y': 'у', 'u': 'у', 'n': 'п'
+        },
+        // Корни мата: слово = (приставка?) + корень
+        BAD_RU: /^(за|на|вы|до|от|пере|при|под|об|раз|рас|с|у|по|из|не)?(х[уy][йиеёя]|п[иe]зд|[её]б(ан|ат|ал|л[оаи]|ур|к|ыв|уч|ись?|ешь|ут|[её]т)|бл[яё](т|д)?$|бл[яё](т|д)|с[уy]к[аи]|с[уy]ч(к|ар)|м[уy]д(ак|ил|о)|г[ао]ндон|пид[оа]р|шлюх|з[ао]луп|др[оа]ч|мраз|чмо)/,
+        BAD_EN: /^(fuck|fck|fuk|shit|bitch|cunt|dick|asshole|whore|jalab|qanjiq|dalbayob|qotoq|haromi|pid[oa]r|pidr|suka|blya|mudak|xu[iy]|hu[iy]|pizd|zaeb|[ye]ban|gandon|dolbo)/,
+
+        censor(text) {
+            return text.split(/(\s+)/).map(tok => {
+                if (!tok.trim()) return tok;
+                const plain = tok.toLowerCase().replace(/[^a-zа-яё0-9@!$ʻ']/gi, '');
+                const cyr = plain.replace(/[a-z0-9@!$]/g, ch => this.LOOKALIKES[ch] || ch);
+                if (this.BAD_EN.test(plain) || this.BAD_RU.test(cyr)) return '✱✱✱';
+                return tok;
+            }).join('');
+        },
+
+        send(place, rawText) {
+            const text = rawText.trim().slice(0, this.MAX_LEN);
+            if (!text) return false;
+            const now = Date.now();
+            if (now - this.lastSent < this.RATE_MS) {
+                Toast.show(i18n.t('chat_slow'), '⏳');
+                return false;
+            }
+            this.lastSent = now;
+            const msgs = this.load(place);
+            msgs.push({
+                user: state.user ? state.user.name : i18n.t('feed_you'),
+                avatar: state.user ? state.user.avatar : null,
+                text: this.censor(text),
+                ts: now
+            });
+            this.save(place, msgs);
+            this.render(place);
+            return true;
+        },
+
+        render(place) {
+            const box = $('#chat-messages');
+            if (!box) return;
+            const msgs = this.load(place);
+            if (msgs.length === 0) {
+                box.innerHTML = `<div class="chat__empty">${escapeHtml(i18n.t('chat_empty'))}</div>`;
+                return;
+            }
+            box.innerHTML = msgs.map(m => `
+                <div class="chat-msg">
+                    ${m.avatar
+                        ? `<img class="chat-msg__avatar" src="${escapeHtml(m.avatar)}" alt="">`
+                        : '<div class="chat-msg__avatar chat-msg__avatar--empty">👤</div>'}
+                    <div class="chat-msg__body">
+                        <div class="chat-msg__head">
+                            <span class="chat-msg__name">${escapeHtml(m.user || '')}</span>
+                            <span class="chat-msg__time">${relativeTime(m.ts)}</span>
+                        </div>
+                        <div class="chat-msg__text">${escapeHtml(m.text)}</div>
+                    </div>
+                </div>`).join('');
+            box.scrollTop = box.scrollHeight;
+        }
+    };
 
     // ============================================================
     // Activity feed
     // ============================================================
 
-    const ANON_NAMES = [
-        'Кто-то', 'Аноним', 'Странник', 'Гость', 'Местный',
-        'Турист', 'Студент', 'Прохожий', 'Друг', 'Сосед'
-    ];
-
+    // Лента показывает только реальные записи: твои вайб-чеки и свежие события афиши
     function addFeedItem(item) {
-        state.feed.unshift({ ...item, anon: ANON_NAMES[Math.floor(Math.random() * ANON_NAMES.length)] });
+        // Один актуальный вайб-чек на место — без спама при переключении голоса
+        if (!item.type) {
+            state.feed = state.feed.filter(f => f.type || f.place !== item.place);
+        }
+        state.feed.unshift({ ...item, user: state.user ? state.user.name : null });
         state.feed = state.feed.slice(0, 30);
         Storage.saveFeed(state.feed);
         renderFeed();
-    }
-
-    function seedFeedIfEmpty() {
-        if (state.feed.length > 0) return;
-        const samples = [];
-        const vibes = ['🔥', '🔥', '🔥', '💀', '😭'];
-        for (let i = 0; i < 8; i++) {
-            const place = state.places[Math.floor(Math.random() * state.places.length)];
-            samples.push({
-                vibe: vibes[Math.floor(Math.random() * vibes.length)],
-                place: place.name,
-                category: place.category,
-                ts: Date.now() - (i * 5 + Math.random() * 4) * 60 * 1000,
-                anon: ANON_NAMES[Math.floor(Math.random() * ANON_NAMES.length)]
-            });
-        }
-        state.feed = samples;
-        Storage.saveFeed(state.feed);
     }
 
     function renderFeed() {
@@ -1163,12 +1371,23 @@
             return;
         }
         list.innerHTML = state.feed.slice(0, 12).map(item => {
+            if (item.type === 'event') {
+                return `
+                <li class="feed-item feed-item--event" data-url="${escapeHtml(item.url || '')}">
+                    <div class="feed-item__icon feed-item__icon--event">✨</div>
+                    <div class="feed-item__text">
+                        <strong>${i18n.t('feed_new_event')}</strong>: ${escapeHtml(item.title || '')}
+                        <div class="feed-item__time">${relativeTime(item.ts)}</div>
+                    </div>
+                </li>`;
+            }
             const meta = VIBE_META[item.vibe] || VIBE_META['🔥'];
+            const who = escapeHtml(item.user || item.anon || i18n.t('feed_you'));
             return `
                 <li class="feed-item" data-place="${escapeHtml(item.place)}">
                     <div class="feed-item__icon feed-item__icon--${meta.key}">${item.vibe}</div>
                     <div class="feed-item__text">
-                        <strong>${escapeHtml(item.anon || i18n.t('anon_user'))}</strong> ${i18n.t('feed_in')} <strong>${escapeHtml(item.place)}</strong>
+                        <strong>${who}</strong> ${i18n.t('feed_in')} <strong>${escapeHtml(item.place)}</strong>
                         <div class="feed-item__time">${relativeTime(item.ts)}</div>
                     </div>
                 </li>`;
@@ -1176,8 +1395,11 @@
 
         $$('.feed-item', list).forEach(el => {
             el.addEventListener('click', () => {
-                const name = el.dataset.place;
-                const place = state.places.find(p => p.name === name);
+                if (el.dataset.url) {
+                    window.open(el.dataset.url, '_blank', 'noopener');
+                    return;
+                }
+                const place = state.places.find(p => p.name === el.dataset.place);
                 if (place) {
                     map.flyTo(place.coords, 16, { duration: 0.9 });
                     showPlace(place);
@@ -1194,14 +1416,13 @@
         const totalVotes = state.places.reduce((s, p) => s + (p.fire || 0) + (p.dead || 0) + (p.crying || 0), 0);
         const totalFire = state.places.reduce((s, p) => s + (p.fire || 0), 0);
         const vibePercent = totalVotes > 0 ? Math.round((totalFire / totalVotes) * 100) : 0;
-        const onlineEstimate = Math.max(20, Math.round(totalVotes * 7.5 + Math.random() * 50));
 
-        const onlineEl = $('#pulse-online');
+        const eventsEl = $('#pulse-events');
         const votesEl = $('#pulse-votes');
         const vibeEl = $('#pulse-vibe');
         const barEl = $('#vibe-bar');
 
-        if (onlineEl) onlineEl.textContent = fmtNumber(onlineEstimate);
+        if (eventsEl) eventsEl.textContent = Afisha.loaded ? String(Afisha.events.length) : '—';
         if (votesEl) votesEl.textContent = fmtNumber(totalVotes);
         if (vibeEl) vibeEl.textContent = vibePercent + '%';
         if (barEl) barEl.style.width = vibePercent + '%';
@@ -1278,9 +1499,9 @@
             const cat = CATEGORY_META[p.category] || { icon: 'map-pin', color: 'var(--accent)', emoji: '📍' };
             const thumb = Images.thumbFor(p);
             return `
-                <div class="hot-item" 
+                <div class="hot-item"
                      data-place="${escapeHtml(p.name)}"
-                     style="background-image: url('${thumb.url}');">
+                     style="background-image: ${thumb.fallback};">
                     <div class="hot-item__gradient"></div>
                     <div class="hot-item__content">
                         <div class="hot-item__info">
@@ -1299,19 +1520,12 @@
                 </div>`;
         }).join('');
 
-        // Async load photos from Google to background
-        $$('.hot-item', list).forEach(async (el) => {
-            const name = el.dataset.place;
-            const place = state.places.find(p => p.name === name);
+        // Lazy-swap gradient placeholder for the real photo once it loads
+        $$('.hot-item', list).forEach(el => {
+            const place = state.places.find(p => p.name === el.dataset.place);
             if (!place) return;
-
-            let url = place.googleThumb;
-            if (!url) {
-                url = await GooglePlaces.getPhotoUrl(name);
-                if (url) place.googleThumb = url;
-            }
-
-            if (!url) url = Images.primaryFor(place);
+            const url = Images.primaryFor(place);
+            if (!url) return;
 
             const img = new Image();
             img.onload = () => {
@@ -1334,18 +1548,107 @@
     }
 
     // ============================================================
-    // Events list
+    // Live events from Afisha.uz (data/afisha.json, обновляется GitHub Action'ом)
+    // ============================================================
+
+    const AFISHA_CACHE_KEY = 'vibecity_afisha_cache';
+    const AFISHA_SEEN_KEY = 'vibecity_afisha_seen';
+
+    const AFISHA_META = {
+        concert: { icon: 'music', labelKey: 'afisha_concert', color: '#a855f7' },
+        theatre: { icon: 'drama', labelKey: 'afisha_theatre', color: '#38bdf8' },
+        exhibition: { icon: 'image', labelKey: 'afisha_exhibition', color: '#ec4899' },
+        city: { icon: 'building-2', labelKey: 'afisha_city', color: '#10b981' }
+    };
+
+    const Afisha = {
+        events: [],
+        updatedAt: null,
+        loaded: false,
+        layer: null,
+
+        async init() {
+            renderEvents(); // показываем skeleton, пока грузится
+            try {
+                const res = await fetch('data/afisha.json', { cache: 'no-cache' });
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                const data = await res.json();
+                this.apply(data);
+                localStorage.setItem(AFISHA_CACHE_KEY, JSON.stringify(data));
+            } catch (err) {
+                // оффлайн или файл ещё не сгенерирован — используем последний кэш
+                try { this.apply(JSON.parse(localStorage.getItem(AFISHA_CACHE_KEY))); } catch { /* ignore */ }
+            }
+            this.loaded = true;
+            this.pushNewToFeed();
+            renderEvents();
+            this.renderMapMarkers();
+            renderPulse();
+        },
+
+        apply(data) {
+            if (!data || !Array.isArray(data.events)) return;
+            this.events = data.events;
+            this.updatedAt = data.updatedAt ? Date.parse(data.updatedAt) : null;
+        },
+
+        // Свежие события попадают в ленту активности как реальные записи
+        pushNewToFeed() {
+            let seen;
+            try { seen = new Set(JSON.parse(localStorage.getItem(AFISHA_SEEN_KEY) || '[]')); }
+            catch { seen = new Set(); }
+            const isFirstRun = seen.size === 0;
+
+            const fresh = this.events.filter(e =>
+                !seen.has(e.id) && Date.now() - e.published < 48 * 60 * 60 * 1000);
+
+            // На первом запуске не заваливаем ленту — только 3 самых свежих
+            fresh.slice(0, isFirstRun ? 3 : fresh.length).forEach(e => {
+                state.feed.push({ type: 'event', title: e.title, url: e.url, category: e.category, ts: e.published });
+            });
+            state.feed.sort((a, b) => b.ts - a.ts);
+            state.feed = state.feed.slice(0, 30);
+            Storage.saveFeed(state.feed);
+            renderFeed();
+
+            this.events.forEach(e => seen.add(e.id));
+            localStorage.setItem(AFISHA_SEEN_KEY, JSON.stringify([...seen].slice(-300)));
+        },
+
+        // События с распознанной площадкой — маркерами на карту
+        renderMapMarkers() {
+            if (!this.layer) this.layer = L.layerGroup().addTo(map);
+            this.layer.clearLayers();
+            this.events.filter(e => e.venue).forEach(e => {
+                const marker = L.marker(e.venue.coords, { icon: createMarkerIcon('event', false, false) });
+                marker.bindPopup(`
+                    <div class="popup-vibe">
+                        <strong>${escapeHtml(e.title)}</strong><br>
+                        📍 ${escapeHtml(e.venue.name)}<br>
+                        <a href="${escapeHtml(e.url)}" target="_blank" rel="noopener">${escapeHtml(i18n.t('event_read'))}</a>
+                    </div>`);
+                this.layer.addLayer(marker);
+            });
+        }
+    };
+
+    // ============================================================
+    // Events list: локальные события + живая афиша
     // ============================================================
 
     function renderEvents() {
         const list = $('#events-list');
         if (!list) return;
-        if (state.events.length === 0) {
-            list.innerHTML = `<div class="empty"><i data-lucide="calendar-x"></i><p data-i18n="empty_events">${i18n.t('empty_events')}</p></div>`;
-            refreshIcons();
-            return;
+
+        const updEl = $('#events-updated');
+        if (updEl) {
+            updEl.textContent = Afisha.updatedAt
+                ? `${i18n.t('events_updated')} ${relativeTime(Afisha.updatedAt)}`
+                : '';
         }
-        list.innerHTML = state.events.map(e => `
+
+        // Локальные события (админка / телеграм-парсер)
+        const localHtml = state.events.map(e => `
             <div class="event-item" data-event="${escapeHtml(e.name)}">
                 <div class="event-item__badge"><i data-lucide="sparkles"></i></div>
                 <div>
@@ -1353,6 +1656,42 @@
                     <div class="event-item__time">${relativeTime(e.lastUpdate || Date.now())}</div>
                 </div>
             </div>`).join('');
+
+        // Живая афиша
+        let afishaHtml;
+        if (!Afisha.loaded) {
+            afishaHtml = Array.from({ length: 3 },
+                () => '<div class="event-card event-card--skeleton" aria-hidden="true"></div>').join('');
+        } else {
+            afishaHtml = Afisha.events.slice(0, 12).map(e => {
+                const meta = AFISHA_META[e.category] || AFISHA_META.city;
+                const thumbStyle = e.image
+                    ? `background-image:url('${escapeHtml(e.image)}')`
+                    : `background:linear-gradient(135deg, ${meta.color}, ${meta.color}88)`;
+                return `
+                <a class="event-card" href="${escapeHtml(e.url)}" target="_blank" rel="noopener">
+                    <div class="event-card__thumb" style="${thumbStyle}"></div>
+                    <div class="event-card__body">
+                        <div class="event-card__meta">
+                            <span class="event-card__cat" style="color:${meta.color}">
+                                <i data-lucide="${meta.icon}"></i>${i18n.t(meta.labelKey)}
+                            </span>
+                            <span class="event-card__time">${relativeTime(e.published)}</span>
+                        </div>
+                        <div class="event-card__title">${escapeHtml(e.title)}</div>
+                        ${e.venue ? `<div class="event-card__venue"><i data-lucide="map-pin"></i>${escapeHtml(e.venue.name)}</div>` : ''}
+                    </div>
+                </a>`;
+            }).join('');
+        }
+
+        if (!localHtml && !afishaHtml) {
+            list.innerHTML = `<div class="empty"><i data-lucide="calendar-x"></i><p data-i18n="empty_events">${i18n.t('empty_events')}</p></div>`;
+            refreshIcons();
+            return;
+        }
+
+        list.innerHTML = localHtml + afishaHtml;
         refreshIcons();
 
         $$('.event-item', list).forEach(el => {
@@ -1424,7 +1763,7 @@
         function search(q) {
             const query = q.trim().toLowerCase();
             if (!query) { close(); return; }
-            const matches = state.places
+            const matches = [...state.places, ...state.events]
                 .filter(p =>
                     p.name.toLowerCase().includes(query) ||
                     (p.category && p.category.toLowerCase().includes(query)) ||
@@ -1453,7 +1792,7 @@
                 e.preventDefault();
                 const item = items[active] || items[0];
                 if (item) {
-                    const place = state.places.find(p => p.name === item.dataset.name);
+                    const place = [...state.places, ...state.events].find(p => p.name === item.dataset.name);
                     pick(place);
                 }
             } else if (e.key === 'Escape') {
@@ -1509,7 +1848,7 @@
         state.theme = state.theme === 'dark' ? 'light' : 'dark';
         Storage.saveTheme(state.theme);
         applyTheme(state.theme);
-        Toast.show(state.theme === 'dark' ? 'Тёмная тема' : 'Светлая тема', state.theme === 'dark' ? '🌙' : '☀️');
+        Toast.show(i18n.t(state.theme === 'dark' ? 'theme_dark_on' : 'theme_light_on'), state.theme === 'dark' ? '🌙' : '☀️');
     }
 
     $$('.js-theme-toggle').forEach(btn => btn.addEventListener('click', toggleTheme));
@@ -1534,12 +1873,59 @@
 
     // ============================================================
     // Profile
-
-    // ============================================================
-    // Profile
     // ============================================================
 
     $$('.js-profile-btn').forEach(btn => btn.addEventListener('click', showProfile));
+
+    // Варианты аватаров: текущий + стабильный набор DiceBear
+    function getAvatarOptions(current) {
+        const seeds = ['Felix', 'Aneka', 'Milo', 'Max', 'Luna', 'Jack', 'Zoe', 'Leo'];
+        const urls = seeds.map(s => `https://api.dicebear.com/7.x/avataaars/svg?seed=${s}`);
+        if (current && !urls.includes(current)) urls.unshift(current);
+        return urls.slice(0, 9);
+    }
+
+    // Своя аватарка: уменьшаем до 128×128 (кроп по центру) и храним как data URL
+    function pickAvatarFile(onPicked) {
+        const input = $('#avatar-file');
+        if (!input) return;
+        input.value = '';
+        input.onchange = () => {
+            const file = input.files && input.files[0];
+            if (!file || !file.type.startsWith('image/')) return;
+            const reader = new FileReader();
+            reader.onerror = () => Toast.show(i18n.t('avatar_error'), '⚠️');
+            reader.onload = () => {
+                const img = new Image();
+                img.onerror = () => Toast.show(i18n.t('avatar_error'), '⚠️');
+                img.onload = () => {
+                    const size = 128;
+                    const canvas = document.createElement('canvas');
+                    canvas.width = size;
+                    canvas.height = size;
+                    const ctx = canvas.getContext('2d');
+                    const min = Math.min(img.width, img.height);
+                    const sx = (img.width - min) / 2;
+                    const sy = (img.height - min) / 2;
+                    ctx.drawImage(img, sx, sy, min, min, 0, 0, size, size);
+                    onPicked(canvas.toDataURL('image/jpeg', 0.85));
+                };
+                img.src = reader.result;
+            };
+            reader.readAsDataURL(file);
+        };
+        input.click();
+    }
+
+    // Плитка «Своё фото» для сеток выбора аватара
+    function makeUploadTile(onPicked) {
+        const tile = document.createElement('div');
+        tile.className = 'avatar-option avatar-option--upload';
+        tile.title = i18n.t('upload_avatar');
+        tile.innerHTML = '<i data-lucide="camera"></i>';
+        tile.addEventListener('click', () => pickAvatarFile(onPicked));
+        return tile;
+    }
 
     $('#edit-profile-btn').addEventListener('click', () => {
         if (!state.user) return;
@@ -1550,18 +1936,36 @@
         // Render avatar options in edit mode
         const grid = $('#edit-avatar-grid');
         grid.innerHTML = '';
-        state.avatarOptions.forEach(url => {
+
+        const select = (opt, url) => {
+            $$('.avatar-option', grid).forEach(el => el.classList.remove('is-selected'));
+            opt.classList.add('is-selected');
+            state.tempEditAvatar = url;
+        };
+
+        // Плитка загрузки своего фото
+        const uploadTile = makeUploadTile(dataUrl => {
+            let custom = grid.querySelector('.avatar-option--custom');
+            if (!custom) {
+                custom = document.createElement('div');
+                custom.className = 'avatar-option avatar-option--custom';
+                uploadTile.after(custom);
+            }
+            custom.innerHTML = `<img src="${dataUrl}" alt="Avatar">`;
+            custom.onclick = () => select(custom, dataUrl);
+            select(custom, dataUrl);
+        });
+        grid.appendChild(uploadTile);
+
+        getAvatarOptions(state.user.avatar).forEach(url => {
             const opt = document.createElement('div');
             opt.className = `avatar-option ${url === state.user.avatar ? 'is-selected' : ''}`;
             opt.innerHTML = `<img src="${url}" alt="Avatar">`;
-            opt.addEventListener('click', () => {
-                $$('.avatar-option', grid).forEach(el => el.classList.remove('is-selected'));
-                opt.classList.add('is-selected');
-                state.tempEditAvatar = url;
-            });
+            opt.addEventListener('click', () => select(opt, url));
             grid.appendChild(opt);
         });
         state.tempEditAvatar = state.user.avatar;
+        refreshIcons();
     });
 
     $('#cancel-edit-btn').addEventListener('click', () => {
@@ -1570,9 +1974,10 @@
     });
 
     $('#save-profile-btn').addEventListener('click', () => {
-        const newName = $('#edit-name').value.trim();
-        if (!newName) {
+        const newName = $('#edit-name').value.trim().replace(/\s+/g, ' ');
+        if (newName.length < 2) {
             $('#edit-name').classList.add('is-invalid');
+            Toast.show(i18n.t('reg_name_error'), '🤔');
             return;
         }
 
@@ -1592,10 +1997,6 @@
         }
     });
 
-    // Load saved name
-    const savedName = localStorage.getItem('vibe_user_name');
-    if (savedName) $('#user-name').textContent = savedName;
-
     // ============================================================
     // Geolocation
     // ============================================================
@@ -1613,7 +2014,7 @@
                     map.flyTo([latitude, longitude], 16, { duration: 1.4 });
                     L.circleMarker([latitude, longitude], {
                         radius: 8, fillColor: '#3b82f6', fillOpacity: 1, color: 'white', weight: 3
-                    }).addTo(map).bindPopup('Вы здесь');
+                    }).addTo(map).bindPopup(escapeHtml(i18n.t('toast_loc_success')));
                     Toast.show(i18n.t('toast_loc_success'), '📍');
                 },
                 () => Toast.show(i18n.t('toast_loc_error'), '⚠️')
@@ -1644,6 +2045,14 @@
     // ============================================================
 
     $('#back-btn').addEventListener('click', showDefaultView);
+
+    // Escape closes topmost overlay, then the detail view
+    document.addEventListener('keydown', e => {
+        if (e.key !== 'Escape') return;
+        if (!$('#metro-overlay').hidden) { $('#metro-overlay').hidden = true; return; }
+        if (!$('#profile-overlay').hidden) { closeProfile(); return; }
+        if (!$('#view-detail').hidden) showDefaultView();
+    });
 
     // Click on map closes panels/details
     map.on('click', () => {
@@ -1844,7 +2253,7 @@
             const fontSize = isMobile ? 13 : 11;
 
             const svg = `
-                <svg viewBox="0 0 850 650" width="100%" height="auto" class="metro-svg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+                <svg viewBox="0 0 850 700" width="100%" height="auto" class="metro-svg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
                     <defs>
                         <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
                             <feGaussianBlur stdDeviation="3" result="blur" />
@@ -1873,16 +2282,16 @@
 
                 return `
                             <g class="metro-node" data-name="${s.name}" data-coords="${s.coords.join(',')}" style="cursor: pointer;">
-                                <circle cx="${s.x}" cy="${s.y}" r="${s.transfer ? transferRadius : nodeRadius}" 
-                                        fill="${s.transfer ? 'white' : line.color}" 
-                                        stroke="${line.color}" 
+                                <circle cx="${s.x}" cy="${s.y}" r="${s.transfer ? transferRadius : nodeRadius}"
+                                        fill="${s.transfer ? 'white' : line.color}"
+                                        stroke="${line.color}"
                                         stroke-width="2.5" />
-                                <text x="${s.x + dx}" y="${s.y + dy}" 
-                                      fill="currentColor" 
-                                      font-size="${fontSize}" 
+                                ${s.hideLabel ? '' : `<text x="${s.x + dx}" y="${s.y + dy}"
+                                      fill="currentColor"
+                                      font-size="${fontSize}"
                                       font-weight="${s.transfer ? 'bold' : '600'}"
                                       text-anchor="${anchor}"
-                                      class="metro-text">${s.name}</text>
+                                      class="metro-text">${s.name}</text>`}
                             </g>
                         `;
             })).join('')}
@@ -1902,7 +2311,7 @@
 
                     L.popup()
                         .setLatLng(coords)
-                        .setContent(`<div class="popup-vibe"><strong>${name}</strong><br>Metro Station</div>`)
+                        .setContent(`<div class="popup-vibe"><strong>${escapeHtml(name)}</strong><br>${escapeHtml(i18n.t('metro_station'))}</div>`)
                         .openOn(map);
                 });
             });
@@ -1976,6 +2385,11 @@
             state.events = Storage.loadEvents();
             renderMarkers();
             renderEvents();
+        } else if (e.key && e.key.startsWith('vibecity_chat:')) {
+            // Синхронизация чата между вкладками
+            if (state.currentPlace && e.key === 'vibecity_chat:' + state.currentPlace.name) {
+                Chat.render(state.currentPlace);
+            }
         }
     });
 
@@ -1995,11 +2409,20 @@
             }
 
             $('#register-submit-btn').addEventListener('click', () => this.handleRegister());
+            $('#reg-name').addEventListener('keydown', e => {
+                if (e.key === 'Enter') this.handleRegister();
+            });
 
-            // Allow selecting avatar
+            // Clear validation error as soon as the user types
+            ['#reg-name', '#edit-name'].forEach(sel => {
+                const input = $(sel);
+                if (input) input.addEventListener('input', () => input.classList.remove('is-invalid'));
+            });
+
+            // Allow selecting avatar (плитка загрузки обрабатывается отдельно)
             $('#avatar-grid').addEventListener('click', (e) => {
                 const option = e.target.closest('.avatar-option');
-                if (option) {
+                if (option && option.dataset.url) {
                     $$('.avatar-option').forEach(el => el.classList.remove('is-selected'));
                     option.classList.add('is-selected');
                     this.selectedAvatar = option.dataset.url;
@@ -2014,7 +2437,7 @@
         },
 
         logout() {
-            if (!confirm(state.lang === 'ru' ? 'Вы уверены, что хотите выйти?' : 'Are you sure you want to logout?')) return;
+            if (!confirm(i18n.t('logout_confirm'))) return;
 
             // Clear Google session if active
             if (state.user && state.user.authMethod === 'google' && typeof google !== 'undefined') {
@@ -2029,7 +2452,7 @@
             closeProfile();
             this.showRegistration();
             
-            Toast.show(state.lang === 'ru' ? 'Вы вышли из системы' : 'Logged out', '👋');
+            Toast.show(i18n.t('logged_out'), '👋');
         },
 
         initGoogleAuth() {
@@ -2083,10 +2506,10 @@
                 this.updateUI();
                 $('#register-overlay').hidden = true;
                 
-                Toast.show(`${state.lang === 'ru' ? 'Добро пожаловать' : 'Welcome'}, ${user.given_name}!`, '🚀');
+                Toast.show(`${i18n.t('welcome_short')}, ${user.given_name}!`, '🚀');
             } catch (e) {
                 console.error("Google Auth Error:", e);
-                Toast.show("Ошибка входа через Google", "❌");
+                Toast.show(i18n.t('google_error'), "❌");
             }
         },
 
@@ -2105,17 +2528,33 @@
                 </div>
             `).join('');
 
+            // Плитка «Своё фото» первой в сетке
+            const uploadTile = makeUploadTile(dataUrl => {
+                let custom = grid.querySelector('.avatar-option--custom');
+                if (!custom) {
+                    custom = document.createElement('div');
+                    custom.className = 'avatar-option avatar-option--custom';
+                    uploadTile.after(custom);
+                }
+                custom.dataset.url = dataUrl;
+                custom.innerHTML = `<img src="${dataUrl}" alt="Avatar">`;
+                $$('.avatar-option', grid).forEach(el => el.classList.remove('is-selected'));
+                custom.classList.add('is-selected');
+                this.selectedAvatar = dataUrl;
+            });
+            grid.prepend(uploadTile);
+
             this.selectedAvatar = this.avatars[0];
             refreshIcons();
         },
 
         handleRegister() {
             const nameInput = $('#reg-name');
-            const name = nameInput.value.trim();
+            const name = nameInput.value.trim().replace(/\s+/g, ' ');
 
-            if (!name) {
+            if (name.length < 2) {
                 nameInput.classList.add('is-invalid');
-                Toast.show(i18n.t('reg_name_label'), '🤔');
+                Toast.show(i18n.t('reg_name_error'), '🤔');
                 return;
             }
 
@@ -2129,10 +2568,7 @@
             this.updateUI();
 
             $('#register-overlay').hidden = true;
-            Toast.show(`${state.lang === 'ru' ? 'Привет' : state.lang === 'en' ? 'Hello' : 'Salom'}, ${name}!`, '👋');
-
-            // Update seed feed names with actual user name for some items
-            seedFeedIfEmpty();
+            Toast.show(`${i18n.t('hello')}, ${name}!`, '👋');
         },
 
         updateUI() {
@@ -2155,7 +2591,7 @@
             color: '#ef4444',
             label: 'Chilonzor',
             stations: [
-                { name: 'Chinor', x: 50, y: 550, coords: [41.2222, 69.1950], labelPos: 'left' },
+                { name: 'Chinor', x: 50, y: 550, coords: [41.2222, 69.1950], transfer: 'halqa', labelPos: 'left' },
                 { name: 'Yangihayot', x: 100, y: 500, coords: [41.2350, 69.2050], labelPos: 'left' },
                 { name: 'Chilonzor', x: 150, y: 450, coords: [41.2730, 69.2085], labelPos: 'left' },
                 { name: 'Novza', x: 200, y: 400, coords: [41.2858, 69.2131], labelPos: 'left' },
@@ -2179,7 +2615,7 @@
                 { name: 'Kosmonavtlar', x: 450, y: 350, coords: [41.3065, 69.2650], labelPos: 'right' },
                 { name: 'Oybek', x: 550, y: 450, coords: [41.2980, 69.2750], transfer: 'yunusabad', labelPos: 'bottom' },
                 { name: 'Toshkent', x: 650, y: 500, coords: [41.3010, 69.2880], labelPos: 'right' },
-                { name: 'Doʻstlik', x: 750, y: 550, coords: [41.2950, 69.3180], labelPos: 'right' }
+                { name: 'Doʻstlik', x: 750, y: 550, coords: [41.2950, 69.3180], transfer: 'halqa', labelPos: 'right' }
             ]
         },
         {
@@ -2193,6 +2629,27 @@
                 { name: 'Minor', x: 550, y: 200, coords: [41.3280, 69.2820], labelPos: 'right' },
                 { name: 'Y.Rajabiy', x: 550, y: 250, coords: [41.3115, 69.2795], transfer: 'chilanzar', labelPos: 'right' },
                 { name: 'Ming Oʻrik', x: 550, y: 450, coords: [41.3000, 69.2755], transfer: 'uzbekistan', labelPos: 'left' }
+            ]
+        },
+        {
+            id: 'halqa',
+            color: '#f59e0b',
+            label: 'Halqa (Circle)',
+            stations: [
+                { name: 'Doʻstlik-2', x: 760, y: 585, coords: [41.2930, 69.3205], transfer: 'uzbekistan', labelPos: 'right' },
+                { name: 'Tuzel', x: 700, y: 620, coords: [41.2820, 69.3370], labelPos: 'top' },
+                { name: 'Yashnobod', x: 640, y: 645, coords: [41.2725, 69.3425], labelPos: 'bottom' },
+                { name: 'Rohat', x: 580, y: 655, coords: [41.2630, 69.3390], labelPos: 'top' },
+                { name: 'Oʻzgarish', x: 520, y: 660, coords: [41.2545, 69.3325], labelPos: 'bottom' },
+                { name: 'Qoʻyliq', x: 460, y: 660, coords: [41.2460, 69.3245], labelPos: 'top' },
+                { name: 'Matonat', x: 400, y: 660, coords: [41.2410, 69.3115], labelPos: 'bottom' },
+                { name: 'Qiyot', x: 340, y: 655, coords: [41.2365, 69.2985], labelPos: 'top' },
+                { name: 'Tolariq', x: 280, y: 648, coords: [41.2325, 69.2855], labelPos: 'bottom' },
+                { name: 'Xonobod', x: 220, y: 638, coords: [41.2285, 69.2725], labelPos: 'top' },
+                { name: 'Quruvchilar', x: 160, y: 622, coords: [41.2250, 69.2595], labelPos: 'bottom' },
+                { name: 'Turon', x: 105, y: 600, coords: [41.2220, 69.2465], labelPos: 'left' },
+                { name: 'Qipchoq', x: 65, y: 575, coords: [41.2200, 69.2335], labelPos: 'right' },
+                { name: 'Chinor', x: 50, y: 550, coords: [41.2222, 69.1950], transfer: 'chilanzar', hideLabel: true }
             ]
         }
     ];
@@ -2209,6 +2666,7 @@
 
         METRO_LINES.forEach(line => {
             line.stations.forEach(s => {
+                if (s.hideLabel) return; // станция уже отмечена другой линией
                 const icon = L.divIcon({
                     className: 'metro-label-marker',
                     html: `
@@ -2261,7 +2719,9 @@
         Perf.init(); // Detect device power first
         Weather.init(); // Load weather
         Auth.init();
-        seedFeedIfEmpty();
+        Afisha.init(); // Живые события с Afisha.uz
+        // Сохраняем базу мест (первый запуск + результаты миграции координат/фото)
+        Storage.savePlaces(state.places);
         renderMarkers();
         renderMetroMarkers();
         renderHotList();
@@ -2272,9 +2732,6 @@
         showDefaultView();
         i18n.updateDOM();
         refreshIcons();
-
-        // Фоновая предзагрузка фото для "мгновенного" отображения
-        Images.preload();
     }
 
     if (document.readyState === 'loading') {

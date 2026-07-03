@@ -1,5 +1,5 @@
 /* ============================================================
-   VibeCity â€” Design System
+   VibeCity — Design System
    ============================================================ */
 
 :root {
@@ -310,15 +310,19 @@
 body.light-mode {
     --bg-base: #f8f9fc;
     --bg-elevated: #ffffff;
-    --bg-panel: rgba(255, 255, 255, 0.95);
-    --bg-card: rgba(0, 0, 0, 0.03);
-    --bg-card-hover: rgba(0, 0, 0, 0.06);
-    --bg-card-active: rgba(0, 0, 0, 0.09);
-    --border: rgba(0, 0, 0, 0.04); /* В светлой теме еще прозрачнее */
-    --border-strong: rgba(0, 0, 0, 0.08);
+    --bg-panel: rgba(243, 244, 247, 0.94);
+    --bg-card: #ffffff;
+    --bg-card-hover: #f6f7fa;
+    --bg-card-active: #eef0f4;
+    --border: rgba(17, 24, 39, 0.06);
+    --border-strong: rgba(17, 24, 39, 0.12);
     --text-primary: #18181b;
     --text-secondary: #52525b;
     --text-tertiary: #71717a;
+    /* Мягкие тени вместо тёмных «плит» */
+    --shadow-sm: 0 1px 3px rgba(16, 24, 40, 0.08);
+    --shadow-md: 0 4px 12px rgba(16, 24, 40, 0.10);
+    --shadow-lg: 0 12px 32px rgba(16, 24, 40, 0.16);
 }
 
 /* ============================================================
@@ -706,13 +710,31 @@ img { display: block; max-width: 100%; }
    Cards
    ============================================================ */
 
+/* Карточка — плоская секция внутри панели, а не «окно на окне» */
 .card {
-    background: var(--bg-panel);
+    background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 16px; /* Чуть больше паддинга для воздуха */
-    box-shadow: var(--shadow-md);
+    padding: 16px;
     flex-shrink: 0;
+}
+
+.light-mode .card { box-shadow: var(--shadow-sm); }
+
+/* Вложенные в карточку элементы: лёгкий серый, чтобы не сливались с белым */
+.light-mode .pulse__stat,
+.light-mode .top-item,
+.light-mode .stat-item,
+.light-mode .event-card,
+.light-mode .event-item {
+    background: #f6f7fa;
+}
+
+.light-mode .pulse__stat:hover,
+.light-mode .top-item:hover,
+.light-mode .event-card:hover,
+.light-mode .feed-item:hover {
+    background: #eef0f4;
 }
 
 .card--scroll { overflow: hidden; display: flex; flex-direction: column; min-height: 0; }
@@ -961,7 +983,9 @@ img { display: block; max-width: 100%; }
 
 .feed-item__icon--fire { background: rgba(255, 87, 34, 0.15); }
 .feed-item__icon--dead { background: rgba(107, 114, 128, 0.18); }
-.feed-item__icon--cry { background: rgba(96, 165, 250, 0.15); }
+.feed-item__icon--cry,
+.feed-item__icon--crying { background: rgba(96, 165, 250, 0.15); }
+.feed-item__icon--event { background: rgba(168, 85, 247, 0.15); }
 
 .feed-item__text { flex: 1; line-height: 1.4; }
 .feed-item__text strong { color: var(--text-primary); font-weight: 600; }
@@ -993,12 +1017,12 @@ img { display: block; max-width: 100%; }
 
 .hot-item__gradient {
     position: absolute;
-    inset: 0;
-    /* Gradient starts solid on the left and fades to transparent on the right */
-    /* Starting from about 40% (middle of text area) it becomes transparent */
-    background: linear-gradient(90deg, 
-        var(--bg-elevated) 0%, 
-        var(--bg-elevated) 50%, 
+    /* -1px перекрывает зону рамки, чтобы края фото не просвечивали */
+    inset: -1px;
+    border-radius: inherit;
+    background: linear-gradient(90deg,
+        var(--bg-elevated) 0%,
+        var(--bg-elevated) 50%,
         transparent 95%
     );
     z-index: 1;
@@ -2286,3 +2310,365 @@ img { display: block; max-width: 100%; }
 .auth-divider:not(:empty)::after {
     margin-left: .5em;
 }
+
+/* ============================================================
+   Auth features (onboarding value props)
+   ============================================================ */
+
+.auth-features {
+    list-style: none;
+    margin: 20px 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.auth-features li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: var(--text-secondary);
+}
+
+.auth-features svg,
+.auth-features i {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    color: var(--accent);
+}
+
+/* ============================================================
+   Keyboard focus
+   ============================================================ */
+
+:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+/* ============================================================
+   Live events (Afisha.uz)
+   ============================================================ */
+
+.events-updated {
+    font-size: 10px;
+    color: var(--text-tertiary);
+    white-space: nowrap;
+}
+
+.events-attribution {
+    font-size: 10px;
+    color: var(--text-tertiary);
+    text-align: center;
+    padding: 10px 4px 4px;
+}
+
+.events-attribution a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--text-tertiary);
+}
+
+.events-attribution a:hover { color: var(--accent); }
+
+.event-card {
+    display: flex;
+    gap: 12px;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: var(--radius);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    transition: background var(--t-fast) var(--ease), border-color var(--t-fast) var(--ease), transform var(--t-fast) var(--ease);
+}
+
+.event-card:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--border-strong);
+    transform: translateY(-1px);
+}
+
+.event-card__thumb {
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: var(--radius-sm);
+    background-size: cover;
+    background-position: center;
+    background-color: var(--bg-elevated);
+}
+
+.event-card__body {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.event-card__meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.event-card__cat {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.event-card__cat svg, .event-card__cat i { width: 12px; height: 12px; }
+
+.event-card__time {
+    font-size: 10px;
+    color: var(--text-tertiary);
+    white-space: nowrap;
+}
+
+.event-card__title {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.35;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.event-card__venue {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    color: var(--accent-2);
+}
+
+.event-card__venue svg, .event-card__venue i { width: 12px; height: 12px; }
+
+.event-card--skeleton {
+    height: 92px;
+    background: linear-gradient(90deg, var(--bg-card) 25%, var(--bg-card-hover) 50%, var(--bg-card) 75%);
+    background-size: 200% 100%;
+    animation: skeleton-wave 1.4s infinite;
+    border: 1px solid var(--border);
+    pointer-events: none;
+}
+
+@keyframes skeleton-wave {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* ============================================================
+   Taxi button (Yandex Go)
+   ============================================================ */
+
+.btn--taxi {
+    background: #fce000;
+    color: #21201f;
+    border: none;
+    font-weight: 700;
+}
+
+.btn--taxi:hover {
+    background: #ffe94d;
+    transform: translateY(-1px);
+}
+
+.btn--taxi:active { transform: translateY(0); }
+
+.btn--taxi__emoji { font-size: 15px; }
+
+/* ============================================================
+   Profile: level progress & vibe-check history
+   ============================================================ */
+
+.profile-card__since {
+    font-size: 11px;
+    color: var(--text-tertiary);
+    margin-top: 2px;
+}
+
+.level-progress {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.level-progress__bar {
+    height: 6px;
+    border-radius: 3px;
+    background: var(--bg-card-active);
+    overflow: hidden;
+}
+
+.level-progress__fill {
+    height: 100%;
+    width: 0;
+    border-radius: 3px;
+    background: var(--gradient-brand);
+    transition: width var(--t-slow) var(--ease-out);
+}
+
+.level-progress__hint {
+    font-size: 11px;
+    color: var(--text-tertiary);
+    text-align: right;
+}
+
+/* ============================================================
+   Avatar upload tile
+   ============================================================ */
+
+.avatar-option--upload {
+    display: grid;
+    place-items: center;
+    border: 2px dashed var(--border-strong);
+    color: var(--text-tertiary);
+    cursor: pointer;
+    transition: all var(--t-fast) var(--ease);
+}
+
+.avatar-option--upload:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.avatar-option--upload svg,
+.avatar-option--upload i {
+    width: 20px;
+    height: 20px;
+}
+
+/* ============================================================
+   Place chat
+   ============================================================ */
+
+.chat { margin-top: 4px; }
+
+.chat__messages {
+    max-height: 220px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px;
+    border-radius: var(--radius);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    margin-bottom: 8px;
+}
+
+.chat__empty {
+    text-align: center;
+    font-size: 12px;
+    color: var(--text-tertiary);
+    padding: 12px 0;
+}
+
+.chat-msg {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.chat-msg__avatar {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    background: var(--bg-card-active);
+}
+
+.chat-msg__avatar--empty {
+    display: grid;
+    place-items: center;
+    font-size: 13px;
+}
+
+.chat-msg__body { flex: 1; min-width: 0; }
+
+.chat-msg__head {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.chat-msg__name {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.chat-msg__time {
+    font-size: 10px;
+    color: var(--text-tertiary);
+}
+
+.chat-msg__text {
+    font-size: 13px;
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+
+.chat__form {
+    display: flex;
+    gap: 8px;
+}
+
+.chat__input {
+    flex: 1;
+    min-width: 0;
+    padding: 10px 14px;
+    border-radius: var(--radius);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    font-size: 13px;
+    transition: border-color var(--t-fast) var(--ease);
+}
+
+.chat__input:focus {
+    border-color: var(--accent);
+}
+
+.chat__send {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: var(--radius);
+    background: var(--accent);
+    color: white;
+    display: grid;
+    place-items: center;
+    transition: all var(--t-fast) var(--ease);
+}
+
+.chat__send:hover { background: var(--accent-2); }
+
+.chat__send svg, .chat__send i { width: 16px; height: 16px; }
+
+.chat__note {
+    font-size: 10px;
+    color: var(--text-tertiary);
+    margin-top: 6px;
+    text-align: center;
+}
+
+.light-mode .chat__messages,
+.light-mode .chat__input { background: #f6f7fa; }
