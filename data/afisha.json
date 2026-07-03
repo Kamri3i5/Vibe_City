@@ -1,8 +1,48 @@
 {
-  "updatedAt": "2026-07-02T08:14:44.665Z",
+  "updatedAt": "2026-07-03T13:41:32.784Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:03:magic-safari",
+      "title": "Magic Safari приглашает гостей на сафари-экскурсии и вечернее африканское шоу",
+      "description": "Тематический парк Magic Safari приглашает гостей погрузиться в атмосферу африканского сафари. Посетителей ждут встречи с обитателями парка, возможность покормить дружелюбных животных и вечернее африканское шоу.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/03/magic-safari",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/6d5e961255cf0f38df013812e27dcb8e_m.webp",
+      "category": "city",
+      "published": 1783080000000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:03:4-5-july",
+      "title": "Куда пойти на выходных в Ташкенте, 4 и 5 июля",
+      "description": "Шесть кинопремьер, музыкальные квизы, финал чемпионата United MFL, спектакли, выставки, мастер-класс «Женский арт-релакс» и другие мероприятия предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/03/4-5-july",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/3bb92ae72e24a638b2577e68a4edb86f_m.webp",
+      "category": "city",
+      "published": 1783077000000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:03:weather",
+      "title": "Жара возвращается: в столице потеплеет до +35°",
+      "description": "Прогноз погоды в Ташкенте на выходные 4 и 5 июля.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/03/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/9d8c67fc30e56d33293011d7f4a2256b_m.webp",
+      "category": "city",
+      "published": 1783074085000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:02:tamerlano",
+      "title": "Оперу Tamerlano представили в Королевской опере Версаля. Как это было: фото и видео",
+      "description": "«Это сравнимо с попаданием сборной на Чемпионат мира. За 35 лет Независимости такое происходит впервые», - Алибек Кабдурахманов, дирижер.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/02/tamerlano",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/ab4891a6d25b801f381c9c5cb5faa66f_m.webp",
+      "category": "city",
+      "published": 1782994740000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:02:buses",
       "title": "В Ташкенте изменили пять автобусных маршрутов",
@@ -91,46 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/06/4fffb59a6431f1d60849550e757c8f07_m.webp",
       "category": "city",
       "published": 1782470700000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:06:26:weather",
-      "title": "В столицу возвращается жара в +39°",
-      "description": "Прогноз погода в Ташкенте на выходные 27 и 28 июня.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/06/26/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/06/fde2d1ee0669b59f6353ca135572e564_m.webp",
-      "category": "city",
-      "published": 1782470545000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:06:25:record",
-      "title": "20 тысяч участников: «Андижанская полька» вошла в Книгу рекордов Гиннесса",
-      "description": "Флешмоб прошел в рамках международного мероприятия «Андижан — культурная столица тюркского мира — 2026».",
-      "url": "https://www.afisha.uz/ru/gorod/2026/06/25/record",
-      "image": "https://www.afisha.uz/uploads/media/2026/06/1d0112109be16a7d618ab46083079cb3_m.webp",
-      "category": "city",
-      "published": 1782387383000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:06:25:hitayvakfi",
-      "title": "Молодые художники из Узбекистана могут выиграть грант на поездку на Венецианскую биеннале",
-      "description": "Открыт прием заявок на международный конкурс среди студентов творческих направлений.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/06/25/hitayvakfi",
-      "image": "https://www.afisha.uz/uploads/media/2026/06/a9ef71cb32904e0bb9b1de814921f8ff_m.webp",
-      "category": "city",
-      "published": 1782372000000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:06:24:capri-sun",
-      "title": "Capri-Sun запускает производство в Узбекистане и выходит на рынок Центральной Азии",
-      "description": "19 июня состоялась презентация Capri-Sun – одного из самых узнаваемых брендов детских напитков в мире. Выход бренда на рынок Узбекистана стал первым этапом его развития в Центральной Азии и результатом партнерства с Navruz International Corp.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/06/24/capri-sun",
-      "image": "https://www.afisha.uz/uploads/media/2026/06/4b77315bfbb0421a44b2ad4e32945b5a_m.webp",
-      "category": "city",
-      "published": 1782316800000,
       "venue": null
     },
     {
