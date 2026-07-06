@@ -387,6 +387,23 @@ img { display: block; max-width: 100%; }
     position: fixed;
     inset: 0;
     z-index: 1;
+    /* Перетаскивание карты не должно выделять/копировать текст подписей и меток */
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#map .leaflet-container {
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Текст на карте (подписи метро, попапы, атрибуция) не должен
+   выделяться при перетаскивании мышью */
+#map, #map * {
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 /* Tweak Leaflet defaults */
