@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-07-06T02:08:01.694Z",
+  "updatedAt": "2026-07-06T09:55:15.338Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:06:gastro-street",
+      "title": "На улице Янги Сергели открыли новую зону отдыха, магазинов и кафе",
+      "description": "Для жителей оборудовали более 10 детских площадок, 8 воркаут-зон, книжный магазин и центр досуга для пожилых.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/06/gastro-street",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/d77ff6e4305fb12e9361c584d6667810_m.webp",
+      "category": "city",
+      "published": 1783314644000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:06:buses",
+      "title": "В Ташкенте изменили четыре автобусных маршрута",
+      "description": "Это связано с закрытием участка дороги на съезде с Малой кольцевой дороги на улицу Паркент.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/06/buses",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/8fde8183162711d8cd8b8ddcd498cf8e_m.webp",
+      "category": "city",
+      "published": 1783313136000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:06:weather",
+      "title": "Жара усиливается: в столице воздух прогреется до +39°",
+      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 6 по 10 июля.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/06/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/51ec2221e5100bb0bbc2e117998eab52_m.webp",
+      "category": "city",
+      "published": 1783312637000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:03:iman-holding",
       "title": "IMAN Holding запускает Adl Neobank – один из первых необанков в Узбекистане",
@@ -94,26 +124,6 @@
       "venue": null
     },
     {
-      "id": "ru:gorod:2026:07:01:haval",
-      "title": "Ночь в музее: Haval начал обратный отсчет до запуска нового H7",
-      "description": "Бренд Haval оригинально анонсировал скорый запуск технологичного внедорожника H7 в Узбекистане, устроив для блогеров ночной квест в музее. Новинка сочетает в себе системы помощи водителю и современные технологии.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/01/haval",
-      "image": "https://www.afisha.uz/uploads/media/2026/06/533f217cb3745d2481f3d72f68065949_m.webp",
-      "category": "city",
-      "published": 1782885600000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:06:29:weather",
-      "title": "В столице ожидаются грозы и до +33°",
-      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 29 июня по 3 июля.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/06/29/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/06/899f578bcd2a2ab58d93e1a9b76d6ad6_m.webp",
-      "category": "city",
-      "published": 1782708498000,
-      "venue": null
-    },
-    {
       "id": "ru:concerts:2026:06:27:ultimate",
       "title": "Концертный тур узбекских рэперов Ultimate Tour пройдет в восьми городах Узбекистана",
       "description": "На сцене выступят Massa, Doxxim, Asl Wayne, Minor, AbroBey и Mubinlolo.",
@@ -121,16 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/06/f8f7bc6910e70c766d0fa8e7001817bc_m.webp",
       "category": "concert",
       "published": 1782532800000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:06:26:hyuston-vi-hev-a-problem",
-      "title": "Более 4000 узбекистанцев вышли на марш в Хьюстоне. Фото",
-      "description": "В Хьюстоне, США, состоялся марш в поддержку национальной сборной, участвующей в чемпионате мира по футболу, в котором приняли участие более 4000 жителей Узбекистана. Об этом сообщило Туристическое управление.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/06/26/hyuston-vi-hev-a-problem",
-      "image": "https://www.afisha.uz/uploads/media/2026/06/0eff3d60d0e2cb7cc65749af1cb214ee_m.webp",
-      "category": "city",
-      "published": 1782482280000,
       "venue": null
     },
     {
