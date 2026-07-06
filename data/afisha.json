@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-07-06T09:55:15.338Z",
+  "updatedAt": "2026-07-06T14:58:10.346Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:06:navoiy",
+      "title": "Музей литературы имени Алишера Навои переедет в новое здание",
+      "description": "Он переедет в новое здание в Новом Ташкенте.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/06/navoiy",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/8b119e8738094d18b6632b043faf66b1_m.webp",
+      "category": "city",
+      "published": 1783346743000,
+      "venue": null
+    },
+    {
+      "id": "ru:exhibitions:2026:07:06:bienal",
+      "title": "Объявлен прием заявок на XI Ташкентскую международную биеннале современного искусства",
+      "description": "В биеннале могут принять участие художники различных направлений современного искусства и представить свои работы по тематике «Горизонт событий».",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/07/06/bienal",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/9036da641d4c04ef63b8cf9cc38ca53e_m.webp",
+      "category": "exhibition",
+      "published": 1783344879000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:06:gastro-street",
       "title": "На улице Янги Сергели открыли новую зону отдыха, магазинов и кафе",
@@ -111,16 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/209e38f370bb4378ac73746f9e32ae8a_m.webp",
       "category": "city",
       "published": 1782968470000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:01:chery",
-      "title": "Гибридные технологии Chery CSH открывают новые горизонты комфорта",
-      "description": "Chery Uzbekistan представила гибридную технологию CSH. Запас хода более 1200 км, передовая шумоизоляция и выносливость, доказанная пробегом в 12 000 км, задают новые стандарты надежности для семейных поездок.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/01/chery",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/bf115c49d9ccc4ab0000c421507acfb1_m.webp",
-      "category": "city",
-      "published": 1782900000000,
       "venue": null
     },
     {
@@ -331,16 +341,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/03/75d1f29f8f8c5ed54e1f54ee354b59a6_m.webp",
       "category": "theatre",
       "published": 1773908640000,
-      "venue": null
-    },
-    {
-      "id": "ru:exhibitions:2026:03:11:van-gog",
-      "title": "Мультимедийная выставка «Быть Ван Гогом» продлевается",
-      "description": "Выставка открыта ежедневно с 10:00 до 23:00.",
-      "url": "https://www.afisha.uz/ru/exhibitions/2026/03/11/van-gog",
-      "image": "https://www.afisha.uz/uploads/media/2026/03/7b66c5c54dea102830d32503c15ad11c_m.webp",
-      "category": "exhibition",
-      "published": 1773223800000,
       "venue": null
     },
     {
