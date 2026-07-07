@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-07-07T09:23:10.093Z",
+  "updatedAt": "2026-07-07T14:06:15.101Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:07:alphabet",
+      "title": "Депутаты одобрили изменения в узбекском алфавите на латинице",
+      "description": "Согласно законопроекту, алфавит будет состоять из 28 букв и одного апострофа вместо нынешних 26 букв и трех буквосочетаний.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/07/alphabet",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/2e46a791a61a59362481c69033f1cc52_m.webp",
+      "category": "city",
+      "published": 1783423864000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:07:square",
+      "title": "На сквер Амира Тимура вернули наземные переходы и светофоры",
+      "description": "Также появились островки безопасности, убрали часть металлических ограждений и установили «умные» светофоры, учитывающие движение пешеходов.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/07/square",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/97029c56e1da1a668fdb66f995c87dec_m.webp",
+      "category": "city",
+      "published": 1783417080000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:06:navoiy",
       "title": "Музей литературы имени Алишера Навои переедет в новое здание",
@@ -111,26 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/ab4891a6d25b801f381c9c5cb5faa66f_m.webp",
       "category": "city",
       "published": 1782994740000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:02:buses",
-      "title": "В Ташкенте изменили пять автобусных маршрутов",
-      "description": "Автобусы №17, 24 и 60 увеличат интервалы из-за объездов, а №83 и 199 сократят.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/02/buses",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/98b5a021372d240d3173202effc3be58_m.webp",
-      "category": "city",
-      "published": 1782969180000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:02:stop",
-      "title": "На проспекте Мустакиллик почти на две недели ограничат движение",
-      "description": "Закроют проезжую часть по направлению от улицы Мирзо Улугбека до улицы Оккургон.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/02/stop",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/209e38f370bb4378ac73746f9e32ae8a_m.webp",
-      "category": "city",
-      "published": 1782968470000,
       "venue": null
     },
     {
