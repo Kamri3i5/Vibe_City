@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-07-09T09:20:45.924Z",
+  "updatedAt": "2026-07-09T14:29:57.082Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:09:jayron",
+      "title": "Впервые за 40 лет в Сурханском заповеднике зафиксировали джейранов",
+      "description": "Стадо из 10 особей мигрировало в Узбекистан из соседнего Туркменистана благодаря созданным условиям охраны.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/09/jayron",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/457f71d090ab501e496f5371cc922ac2_m.webp",
+      "category": "city",
+      "published": 1783592047000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:09:halva",
       "title": "«Кокандская халва» зарегистрирована в качестве географического указания",
@@ -121,16 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/10b43385a3331cccee39e9a1a4283a3a_m.webp",
       "category": "city",
       "published": 1783087200000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:03:magic-safari",
-      "title": "Magic Safari приглашает гостей на сафари-экскурсии и вечернее африканское шоу",
-      "description": "Тематический парк Magic Safari приглашает гостей погрузиться в атмосферу африканского сафари. Посетителей ждут встречи с обитателями парка, возможность покормить дружелюбных животных и вечернее африканское шоу.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/03/magic-safari",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/6d5e961255cf0f38df013812e27dcb8e_m.webp",
-      "category": "city",
-      "published": 1783080000000,
       "venue": null
     },
     {
