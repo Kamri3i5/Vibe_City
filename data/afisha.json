@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-07-09T01:55:36.713Z",
+  "updatedAt": "2026-07-09T09:20:45.924Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:09:halva",
+      "title": "«Кокандская халва» зарегистрирована в качестве географического указания",
+      "description": "Министерство юстиции Узбекистана официально зарегистрировало знаменитую «Кокандскую халву» в качестве географического указания, что обеспечит правовую защиту уникальной рецептуры и откроет новые перспективы для ее экспорта.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/09/halva",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/61b64e1a9a3a8d478c69f8b2ef3a1423_m.webp",
+      "category": "city",
+      "published": 1783579829000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:09:asterium-auz",
+      "title": "Asterium представил AUZ – золото нового поколения в один клик",
+      "description": "В экосистеме Asterium появился AUZ – токенизированный инструмент для покупки золота через смартфон. Каждый токен обеспечен 1 граммом физического золота 999,9 пробы, а купить можно уже с 0,01 грамма.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/09/asterium-auz",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/9205eea56006e059cc5b7ec5a1fad622_m.webp",
+      "category": "city",
+      "published": 1783576800000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:09:premieres",
+      "title": "Кинопремьеры недели: 9 июля",
+      "description": "На больших экранах Узбекистана стартует показ новинок кинопроката — драма «Кодекс Данте», приключения «Миньоны и монстры».",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/09/premieres",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/03c21693b89ba0b8ff7e90d40fa6598c_m.webp",
+      "category": "city",
+      "published": 1783574393000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:07:alphabet",
       "title": "Депутаты одобрили изменения в узбекском алфавите на латинице",
@@ -101,36 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/6d5e961255cf0f38df013812e27dcb8e_m.webp",
       "category": "city",
       "published": 1783080000000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:03:4-5-july",
-      "title": "Куда пойти на выходных в Ташкенте, 4 и 5 июля",
-      "description": "Шесть кинопремьер, музыкальные квизы, финал чемпионата United MFL, спектакли, выставки, мастер-класс «Женский арт-релакс» и другие мероприятия предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/03/4-5-july",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/3bb92ae72e24a638b2577e68a4edb86f_m.webp",
-      "category": "city",
-      "published": 1783077000000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:03:weather",
-      "title": "Жара возвращается: в столице потеплеет до +35°",
-      "description": "Прогноз погоды в Ташкенте на выходные 4 и 5 июля.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/03/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/9d8c67fc30e56d33293011d7f4a2256b_m.webp",
-      "category": "city",
-      "published": 1783074085000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:02:tamerlano",
-      "title": "Оперу Tamerlano представили в Королевской опере Версаля. Как это было: фото и видео",
-      "description": "«Это сравнимо с попаданием сборной на Чемпионат мира. За 35 лет Независимости такое происходит впервые», - Алибек Кабдурахманов, дирижер.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/02/tamerlano",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/ab4891a6d25b801f381c9c5cb5faa66f_m.webp",
-      "category": "city",
-      "published": 1782994740000,
       "venue": null
     },
     {
