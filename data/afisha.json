@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-07-10T09:18:07.787Z",
+  "updatedAt": "2026-07-10T13:58:07.358Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:10:11-12-july",
+      "title": "Куда пойти на выходных в Ташкенте, 11 и 12 июля",
+      "description": "«Миньоны и монстры» и другие картины в кино, гаражная распродажа, арт-базар, цветочные и детские мастер-классы, выставки, бесплатные концерты и другие мероприятия предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/10/11-12-july",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/feb006dfe7193cea9c8895a8b2dd4e5d_m.webp",
+      "category": "city",
+      "published": 1783680639000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:10:buses",
+      "title": "В Ташкенте изменят четыре автобусных маршрута",
+      "description": "Это связано с заменой магистрального трубопровода горячего водоснабжения в Яшнабадском районе и продлится три недели.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/10/buses",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/a43296a399d91297a619a40651d6b920_m.webp",
+      "category": "city",
+      "published": 1783679280000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:10:hyatt",
+      "title": "Главное событие лета: в Узбекистане состоялась презентация премиального курорта Destination by Hyatt",
+      "description": "Проект, которого ждали несколько лет, вышел на финишную прямую: состоялся гала-ужин, посвященный предстоящему открытию курорта бренда Destination by Hyatt.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/10/hyatt",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/b39956b2abf8922c36b23378c7d4b60a_m.webp",
+      "category": "city",
+      "published": 1783677600000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:10:weather",
       "title": "Выходные под +39°: в столице ожидается жара",
@@ -101,36 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/d77ff6e4305fb12e9361c584d6667810_m.webp",
       "category": "city",
       "published": 1783314644000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:06:buses",
-      "title": "В Ташкенте изменили четыре автобусных маршрута",
-      "description": "Это связано с закрытием участка дороги на съезде с Малой кольцевой дороги на улицу Паркент.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/06/buses",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/8fde8183162711d8cd8b8ddcd498cf8e_m.webp",
-      "category": "city",
-      "published": 1783313136000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:06:weather",
-      "title": "Жара усиливается: в столице воздух прогреется до +39°",
-      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 6 по 10 июля.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/06/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/51ec2221e5100bb0bbc2e117998eab52_m.webp",
-      "category": "city",
-      "published": 1783312637000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:03:iman-holding",
-      "title": "IMAN Holding запускает Adl Neobank – один из первых необанков в Узбекистане",
-      "description": "IMAN Holding представил IMANUM 5.0 – обновленное суперприложение, объединяющее финансовые и инвестиционные продукты холдинга. Одним из ключевых элементов станет Adl Neobank, а также сервисы для инвестиций, рассрочки и управления финансами.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/03/iman-holding",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/155b819e74fc0eb2a5f3e846d25f8f0f_m.webp",
-      "category": "city",
-      "published": 1783094400000,
       "venue": null
     },
     {
