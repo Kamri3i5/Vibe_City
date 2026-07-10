@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-07-10T01:54:34.569Z",
+  "updatedAt": "2026-07-10T09:18:07.787Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:10:weather",
+      "title": "Выходные под +39°: в столице ожидается жара",
+      "description": "Прогноз погоды в Ташкенте на выходные 11 и 12 июля.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/10/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/a5737dcf1aa865946ab32b9a2f7e90b5_m.webp",
+      "category": "city",
+      "published": 1783669550000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:09:jayron",
       "title": "Впервые за 40 лет в Сурханском заповеднике зафиксировали джейранов",
@@ -121,16 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/155b819e74fc0eb2a5f3e846d25f8f0f_m.webp",
       "category": "city",
       "published": 1783094400000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:03:cardxabarbot",
-      "title": "Тратить с умом: UZCARD предлагает протестировать новый ИИ-бот в Telegram, который считает расходы",
-      "description": "В CardXabarBot появился Mini-App со встроенным ИИ для держателей UZCARD:  собирает данные о доходах и расходах на один экран и дает советы, как распорядиться бюджетом.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/03/cardxabarbot",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/10b43385a3331cccee39e9a1a4283a3a_m.webp",
-      "category": "city",
-      "published": 1783087200000,
       "venue": null
     },
     {
