@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-07-13T14:04:12.641Z",
+  "updatedAt": "2026-07-13T19:11:16.373Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:13:applicants",
+      "title": "Объявлены даты вступительных тестов в вузы в Узбекистане",
+      "description": "Пропуска на тестирование уже доступны в личном кабинете на сайте my.uzbmb.uz.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/13/applicants",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/a8d6a9ee52e331e624f4e12f2588d06b_m.webp",
+      "category": "city",
+      "published": 1783952340000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:13:cats-and-dogs",
       "title": "В Ташкенте призвали помогать бездомным животным в жару",
@@ -111,16 +121,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/61b64e1a9a3a8d478c69f8b2ef3a1423_m.webp",
       "category": "city",
       "published": 1783579829000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:09:asterium-auz",
-      "title": "Asterium представил AUZ – золото нового поколения в один клик",
-      "description": "В экосистеме Asterium появился AUZ – токенизированный инструмент для покупки золота через смартфон. Каждый токен обеспечен 1 граммом физического золота 999,9 пробы, а купить можно уже с 0,01 грамма.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/09/asterium-auz",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/9205eea56006e059cc5b7ec5a1fad622_m.webp",
-      "category": "city",
-      "published": 1783576800000,
       "venue": null
     },
     {
