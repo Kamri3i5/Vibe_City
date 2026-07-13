@@ -1,8 +1,48 @@
 {
-  "updatedAt": "2026-07-13T01:48:13.739Z",
+  "updatedAt": "2026-07-13T08:47:36.721Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:13:electric-train",
+      "title": "Между Ташкентом и Бекабадом запустили новый электропоезд",
+      "description": "Поезд оборудован кондиционерами и отоплением, мягкими креслами, USB-разъемами, местами для велосипедов и подъемниками для пассажиров с инвалидностью.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/13/electric-train",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/64a2bd10d04f6826b14f6492a7524ce4_m.webp",
+      "category": "city",
+      "published": 1783926067000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:13:underground",
+      "title": "До конца 2026 года Ташкентское метро получит еще 11 новых поездов",
+      "description": "Новые составы оснащены системами кондиционирования и отопления, что сделает поездки комфортнее в любое время года.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/13/underground",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/b1ff5e8d9a02760881edfd3660e34a49_m.webp",
+      "category": "city",
+      "published": 1783923465000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:13:metro",
+      "title": "В Ташкентский метрополитен поступили еще три новых поезда",
+      "description": "Они оснащены системами кондиционирования и отопления, что сделает поездки комфортнее в любое время года.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/13/metro",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/51d497bef1953a46ee6f26a1ed2afed8_m.webp",
+      "category": "city",
+      "published": 1783920885000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:13:weather",
+      "title": "Столицу накроет жара до +44°",
+      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 13 по 17 июля.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/13/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/bb0a7b28e4149897878e8ac395858511_m.webp",
+      "category": "city",
+      "published": 1783919400000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:10:11-12-july",
       "title": "Куда пойти на выходных в Ташкенте, 11 и 12 июля",
@@ -84,36 +124,6 @@
       "venue": null
     },
     {
-      "id": "ru:gorod:2026:07:07:alphabet",
-      "title": "Депутаты одобрили изменения в узбекском алфавите на латинице",
-      "description": "Согласно законопроекту, алфавит будет состоять из 28 букв и одного апострофа вместо нынешних 26 букв и трех буквосочетаний.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/07/alphabet",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/2e46a791a61a59362481c69033f1cc52_m.webp",
-      "category": "city",
-      "published": 1783423864000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:07:square",
-      "title": "На сквер Амира Тимура вернули наземные переходы и светофоры",
-      "description": "Также появились островки безопасности, убрали часть металлических ограждений и установили «умные» светофоры, учитывающие движение пешеходов.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/07/square",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/97029c56e1da1a668fdb66f995c87dec_m.webp",
-      "category": "city",
-      "published": 1783417080000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:06:navoiy",
-      "title": "Музей литературы имени Алишера Навои переедет в новое здание",
-      "description": "Он переедет в новое здание в Новом Ташкенте.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/06/navoiy",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/8b119e8738094d18b6632b043faf66b1_m.webp",
-      "category": "city",
-      "published": 1783346743000,
-      "venue": null
-    },
-    {
       "id": "ru:exhibitions:2026:07:06:bienal",
       "title": "Объявлен прием заявок на XI Ташкентскую международную биеннале современного искусства",
       "description": "В биеннале могут принять участие художники различных направлений современного искусства и представить свои работы по тематике «Горизонт событий».",
@@ -121,16 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/9036da641d4c04ef63b8cf9cc38ca53e_m.webp",
       "category": "exhibition",
       "published": 1783344879000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:06:gastro-street",
-      "title": "На улице Янги Сергели открыли новую зону отдыха, магазинов и кафе",
-      "description": "Для жителей оборудовали более 10 детских площадок, 8 воркаут-зон, книжный магазин и центр досуга для пожилых.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/06/gastro-street",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/d77ff6e4305fb12e9361c584d6667810_m.webp",
-      "category": "city",
-      "published": 1783314644000,
       "venue": null
     },
     {
