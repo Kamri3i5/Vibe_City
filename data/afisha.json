@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-07-13T08:47:36.721Z",
+  "updatedAt": "2026-07-13T14:04:12.641Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:13:cats-and-dogs",
+      "title": "В Ташкенте призвали помогать бездомным животным в жару",
+      "description": "Также горожан просят не прогонять животных из тени, поскольку в жаркие дни они также ищут прохладное место.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/13/cats-and-dogs",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/0121e331d4776387bc2a7a17d9ee803c_m.webp",
+      "category": "city",
+      "published": 1783941809000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:13:electric-train",
       "title": "Между Ташкентом и Бекабадом запустили новый электропоезд",
@@ -111,16 +121,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/9205eea56006e059cc5b7ec5a1fad622_m.webp",
       "category": "city",
       "published": 1783576800000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:09:premieres",
-      "title": "Кинопремьеры недели: 9 июля",
-      "description": "На больших экранах Узбекистана стартует показ новинок кинопроката — драма «Кодекс Данте», приключения «Миньоны и монстры».",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/09/premieres",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/03c21693b89ba0b8ff7e90d40fa6598c_m.webp",
-      "category": "city",
-      "published": 1783574393000,
       "venue": null
     },
     {
