@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-07-14T07:46:32.469Z",
+  "updatedAt": "2026-07-14T13:06:50.260Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:14:weather",
+      "title": "В конце недели в столице ожидается до +47°",
+      "description": "Это может стать одним из самых жарких периодов лета 2026.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/14/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/64a916a727ff9db36194aa5718168ef2_m.webp",
+      "category": "city",
+      "published": 1784033745000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:13:applicants",
       "title": "Объявлены даты вступительных тестов в вузы в Узбекистане",
@@ -40,7 +50,7 @@
       "url": "https://www.afisha.uz/ru/gorod/2026/07/13/underground",
       "image": "https://www.afisha.uz/uploads/media/2026/07/b1ff5e8d9a02760881edfd3660e34a49_m.webp",
       "category": "city",
-      "published": 1783923465000,
+      "published": 1783923420000,
       "venue": null
     },
     {
@@ -61,6 +71,16 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/bb0a7b28e4149897878e8ac395858511_m.webp",
       "category": "city",
       "published": 1783919400000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:12:coins",
+      "title": "В продажу поступят памятные монеты, посвященные Международному форуму исламских цивилизаций",
+      "description": "",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/12/coins",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/ac0b2d50f7ad6bdb943a702cc48d0999_m.webp",
+      "category": "city",
+      "published": 1783796400000,
       "venue": null
     },
     {
@@ -101,26 +121,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/a5737dcf1aa865946ab32b9a2f7e90b5_m.webp",
       "category": "city",
       "published": 1783669550000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:09:jayron",
-      "title": "Впервые за 40 лет в Сурханском заповеднике зафиксировали джейранов",
-      "description": "Стадо из 10 особей мигрировало в Узбекистан из соседнего Туркменистана благодаря созданным условиям охраны.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/09/jayron",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/457f71d090ab501e496f5371cc922ac2_m.webp",
-      "category": "city",
-      "published": 1783592047000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:09:halva",
-      "title": "«Кокандская халва» зарегистрирована в качестве географического указания",
-      "description": "Министерство юстиции Узбекистана официально зарегистрировало знаменитую «Кокандскую халву» в качестве географического указания, что обеспечит правовую защиту уникальной рецептуры и откроет новые перспективы для ее экспорта.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/09/halva",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/61b64e1a9a3a8d478c69f8b2ef3a1423_m.webp",
-      "category": "city",
-      "published": 1783579829000,
       "venue": null
     },
     {
