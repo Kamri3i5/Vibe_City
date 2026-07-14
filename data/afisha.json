@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-14T13:06:50.260Z",
+  "updatedAt": "2026-07-14T19:01:45.641Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
     {
       "id": "ru:gorod:2026:07:14:weather",
-      "title": "В конце недели в столице ожидается до +47°",
+      "title": "В Ташкенте ожидается до +47° в конце недели",
       "description": "Это может стать одним из самых жарких периодов лета 2026.",
       "url": "https://www.afisha.uz/ru/gorod/2026/07/14/weather",
       "image": "https://www.afisha.uz/uploads/media/2026/07/64a916a727ff9db36194aa5718168ef2_m.webp",
       "category": "city",
-      "published": 1784033745000,
+      "published": 1784033700000,
       "venue": null
     },
     {
