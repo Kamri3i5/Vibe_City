@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-07-15T01:21:45.323Z",
+  "updatedAt": "2026-07-15T07:49:46.461Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:15:buses",
+      "title": "В Ташкенте изменили пять автобусных маршрутов",
+      "description": "Возможны заторы и увеличение интервалов движения автобусов — пассажирам рекомендуют заранее планировать поездки.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/15/buses",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/c37ca18e1747d13992f81ac79dc4f516_m.webp",
+      "category": "city",
+      "published": 1784091480000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:14:weather",
       "title": "В Ташкенте ожидается до +47° в конце недели",
@@ -111,16 +121,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/b39956b2abf8922c36b23378c7d4b60a_m.webp",
       "category": "city",
       "published": 1783677600000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:10:weather",
-      "title": "Выходные под +39°: в столице ожидается жара",
-      "description": "Прогноз погоды в Ташкенте на выходные 11 и 12 июля.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/10/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/a5737dcf1aa865946ab32b9a2f7e90b5_m.webp",
-      "category": "city",
-      "published": 1783669550000,
       "venue": null
     },
     {
