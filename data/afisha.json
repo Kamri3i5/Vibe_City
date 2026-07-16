@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-07-16T07:54:48.733Z",
+  "updatedAt": "2026-07-16T13:18:58.432Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:16:patir",
+      "title": "«Кокандский патыр» получил официальный статус географического указания",
+      "description": "Статус географического указания официально подтверждает, что исключительные свойства кокандского патыра напрямую обусловлены уникальными природно-климатическими условиями и богатейшими социально-культурными традициями места его происхождения.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/16/patir",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/7f534eeda0a3cfd5683a7dab21ddb4b8_m.webp",
+      "category": "city",
+      "published": 1784200229000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:16:mustaqillik",
+      "title": "Перекрытие на проспекте Мустакиллик: одну сторону открывают после ремонта, вторую закрывают на две недели",
+      "description": "В рамках предыдущего этапа специалисты полностью отремонтировали одну из сторон проезжей части, уложив новое дорожное покрытие.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/16/mustaqillik",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/6035563c6c2820e7a5db98d911f8a918_m.webp",
+      "category": "city",
+      "published": 1784199653000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:16:tourism-street",
+      "title": "На Юнусабаде создается круглосуточная туристическая улица",
+      "description": "Вдоль обновленной улицы Янгишахар развернется развитая сеть круглосуточных торговых точек, кафе, ресторанов и объектов сферы услуг.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/16/tourism-street",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/fee0404694f6e1221c4024c8ed775531_m.webp",
+      "category": "city",
+      "published": 1784199211000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:15:buses",
       "title": "В Ташкенте изменили пять автобусных маршрутов",
@@ -91,36 +121,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/ac0b2d50f7ad6bdb943a702cc48d0999_m.webp",
       "category": "city",
       "published": 1783796400000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:10:11-12-july",
-      "title": "Куда пойти на выходных в Ташкенте, 11 и 12 июля",
-      "description": "«Миньоны и монстры» и другие картины в кино, гаражная распродажа, арт-базар, цветочные и детские мастер-классы, выставки, бесплатные концерты и другие мероприятия предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/10/11-12-july",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/feb006dfe7193cea9c8895a8b2dd4e5d_m.webp",
-      "category": "city",
-      "published": 1783680639000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:10:buses",
-      "title": "В Ташкенте изменят четыре автобусных маршрута",
-      "description": "Это связано с заменой магистрального трубопровода горячего водоснабжения в Яшнабадском районе и продлится три недели.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/10/buses",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/a43296a399d91297a619a40651d6b920_m.webp",
-      "category": "city",
-      "published": 1783679280000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:10:hyatt",
-      "title": "Главное событие лета: в Узбекистане состоялась презентация премиального курорта Destination by Hyatt",
-      "description": "Проект, которого ждали несколько лет, вышел на финишную прямую: состоялся гала-ужин, посвященный предстоящему открытию курорта бренда Destination by Hyatt.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/10/hyatt",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/b39956b2abf8922c36b23378c7d4b60a_m.webp",
-      "category": "city",
-      "published": 1783677600000,
       "venue": null
     },
     {
