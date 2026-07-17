@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-07-17T13:03:22.191Z",
+  "updatedAt": "2026-07-17T18:52:38.536Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:17:18-19-july",
+      "title": "Куда пойти на выходных в Ташкенте, 18 и 19 июля",
+      "description": "Шесть кинопремьер, фестиваль мороженого, забег под кондиционерами, международная выставка моды и текстиля, творческие мастер-классы, тематические квизы и другие мероприятия предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/17/18-19-july",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/74d0df91731069ddadeb1032efe6151c_m.webp",
+      "category": "city",
+      "published": 1784294530000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:16:sevara-nazarxan",
       "title": "«Друзья птицы»: как Севара Назархан презентовала новый альбом в культовом ташкентском «Жемчуге»",
@@ -111,16 +121,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/51d497bef1953a46ee6f26a1ed2afed8_m.webp",
       "category": "city",
       "published": 1783920885000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:13:weather",
-      "title": "Столицу накроет жара до +44°",
-      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 13 по 17 июля.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/13/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/bb0a7b28e4149897878e8ac395858511_m.webp",
-      "category": "city",
-      "published": 1783919400000,
       "venue": null
     },
     {
