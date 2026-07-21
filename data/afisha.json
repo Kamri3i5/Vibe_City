@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-07-21T08:07:21.610Z",
+  "updatedAt": "2026-07-21T13:15:38.932Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:21:eskalator",
+      "title": "Эскалатор на переходе между станциями «Алишер Навои» и «Пахтакор» закрыли на ремонт",
+      "description": "С 21 июля по 17 августа эскалатор № 3 ЕТ-5М, ведущий от станции «Алишер Навой» Ташкентского метрополитена к станции «Пахтакор», будет временно выведен из эксплуатации.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/21/eskalator",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/3d0f6bca17b98004aeb55e927f3f000b_m.webp",
+      "category": "city",
+      "published": 1784628660000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:21:metro",
+      "title": "Ташкентский метрополитен пополнился еще тремя современными составами",
+      "description": "До сентября 2026 года планируется закупить еще 8 новых четырехвагонных составов.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/21/metro",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/397e12e80893319c25287657ad09cab6_m.webp",
+      "category": "city",
+      "published": 1784628420000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:21:bus-route",
       "title": "В Ташкенте временно изменятся 6 автобусных маршрутов",
@@ -101,26 +121,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/64a916a727ff9db36194aa5718168ef2_m.webp",
       "category": "city",
       "published": 1784033700000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:13:applicants",
-      "title": "Объявлены даты вступительных тестов в вузы в Узбекистане",
-      "description": "Пропуска на тестирование уже доступны в личном кабинете на сайте my.uzbmb.uz.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/13/applicants",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/a8d6a9ee52e331e624f4e12f2588d06b_m.webp",
-      "category": "city",
-      "published": 1783952340000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:13:cats-and-dogs",
-      "title": "В Ташкенте призвали помогать бездомным животным в жару",
-      "description": "Также горожан просят не прогонять животных из тени, поскольку в жаркие дни они также ищут прохладное место.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/13/cats-and-dogs",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/0121e331d4776387bc2a7a17d9ee803c_m.webp",
-      "category": "city",
-      "published": 1783941809000,
       "venue": null
     },
     {
