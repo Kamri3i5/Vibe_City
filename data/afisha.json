@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-07-21T01:43:22.099Z",
+  "updatedAt": "2026-07-21T08:07:21.610Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:21:bus-route",
+      "title": "В Ташкенте временно изменятся 6 автобусных маршрутов",
+      "description": "С 20 июля в связи с ремонтными работами на Большой кольцевой дороге, недалеко от торгового центра Food City, временно изменится расписание некоторых автобусных маршрутов.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/21/bus-route",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/15729dcd8e99c32808472a837161caac_m.webp",
+      "category": "city",
+      "published": 1784619321000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:21:weather",
+      "title": "С четверга жара начнет отступать из Узбекистана",
+      "description": "При этом с 21 по 24 июля из-за ожидающихся осадков в предгорных и горных районах республики сохраняется высокая вероятность селе-паводковых явлений.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/21/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/8455f37bb0be777afa23c232adfb2165_m.webp",
+      "category": "city",
+      "published": 1784618760000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:21:pekin",
+      "title": "Пианист Ланг Ланг сыграет с Национальным симфоническим оркестром Узбекистана",
+      "description": "Программа вечера объединит произведения узбекских композиторов и мировую классику.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/21/pekin",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/920b0d6aa5e231f3c92a84bfa9f5b319_m.webp",
+      "category": "city",
+      "published": 1784616240000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:17:18-19-july",
       "title": "Куда пойти на выходных в Ташкенте, 18 и 19 июля",
@@ -91,36 +121,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/0121e331d4776387bc2a7a17d9ee803c_m.webp",
       "category": "city",
       "published": 1783941809000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:13:electric-train",
-      "title": "Между Ташкентом и Бекабадом запустили новый электропоезд",
-      "description": "Поезд оборудован кондиционерами и отоплением, мягкими креслами, USB-разъемами, местами для велосипедов и подъемниками для пассажиров с инвалидностью.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/13/electric-train",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/64a2bd10d04f6826b14f6492a7524ce4_m.webp",
-      "category": "city",
-      "published": 1783926067000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:13:underground",
-      "title": "До конца 2026 года Ташкентское метро получит еще 11 новых поездов",
-      "description": "Новые составы оснащены системами кондиционирования и отопления, что сделает поездки комфортнее в любое время года.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/13/underground",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/b1ff5e8d9a02760881edfd3660e34a49_m.webp",
-      "category": "city",
-      "published": 1783923420000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:13:metro",
-      "title": "В Ташкентский метрополитен поступили еще три новых поезда",
-      "description": "Они оснащены системами кондиционирования и отопления, что сделает поездки комфортнее в любое время года.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/13/metro",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/51d497bef1953a46ee6f26a1ed2afed8_m.webp",
-      "category": "city",
-      "published": 1783920885000,
       "venue": null
     },
     {
