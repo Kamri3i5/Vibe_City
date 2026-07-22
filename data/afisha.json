@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-07-22T13:20:59.522Z",
+  "updatedAt": "2026-07-22T18:56:54.759Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:22:octobank",
+      "title": "Octobank запустил ипотеку и автокредиты для физических лиц",
+      "description": "В Octobank стартовали программы ипотечного и автокредитования для физических лиц. Банк представил три продукта: «Ипотека» — для покупки жилья, «Автокредит 1.0» — для новых автомобилей и «Автокредит 2.0» — для автомобилей с пробегом.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/22/octobank",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/ecf4522a75ade539804ce5e51f499ae3_m.webp",
+      "category": "city",
+      "published": 1784728800000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:22:jaloliddin-manguberdi",
       "title": "Запущен второй скоростной поезд до Хивы",
@@ -121,16 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/6035563c6c2820e7a5db98d911f8a918_m.webp",
       "category": "city",
       "published": 1784199653000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:16:tourism-street",
-      "title": "На Юнусабаде создается круглосуточная туристическая улица",
-      "description": "Вдоль обновленной улицы Янгишахар развернется развитая сеть круглосуточных торговых точек, кафе, ресторанов и объектов сферы услуг.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/16/tourism-street",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/fee0404694f6e1221c4024c8ed775531_m.webp",
-      "category": "city",
-      "published": 1784199211000,
       "venue": null
     },
     {
