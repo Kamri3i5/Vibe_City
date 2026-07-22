@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-07-22T08:07:47.424Z",
+  "updatedAt": "2026-07-22T13:20:59.522Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:22:jaloliddin-manguberdi",
+      "title": "Запущен второй скоростной поезд до Хивы",
+      "description": "С 22 июля второй поезд высокоскоростного электропоезда «Джалолиддин Мангуберди» начнет регулярное движение по маршруту Ташкент-Хива-Ташкент.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/22/jaloliddin-manguberdi",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/f91dd4827ab3c91fa7c4de9fd2cb60a9_m.webp",
+      "category": "city",
+      "published": 1784725089000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:22:lego",
+      "title": "LEGO выпустил набор «Поцелуй» Густава Климта",
+      "description": "Набор создан в официальном сотрудничестве с венским Музеем Бельведер, где оригинал хранится с 1908 года.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/22/lego",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/6c9429c93256e40f9b70e888f73bf81f_m.webp",
+      "category": "city",
+      "published": 1784719860000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:07:22:otmena",
+      "title": "Концерт Мари Краймбрери отменен",
+      "description": "Колл-центр организаторов 200-033-399 свяжется с каждым покупателем, чтобы уточнить реквизиты для возврата.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/07/22/otmena",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/8278112e0672b83a11cae808aa7d2db2_m.webp",
+      "category": "concert",
+      "published": 1784719620000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:21:eskalator",
       "title": "Эскалатор на переходе между станциями «Алишер Навои» и «Пахтакор» закрыли на ремонт",
@@ -101,26 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/fee0404694f6e1221c4024c8ed775531_m.webp",
       "category": "city",
       "published": 1784199211000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:15:buses",
-      "title": "В Ташкенте изменили пять автобусных маршрутов",
-      "description": "Возможны заторы и увеличение интервалов движения автобусов — пассажирам рекомендуют заранее планировать поездки.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/15/buses",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/c37ca18e1747d13992f81ac79dc4f516_m.webp",
-      "category": "city",
-      "published": 1784091480000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:14:weather",
-      "title": "В Ташкенте ожидается до +47° в конце недели",
-      "description": "Это может стать одним из самых жарких периодов лета 2026.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/14/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/64a916a727ff9db36194aa5718168ef2_m.webp",
-      "category": "city",
-      "published": 1784033700000,
       "venue": null
     },
     {
@@ -391,16 +401,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/02/47b3adb48a7dadbd7b21705c59f8d9c2_m.webp",
       "category": "theatre",
       "published": 1770990180000,
-      "venue": null
-    },
-    {
-      "id": "ru:concerts:2026:02:13:afisha14",
-      "title": "Промокоды от Afisha.uz в честь 14 февраля на семь концертов в Ташкенте",
-      "description": "Скидки по промокодам «Афиши» распространяются на концерты Jony, Алессандро Сафина и L’One, а также музыкальное шоу «Нотрдам Де Пари» и другие мероприятия.",
-      "url": "https://www.afisha.uz/ru/concerts/2026/02/13/afisha14",
-      "image": "https://www.afisha.uz/uploads/media/2026/02/9d4e828b35627033f1cd5c4e150d6bd7_m.webp",
-      "category": "concert",
-      "published": 1770980142000,
       "venue": null
     }
   ]
