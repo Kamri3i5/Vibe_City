@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-07-23T01:50:18.187Z",
+  "updatedAt": "2026-07-23T08:11:06.833Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:23:history-museum",
+      "title": "Государственный музей истории Узбекистана открывается после масштабной реконструкции",
+      "description": "В честь долгожданного открытия руководство музея объявило «Дни открытых дверей».",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/23/history-museum",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/7d51c7397fd1b2d286f276acf956085f_m.webp",
+      "category": "city",
+      "published": 1784788500000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:22:octobank",
       "title": "Octobank запустил ипотеку и автокредиты для физических лиц",
@@ -121,16 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/7f534eeda0a3cfd5683a7dab21ddb4b8_m.webp",
       "category": "city",
       "published": 1784200229000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:16:mustaqillik",
-      "title": "Перекрытие на проспекте Мустакиллик: одну сторону открывают после ремонта, вторую закрывают на две недели",
-      "description": "В рамках предыдущего этапа специалисты полностью отремонтировали одну из сторон проезжей части, уложив новое дорожное покрытие.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/16/mustaqillik",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/6035563c6c2820e7a5db98d911f8a918_m.webp",
-      "category": "city",
-      "published": 1784199653000,
       "venue": null
     },
     {
