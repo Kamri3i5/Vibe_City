@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-07-24T01:45:55.564Z",
+  "updatedAt": "2026-07-24T08:06:49.293Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:24:shahrisabz",
+      "title": "В Ташкенте ограничат движение на участке улицы Шахрисабз",
+      "description": "Полного перекрытия дороги не планируется: работы развернутся на четырех центральных полосах движения.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/24/shahrisabz",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/b47080a1ec9a19c21e52e516318dfa10_m.webp",
+      "category": "city",
+      "published": 1784876229000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:23:history-museum",
       "title": "Государственный музей истории Узбекистана открывается после масштабной реконструкции",
@@ -121,16 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/1ebcdf8ce02ed2e46aba68efb504fc12_m.webp",
       "category": "city",
       "published": 1784208600000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:16:patir",
-      "title": "«Кокандский патыр» получил официальный статус географического указания",
-      "description": "Статус географического указания официально подтверждает, что исключительные свойства кокандского патыра напрямую обусловлены уникальными природно-климатическими условиями и богатейшими социально-культурными традициями места его происхождения.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/16/patir",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/7f534eeda0a3cfd5683a7dab21ddb4b8_m.webp",
-      "category": "city",
-      "published": 1784200229000,
       "venue": null
     },
     {
