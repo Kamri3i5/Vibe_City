@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-07-24T08:06:49.293Z",
+  "updatedAt": "2026-07-24T13:16:59.282Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:concerts:2026:07:24:ticketon-kz",
+      "title": "Теперь поклонники Канье Уэста из Узбекистана могут купить билеты на выступление в Алматы",
+      "description": "Продажа билетов на концерт Канье Уэста стартовала во Freedom Афише на сайте Ticketon.kz. Теперь поклонники артиста из Узбекистана и других стран могут свободно купить билеты с помощью международных карт.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/07/24/ticketon-kz",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/9e7b5bfb853b2225795ae5b261014707_m.webp",
+      "category": "concert",
+      "published": 1784894400000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:24:weekend-25-26-jul",
+      "title": "Куда пойти на выходных в Ташкенте, 25 и 26 июля",
+      "description": "Даже если вы остались в эту жару в Ташкенте, предлагаем вам не унывать, а максимально интересно и полезно провести время. Тем более, что мы позаботились о вас, и отобрали самые интересные мероприятия выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/24/weekend-25-26-jul",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/2a3adf1f6cf870ef3bbfec2d3da984bb_m.webp",
+      "category": "city",
+      "published": 1784888820000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:24:weather",
+      "title": "Жара усиливается: в Ташкенте ожидается до +38 на выходных",
+      "description": "С 24 по 26 июля в Ташкенте ожидается переменная облачность и сухая погода. Осадков не прогнозируется.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/24/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/36c8c653b7ae29ea3137eb828e8ca852_m.webp",
+      "category": "city",
+      "published": 1784883874000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:24:shahrisabz",
       "title": "В Ташкенте ограничат движение на участке улицы Шахрисабз",
@@ -111,26 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/920b0d6aa5e231f3c92a84bfa9f5b319_m.webp",
       "category": "city",
       "published": 1784616240000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:17:18-19-july",
-      "title": "Куда пойти на выходных в Ташкенте, 18 и 19 июля",
-      "description": "Шесть кинопремьер, фестиваль мороженого, забег под кондиционерами, международная выставка моды и текстиля, творческие мастер-классы, тематические квизы и другие мероприятия предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/17/18-19-july",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/74d0df91731069ddadeb1032efe6151c_m.webp",
-      "category": "city",
-      "published": 1784294530000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:16:sevara-nazarxan",
-      "title": "«Друзья птицы»: как Севара Назархан презентовала новый альбом в культовом ташкентском «Жемчуге»",
-      "description": "10 июля на площади «мок хаб» жилого комплекса «Джемчуг» в Ташкенте состоялась закрытая презентация нового альбома «Друзья птицы» народной артистки Узбекистана Севары Назархан. Вечер, организованный Яндекс Музыкой в формате прослушивания, посетили члены семьи артистки, коллеги, поклонники и журналисты. В мероприятии также принял участие корреспондент Afisha.uz, подготовивший репортаж.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/16/sevara-nazarxan",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/1ebcdf8ce02ed2e46aba68efb504fc12_m.webp",
-      "category": "city",
-      "published": 1784208600000,
       "venue": null
     },
     {
@@ -391,16 +401,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/02/bda8e322b323a01c389c9e372129effa_m.webp",
       "category": "concert",
       "published": 1771164179000,
-      "venue": null
-    },
-    {
-      "id": "ru:theatres:2026:02:13:mtu-tickets",
-      "title": "Afisha.uz запустила продажи билетов на спектакли Молодежного театра",
-      "description": "Спектакли Государственного молодежного театра Узбекистана проводятся на сцене ТЮЗа.",
-      "url": "https://www.afisha.uz/ru/theatres/2026/02/13/mtu-tickets",
-      "image": "https://www.afisha.uz/uploads/media/2026/02/47b3adb48a7dadbd7b21705c59f8d9c2_m.webp",
-      "category": "theatre",
-      "published": 1770990180000,
       "venue": null
     }
   ]
