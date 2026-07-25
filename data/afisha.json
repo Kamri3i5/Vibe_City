@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-07-25T07:50:00.028Z",
+  "updatedAt": "2026-07-25T12:59:52.579Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:25:scopus-mall",
+      "title": "В Ташкенте открылся Scopus Mall — новый формат торгово-развлекательного центра с крупным автомоллом",
+      "description": "Scopus Mall начал работу в Учтепинском районе, объединив торгово-развлекательный центр и крупный автомолл. Посетителям доступны магазины, супермаркет, фитнес-центр, фудкорт, детский развлекательный центр и более 500 точек, связанных с автомобильной инфраструктурой.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/25/scopus-mall",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/aaa3e7855e091a00ddda1b72ff63bc88_m.webp",
+      "category": "city",
+      "published": 1784973600000,
+      "venue": null
+    },
     {
       "id": "ru:concerts:2026:07:24:ticketon-kz",
       "title": "Теперь поклонники Канье Уэста из Узбекистана могут купить билеты на выступление в Алматы",
@@ -131,16 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/8455f37bb0be777afa23c232adfb2165_m.webp",
       "category": "city",
       "published": 1784618760000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:21:pekin",
-      "title": "Пианист Ланг Ланг сыграет с Национальным симфоническим оркестром Узбекистана",
-      "description": "Программа вечера объединит произведения узбекских композиторов и мировую классику.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/21/pekin",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/920b0d6aa5e231f3c92a84bfa9f5b319_m.webp",
-      "category": "city",
-      "published": 1784616240000,
       "venue": null
     },
     {
