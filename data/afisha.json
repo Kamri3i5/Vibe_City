@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-07-27T01:55:44.838Z",
+  "updatedAt": "2026-07-27T09:29:38.735Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:27:uzbek-gift-contest",
+      "title": "В Узбекистане стартует конкурс для дизайнеров и ремесленников Uzbek Gift Contest",
+      "description": "Главная цель — превратить национальное ремесленничество в современные, удобные и доступные сувениры, которые туристы с удовольствием будут увозить с собой.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/27/uzbek-gift-contest",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/2e00274135b7c68a65e74f129fd17d5a_m.webp",
+      "category": "city",
+      "published": 1785133560000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:27:modernism",
+      "title": "10 зданий ташкентского модернизма включены в Список всемирного наследия ЮНЕСКО",
+      "description": "Данная номинация стала первым национальным объектом Узбекистана, включённым в Список всемирного наследия ЮНЕСКО за последние 25 лет.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/27/modernism",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/76611e504ddc16c0ff6303628e807ddd_m.webp",
+      "category": "city",
+      "published": 1785132757000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:25:scopus-mall",
       "title": "В Ташкенте открылся Scopus Mall — новый формат торгово-развлекательного центра с крупным автомоллом",
@@ -121,26 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/397e12e80893319c25287657ad09cab6_m.webp",
       "category": "city",
       "published": 1784628420000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:21:bus-route",
-      "title": "В Ташкенте временно изменятся 6 автобусных маршрутов",
-      "description": "С 20 июля в связи с ремонтными работами на Большой кольцевой дороге, недалеко от торгового центра Food City, временно изменится расписание некоторых автобусных маршрутов.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/21/bus-route",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/15729dcd8e99c32808472a837161caac_m.webp",
-      "category": "city",
-      "published": 1784619321000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:21:weather",
-      "title": "С четверга жара начнет отступать из Узбекистана",
-      "description": "При этом с 21 по 24 июля из-за ожидающихся осадков в предгорных и горных районах республики сохраняется высокая вероятность селе-паводковых явлений.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/21/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/8455f37bb0be777afa23c232adfb2165_m.webp",
-      "category": "city",
-      "published": 1784618760000,
       "venue": null
     },
     {
