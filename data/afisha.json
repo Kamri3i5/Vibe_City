@@ -1,8 +1,24 @@
 {
-  "updatedAt": "2026-07-28T13:29:43.353Z",
+  "updatedAt": "2026-07-28T19:06:46.228Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:28:battle-of-the-chefs",
+      "title": "В Ташкенте стартовал гастрономический чемпионат «Битва шеф-поваров»",
+      "description": "С 28 по 30 июля в Tashkent City Mall проходит гастрономический чемпионат «Битва шеф-поваров», объединяющий представителей ресторанной индустрии и всех, кто интересуется современной гастрономией.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/28/battle-of-the-chefs",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/a9b4486366301b0840f0a482a2f63a49_m.webp",
+      "category": "city",
+      "published": 1785260083000,
+      "venue": {
+        "name": "Tashkent City",
+        "coords": [
+          41.3165,
+          69.2484
+        ]
+      }
+    },
     {
       "id": "ru:gorod:2026:07:28:muzey",
       "title": "Как выглядит отреставрированный Государственный музей истории Узбекистана. Фото",
@@ -121,16 +137,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/f91dd4827ab3c91fa7c4de9fd2cb60a9_m.webp",
       "category": "city",
       "published": 1784725089000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:22:lego",
-      "title": "LEGO выпустил набор «Поцелуй» Густава Климта",
-      "description": "Набор создан в официальном сотрудничестве с венским Музеем Бельведер, где оригинал хранится с 1908 года.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/22/lego",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/6c9429c93256e40f9b70e888f73bf81f_m.webp",
-      "category": "city",
-      "published": 1784719860000,
       "venue": null
     },
     {
