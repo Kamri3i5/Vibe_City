@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-07-28T01:30:08.354Z",
+  "updatedAt": "2026-07-28T08:13:24.463Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:28:library",
+      "title": "Новое здание Национальной библиотеки в Новом Ташкенте откроется уже в этом году",
+      "description": "Это четырехэтажный комплекс общей площадью свыше 30 тысяч квадратных метров, который сможет одновременно обслуживать 1 420 читателей.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/28/library",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/056ed05cac72f47eee6cf2f47783af7f_m.webp",
+      "category": "city",
+      "published": 1785216360000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:27:uzbek-gift-contest",
       "title": "В Узбекистане стартует конкурс для дизайнеров и ремесленников Uzbek Gift Contest",
@@ -131,16 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/3d0f6bca17b98004aeb55e927f3f000b_m.webp",
       "category": "city",
       "published": 1784628660000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:21:metro",
-      "title": "Ташкентский метрополитен пополнился еще тремя современными составами",
-      "description": "До сентября 2026 года планируется закупить еще 8 новых четырехвагонных составов.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/21/metro",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/397e12e80893319c25287657ad09cab6_m.webp",
-      "category": "city",
-      "published": 1784628420000,
       "venue": null
     },
     {
