@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-07-28T08:13:24.463Z",
+  "updatedAt": "2026-07-28T13:29:43.353Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:28:muzey",
+      "title": "Как выглядит отреставрированный Государственный музей истории Узбекистана. Фото",
+      "description": "Основная историческая часть экспозиции разворачивается на третьем этаже: здесь хронология человечества — от начала человеческой цивилизации до Золотого века Востока — бережно упакована в 11 специализированных разделов.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/28/muzey",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/eb8e6142996e7e82200cb62375a0c699_m.webp",
+      "category": "city",
+      "published": 1785232200000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:28:library",
       "title": "Новое здание Национальной библиотеки в Новом Ташкенте откроется уже в этом году",
@@ -131,16 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/8278112e0672b83a11cae808aa7d2db2_m.webp",
       "category": "concert",
       "published": 1784719620000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:21:eskalator",
-      "title": "Эскалатор на переходе между станциями «Алишер Навои» и «Пахтакор» закрыли на ремонт",
-      "description": "С 21 июля по 17 августа эскалатор № 3 ЕТ-5М, ведущий от станции «Алишер Навой» Ташкентского метрополитена к станции «Пахтакор», будет временно выведен из эксплуатации.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/21/eskalator",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/3d0f6bca17b98004aeb55e927f3f000b_m.webp",
-      "category": "city",
-      "published": 1784628660000,
       "venue": null
     },
     {
