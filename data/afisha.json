@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-07-29T08:19:35.665Z",
+  "updatedAt": "2026-07-29T13:44:40.471Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:29:guggenheim-abu-dhabi",
+      "title": "Музей Гуггенхайма в Абу-Даби объявил дату открытия",
+      "description": "Новый музей станет крупнейшим из четырех филиалов Гуггенхайма в мире.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/29/guggenheim-abu-dhabi",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/ed6ddd3b9429195797002630946b3230_m.webp",
+      "category": "city",
+      "published": 1785329400000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:29:road-closure",
+      "title": "Движение по участку проспекта Бунёдкор будет ограничено на месяц",
+      "description": "В районе Чиланзор города Ташкента начнутся масштабные ремонтные работы водопроводной сети на второстепенном участке проспекта Бунёдкор, от станции метро Чиланзор до улицы Согалли Ота.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/29/road-closure",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/79d76067838661994aeb32066833ed31_m.webp",
+      "category": "city",
+      "published": 1785326700000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:29:chinor",
+      "title": "Станция метро «Чинор» снова открыта после реконструкции",
+      "description": "Турникетов стало больше в два раза, также увеличилась пропускная способность.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/29/chinor",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/bc8b9c417aadaa84ea98c8922ef3c33a_m.webp",
+      "category": "city",
+      "published": 1785324528000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:28:battle-of-the-chefs",
       "title": "В Ташкенте стартовал гастрономический чемпионат «Битва шеф-поваров»",
@@ -107,36 +137,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/b47080a1ec9a19c21e52e516318dfa10_m.webp",
       "category": "city",
       "published": 1784876229000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:23:history-museum",
-      "title": "Государственный музей истории Узбекистана открывается после масштабной реконструкции",
-      "description": "В честь долгожданного открытия руководство музея объявило «Дни открытых дверей».",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/23/history-museum",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/7d51c7397fd1b2d286f276acf956085f_m.webp",
-      "category": "city",
-      "published": 1784788500000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:22:octobank",
-      "title": "Octobank запустил ипотеку и автокредиты для физических лиц",
-      "description": "В Octobank стартовали программы ипотечного и автокредитования для физических лиц. Банк представил три продукта: «Ипотека» — для покупки жилья, «Автокредит 1.0» — для новых автомобилей и «Автокредит 2.0» — для автомобилей с пробегом.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/22/octobank",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/ecf4522a75ade539804ce5e51f499ae3_m.webp",
-      "category": "city",
-      "published": 1784728800000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:22:jaloliddin-manguberdi",
-      "title": "Запущен второй скоростной поезд до Хивы",
-      "description": "С 22 июля второй поезд высокоскоростного электропоезда «Джалолиддин Мангуберди» начнет регулярное движение по маршруту Ташкент-Хива-Ташкент.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/22/jaloliddin-manguberdi",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/f91dd4827ab3c91fa7c4de9fd2cb60a9_m.webp",
-      "category": "city",
-      "published": 1784725089000,
       "venue": null
     },
     {
