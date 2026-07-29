@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-07-29T13:44:40.471Z",
+  "updatedAt": "2026-07-29T18:56:34.414Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:29:cola",
+      "title": "История, которую прожили вместе: как Coca-Cola поддержала дебют Узбекистана на чемпионате мира",
+      "description": "Открытые трансляции, поездки на матчи, лимитированные банки и множество других инициатив стали частью кампании Coca-Cola, посвященной первому выступлению сборной на чемпионате мира.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/29/cola",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/ffa23f40cbf25edb61c73440bee8d322_m.webp",
+      "category": "city",
+      "published": 1785333600000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:29:guggenheim-abu-dhabi",
       "title": "Музей Гуггенхайма в Абу-Даби объявил дату открытия",
@@ -127,16 +137,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/36c8c653b7ae29ea3137eb828e8ca852_m.webp",
       "category": "city",
       "published": 1784883874000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:24:shahrisabz",
-      "title": "В Ташкенте ограничат движение на участке улицы Шахрисабз",
-      "description": "Полного перекрытия дороги не планируется: работы развернутся на четырех центральных полосах движения.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/24/shahrisabz",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/b47080a1ec9a19c21e52e516318dfa10_m.webp",
-      "category": "city",
-      "published": 1784876229000,
       "venue": null
     },
     {
