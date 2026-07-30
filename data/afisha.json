@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-07-30T13:26:17.749Z",
+  "updatedAt": "2026-07-30T19:08:59.327Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:30:yandex-maps",
+      "title": "В Узбекистане пользователи Yandex Maps теперь могут делиться геопозицией в реальном времени",
+      "description": "В Yandex Maps появилась функция, с помощью которой пользователи могут показывать близким свое местоположение. Получатель увидит метку на карте и сможет сразу построить к ней маршрут. Трансляцию можно включить на несколько минут или до конца дня.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/30/yandex-maps",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/c4978d18733a390ebead8192cd0fead9_m.webp",
+      "category": "city",
+      "published": 1785427200000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:30:asterium",
+      "title": "Новый этап в развитии финтех отрасли: Rahmat интегрировался с Asterium",
+      "description": "Одна из ведущих лицензированных криптоэкосистем Узбекистана Asterium и платежный сервис Rahmat объявили о технологическом партнерстве. Запуск системы криптоэквайринга расширит возможности использования инновационных платежных подходов через любую точку сети Rahmat.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/30/asterium",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/5e8a053059b5dc6e1564fd7fc5abaacb_m.webp",
+      "category": "city",
+      "published": 1785420000000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:30:sublimation-2026",
       "title": "To’y по-новому: как прошел фестиваль Sublimation 2026. Фоторепортаж",
@@ -107,26 +127,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/056ed05cac72f47eee6cf2f47783af7f_m.webp",
       "category": "city",
       "published": 1785216360000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:27:uzbek-gift-contest",
-      "title": "В Узбекистане стартует конкурс для дизайнеров и ремесленников Uzbek Gift Contest",
-      "description": "Главная цель — превратить национальное ремесленничество в современные, удобные и доступные сувениры, которые туристы с удовольствием будут увозить с собой.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/27/uzbek-gift-contest",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/2e00274135b7c68a65e74f129fd17d5a_m.webp",
-      "category": "city",
-      "published": 1785133560000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:27:modernism",
-      "title": "10 зданий ташкентского модернизма включены в Список всемирного наследия ЮНЕСКО",
-      "description": "Данная номинация стала первым национальным объектом Узбекистана, включённым в Список всемирного наследия ЮНЕСКО за последние 25 лет.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/27/modernism",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/76611e504ddc16c0ff6303628e807ddd_m.webp",
-      "category": "city",
-      "published": 1785132757000,
       "venue": null
     },
     {
