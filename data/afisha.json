@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-07-30T08:06:38.250Z",
+  "updatedAt": "2026-07-30T13:26:17.749Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:30:sublimation-2026",
+      "title": "To’y по-новому: как прошел фестиваль Sublimation 2026. Фоторепортаж",
+      "description": "Мероприятие посетило более 500 гостей, а локация с почти 70-летней историей, хранящая память о главных городских праздниках и семейных торжествах, стала идеальным пространством для диалога поколений и эпох.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/30/sublimation-2026",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/738590c376fdc8a623508c30f7f9b0a1_m.webp",
+      "category": "city",
+      "published": 1785414651000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:30:kia-k3",
+      "title": "Kia K3 теперь от 0% годовых: долгожданная программа рассрочки платежа до 18 месяцев",
+      "description": "Хорошие новости для тех, кто давно присматривался к новому Kia K3. Kia Uzbekistan объявляет о запуске долгожданной программы рассрочки платежа. Теперь приобрести современный седан можно на срок до 18 месяцев с годовой ставкой 0%.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/30/kia-k3",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/1e672948097e063ba46529e9619a3338_m.webp",
+      "category": "city",
+      "published": 1785412800000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:07:30:bus-route",
+      "title": "На Чиланзаре временно изменились схемы движения шести автобусов",
+      "description": "Здесь до 30 августа будут проводиться строительно-ремонтные работы.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/30/bus-route",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/b0b481302c41f620827cabc32d95a5a0_m.webp",
+      "category": "city",
+      "published": 1785409058000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:29:cola",
       "title": "История, которую прожили вместе: как Coca-Cola поддержала дебют Узбекистана на чемпионате мира",
@@ -100,16 +130,6 @@
       "venue": null
     },
     {
-      "id": "ru:gorod:2026:07:25:scopus-mall",
-      "title": "В Ташкенте открылся Scopus Mall — новый формат торгово-развлекательного центра с крупным автомоллом",
-      "description": "Scopus Mall начал работу в Учтепинском районе, объединив торгово-развлекательный центр и крупный автомолл. Посетителям доступны магазины, супермаркет, фитнес-центр, фудкорт, детский развлекательный центр и более 500 точек, связанных с автомобильной инфраструктурой.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/25/scopus-mall",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/aaa3e7855e091a00ddda1b72ff63bc88_m.webp",
-      "category": "city",
-      "published": 1784973600000,
-      "venue": null
-    },
-    {
       "id": "ru:concerts:2026:07:24:ticketon-kz",
       "title": "Теперь поклонники Канье Уэста из Узбекистана могут купить билеты на выступление в Алматы",
       "description": "Продажа билетов на концерт Канье Уэста стартовала во Freedom Афише на сайте Ticketon.kz. Теперь поклонники артиста из Узбекистана и других стран могут свободно купить билеты с помощью международных карт.",
@@ -117,26 +137,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/9e7b5bfb853b2225795ae5b261014707_m.webp",
       "category": "concert",
       "published": 1784894400000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:24:weekend-25-26-jul",
-      "title": "Куда пойти на выходных в Ташкенте, 25 и 26 июля",
-      "description": "Даже если вы остались в эту жару в Ташкенте, предлагаем вам не унывать, а максимально интересно и полезно провести время. Тем более, что мы позаботились о вас, и отобрали самые интересные мероприятия выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/24/weekend-25-26-jul",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/2a3adf1f6cf870ef3bbfec2d3da984bb_m.webp",
-      "category": "city",
-      "published": 1784888820000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:24:weather",
-      "title": "Жара усиливается: в Ташкенте ожидается до +38 на выходных",
-      "description": "С 24 по 26 июля в Ташкенте ожидается переменная облачность и сухая погода. Осадков не прогнозируется.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/24/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/36c8c653b7ae29ea3137eb828e8ca852_m.webp",
-      "category": "city",
-      "published": 1784883874000,
       "venue": null
     },
     {
