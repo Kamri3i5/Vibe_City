@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-07-31T08:33:28.304Z",
+  "updatedAt": "2026-07-31T13:38:52.342Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:07:31:weekend-1-2-aug",
+      "title": "Куда пойти на выходных в Ташкенте, 1 и 2 августа",
+      "description": "Впереди последний месяц лета, а значит - нужно насладиться им в полной мере, несмотря на жару, экзамены, подготовку к школе и многое другое.\n\nЗдесь мы отобрали самые ожидаемые премьеры и мероприятия предстоящих выходных, все события вы найдете - в календаре на сайте.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/07/31/weekend-1-2-aug",
+      "image": "https://www.afisha.uz/uploads/media/2026/07/dee6f07c7124d41a4c65ef4c9f807bbf_m.webp",
+      "category": "city",
+      "published": 1785504637000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:07:30:yandex-maps",
       "title": "В Узбекистане пользователи Yandex Maps теперь могут делиться геопозицией в реальном времени",
@@ -117,16 +127,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/eb8e6142996e7e82200cb62375a0c699_m.webp",
       "category": "city",
       "published": 1785232200000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:28:library",
-      "title": "Новое здание Национальной библиотеки в Новом Ташкенте откроется уже в этом году",
-      "description": "Это четырехэтажный комплекс общей площадью свыше 30 тысяч квадратных метров, который сможет одновременно обслуживать 1 420 читателей.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/28/library",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/056ed05cac72f47eee6cf2f47783af7f_m.webp",
-      "category": "city",
-      "published": 1785216360000,
       "venue": null
     },
     {
