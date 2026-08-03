@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-08-03T09:20:01.216Z",
+  "updatedAt": "2026-08-03T14:15:03.007Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:03:denza",
+      "title": "В Ташкенте открылся новый уровень премиальных авто: Denza Mirobod задаёт стандарт будущего",
+      "description": "Новый автосалон Denza Mirobod открылся в Ташкенте при участии компании Abozor. Пространство объединяет шоурум премиальных гибридных автомобилей, персональный сервис и возможность пройти тест-драйв новых моделей бренда.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/03/denza",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/5fcde252e1db1ec076cd039642b10457_m.webp",
+      "category": "city",
+      "published": 1785765600000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:03:chef-battle",
       "title": "«Битва шеф-поваров» в Tashkent City Mall: три дня гастрономических поединков, ярких вкусов и профессионального мастерства",
@@ -117,16 +127,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/ed6ddd3b9429195797002630946b3230_m.webp",
       "category": "city",
       "published": 1785329400000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:29:road-closure",
-      "title": "Движение по участку проспекта Бунёдкор будет ограничено на месяц",
-      "description": "В районе Чиланзор города Ташкента начнутся масштабные ремонтные работы водопроводной сети на второстепенном участке проспекта Бунёдкор, от станции метро Чиланзор до улицы Согалли Ота.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/29/road-closure",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/79d76067838661994aeb32066833ed31_m.webp",
-      "category": "city",
-      "published": 1785326700000,
       "venue": null
     },
     {
