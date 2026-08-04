@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-08-04T08:19:05.155Z",
+  "updatedAt": "2026-08-04T13:46:28.809Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:04:kia",
+      "title": "Kia Uzbekistan опубликовала условия рассрочки платежа на Kia Sonet со ставкой от 0% годовых",
+      "description": "В Kia Uzbekistan рассказали об условиях приобретения Kia Sonet в рассрочку по ставке от 0% годовых. В зависимости от выбранных условий первоначальный взнос составляет от 20% до 70%, а срок — до 60 месяцев.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/04/kia",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/c3f8bc45087ff457aa45da9783c5b581_m.webp",
+      "category": "city",
+      "published": 1785837600000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:03:denza",
       "title": "В Ташкенте открылся новый уровень премиальных авто: Denza Mirobod задаёт стандарт будущего",
@@ -81,12 +91,12 @@
     },
     {
       "id": "ru:gorod:2026:07:30:sublimation-2026",
-      "title": "To’y по-новому: как прошел фестиваль Sublimation 2026. Фоторепортаж",
+      "title": "To’y по-новому: как прошна Sublimation вечеринка 2026. Фоторепортаж",
       "description": "Мероприятие посетило более 500 гостей, а локация с почти 70-летней историей, хранящая память о главных городских праздниках и семейных торжествах, стала идеальным пространством для диалога поколений и эпох.",
       "url": "https://www.afisha.uz/ru/gorod/2026/07/30/sublimation-2026",
       "image": "https://www.afisha.uz/uploads/media/2026/07/738590c376fdc8a623508c30f7f9b0a1_m.webp",
       "category": "city",
-      "published": 1785414651000,
+      "published": 1785414600000,
       "venue": null
     },
     {
@@ -117,16 +127,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/ffa23f40cbf25edb61c73440bee8d322_m.webp",
       "category": "city",
       "published": 1785333600000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:29:guggenheim-abu-dhabi",
-      "title": "Музей Гуггенхайма в Абу-Даби объявил дату открытия",
-      "description": "Новый музей станет крупнейшим из четырех филиалов Гуггенхайма в мире.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/29/guggenheim-abu-dhabi",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/ed6ddd3b9429195797002630946b3230_m.webp",
-      "category": "city",
-      "published": 1785329400000,
       "venue": null
     },
     {
