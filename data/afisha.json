@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-08-06T08:14:19.406Z",
+  "updatedAt": "2026-08-06T13:40:25.964Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:06:stop",
+      "title": "В Чиланзаре на четыре дня перекроют участок Малой кольцевой дороги",
+      "description": "Для движения будет закрыт участок от станции метро «Чиланзар» до улицы Арнасай.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/06/stop",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/fb93d23614406b8b2881c671e01f1c7e_m.webp",
+      "category": "city",
+      "published": 1786012779000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:05:haval-h7",
       "title": "Haval H7 вышел на рынок Узбекистана: чем удивит первый гибрид бренда",
@@ -117,16 +127,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/1e672948097e063ba46529e9619a3338_m.webp",
       "category": "city",
       "published": 1785412800000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:30:bus-route",
-      "title": "На Чиланзаре временно изменились схемы движения шести автобусов",
-      "description": "Здесь до 30 августа будут проводиться строительно-ремонтные работы.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/30/bus-route",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/b0b481302c41f620827cabc32d95a5a0_m.webp",
-      "category": "city",
-      "published": 1785409058000,
       "venue": null
     },
     {
