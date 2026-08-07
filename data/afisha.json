@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-08-07T06:59:29.289Z",
+  "updatedAt": "2026-08-07T12:39:13.463Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:07:8-9-august",
+      "title": "Куда пойти на выходных в Ташкенте, 8 и 9 августа",
+      "description": "«Человек-паук: Новый день» и еще три кинопремьеры, фестиваль мороженого, музыкальные квизы, квартирник «Забыли рифму», лекции, выставки, творческие мастер-классы и другие мероприятия предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/07/8-9-august",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/473856e08dc6bf5846155dc5b9710bca_m.webp",
+      "category": "city",
+      "published": 1786097042000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:07:buses",
       "title": "В Ташкенте временно изменили маршруты четырех автобусов",
@@ -117,16 +127,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/c4978d18733a390ebead8192cd0fead9_m.webp",
       "category": "city",
       "published": 1785427200000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:30:asterium",
-      "title": "Новый этап в развитии финтех отрасли: Rahmat интегрировался с Asterium",
-      "description": "Одна из ведущих лицензированных криптоэкосистем Узбекистана Asterium и платежный сервис Rahmat объявили о технологическом партнерстве. Запуск системы криптоэквайринга расширит возможности использования инновационных платежных подходов через любую точку сети Rahmat.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/30/asterium",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/5e8a053059b5dc6e1564fd7fc5abaacb_m.webp",
-      "category": "city",
-      "published": 1785420000000,
       "venue": null
     },
     {
