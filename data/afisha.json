@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-08-08T06:33:41.840Z",
+  "updatedAt": "2026-08-08T12:24:53.256Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:concerts:2026:08:08:muzone-fest",
+      "title": "В Ташкенте пройдёт MUZONE Fest – международный фестиваль электронной музыки мирового уровня",
+      "description": "С 31 августа по 2 сентября Ташкент примет MUZONE Fest – международный фестиваль электронной музыки. На сцене летней площадки дворца «Туркистон» выступят Don Diablo, Shimza, Vanco, а также специальный хедлайнер, имя которого пока держат в секрете.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/08/08/muzone-fest",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/a25c9f3304b2d3e657b86ca0e9cc3172_m.webp",
+      "category": "concert",
+      "published": 1786190400000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:07:8-9-august",
       "title": "Куда пойти на выходных в Ташкенте, 8 и 9 августа",
@@ -397,16 +407,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/02/25c6edbcee31795e2b7cf38d7d2cf35d_m.webp",
       "category": "theatre",
       "published": 1771596660000,
-      "venue": null
-    },
-    {
-      "id": "ru:concerts:2026:02:15:basta",
-      "title": "Концерт Басты перенесен на новую дату",
-      "description": "Все приобретенные билеты действительны на новую дату.",
-      "url": "https://www.afisha.uz/ru/concerts/2026/02/15/basta",
-      "image": "https://www.afisha.uz/uploads/media/2026/02/bda8e322b323a01c389c9e372129effa_m.webp",
-      "category": "concert",
-      "published": 1771164179000,
       "venue": null
     }
   ]
