@@ -1,8 +1,34 @@
 {
-  "updatedAt": "2026-08-10T12:43:19.514Z",
+  "updatedAt": "2026-08-10T18:41:42.731Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:10:chilla-fest",
+      "title": "В Tashkent City пройдет Chilla salqin ta’mlar festivali – «Фестиваль холодных вкусов»",
+      "description": "С 21 по 23 августа в Tashkent City пройдет Chilla salqin ta’mlar festivali – «Фестиваль холодных вкусов». Событие объединит производителей мороженого и прохладительных напитков, концерты, водные развлечения и креативные зоны.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/10/chilla-fest",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/aeb891d8828090725cd9ee9efa6e6314_m.webp",
+      "category": "city",
+      "published": 1786370400000,
+      "venue": {
+        "name": "Tashkent City",
+        "coords": [
+          41.3165,
+          69.2484
+        ]
+      }
+    },
+    {
+      "id": "ru:concerts:2026:08:10:pekin",
+      "title": "Концерт Ланг Ланга и Национального симфонического оркестра Узбекистана у Великой Китайской стены перенесен",
+      "description": "Точная новая дата проведения концерта у древнего памятника архитектуры будет объявлена организаторами дополнительно.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/08/10/pekin",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/15ce0ea257a2985ac2bbe1abf43bbde8_m.webp",
+      "category": "concert",
+      "published": 1786366080000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:10:weather",
       "title": "Пекло продолжается: в столице до +41° на неделе",
@@ -127,16 +153,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/cf0e0cd43ed5c3506a9a5c6eba296bc8_m.webp",
       "category": "city",
       "published": 1785731425000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:31:weekend-1-2-aug",
-      "title": "Куда пойти на выходных в Ташкенте, 1 и 2 августа",
-      "description": "Впереди последний месяц лета, а значит - нужно насладиться им в полной мере, несмотря на жару, экзамены, подготовку к школе и многое другое.\n\nЗдесь мы отобрали самые ожидаемые премьеры и мероприятия предстоящих выходных, все события вы найдете - в календаре на сайте.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/31/weekend-1-2-aug",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/dee6f07c7124d41a4c65ef4c9f807bbf_m.webp",
-      "category": "city",
-      "published": 1785504600000,
       "venue": null
     },
     {
@@ -387,16 +403,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/03/349e5ee66219e0d5dbb397497ef6a29f_m.webp",
       "category": "theatre",
       "published": 1772799259000,
-      "venue": null
-    },
-    {
-      "id": "ru:concerts:2026:03:02:jenisbek-piyazov",
-      "title": "Женисбек Пиязов представил новую песню Yonimda boʻlgin",
-      "description": "Народный артист Узбекистана и Каракалпакстана, оперный певец Дженисбек Пиязов представил свою новую песню Yonimda boʻlgin и видеоклип.",
-      "url": "https://www.afisha.uz/ru/concerts/2026/03/02/jenisbek-piyazov",
-      "image": "https://www.afisha.uz/uploads/media/2026/03/40fa75da3542585a5a1307d16a7a95f6_m.webp",
-      "category": "concert",
-      "published": 1772451529000,
       "venue": null
     },
     {
