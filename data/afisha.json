@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-08-10T00:56:26.335Z",
+  "updatedAt": "2026-08-10T07:09:25.002Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:10:weather",
+      "title": "Пекло продолжается: в столице до +41° на неделе",
+      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 10 по 14 августа.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/10/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/0947cecadff6d28bdb33471ae21545a7_m.webp",
+      "category": "city",
+      "published": 1786338360000,
+      "venue": null
+    },
     {
       "id": "ru:concerts:2026:08:08:muzone-fest",
       "title": "В Ташкенте пройдёт MUZONE Fest – международный фестиваль электронной музыки мирового уровня",
@@ -127,16 +137,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/dee6f07c7124d41a4c65ef4c9f807bbf_m.webp",
       "category": "city",
       "published": 1785504600000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:07:30:yandex-maps",
-      "title": "В Узбекистане пользователи Yandex Maps теперь могут делиться геопозицией в реальном времени",
-      "description": "В Yandex Maps появилась функция, с помощью которой пользователи могут показывать близким свое местоположение. Получатель увидит метку на карте и сможет сразу построить к ней маршрут. Трансляцию можно включить на несколько минут или до конца дня.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/07/30/yandex-maps",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/c4978d18733a390ebead8192cd0fead9_m.webp",
-      "category": "city",
-      "published": 1785427200000,
       "venue": null
     },
     {
