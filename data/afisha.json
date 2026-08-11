@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-08-11T12:39:43.013Z",
+  "updatedAt": "2026-08-11T18:46:11.231Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:11:running-in-tashkent",
+      "title": "Беговой бум в Ташкенте: почему все начали бегать и где найти свою компанию",
+      "description": "Еще недавно бег в Ташкенте выглядел довольно просто: несколько человек выходили на пробежку в парк, тренировались и расходились по своим делам. Сейчас все немного иначе - люди собираются в группы, договариваются о совместных забегах и постепенно превращают обычную тренировку в способ провести время вместе и образуется целая беговая культура.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/11/running-in-tashkent",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/c2882847fb7cabbdeaf581d490e1d625_m.webp",
+      "category": "city",
+      "published": 1786458111000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:11:buses",
       "title": "В Ташкенте изменили маршруты четырех автобусов",
@@ -144,16 +154,6 @@
           69.2484
         ]
       }
-    },
-    {
-      "id": "ru:gorod:2026:08:03:buses",
-      "title": "В Ташкенте временно изменили маршруты восьми автобусов",
-      "description": "Изменения затронули маршруты №88, 89, 95, 17, 24, 58 и другие.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/03/buses",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/81c546a452d0be53695b7310489daacf_m.webp",
-      "category": "city",
-      "published": 1785737158000,
-      "venue": null
     },
     {
       "id": "ru:concerts:2026:07:24:ticketon-kz",
