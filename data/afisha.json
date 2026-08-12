@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-08-12T01:02:14.735Z",
+  "updatedAt": "2026-08-12T07:07:28.407Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:concerts:2026:08:12:9gramm",
+      "title": "Концерт 9 Грамм в Ташкенте отменен",
+      "description": "По словам артиста, команда обязательно придет в Ташкент снова — но уже с другими организаторами.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/08/12/9gramm",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/df0b2a0d5c31d2b30c6b88428619c3fc_m.webp",
+      "category": "concert",
+      "published": 1786516860000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:11:running-in-tashkent",
       "title": "Беговой бум в Ташкенте: почему все начали бегать и где найти свою компанию",
@@ -373,16 +383,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/03/0044cba89c684370bd06c194700362db_m.webp",
       "category": "concert",
       "published": 1774955220000,
-      "venue": null
-    },
-    {
-      "id": "ru:concerts:2026:03:19:pubg-mobile",
-      "title": "8-я годовщина PUBG Mobile в СНГ & Навруз: Boundless Music фестиваль пройдет в Ташкенте",
-      "description": "С 21 по 22 марта в Ташкенте пройдет масштабный фестиваль, посвященный празднику Навруз и 8-й годовщине PUBG Mobile в странах СНГ.",
-      "url": "https://www.afisha.uz/ru/concerts/2026/03/19/pubg-mobile",
-      "image": "https://www.afisha.uz/uploads/media/2026/03/4001f00e07fe609385ee5d3dc372e391_m.webp",
-      "category": "concert",
-      "published": 1773936000000,
       "venue": null
     },
     {
