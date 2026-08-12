@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-08-12T07:07:28.407Z",
+  "updatedAt": "2026-08-12T12:43:02.724Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:concerts:2026:08:12:concerts",
+      "title": "Концерты, которые стоит посетить до конца лета в Ташкенте 2026",
+      "description": "В программе как классические концерты, так и клубные вечера с приглашенными артистами и диджеями.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/08/12/concerts",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/8e6fa79c15a5fea5e9cc6a09172fbc71_m.webp",
+      "category": "concert",
+      "published": 1786536576000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:08:12:lang-samarkand",
+      "title": "Дополнительный авиарейс и спецскидки на отели: как добраться на концерт Ланг Ланга в Самарканде",
+      "description": "Зрители смогут легко добраться до Самарканта на утреннем рейсе и сэкономить на проживании благодаря специальному промокоду.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/08/12/lang-samarkand",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/b622c5be9a969a678b12798a7558b5bb_m.webp",
+      "category": "concert",
+      "published": 1786527840000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:08:12:weekends",
+      "title": "Объявлены даты праздничных выходных на День независимости",
+      "description": "31 августа является дополнительным выходным днем, поэтому узбекистанцы смогут отдохнуть до четырех дней подряд.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/12/weekends",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/1f8505efe0bd3655fbce7aecc89224a3_m.webp",
+      "category": "city",
+      "published": 1786527208000,
+      "venue": null
+    },
     {
       "id": "ru:concerts:2026:08:12:9gramm",
       "title": "Концерт 9 Грамм в Ташкенте отменен",
@@ -148,22 +178,6 @@
       "category": "city",
       "published": 1785765600000,
       "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:03:chef-battle",
-      "title": "«Битва шеф-поваров» в Tashkent City Mall: три дня гастрономических поединков, ярких вкусов и профессионального мастерства",
-      "description": "С 28 по 30 июля в Tashkent City Mall прошел гастрономический чемпионат «Битва шеф-поваров», объединивший ведущие рестораны, профессиональных шеф-поваров и ценителей высокой кухни. На протяжении трех дней участники соревновались в кулинарных поединках, демонстрируя мастерство, скорость, креативность и умение работать в условиях ограниченного времени.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/03/chef-battle",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/4ffad793ad87c2cd7ba5c2dcc6015ad4_m.webp",
-      "category": "city",
-      "published": 1785738780000,
-      "venue": {
-        "name": "Tashkent City",
-        "coords": [
-          41.3165,
-          69.2484
-        ]
-      }
     },
     {
       "id": "ru:concerts:2026:07:24:ticketon-kz",
@@ -363,26 +377,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/04/947b0c50733bf8b39c477533edc714ea_m.webp",
       "category": "exhibition",
       "published": 1775726280000,
-      "venue": null
-    },
-    {
-      "id": "ru:concerts:2026:04:06:jazz-festival",
-      "title": "В Ташкенте пройдет Международный фестиваль джаза",
-      "description": "На сцене выступят мировые звезды джаза, в том числе Леонид Агутин вместе с Therr Maitz, а также Стэнли Кларк и Курт Эллинг.",
-      "url": "https://www.afisha.uz/ru/concerts/2026/04/06/jazz-festival",
-      "image": "https://www.afisha.uz/uploads/media/2026/04/af38b01ff713a3a7b6a03ad765e6fd91_m.webp",
-      "category": "concert",
-      "published": 1775471880000,
-      "venue": null
-    },
-    {
-      "id": "ru:concerts:2026:03:31:jony",
-      "title": "Jony анонсировал перенос своего концерта в Ташкенте",
-      "description": "Он связан с тем, что артист сорвал голос.",
-      "url": "https://www.afisha.uz/ru/concerts/2026/03/31/jony",
-      "image": "https://www.afisha.uz/uploads/media/2026/03/0044cba89c684370bd06c194700362db_m.webp",
-      "category": "concert",
-      "published": 1774955220000,
       "venue": null
     },
     {
