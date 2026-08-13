@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-08-13T07:11:11.869Z",
+  "updatedAt": "2026-08-13T12:44:08.639Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:13:yandex-maps",
+      "title": "Yandex Maps поможет выбрать маршрут, на котором больше деревьев и тени по пути",
+      "description": "Сервис Yandex Maps научился находить в Ташкенте пешеходные маршруты с большим количеством деревьев и потенциальной тени. Для этого сервис анализирует мультиспектральные спутниковые снимки с помощью нейросети и учитывает температуру воздуха.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/13/yandex-maps",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/283ec6f838c1588dc63d6d813e9b028e_m.webp",
+      "category": "city",
+      "published": 1786622400000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:08:13:solar-eclipse",
+      "title": "Первое за 27 лет полное солнечное затмение накрыло Европу",
+      "description": "12 августа в Северном полушарии произошло полное солнечное затмение.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/13/solar-eclipse",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/74e2b81268e3fe145a8ab7e9f3111b6f_m.webp",
+      "category": "city",
+      "published": 1786618567000,
+      "venue": null
+    },
     {
       "id": "ru:concerts:2026:08:12:concerts",
       "title": "Концерты, которые стоит посетить до конца лета в Ташкенте 2026",
@@ -157,26 +177,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/fc5754d1138c975d3b8c068d2450ebbe_m.webp",
       "category": "city",
       "published": 1785916800000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:04:kia",
-      "title": "Kia Uzbekistan опубликовала условия рассрочки платежа на Kia Sonet со ставкой от 0% годовых",
-      "description": "В Kia Uzbekistan рассказали об условиях приобретения Kia Sonet в рассрочку по ставке от 0% годовых. В зависимости от выбранных условий первоначальный взнос составляет от 20% до 70%, а срок — до 60 месяцев.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/04/kia",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/c3f8bc45087ff457aa45da9783c5b581_m.webp",
-      "category": "city",
-      "published": 1785837600000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:03:denza",
-      "title": "В Ташкенте открылся новый уровень премиальных авто: Denza Mirobod задаёт стандарт будущего",
-      "description": "Новый автосалон Denza Mirobod открылся в Ташкенте при участии компании Abozor. Пространство объединяет шоурум премиальных гибридных автомобилей, персональный сервис и возможность пройти тест-драйв новых моделей бренда.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/03/denza",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/5fcde252e1db1ec076cd039642b10457_m.webp",
-      "category": "city",
-      "published": 1785765600000,
       "venue": null
     },
     {
