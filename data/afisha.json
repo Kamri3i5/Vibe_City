@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-08-14T01:03:01.811Z",
+  "updatedAt": "2026-08-14T07:07:55.593Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:14:weather-for-the-15th-16th",
+      "title": "В Ташкенте ожидается солнечная погода, максимальная температура воздуха достигнет +40°.",
+      "description": "Прогноз погоды в Ташкенте на выходные 15 и 16 августа.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/14/weather-for-the-15th-16th",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/e38e57cb704feda692eb1c48da3a4397_m.webp",
+      "category": "city",
+      "published": 1786690775000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:08:14:avenue",
+      "title": "Проспект Мустакиллик от метро Буюк Ипак Йули до хокимията района обновили",
+      "description": "Здесь полностью заменили дорожное покрытие, обновили светофоры и остановки, привели в порядок тротуары и систему отвода дождевой воды, а также благоустроили прилегающую территорию.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/14/avenue",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/2c2186395af9254718fcb3b187e2aacb_m.webp",
+      "category": "city",
+      "published": 1786682050000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:13:yandex-maps",
       "title": "Yandex Maps поможет выбрать маршрут, на котором больше деревьев и тени по пути",
@@ -157,26 +177,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/06fe0b4fd5a68a072f0b49e2680bf4ce_m.webp",
       "category": "city",
       "published": 1786079220000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:06:stop",
-      "title": "В Чиланзаре на четыре дня перекроют участок Малой кольцевой дороги",
-      "description": "Для движения будет закрыт участок от станции метро «Чиланзар» до улицы Арнасай.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/06/stop",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/fb93d23614406b8b2881c671e01f1c7e_m.webp",
-      "category": "city",
-      "published": 1786012779000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:05:haval-h7",
-      "title": "Haval H7 вышел на рынок Узбекистана: чем удивит первый гибрид бренда",
-      "description": "Бренд Haval выводит на рынок Узбекистана первую гибридную версию H7, делая ставку на сочетание полного привода, городского комфорта и технологий для дальних поездок.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/05/haval-h7",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/fc5754d1138c975d3b8c068d2450ebbe_m.webp",
-      "category": "city",
-      "published": 1785916800000,
       "venue": null
     },
     {
