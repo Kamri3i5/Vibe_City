@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-08-17T00:38:00.186Z",
+  "updatedAt": "2026-08-17T06:32:25.051Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:17:weather",
+      "title": "Столицу ждет еще одна жаркая неделя: до +38°",
+      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 17 по 21 августа.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/17/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/5aad420374a0db2ef0fd4307048aa13c_m.webp",
+      "category": "city",
+      "published": 1786940200000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:14:15-16-august",
       "title": "Куда пойти на выходных в Ташкенте, 15 и 16 августа",
@@ -167,16 +177,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/473856e08dc6bf5846155dc5b9710bca_m.webp",
       "category": "city",
       "published": 1786097042000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:07:buses",
-      "title": "В Ташкенте временно изменили маршруты четырех автобусов",
-      "description": "Ограничения связаны с дорожными работами на Чиланзаре.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/07/buses",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/754c7bf1cac4b9be1f6c78a549b68d49_m.webp",
-      "category": "city",
-      "published": 1786079880000,
       "venue": null
     },
     {
