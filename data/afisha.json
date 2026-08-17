@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-08-17T06:32:25.051Z",
+  "updatedAt": "2026-08-17T12:21:09.989Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:17:road",
+      "title": "На пересечении улиц Мустакиллик и Аккурган изменили схему движения",
+      "description": "Изменение схемы связано с тем, что левый поворот раньше создавал скопления автомобилей на перекрестке на двух-трех полосах, особенно в часы пик.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/17/road",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/9d73f5d562ec723ecdfec559a19da90b_m.webp",
+      "category": "city",
+      "published": 1786951200000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:17:weather",
       "title": "Столицу ждет еще одна жаркая неделя: до +38°",
@@ -167,16 +177,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/a25c9f3304b2d3e657b86ca0e9cc3172_m.webp",
       "category": "concert",
       "published": 1786190400000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:07:8-9-august",
-      "title": "Куда пойти на выходных в Ташкенте, 8 и 9 августа",
-      "description": "«Человек-паук: Новый день» и еще три кинопремьеры, фестиваль мороженого, музыкальные квизы, квартирник «Забыли рифму», лекции, выставки, творческие мастер-классы и другие мероприятия предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/07/8-9-august",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/473856e08dc6bf5846155dc5b9710bca_m.webp",
-      "category": "city",
-      "published": 1786097042000,
       "venue": null
     },
     {
