@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-08-18T00:37:27.335Z",
+  "updatedAt": "2026-08-18T06:24:11.017Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:18:bus-58",
+      "title": "В Ташкенте изменили один автобусный маршрут",
+      "description": "Изменение связано с новым порядком движения на перекрестке Мустакиллик и Аккурган.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/18/bus-58",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/bd7ef586bee6f3e2fe228e073ddd8ec0_m.webp",
+      "category": "city",
+      "published": 1787033855000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:08:18:school-bazaar",
+      "title": "В Ташкенте начали работу «Школьные базары»: полный список площадок",
+      "description": "На них можно купить все необходимое к новому учебному году: канцтовары, учебники и другие товары для школьников.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/18/school-bazaar",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/72a9a78e557bb441ea063374b1f9a19d_m.webp",
+      "category": "city",
+      "published": 1787033497000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:08:18:bus",
+      "title": "В Ташкенте запустили новый автобусный маршрут",
+      "description": "Он свяжет восточную и северо-западную части города и будет курсировать ежедневно с раннего утра до позднего вечера.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/18/bus",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/46c9bdd21b8b404633bb568d636e7138_m.webp",
+      "category": "city",
+      "published": 1787029693000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:17:road",
       "title": "На пересечении улиц Мустакиллик и Аккурган изменили схему движения",
@@ -124,32 +154,6 @@
       "venue": null
     },
     {
-      "id": "ru:gorod:2026:08:11:buses",
-      "title": "В Ташкенте изменили маршруты четырех автобусов",
-      "description": "Также из-за возможных заторов время в пути и интервалы движения автобусов могут увеличиться.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/11/buses",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/52fe61cd673e42ce80f6c570cf63b478_m.webp",
-      "category": "city",
-      "published": 1786443992000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:10:chilla-fest",
-      "title": "В Tashkent City пройдет Chilla salqin ta’mlar festivali – «Фестиваль холодных вкусов»",
-      "description": "С 21 по 23 августа в Tashkent City пройдет Chilla salqin ta’mlar festivali – «Фестиваль холодных вкусов». Событие объединит производителей мороженого и прохладительных напитков, концерты, водные развлечения и креативные зоны.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/10/chilla-fest",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/aeb891d8828090725cd9ee9efa6e6314_m.webp",
-      "category": "city",
-      "published": 1786370400000,
-      "venue": {
-        "name": "Tashkent City",
-        "coords": [
-          41.3165,
-          69.2484
-        ]
-      }
-    },
-    {
       "id": "ru:concerts:2026:08:10:pekin",
       "title": "Концерт Ланг Ланга и Национального симфонического оркестра Узбекистана у Великой Китайской стены перенесен",
       "description": "Точная новая дата проведения концерта у древнего памятника архитектуры будет объявлена организаторами дополнительно.",
@@ -157,16 +161,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/15ce0ea257a2985ac2bbe1abf43bbde8_m.webp",
       "category": "concert",
       "published": 1786366080000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:10:weather",
-      "title": "Пекло продолжается: в столице до +41° на неделе",
-      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 10 по 14 августа.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/10/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/0947cecadff6d28bdb33471ae21545a7_m.webp",
-      "category": "city",
-      "published": 1786338360000,
       "venue": null
     },
     {
