@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-08-19T06:25:09.578Z",
+  "updatedAt": "2026-08-19T12:23:05.127Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:19:fanta",
+      "title": "Fanta Park × Chilla Fest: как провести последние дни лета",
+      "description": "С 21 по 23 августа в Ташкенте и Намангане возобновит свою работу Fanta Park с активностями, дегустацией трех вкусов Fanta и интерактивными зонами.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/19/fanta",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/496b7b76bd0b45fd0fa785a50af7fbfc_m.webp",
+      "category": "city",
+      "published": 1787140800000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:08:19:brt",
+      "title": "На улице Шахрисабз строят BRT-полосу: участок планируют открыть до конца августа",
+      "description": "Выделенную полосу отделяют бордюрами, чтобы поток автомобилей не мешал движению автобусов, а также разбирают более чем на 2 метра вглубь.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/19/brt",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/8de585823ca1ed258f9501d516843c15_m.webp",
+      "category": "city",
+      "published": 1787124600000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:18:bus-58",
       "title": "В Ташкенте изменили один автобусный маршрут",
@@ -124,16 +144,6 @@
       "venue": null
     },
     {
-      "id": "ru:gorod:2026:08:12:weekends",
-      "title": "Объявлены даты праздничных выходных на День независимости",
-      "description": "31 августа является дополнительным выходным днем, поэтому узбекистанцы смогут отдохнуть до четырех дней подряд.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/12/weekends",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/1f8505efe0bd3655fbce7aecc89224a3_m.webp",
-      "category": "city",
-      "published": 1786527208000,
-      "venue": null
-    },
-    {
       "id": "ru:concerts:2026:08:12:9gramm",
       "title": "Концерт 9 Грамм в Ташкенте отменен",
       "description": "По словам артиста, команда обязательно придет в Ташкент снова — но уже с другими организаторами.",
@@ -141,16 +151,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/df0b2a0d5c31d2b30c6b88428619c3fc_m.webp",
       "category": "concert",
       "published": 1786516860000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:11:running-in-tashkent",
-      "title": "Беговой бум в Ташкенте: почему все начали бегать и где найти свою компанию",
-      "description": "Еще недавно бег в Ташкенте выглядел довольно просто: несколько человек выходили на пробежку в парк, тренировались и расходились по своим делам. Сейчас все немного иначе - люди собираются в группы, договариваются о совместных забегах и постепенно превращают обычную тренировку в способ провести время вместе и образуется целая беговая культура.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/11/running-in-tashkent",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/c2882847fb7cabbdeaf581d490e1d625_m.webp",
-      "category": "city",
-      "published": 1786458111000,
       "venue": null
     },
     {
