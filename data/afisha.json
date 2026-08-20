@@ -1,8 +1,24 @@
 {
-  "updatedAt": "2026-08-20T12:25:32.716Z",
+  "updatedAt": "2026-08-20T18:22:35.896Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:20:hilton-tashkent-city",
+      "title": "Ballroom в Hilton Tashkent City — место, где начинается история семьи",
+      "description": "Отель Hilton Tashkent City предлагает зал Ballroom для проведения свадеб. В пакет услуг входят комплиментарная ночь проживания для молодоженов, фотосессия в люксе, дегустация меню и бонусные баллы Hilton Honors.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/20/hilton-tashkent-city",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/4492c5298a95d05e162aa9bd5f8b145b_m.webp",
+      "category": "city",
+      "published": 1787234400000,
+      "venue": {
+        "name": "Tashkent City",
+        "coords": [
+          41.3165,
+          69.2484
+        ]
+      }
+    },
     {
       "id": "ru:gorod:2026:08:19:fanta",
       "title": "Fanta Park × Chilla Fest: как провести последние дни лета",
@@ -111,16 +127,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/283ec6f838c1588dc63d6d813e9b028e_m.webp",
       "category": "city",
       "published": 1786622400000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:13:solar-eclipse",
-      "title": "Первое за 27 лет полное солнечное затмение накрыло Европу",
-      "description": "12 августа в Северном полушарии произошло полное солнечное затмение.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/13/solar-eclipse",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/74e2b81268e3fe145a8ab7e9f3111b6f_m.webp",
-      "category": "city",
-      "published": 1786618567000,
       "venue": null
     },
     {
