@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-08-21T06:27:51.926Z",
+  "updatedAt": "2026-08-21T12:24:57.777Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:21:22-23-august",
+      "title": "Куда пойти на выходных в Ташкенте, 22 и 23 августа",
+      "description": "Кинопремьеры, фестивали прохладительных вкусов и керамики, бесплатный концерт Райхон, выставка детских рисунков, квиз «Угадай мелодию: хиты 90-х и 2000-х», творческие мастер-классы и другие события предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/21/22-23-august",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/17e086a48e51c8b41a7daf2c13c3b397_m.webp",
+      "category": "city",
+      "published": 1787308030000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:08:21:weather",
+      "title": "Жара отступает: в столице до +34° на выходных",
+      "description": "Прогноз погоды в Ташкенте на выходные 22 и 23 августа.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/21/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/65c4b7378218bb7dbe2c66c0e2b53fb5_m.webp",
+      "category": "city",
+      "published": 1787297929000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:20:hilton-tashkent-city",
       "title": "Ballroom в Hilton Tashkent City — место, где начинается история семьи",
@@ -107,26 +127,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/e38e57cb704feda692eb1c48da3a4397_m.webp",
       "category": "city",
       "published": 1786691515000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:14:avenue",
-      "title": "Проспект Мустакиллик от метро Буюк Ипак Йули до хокимията района обновили",
-      "description": "Здесь полностью заменили дорожное покрытие, обновили светофоры и остановки, привели в порядок тротуары и систему отвода дождевой воды, а также благоустроили прилегающую территорию.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/14/avenue",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/2c2186395af9254718fcb3b187e2aacb_m.webp",
-      "category": "city",
-      "published": 1786682050000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:13:yandex-maps",
-      "title": "Yandex Maps поможет выбрать маршрут, на котором больше деревьев и тени по пути",
-      "description": "Сервис Yandex Maps научился находить в Ташкенте пешеходные маршруты с большим количеством деревьев и потенциальной тени. Для этого сервис анализирует мультиспектральные спутниковые снимки с помощью нейросети и учитывает температуру воздуха.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/13/yandex-maps",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/283ec6f838c1588dc63d6d813e9b028e_m.webp",
-      "category": "city",
-      "published": 1786622400000,
       "venue": null
     },
     {
