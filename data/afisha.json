@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-08-24T12:25:49.220Z",
+  "updatedAt": "2026-08-24T18:24:04.510Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:24:mountains",
+      "title": "В праздничные выходные в Чимгане запустят дополнительные рейсы",
+      "description": "Дополнительные рейсы помогут туристам и жителям удобнее добираться до Амирсоя, Чимгана, Бельдерсая и Чарвака.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/24/mountains",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/12558241d1a5970e35ae85166f9d81c3_m.webp",
+      "category": "city",
+      "published": 1787576116000,
+      "venue": null
+    },
     {
       "id": "ru:exhibitions:2026:08:24:cca-program",
       "title": "Центр современного искусства - CCA Tashkent - откроется 6 сентября. Программа",
@@ -127,16 +137,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/9d73f5d562ec723ecdfec559a19da90b_m.webp",
       "category": "city",
       "published": 1786951200000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:17:weather",
-      "title": "Столицу ждет еще одна жаркая неделя: до +38°",
-      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 17 по 21 августа.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/17/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/5aad420374a0db2ef0fd4307048aa13c_m.webp",
-      "category": "city",
-      "published": 1786940200000,
       "venue": null
     },
     {
