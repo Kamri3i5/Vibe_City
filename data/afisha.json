@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-08-24T06:35:39.677Z",
+  "updatedAt": "2026-08-24T12:25:49.220Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:exhibitions:2026:08:24:cca-program",
+      "title": "Центр современного искусства - CCA Tashkent - откроется 6 сентября. Программа",
+      "description": "6 сентября в Ташкенте пройдет публичное открытие Центра современного искусства (CCA Tashkent.) В бывшей дизельной электростанции 1912 года в течение всего дня будут проходить экскурсии, встречи с художниками, кинопоказы, детские занятия, перформансы, поэтические чтения и музыкальные выступления.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/08/24/cca-program",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/f76a7c249503a815f574429b4cdb3595_m.webp",
+      "category": "exhibition",
+      "published": 1787567580000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:08:24:new-park",
+      "title": "В Ташкенте хотят создать новый зеленый парк и молодежный городок",
+      "description": "Территорию вокруг Ташкентского городского онкологического центра благоустроят и озеленят, сохранив ее открытой для жителей близлежащих махаллей, молодежи и других горожан.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/24/new-park",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/1b0e905729d8c137b07d347ee7e5886c_m.webp",
+      "category": "city",
+      "published": 1787564764000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:24:weather",
       "title": "В столице перед праздником продолжится жара",
@@ -117,16 +137,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/5aad420374a0db2ef0fd4307048aa13c_m.webp",
       "category": "city",
       "published": 1786940200000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:14:15-16-august",
-      "title": "Куда пойти на выходных в Ташкенте, 15 и 16 августа",
-      "description": "Фильм «Моана» и еще четыре кинопремьеры, Comic Con Tashkent 2026, музыкальные квизы, парад Человеков-Пауков, концерт Candle Fire: Iron Throne, выставки, творческие мастер-классы и другие события предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/14/15-16-august",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/69d65e789d219f2a78a22b746c5abf2e_m.webp",
-      "category": "city",
-      "published": 1786705330000,
       "venue": null
     },
     {
@@ -367,16 +377,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/04/ad1c7d9cc47fdca98b4f8f41678e2bd8_m.webp",
       "category": "exhibition",
       "published": 1775887200000,
-      "venue": null
-    },
-    {
-      "id": "ru:exhibitions:2026:04:09:xamar",
-      "title": "Арт-галерея Xamar объявляет о закрытии",
-      "description": "Пространство функционирует до конца апреля.",
-      "url": "https://www.afisha.uz/ru/exhibitions/2026/04/09/xamar",
-      "image": "https://www.afisha.uz/uploads/media/2026/04/947b0c50733bf8b39c477533edc714ea_m.webp",
-      "category": "exhibition",
-      "published": 1775726280000,
       "venue": null
     },
     {
