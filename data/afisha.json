@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-08-24T00:39:16.128Z",
+  "updatedAt": "2026-08-24T06:35:39.677Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:24:weather",
+      "title": "В столице перед праздником продолжится жара",
+      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 24 по 28 августа.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/24/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/b59e24d8990a58fb7a3d1a1251cb11b0_m.webp",
+      "category": "city",
+      "published": 1787545080000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:21:22-23-august",
       "title": "Куда пойти на выходных в Ташкенте, 22 и 23 августа",
@@ -76,7 +86,7 @@
       "url": "https://www.afisha.uz/ru/gorod/2026/08/18/school-bazaar",
       "image": "https://www.afisha.uz/uploads/media/2026/08/72a9a78e557bb441ea063374b1f9a19d_m.webp",
       "category": "city",
-      "published": 1787033497000,
+      "published": 1787033460000,
       "venue": null
     },
     {
@@ -117,16 +127,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/69d65e789d219f2a78a22b746c5abf2e_m.webp",
       "category": "city",
       "published": 1786705330000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:14:weather-for-the-15th-16th",
-      "title": "В столице ожидается солнечная погода, максимальная температура воздуха достигнет +40°",
-      "description": "Прогноз погоды в Ташкенте на выходные 15 и 16 августа.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/14/weather-for-the-15th-16th",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/e38e57cb704feda692eb1c48da3a4397_m.webp",
-      "category": "city",
-      "published": 1786691515000,
       "venue": null
     },
     {
