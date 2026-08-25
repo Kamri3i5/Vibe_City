@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-08-25T06:26:49.165Z",
+  "updatedAt": "2026-08-25T12:26:21.272Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:25:teplo-fest",
+      "title": "Afisha.uz начала продажу билетов на Teplo Fest",
+      "description": "Масштабное трехдневное событие от экосистемы Teplo объединит более 100 независимых дизайнеров, ремесленников, музыкантов, гастрономические проекты и развлекательные интерактивные зоны для всей семьи.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/25/teplo-fest",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/8e8eeb60c28cb7f195b59e8d9c72337d_m.webp",
+      "category": "city",
+      "published": 1787658407000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:25:yonar",
       "title": "На Барсакелмесе снова построят город, который исчезнет через три дня",
@@ -137,16 +147,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/72a9a78e557bb441ea063374b1f9a19d_m.webp",
       "category": "city",
       "published": 1787033460000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:18:bus",
-      "title": "В Ташкенте запустили новый автобусный маршрут",
-      "description": "Он свяжет восточную и северо-западную части города и будет курсировать ежедневно с раннего утра до позднего вечера.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/18/bus",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/46c9bdd21b8b404633bb568d636e7138_m.webp",
-      "category": "city",
-      "published": 1787029693000,
       "venue": null
     },
     {
