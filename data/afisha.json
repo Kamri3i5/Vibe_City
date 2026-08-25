@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-08-25T00:38:47.125Z",
+  "updatedAt": "2026-08-25T06:26:49.165Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:25:yonar",
+      "title": "На Барсакелмесе снова построят город, который исчезнет через три дня",
+      "description": "На три дня участники создадут White Salt City — временный город посреди солончака. Здесь будут строить лагерь и арт-объекты, проводить музыкальные сессии, готовить еду и вместе организовывать быт. Зрителей не будет: каждый становится участником и самостоятельно отвечает за свой вклад в жизнь поселения.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/25/yonar",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/b01d2752b6afe3095fb54429c99c2ae4_m.webp",
+      "category": "city",
+      "published": 1787635049000,
+      "venue": null
+    },
+    {
+      "id": "ru:exhibitions:2026:08:25:benchellal-monumental",
+      "title": "Выставка скульптурной одежды Мохамеда Беншалала откроется в Государственном музее истории Узбекистана",
+      "description": "5 сентября в Государственном музее истории Узбекистана откроется выставка BENCHELLAL, MONUMENTAL | Sculpting Past Tomorrow («Скульптурируя прошлое, создавая будущее») нидерландско-марокканского дизайнера и художника Мохамеда Беншалала. Проект создан в ходе его художественной резиденции в CCA Tashkent в 2025 году и исследует связь моды, скульптуры, архитектуры и современного искусства.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/08/25/benchellal-monumental",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/8eedc0adb5b7a1e81993e44fb6d6ea50_m.webp",
+      "category": "exhibition",
+      "published": 1787626800000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:24:mountains",
       "title": "В праздничные выходные в Чимгане запустят дополнительные рейсы",
@@ -127,16 +147,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/46c9bdd21b8b404633bb568d636e7138_m.webp",
       "category": "city",
       "published": 1787029693000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:17:road",
-      "title": "На пересечении улиц Мустакиллик и Аккурган изменили схему движения",
-      "description": "Изменение схемы связано с тем, что левый поворот раньше создавал скопления автомобилей на перекрестке на двух-трех полосах, особенно в часы пик.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/17/road",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/9d73f5d562ec723ecdfec559a19da90b_m.webp",
-      "category": "city",
-      "published": 1786951200000,
       "venue": null
     },
     {
@@ -367,16 +377,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/04/bb10c1396fe72c10608de10772e761bc_m.webp",
       "category": "exhibition",
       "published": 1776681917000,
-      "venue": null
-    },
-    {
-      "id": "ru:exhibitions:2026:04:11:my-fair",
-      "title": "Выставка «Образование и профессия 2026» пройдет в 12-ти городах Узбекистана",
-      "description": "С 13 апреля по 16 мая при поддержке Агентства по делам молодежи и Министерства дошкольного и школьного образования, в 12 городах Узбекистана пройдет масштабное мероприятие в сфере образования – международная выставка «Образование и профессия 2026».",
-      "url": "https://www.afisha.uz/ru/exhibitions/2026/04/11/my-fair",
-      "image": "https://www.afisha.uz/uploads/media/2026/04/ad1c7d9cc47fdca98b4f8f41678e2bd8_m.webp",
-      "category": "exhibition",
-      "published": 1775887200000,
       "venue": null
     },
     {
