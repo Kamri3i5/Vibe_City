@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-08-26T12:28:47.530Z",
+  "updatedAt": "2026-08-26T19:29:40.511Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:26:visa",
+      "title": "Visa и Ipak Yuli Bank определили победительниц первой волны инициативы She’s Next в Узбекистане",
+      "description": "В Ташкенте состоялся She’s Next Pitch Day – финал первой волны глобальной инициативы She’s Next, Empowered by Visa в Узбекистане, реализуемая компанией Visa в партнерстве с Ipak Yuli Bank и направленная на развитие женского предпринимательства.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/26/visa",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/bb6b4401d21106dd6044f0d839bf1b69_m.webp",
+      "category": "city",
+      "published": 1787752800000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:25:teplo-fest",
       "title": "Afisha.uz начала продажу билетов на Teplo Fest",
@@ -137,16 +147,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/bd7ef586bee6f3e2fe228e073ddd8ec0_m.webp",
       "category": "city",
       "published": 1787033855000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:18:school-bazaar",
-      "title": "В Ташкенте начали работу «Школьные базары»: полный список площадок",
-      "description": "На них можно купить все необходимое к новому учебному году: канцтовары, учебники и другие товары для школьников.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/18/school-bazaar",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/72a9a78e557bb441ea063374b1f9a19d_m.webp",
-      "category": "city",
-      "published": 1787033460000,
       "venue": null
     },
     {
