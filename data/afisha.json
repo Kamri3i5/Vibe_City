@@ -1,8 +1,48 @@
 {
-  "updatedAt": "2026-08-27T05:42:03.314Z",
+  "updatedAt": "2026-08-27T17:03:47.862Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:27:women-only",
+      "title": "В поездах по маршруту Алматы–Ташкент–Алматы запустят женский вагон",
+      "description": "",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/27/women-only",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/8a7ffbe5dcae6d6e3cd5063e05548bfe_m.webp",
+      "category": "city",
+      "published": 1787832780000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:08:27:university",
+      "title": "В вузах Ташкента с нового учебного года занятия будут начинаться в 8:00",
+      "description": "Начало занятий поможет студентам и преподавателям удобнее планировать время в пути, а вузам — эффективнее организовать учебный день.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/27/university",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/c4d8f59ea362cf278068bec8288e63ab_m.webp",
+      "category": "city",
+      "published": 1787829743000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:08:27:bridge",
+      "title": "В Сергели открыли новый мост между двумя махаллями",
+      "description": "Новый мост для автомобилей и пешеходов длиной 28 метров и шириной 8 метров рассчитан на нагрузку до 80 тонн.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/27/bridge",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/5a36466b8f3c76a8ba402a05281cedaa_m.webp",
+      "category": "city",
+      "published": 1787829328000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:08:27:standup-uz",
+      "title": "«Стендап — это публичный сеанс психотерапии»: интервью с сооснователем проекта StandUp Uz Алексеем Филипенковым",
+      "description": "Интервью с Алексеем Филипенковым — стендап-комиком и одним из основателей проекта StandUp Uz — о развитии жанра в Ташкенте, закрытии собственного клуба, местном юморе и будущем узбекской стендап-сцены.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/27/standup-uz",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/c6fe08ce62c74b1f84b51e7fba6d7de4_m.webp",
+      "category": "city",
+      "published": 1787814120000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:26:visa",
       "title": "Visa и Ipak Yuli Bank определили победительниц первой волны инициативы She’s Next в Узбекистане",
@@ -101,52 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/65c4b7378218bb7dbe2c66c0e2b53fb5_m.webp",
       "category": "city",
       "published": 1787297929000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:20:hilton-tashkent-city",
-      "title": "Ballroom в Hilton Tashkent City — место, где начинается история семьи",
-      "description": "Отель Hilton Tashkent City предлагает зал Ballroom для проведения свадеб. В пакет услуг входят комплиментарная ночь проживания для молодоженов, фотосессия в люксе, дегустация меню и бонусные баллы Hilton Honors.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/20/hilton-tashkent-city",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/4492c5298a95d05e162aa9bd5f8b145b_m.webp",
-      "category": "city",
-      "published": 1787234400000,
-      "venue": {
-        "name": "Tashkent City",
-        "coords": [
-          41.3165,
-          69.2484
-        ]
-      }
-    },
-    {
-      "id": "ru:gorod:2026:08:19:fanta",
-      "title": "Fanta Park × Chilla Fest: как провести последние дни лета",
-      "description": "С 21 по 23 августа в Ташкенте и Намангане возобновит свою работу Fanta Park с активностями, дегустацией трех вкусов Fanta и интерактивными зонами.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/19/fanta",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/496b7b76bd0b45fd0fa785a50af7fbfc_m.webp",
-      "category": "city",
-      "published": 1787140800000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:19:brt",
-      "title": "На улице Шахрисабз строят BRT-полосу: участок планируют открыть до конца августа",
-      "description": "Выделенную полосу отделяют бордюрами, чтобы поток автомобилей не мешал движению автобусов, а также разбирают более чем на 2 метра вглубь.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/19/brt",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/8de585823ca1ed258f9501d516843c15_m.webp",
-      "category": "city",
-      "published": 1787124600000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:18:bus-58",
-      "title": "В Ташкенте изменили один автобусный маршрут",
-      "description": "Изменение связано с новым порядком движения на перекрестке Мустакиллик и Аккурган.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/18/bus-58",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/bd7ef586bee6f3e2fe228e073ddd8ec0_m.webp",
-      "category": "city",
-      "published": 1787033855000,
       "venue": null
     },
     {
