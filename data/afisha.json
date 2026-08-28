@@ -1,12 +1,32 @@
 {
-  "updatedAt": "2026-08-28T01:53:24.119Z",
+  "updatedAt": "2026-08-28T17:52:10.193Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
     {
+      "id": "ru:gorod:2026:08:28:29avgust-1september",
+      "title": "Куда пойти на выходных в Ташкенте, с 29 августа по 1 сентября",
+      "description": "Девять кинопремьер, костюмированный фестиваль сап-серфинга, фестиваль электронной музыки, экологический фестиваль, праздничные концерты, выставки, развлекательные шоу для детей и другие события предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/28/29avgust-1september",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/f50ca5bacd60a569205276aa6d4c52fc_m.webp",
+      "category": "city",
+      "published": 1787911970000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:08:28:weather",
+      "title": "Выходные под +38°: в столице ожидается снижение жары",
+      "description": "Прогноз погоды в Ташкенте на выходные с 29 августа по 1 сентября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/28/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/1274e37acf9b14e239497333b0906baf_m.webp",
+      "category": "city",
+      "published": 1787911877000,
+      "venue": null
+    },
+    {
       "id": "ru:gorod:2026:08:27:women-only",
       "title": "В поездах по маршруту Алматы–Ташкент–Алматы запустят женский вагон",
-      "description": "",
+      "description": "Казахстанская компания «Пассажирские перевозки» добавит женский вагон в состав поезда Алматы-Ташкент-Алматы.",
       "url": "https://www.afisha.uz/ru/gorod/2026/08/27/women-only",
       "image": "https://www.afisha.uz/uploads/media/2026/08/8a7ffbe5dcae6d6e3cd5063e05548bfe_m.webp",
       "category": "city",
@@ -121,26 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/b59e24d8990a58fb7a3d1a1251cb11b0_m.webp",
       "category": "city",
       "published": 1787545080000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:21:22-23-august",
-      "title": "Куда пойти на выходных в Ташкенте, 22 и 23 августа",
-      "description": "Кинопремьеры, фестивали прохладительных вкусов и керамики, бесплатный концерт Райхон, выставка детских рисунков, квиз «Угадай мелодию: хиты 90-х и 2000-х», творческие мастер-классы и другие события предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/21/22-23-august",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/17e086a48e51c8b41a7daf2c13c3b397_m.webp",
-      "category": "city",
-      "published": 1787308030000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:21:weather",
-      "title": "Жара отступает: в столице до +34° на выходных",
-      "description": "Прогноз погоды в Ташкенте на выходные 22 и 23 августа.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/21/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/65c4b7378218bb7dbe2c66c0e2b53fb5_m.webp",
-      "category": "city",
-      "published": 1787297929000,
       "venue": null
     },
     {
