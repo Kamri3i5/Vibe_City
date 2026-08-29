@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-08-29T11:56:38.162Z",
+  "updatedAt": "2026-08-29T16:02:27.717Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:29:fuse-tea",
+      "title": "Fuse Tea выпустил новый вкус: зеленый чай с лимоном и медом в Узбекистане",
+      "description": "Линейка напитков Fuse Tea пополнилась зеленым чаем с лимоном и медом. В праздничные дни новинку можно будет продегустировать в бренд-зонах Ташкента и Намангана.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/29/fuse-tea",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/2334b80bc1abde547491f56b86dfdb3a_m.webp",
+      "category": "city",
+      "published": 1788012000000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:28:29avgust-1september",
       "title": "Куда пойти на выходных в Ташкенте, с 29 августа по 1 сентября",
@@ -131,16 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/1b0e905729d8c137b07d347ee7e5886c_m.webp",
       "category": "city",
       "published": 1787564764000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:24:weather",
-      "title": "В столице перед праздником продолжится жара",
-      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 24 по 28 августа.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/24/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/b59e24d8990a58fb7a3d1a1251cb11b0_m.webp",
-      "category": "city",
-      "published": 1787545080000,
       "venue": null
     },
     {
