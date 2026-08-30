@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-08-30T02:20:58.315Z",
+  "updatedAt": "2026-08-30T10:53:48.791Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:30:fountain",
+      "title": "Два мировых рекорда: в Новом Ташкенте запустили самый высокий музыкальный фонтан в мире",
+      "description": "Сертификаты, подтверждающие триумф, вручила официальный судья Guinness World Records Мэгги Луо.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/30/fountain",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/f9e6d9dc9838f23077d24349dc5ba0cc_m.webp",
+      "category": "city",
+      "published": 1788080986000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:29:fuse-tea",
       "title": "Fuse Tea выпустил новый вкус: зеленый чай с лимоном и медом в Узбекистане",
@@ -131,16 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/f76a7c249503a815f574429b4cdb3595_m.webp",
       "category": "exhibition",
       "published": 1787567580000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:24:new-park",
-      "title": "В Ташкенте хотят создать новый зеленый парк и молодежный городок",
-      "description": "Территорию вокруг Ташкентского городского онкологического центра благоустроят и озеленят, сохранив ее открытой для жителей близлежащих махаллей, молодежи и других горожан.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/24/new-park",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/1b0e905729d8c137b07d347ee7e5886c_m.webp",
-      "category": "city",
-      "published": 1787564764000,
       "venue": null
     },
     {
