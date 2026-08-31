@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-08-31T02:16:21.381Z",
+  "updatedAt": "2026-08-31T12:07:00.569Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:08:31:tourism",
+      "title": "Узбекистан и Индия запустят новые туристические маршруты и введут 30-дневный безвизовый режим",
+      "description": "В планах — регулярное проведение взаимных недель культуры, масштабных кинофестивалей и запуск принципиально новых совместных туристических маршрутов.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/31/tourism",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/d767bd79e3729d4e716113c9a148bff6_m.webp",
+      "category": "city",
+      "published": 1788168420000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:08:31:coins",
+      "title": "Центробанк Узбекистана выпустил коллекционные монеты к 35-летию Независимости",
+      "description": "Серия из трех монет отражает ключевые вехи истории, национальные символы и современное развитие страны и уже доступна для приобретения в коммерческих банках.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/08/31/coins",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/18c6860632af4b1fa4fba1dd5939b7e8_m.webp",
+      "category": "city",
+      "published": 1788167580000,
+      "venue": null
+    },
+    {
+      "id": "ru:exhibitions:2026:08:31:homo-faber",
+      "title": "Узбекистан представит современное ремесло на Homo Faber 2026 в Венеции",
+      "description": "В этом году будут представлены работы четырех мастеров, работающих с традиционными видами прикладного искусства.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/08/31/homo-faber",
+      "image": "https://www.afisha.uz/uploads/media/2026/08/013dde6e516e213875ee76db97c88a40_m.webp",
+      "category": "exhibition",
+      "published": 1788166500000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:30:fountain",
       "title": "Два мировых рекорда: в Новом Ташкенте запустили самый высокий музыкальный фонтан в мире",
@@ -104,16 +134,6 @@
       "venue": null
     },
     {
-      "id": "ru:gorod:2026:08:25:yonar",
-      "title": "На Барсакелмесе снова построят город, который исчезнет через три дня",
-      "description": "На три дня участники создадут White Salt City — временный город посреди солончака. Здесь будут строить лагерь и арт-объекты, проводить музыкальные сессии, готовить еду и вместе организовывать быт. Зрителей не будет: каждый становится участником и самостоятельно отвечает за свой вклад в жизнь поселения.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/25/yonar",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/b01d2752b6afe3095fb54429c99c2ae4_m.webp",
-      "category": "city",
-      "published": 1787635049000,
-      "venue": null
-    },
-    {
       "id": "ru:exhibitions:2026:08:25:benchellal-monumental",
       "title": "Выставка скульптурной одежды Мохамеда Беншалала откроется в Государственном музее истории Узбекистана",
       "description": "5 сентября в Государственном музее истории Узбекистана откроется выставка BENCHELLAL, MONUMENTAL | Sculpting Past Tomorrow («Скульптурируя прошлое, создавая будущее») нидерландско-марокканского дизайнера и художника Мохамеда Беншалала. Проект создан в ходе его художественной резиденции в CCA Tashkent в 2025 году и исследует связь моды, скульптуры, архитектуры и современного искусства.",
@@ -121,16 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/8eedc0adb5b7a1e81993e44fb6d6ea50_m.webp",
       "category": "exhibition",
       "published": 1787626800000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:24:mountains",
-      "title": "В праздничные выходные в Чимгане запустят дополнительные рейсы",
-      "description": "Дополнительные рейсы помогут туристам и жителям удобнее добираться до Амирсоя, Чимгана, Бельдерсая и Чарвака.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/24/mountains",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/12558241d1a5970e35ae85166f9d81c3_m.webp",
-      "category": "city",
-      "published": 1787576116000,
       "venue": null
     },
     {
@@ -361,16 +371,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/04/c1981db620c88fe3ebdec89ae6b75949_m.webp",
       "category": "exhibition",
       "published": 1776830400000,
-      "venue": null
-    },
-    {
-      "id": "ru:exhibitions:2026:04:20:dilorom-mamedova",
-      "title": "Галерея ARTepa и «100 уникальных работ» Дилором Мамедовой",
-      "description": "В экспозицию вошли произведения разных периодов творчества художницы, в которых отразился ее визуальный язык, сформированный за годы работы и пронизанный уважением к традициям Узбекистана.",
-      "url": "https://www.afisha.uz/ru/exhibitions/2026/04/20/dilorom-mamedova",
-      "image": "https://www.afisha.uz/uploads/media/2026/04/bb10c1396fe72c10608de10772e761bc_m.webp",
-      "category": "exhibition",
-      "published": 1776681917000,
       "venue": null
     },
     {
