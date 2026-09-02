@@ -1,8 +1,48 @@
 {
-  "updatedAt": "2026-09-02T01:55:37.595Z",
+  "updatedAt": "2026-09-02T10:09:41.103Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:02:weather",
+      "title": "Короткая рабочая неделя принесет в столицу до +30°",
+      "description": "Прогноз погоды в Ташкенте на короткую рабочую неделю со 2 по 4 сентября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/02/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/c4d359a8759787127fe8fc3b206afae2_m.webp",
+      "category": "city",
+      "published": 1788343775000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:02:kazakhstan",
+      "title": "Въезд в Казахстан из Узбекистана может стать платным",
+      "description": "Заявку нужно будет подать минимум за 72 часа, разрешение действует 180 дней и позволяет совершать несколько поездок.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/02/kazakhstan",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/822fb45d0cbc0848553f21688b1d7bec_m.webp",
+      "category": "city",
+      "published": 1788334860000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:02:new-train",
+      "title": "В Андижане тестируют новый поезд: он сможет развивать до 160 км/ч",
+      "description": "Ожидается, что время в пути между Ташкентом и Андижаном в новом поезде сократится примерно на 2 часа — до 4 часов.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/02/new-train",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/fee7d57ac2f091f7b0a8996b088252e9_m.webp",
+      "category": "city",
+      "published": 1788334111000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:02:metro",
+      "title": "В Ташкентском метро сократили интервалы движения поездов",
+      "description": "Мера должна помочь справиться с увеличением пассажиропотока и сохранить стабильную, безопасную и удобную работу метро в новом учебном году.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/02/metro",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/d7628c84c2ef4e51e97a27d48f45c283_m.webp",
+      "category": "city",
+      "published": 1788327721000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:08:31:tourism",
       "title": "Узбекистан и Индия запустят новые туристические маршруты и введут 30-дневный безвизовый режим",
@@ -91,46 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/c4d8f59ea362cf278068bec8288e63ab_m.webp",
       "category": "city",
       "published": 1787829743000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:27:bridge",
-      "title": "В Сергели открыли новый мост между двумя махаллями",
-      "description": "Новый мост для автомобилей и пешеходов длиной 28 метров и шириной 8 метров рассчитан на нагрузку до 80 тонн.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/27/bridge",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/5a36466b8f3c76a8ba402a05281cedaa_m.webp",
-      "category": "city",
-      "published": 1787829328000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:27:standup-uz",
-      "title": "«Стендап — это публичный сеанс психотерапии»: интервью с сооснователем проекта StandUp Uz Алексеем Филипенковым",
-      "description": "Интервью с Алексеем Филипенковым — стендап-комиком и одним из основателей проекта StandUp Uz — о развитии жанра в Ташкенте, закрытии собственного клуба, местном юморе и будущем узбекской стендап-сцены.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/27/standup-uz",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/c6fe08ce62c74b1f84b51e7fba6d7de4_m.webp",
-      "category": "city",
-      "published": 1787814120000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:26:visa",
-      "title": "Visa и Ipak Yuli Bank определили победительниц первой волны инициативы She’s Next в Узбекистане",
-      "description": "В Ташкенте состоялся She’s Next Pitch Day – финал первой волны глобальной инициативы She’s Next, Empowered by Visa в Узбекистане, реализуемая компанией Visa в партнерстве с Ipak Yuli Bank и направленная на развитие женского предпринимательства.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/26/visa",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/bb6b4401d21106dd6044f0d839bf1b69_m.webp",
-      "category": "city",
-      "published": 1787752800000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:25:teplo-fest",
-      "title": "Afisha.uz начала продажу билетов на Teplo Fest",
-      "description": "Масштабное трехдневное событие от экосистемы Teplo объединит более 100 независимых дизайнеров, ремесленников, музыкантов, гастрономические проекты и развлекательные интерактивные зоны для всей семьи.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/25/teplo-fest",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/8e8eeb60c28cb7f195b59e8d9c72337d_m.webp",
-      "category": "city",
-      "published": 1787658407000,
       "venue": null
     },
     {
