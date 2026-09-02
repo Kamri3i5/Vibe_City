@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-09-02T10:09:41.103Z",
+  "updatedAt": "2026-09-02T15:35:06.665Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:02:visa",
+      "title": "Таиланд отменил безвизовый режим для туристов из Узбекистана",
+      "description": "Гражданам из Узбекистана теперь необходимо получить визу до поездки.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/02/visa",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/0d37559d74c6c69f7c4c1f65a8474599_m.webp",
+      "category": "city",
+      "published": 1788353340000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:02:stop",
+      "title": "6 сентября в Ташкенте ограничат движение из-за полумарафона",
+      "description": "При большом количестве участников и зрителей ограничения могут дополнительно ввести на прилегающих к трассам марафона улицах.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/02/stop",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/9f96f2255055e9e9e5b72ad7ea294462_m.webp",
+      "category": "city",
+      "published": 1788352740000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:02:weather",
       "title": "Короткая рабочая неделя принесет в столицу до +30°",
@@ -111,26 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/1274e37acf9b14e239497333b0906baf_m.webp",
       "category": "city",
       "published": 1787911877000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:27:women-only",
-      "title": "В поездах по маршруту Алматы–Ташкент–Алматы запустят женский вагон",
-      "description": "Казахстанская компания «Пассажирские перевозки» добавит женский вагон в состав поезда Алматы-Ташкент-Алматы.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/27/women-only",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/8a7ffbe5dcae6d6e3cd5063e05548bfe_m.webp",
-      "category": "city",
-      "published": 1787832780000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:27:university",
-      "title": "В вузах Ташкента с нового учебного года занятия будут начинаться в 8:00",
-      "description": "Начало занятий поможет студентам и преподавателям удобнее планировать время в пути, а вузам — эффективнее организовать учебный день.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/27/university",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/c4d8f59ea362cf278068bec8288e63ab_m.webp",
-      "category": "city",
-      "published": 1787829743000,
       "venue": null
     },
     {
