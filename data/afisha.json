@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-09-03T10:21:15.496Z",
+  "updatedAt": "2026-09-03T15:27:02.145Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:exhibitions:2026:09:03:free-entrance",
+      "title": "Бесплатно в музей: в Узбекистане стартовала Неделя музеев",
+      "description": "В продолжение акции 4 сентября на официальном Telegram-канале Агентства культурного наследия пройдет открытый аудиоподкаст.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/09/03/free-entrance",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/3124a220f7f61a954f96806568c5a299_m.webp",
+      "category": "exhibition",
+      "published": 1788439800000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:03:olmazor-metro",
+      "title": "Новые муралы в Ташкенте: на станции метро «Алмазар» появилось масштабное уличное искусство. Фоторепортаж",
+      "description": "Ташкент меняется ежедневно, но на этот раз дело вовсе не в новостройках или дорогах. Скучный бетон у метро «Алмазар» неожиданно превратился в яркую галерею под открытым небом — здесь расцвел масштабный мурал.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/03/olmazor-metro",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/f13fb300e50d840fb4b32bb834c34918_m.webp",
+      "category": "city",
+      "published": 1788433200000,
+      "venue": null
+    },
     {
       "id": "ru:exhibitions:2026:09:03:uzbekistan-heritage-in-motion",
       "title": "Масштабная выставка Uzbekistan: Heritage in Motion открылась в Дохе. Фото",
@@ -131,16 +151,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/2334b80bc1abde547491f56b86dfdb3a_m.webp",
       "category": "city",
       "published": 1788012000000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:28:29avgust-1september",
-      "title": "Куда пойти на выходных в Ташкенте, с 29 августа по 1 сентября",
-      "description": "Девять кинопремьер, костюмированный фестиваль сап-серфинга, фестиваль электронной музыки, экологический фестиваль, праздничные концерты, выставки, развлекательные шоу для детей и другие события предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/28/29avgust-1september",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/f50ca5bacd60a569205276aa6d4c52fc_m.webp",
-      "category": "city",
-      "published": 1787911970000,
       "venue": null
     },
     {
@@ -351,16 +361,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/05/6e50a15c226351e6945816460c3f0771_m.webp",
       "category": "theatre",
       "published": 1779094020000,
-      "venue": null
-    },
-    {
-      "id": "ru:exhibitions:2026:05:16:pharma-eurasia",
-      "title": "Pharma Eurasia & MedTech 2026: в Ташкенте пройдет выставка фармацевтической отрасли",
-      "description": "С 20 по 22 мая в Tashkent Pharma Park пройдет международная выставка Pharma Eurasia & MedTech 2026. Площадка объединит производителей, дистрибьюторов и поставщиков решений для фармацевтики и медицины.",
-      "url": "https://www.afisha.uz/ru/exhibitions/2026/05/16/pharma-eurasia",
-      "image": "https://www.afisha.uz/uploads/media/2026/05/fff55c4cef921db222834a740adee383_m.webp",
-      "category": "exhibition",
-      "published": 1778918400000,
       "venue": null
     },
     {
