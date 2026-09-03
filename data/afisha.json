@@ -1,12 +1,32 @@
 {
-  "updatedAt": "2026-09-03T02:00:59.003Z",
+  "updatedAt": "2026-09-03T10:21:15.496Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
     {
+      "id": "ru:exhibitions:2026:09:03:uzbekistan-heritage-in-motion",
+      "title": "Масштабная выставка Uzbekistan: Heritage in Motion открылась в Дохе. Фото",
+      "description": "Проект не ограничится залами музея — зрителей ждет насыщенная образовательная программа с лекциями, живыми демонстрациями ремесел и презентациями технологий производства иката и шелка.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/09/03/uzbekistan-heritage-in-motion",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/a5b8de1860a7a931f6d8cf921f668263_m.webp",
+      "category": "exhibition",
+      "published": 1788430740000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:03:charos-kamalova",
+      "title": "«Мы хотим, чтобы локальные бренды знали не только в Узбекистане»: Чарос Камалова о восьмом Teplo Fest, поддержке участников и будущем фестиваля",
+      "description": "Как Teplo влияет на развитие дизайнеров и почему команда сознательно отказывается от некоторых коммерческих возможностей.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/03/charos-kamalova",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/e70e12e52e4f220b92f30ed35237d580_m.webp",
+      "category": "city",
+      "published": 1788423000000,
+      "venue": null
+    },
+    {
       "id": "ru:gorod:2026:09:02:visa",
       "title": "Таиланд отменил безвизовый режим для туристов из Узбекистана",
-      "description": "Гражданам из Узбекистана теперь необходимо получить визу до поездки.",
+      "description": "Гражданам из Узбекистана теперь необходимо получить визу до поездки онлайн и лично посетить посольство Таиланда в Москве.",
       "url": "https://www.afisha.uz/ru/gorod/2026/09/02/visa",
       "image": "https://www.afisha.uz/uploads/media/2026/09/0d37559d74c6c69f7c4c1f65a8474599_m.webp",
       "category": "city",
@@ -121,16 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/f50ca5bacd60a569205276aa6d4c52fc_m.webp",
       "category": "city",
       "published": 1787911970000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:28:weather",
-      "title": "Выходные под +38°: в столице ожидается снижение жары",
-      "description": "Прогноз погоды в Ташкенте на выходные с 29 августа по 1 сентября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/28/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/1274e37acf9b14e239497333b0906baf_m.webp",
-      "category": "city",
-      "published": 1787911860000,
       "venue": null
     },
     {
@@ -361,16 +371,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/05/749063407fc994194952975a1aec5f8e_m.webp",
       "category": "concert",
       "published": 1777616160000,
-      "venue": null
-    },
-    {
-      "id": "ru:exhibitions:2026:04:22:kiut",
-      "title": "В университете Кимё проходит выставка Art Engineering 2026, посвященная экологическим решениям",
-      "description": "20 апреля в университете Кимё состоялось открытие выставки Art Engineering 2026, посвящённой экологическим проблемам и их осмыслению через технологические и художественные решения. Экспозиция будет открыта до 25 апреля.",
-      "url": "https://www.afisha.uz/ru/exhibitions/2026/04/22/kiut",
-      "image": "https://www.afisha.uz/uploads/media/2026/04/c1981db620c88fe3ebdec89ae6b75949_m.webp",
-      "category": "exhibition",
-      "published": 1776830400000,
       "venue": null
     },
     {
