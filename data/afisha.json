@@ -1,8 +1,48 @@
 {
-  "updatedAt": "2026-09-04T01:56:42.148Z",
+  "updatedAt": "2026-09-04T10:08:35.776Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:04:weather",
+      "title": "В столице потеплеет до +34°",
+      "description": "Прогноз погоды в Ташкенте на выходные 5 и 6 сентября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/04/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/5926d71e4e3725229faf193cb7c2c653_m.webp",
+      "category": "city",
+      "published": 1788515064000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:09:04:cancellation",
+      "title": "Творческий вечер Отара Кушанашвили отменен",
+      "description": "По словам организатора, концерт отменили из-за ухудшения состояния здоровья журналиста.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/09/04/cancellation",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/13d2420393bf9b5e819a4115d7d2739e_m.webp",
+      "category": "concert",
+      "published": 1788506700000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:09:04:vitamin-x",
+      "title": "Концерт группы Vitamin X отменен",
+      "description": "Группа известна такими композициями, как: About to Crack, Bad Trip, Chop Chop Chop, Beat My Head, Block Bust, Modern Man.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/09/04/vitamin-x",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/a6869b130952aedcd55ec048a72e40d4_m.webp",
+      "category": "concert",
+      "published": 1788506542000,
+      "venue": null
+    },
+    {
+      "id": "ru:exhibitions:2026:09:04:robiya-kadirova",
+      "title": "«По женской линии»: в пространстве Zanmakon открылась выставка Робии Кадыровой",
+      "description": "Экспозиция предлагает зрителям заглянуть в сокровенный мир женского опыта, где за привычной повседневностью скрываются глубокие корни, память рода и безусловная любовь.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/09/04/robiya-kadirova",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/9a2973e60ae594bb274bf7d974b04f63_m.webp",
+      "category": "exhibition",
+      "published": 1788506280000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:03:buses",
       "title": "В Ташкенте изменят 48 автобусных маршрутов",
@@ -141,16 +181,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/013dde6e516e213875ee76db97c88a40_m.webp",
       "category": "exhibition",
       "published": 1788166500000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:30:fountain",
-      "title": "Два мировых рекорда: в Новом Ташкенте запустили самый высокий музыкальный фонтан в мире",
-      "description": "Сертификаты, подтверждающие триумф, вручила официальный судья Guinness World Records Мэгги Луо.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/30/fountain",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/f9e6d9dc9838f23077d24349dc5ba0cc_m.webp",
-      "category": "city",
-      "published": 1788080986000,
       "venue": null
     },
     {
@@ -314,16 +344,6 @@
       "venue": null
     },
     {
-      "id": "ru:concerts:2026:06:04:konservatoriya",
-      "title": "Как выглядит концертный зал Государственной консерватории после обновления в 2026. Фото",
-      "description": "На смену старым зеленым стенам пришли чистые белые стены и потолок, которые мгновенно расширили пространство и наполнили его воздухом.",
-      "url": "https://www.afisha.uz/ru/concerts/2026/06/04/konservatoriya",
-      "image": "https://www.afisha.uz/uploads/media/2026/06/0f9fe82a33d1ee6055459bafefa7c50b_m.webp",
-      "category": "concert",
-      "published": 1780571760000,
-      "venue": null
-    },
-    {
       "id": "ru:exhibitions:2026:06:01:cca",
       "title": "Объявлена дата открытия Центра Современного Искусства в Ташкенте",
       "description": "Открытие начнется с выставки «Хикмах» (Hikmah). Название переводится как «мудрость» и обращается к темам прозрения, интеллекта и божественного знания.",
@@ -344,16 +364,6 @@
       "venue": null
     },
     {
-      "id": "ru:exhibitions:2026:05:19:dog-fest-2026",
-      "title": "Как прошел Dog Festival 2026 в Ташкенте. Фото",
-      "description": "Фотограф Афиши подготовил фоторепортаж.",
-      "url": "https://www.afisha.uz/ru/exhibitions/2026/05/19/dog-fest-2026",
-      "image": "https://www.afisha.uz/uploads/media/2026/05/e4bc18644b10f231816f29fa9252d39b_m.webp",
-      "category": "exhibition",
-      "published": 1779173433000,
-      "venue": null
-    },
-    {
       "id": "ru:theatres:2026:05:18:toshkent-bahori",
       "title": "В Ташкенте стартовал фестиваль «Тошкент бахори»",
       "description": "С 15 по 24 мая Ташкент принимает VIII Международный фестиваль оперы и балета «Тошкент бахори», который вновь превращает столицу в одну из главных площадок мирового музыкального искусства.",
@@ -361,16 +371,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/05/6e50a15c226351e6945816460c3f0771_m.webp",
       "category": "theatre",
       "published": 1779094020000,
-      "venue": null
-    },
-    {
-      "id": "ru:concerts:2026:05:01:burak",
-      "title": "Выступление Бурака Озчивита в Ташкенте перенесено",
-      "description": "Спекталь «Самая красивая девушка Стамбула» состоится в конце мая.",
-      "url": "https://www.afisha.uz/ru/concerts/2026/05/01/burak",
-      "image": "https://www.afisha.uz/uploads/media/2026/05/749063407fc994194952975a1aec5f8e_m.webp",
-      "category": "concert",
-      "published": 1777616160000,
       "venue": null
     },
     {
