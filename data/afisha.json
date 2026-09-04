@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-09-04T10:08:35.776Z",
+  "updatedAt": "2026-09-04T15:24:26.155Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:04:5-6-september",
+      "title": "Куда пойти на выходных в Ташкенте, 5 и 6 сентября",
+      "description": "Пять кинопремьер, осенний TEPLO FEST, Ташкентский международный полумарафон, фестиваль мороженого, концерт Сергея Орлова, открытие CCA Tashkent, выставки и другие события предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/04/5-6-september",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/e701a189c9644e51bd145bcdc817c37a_m.webp",
+      "category": "city",
+      "published": 1788520191000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:04:weather",
       "title": "В столице потеплеет до +34°",
@@ -161,16 +171,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/d767bd79e3729d4e716113c9a148bff6_m.webp",
       "category": "city",
       "published": 1788168420000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:31:coins",
-      "title": "Центробанк Узбекистана выпустил коллекционные монеты к 35-летию Независимости",
-      "description": "Серия из трех монет отражает ключевые вехи истории, национальные символы и современное развитие страны и уже доступна для приобретения в коммерческих банках.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/31/coins",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/18c6860632af4b1fa4fba1dd5939b7e8_m.webp",
-      "category": "city",
-      "published": 1788167580000,
       "venue": null
     },
     {
