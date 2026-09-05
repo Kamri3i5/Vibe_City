@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-09-05T01:57:18.092Z",
+  "updatedAt": "2026-09-05T09:37:59.969Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:concerts:2026:09:05:concerts",
+      "title": "Концерты сентября, которые стоит посетить в Ташкенте",
+      "description": "Выбирайте жанр, планируйте уикенды и покупайте билеты на  лучшие места — перед вами гид по главным концертам сентября 2026 в Ташкенте.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/09/05/concerts",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/f8bf84abe6ab016750e89875fe10099a_m.webp",
+      "category": "concert",
+      "published": 1788584400000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:04:5-6-september",
       "title": "Куда пойти на выходных в Ташкенте, 5 и 6 сентября",
@@ -311,16 +321,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/06/e245d59de0b135c90904697889d4532d_m.webp",
       "category": "concert",
       "published": 1781267046000,
-      "venue": null
-    },
-    {
-      "id": "ru:concerts:2026:06:11:toxis",
-      "title": "Концерт TOXI$ в Ташкенте перенесли на осень",
-      "description": "Организаторы сообщили, что решение принято по причинам, не зависящим от артиста и организаторов мероприятия.",
-      "url": "https://www.afisha.uz/ru/concerts/2026/06/11/toxis",
-      "image": "https://www.afisha.uz/uploads/media/2026/06/ca36378e9bfb5f80df6a5e6b671ae977_m.webp",
-      "category": "concert",
-      "published": 1781181629000,
       "venue": null
     },
     {
