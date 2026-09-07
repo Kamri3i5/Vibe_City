@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-09-07T01:49:08.600Z",
+  "updatedAt": "2026-09-07T11:00:38.111Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:07:parachute-jump",
+      "title": "Как решиться прыгнуть с парашютом в Ташкенте и что ждет новичка после приезда в SKYDIVE CENTER",
+      "description": "Что происходит с человеком после приезда в парашютный центр, сколько длится подготовка, чем отличается самостоятельный прыжок от тандема и что на самом деле самое важное во время прыжка - рассказываем вместе с командой SKYDIVE CENTER.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/07/parachute-jump",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/6eae31444f111d6720b542e4a80a3591_m.webp",
+      "category": "city",
+      "published": 1788774480000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:07:bus",
+      "title": "В Ташкенте запущен новый автобусный маршрут для студентов",
+      "description": "Он поможет снизить нагрузку на общественный транспорт и станцию метро «Чиланзар» в утренние часы.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/07/bus",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/5ca9ea82edf3ec29082cfe26f9b29c1f_m.webp",
+      "category": "city",
+      "published": 1788760927000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:07:weather",
+      "title": "До +36°: столицу ждет жаркая неделя",
+      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 7 по 11 сентября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/07/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/2a9a13af38615d323e6effa9a3d8a4e1_m.webp",
+      "category": "city",
+      "published": 1788756978000,
+      "venue": null
+    },
     {
       "id": "ru:concerts:2026:09:05:concerts",
       "title": "Концерты сентября, которые стоит посетить в Ташкенте",
@@ -151,36 +181,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/822fb45d0cbc0848553f21688b1d7bec_m.webp",
       "category": "city",
       "published": 1788334860000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:02:new-train",
-      "title": "В Андижане тестируют новый поезд: он сможет развивать до 160 км/ч",
-      "description": "Ожидается, что время в пути между Ташкентом и Андижаном в новом поезде сократится примерно на 2 часа — до 4 часов.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/02/new-train",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/fee7d57ac2f091f7b0a8996b088252e9_m.webp",
-      "category": "city",
-      "published": 1788334111000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:02:metro",
-      "title": "В Ташкентском метро сократили интервалы движения поездов",
-      "description": "Мера должна помочь справиться с увеличением пассажиропотока и сохранить стабильную, безопасную и удобную работу метро в новом учебном году.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/02/metro",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/d7628c84c2ef4e51e97a27d48f45c283_m.webp",
-      "category": "city",
-      "published": 1788327721000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:08:31:tourism",
-      "title": "Узбекистан и Индия запустят новые туристические маршруты и введут 30-дневный безвизовый режим",
-      "description": "В планах — регулярное проведение взаимных недель культуры, масштабных кинофестивалей и запуск принципиально новых совместных туристических маршрутов.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/08/31/tourism",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/d767bd79e3729d4e716113c9a148bff6_m.webp",
-      "category": "city",
-      "published": 1788168420000,
       "venue": null
     },
     {
