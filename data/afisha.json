@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-09-11T10:11:39.141Z",
+  "updatedAt": "2026-09-11T15:29:54.909Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:exhibitions:2026:09:11:ccat",
+      "title": "Новая точка на культурной карте Центральной Азии: в Ташкенте открылся CCA Tashkent",
+      "description": "Выставки, библиотека, ресторан, концепт-стор, лекции, воркшопы и дискуссии — 6 сентября в Ташкенте официально открылся CCA Tashkent. Это первый в Узбекистане постоянный центр современного искусства международного уровня. Рассказываем, как он устроен, и кому будет интересно его посетить.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/09/11/ccat",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/e5dcf82d6f8e5096028b11619a9670fd_m.webp",
+      "category": "exhibition",
+      "published": 1789135701000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:11:12-13-september",
+      "title": "Куда пойти на выходных в Ташкенте, 12 и 13 сентября",
+      "description": "Шесть кинопремьер, музыкальный фестиваль, спектакли, концерты «Градусов» и Саши Малого, выставки и другие события предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/11/12-13-september",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/6c18002489d98eb3cfc037ee720f9a4b_m.webp",
+      "category": "city",
+      "published": 1789122555000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:11:weather",
+      "title": "До +32° и дымка ожидаются в уикенд",
+      "description": "Прогноз погоды в Ташкенте на выходные 12 и 13 сентября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/11/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/8a95eaf8802d7a147c3b70701362f587_m.webp",
+      "category": "city",
+      "published": 1789121991000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:11:the-fare",
       "title": "Проезд в Ташкенте могут поднять до 2 500 сумов с 1 октября",
@@ -161,26 +191,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/a5b8de1860a7a931f6d8cf921f668263_m.webp",
       "category": "exhibition",
       "published": 1788430740000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:03:charos-kamalova",
-      "title": "«Мы хотим, чтобы локальные бренды знали не только в Узбекистане»: Чарос Камалова о восьмом Teplo Fest, поддержке участников и будущем фестиваля",
-      "description": "Как Teplo влияет на развитие дизайнеров и почему команда сознательно отказывается от некоторых коммерческих возможностей.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/03/charos-kamalova",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/e70e12e52e4f220b92f30ed35237d580_m.webp",
-      "category": "city",
-      "published": 1788423000000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:02:visa",
-      "title": "Таиланд отменил безвизовый режим для туристов из Узбекистана",
-      "description": "Гражданам из Узбекистана теперь необходимо получить визу до поездки онлайн и лично посетить посольство Таиланда в Москве.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/02/visa",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/0d37559d74c6c69f7c4c1f65a8474599_m.webp",
-      "category": "city",
-      "published": 1788353340000,
       "venue": null
     },
     {
@@ -351,16 +361,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/06/70b4e314b84e5aeccc54c4b8ab5029e3_m.webp",
       "category": "exhibition",
       "published": 1780320994000,
-      "venue": null
-    },
-    {
-      "id": "ru:exhibitions:2026:05:21:marionettes",
-      "title": "В Ташкенте открылась выставка швейцарского художника Петера Эршмана",
-      "description": "Экспозиция посвящена отношениям человека с технологиями, природой и окружающим миром.",
-      "url": "https://www.afisha.uz/ru/exhibitions/2026/05/21/marionettes",
-      "image": "https://www.afisha.uz/uploads/media/2026/05/12df874e91234f73366bbdee773ef1f9_m.webp",
-      "category": "exhibition",
-      "published": 1779340524000,
       "venue": null
     },
     {
