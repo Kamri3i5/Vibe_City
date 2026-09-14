@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-09-14T11:12:51.939Z",
+  "updatedAt": "2026-09-14T17:13:28.160Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:14:yandex-maps",
+      "title": "В Yandex Maps появилась навигация внутри аэропортов и торговых центров Ташкента и Самарканда",
+      "description": "В Yandex Maps появилась возможность строить маршруты внутри аэропортов и торговых центров Ташкента и Самарканда. Маршруты можно прокладывать между этажами с учетом переходов, лестниц, лифтов и эскалаторов.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/14/yandex-maps",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/410d6d4a6ce86a689a0cfeb28c910736_m.webp",
+      "category": "city",
+      "published": 1789387200000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:14:mobiuz",
       "title": "Mazza Fest: три дня, которые сделали Ташкент громче",
@@ -131,16 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/f8bf84abe6ab016750e89875fe10099a_m.webp",
       "category": "concert",
       "published": 1788584400000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:04:5-6-september",
-      "title": "Куда пойти на выходных в Ташкенте, 5 и 6 сентября",
-      "description": "Пять кинопремьер, осенний TEPLO FEST, Ташкентский международный полумарафон, фестиваль мороженого, концерт Сергея Орлова, открытие CCA Tashkent, выставки и другие события предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/04/5-6-september",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/e701a189c9644e51bd145bcdc817c37a_m.webp",
-      "category": "city",
-      "published": 1788520191000,
       "venue": null
     },
     {
