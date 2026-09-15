@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-09-15T02:24:08.178Z",
+  "updatedAt": "2026-09-15T10:39:59.031Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:15:promotors-show",
+      "title": "Как прошел юбилейный автофестиваль Promotors Show 2026 в Самарканде. Фото",
+      "description": "В выставочном центре SOF Expo прошел юбилейный, пятый Promotors Show — фестиваль автомобилей, тюнинга и автоспорта, который в 2026 году собрал около 400 участников из Узбекистана, Казахстана, Таджикистана, Кыргызстана и России.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/15/promotors-show",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/1c6820449dfa77d502e9e8c519f88598_m.webp",
+      "category": "city",
+      "published": 1789467063000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:14:yandex-maps",
       "title": "В Yandex Maps появилась навигация внутри аэропортов и торговых центров Ташкента и Самарканда",
@@ -14,6 +24,16 @@
       "venue": null
     },
     {
+      "id": "ru:gorod:2026:09:14:buses",
+      "title": "В Ташкенте изменили шесть автобусных маршрутов",
+      "description": "В связи с ремонтом коммунальных сетей интервалы движения автобусов могут стать длиннее, а при необходимости их маршруты дополнительно скорректируют.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/14/buses",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/5491e5d8b7ccf6a6ed84acd2d1fda045_m.webp",
+      "category": "city",
+      "published": 1789382640000,
+      "venue": null
+    },
+    {
       "id": "ru:gorod:2026:09:14:mobiuz",
       "title": "Mazza Fest: три дня, которые сделали Ташкент громче",
       "description": "Mazza Fest вернулся уже во второй раз за год, и в этот раз организаторы вывели его на новый уровень. Мобильный оператор Mobiuz традиционно выступил партнёром фестиваля.",
@@ -21,16 +41,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/63581dcb31413dee5639f4e8923e9fca_m.webp",
       "category": "city",
       "published": 1789380000000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:14:buses",
-      "title": "В Ташкенте изменили шесть автобусных маршрутов",
-      "description": "В связи с ремонтом коммунальных сетей интервалы движения автобусов могут стать длиннее, а при необходимости их маршруты дополнительно скорректируют.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/14/buses",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/5491e5d8b7ccf6a6ed84acd2d1fda045_m.webp",
-      "category": "city",
-      "published": 1789375490000,
       "venue": null
     },
     {
@@ -121,16 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/5ca9ea82edf3ec29082cfe26f9b29c1f_m.webp",
       "category": "city",
       "published": 1788760927000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:07:weather",
-      "title": "До +36°: столицу ждет жаркая неделя",
-      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 7 по 11 сентября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/07/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/2a9a13af38615d323e6effa9a3d8a4e1_m.webp",
-      "category": "city",
-      "published": 1788756978000,
       "venue": null
     },
     {
