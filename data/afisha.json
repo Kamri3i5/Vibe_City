@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T10:39:59.031Z",
+  "updatedAt": "2026-09-15T15:53:10.081Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
@@ -10,7 +10,17 @@
       "url": "https://www.afisha.uz/ru/gorod/2026/09/15/promotors-show",
       "image": "https://www.afisha.uz/uploads/media/2026/09/1c6820449dfa77d502e9e8c519f88598_m.webp",
       "category": "city",
-      "published": 1789467063000,
+      "published": 1789475460000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:15:metro",
+      "title": "Ташкентское метро перевезло рекордное количество пассажиров за день",
+      "description": "Новый рекорд оказался выше предыдущего примерно на 4,3%.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/15/metro",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/2e051589562de2d799f62f66b59eba31_m.webp",
+      "category": "city",
+      "published": 1789470272000,
       "venue": null
     },
     {
@@ -121,16 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/6eae31444f111d6720b542e4a80a3591_m.webp",
       "category": "city",
       "published": 1788774480000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:07:bus",
-      "title": "В Ташкенте запущен новый автобусный маршрут для студентов",
-      "description": "Он поможет снизить нагрузку на общественный транспорт и станцию метро «Чиланзар» в утренние часы.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/07/bus",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/5ca9ea82edf3ec29082cfe26f9b29c1f_m.webp",
-      "category": "city",
-      "published": 1788760927000,
       "venue": null
     },
     {
