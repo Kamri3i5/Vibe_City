@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-09-16T15:44:51.471Z",
+  "updatedAt": "2026-09-16T20:36:53.968Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:16:octobank",
+      "title": "Octobank подключил Apple Pay и Google Pay для оплаты авиабилетов Uzbekistan Airways",
+      "description": "Пассажирам Uzbekistan Airways стала доступна бесконтактная покупка авиабилетов через Apple Pay и Google Pay без ручного ввода реквизитов карты. Онлайн-оплата работает на технологической инфраструктуре Octobank.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/16/octobank",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/adf7ae846c05b0acc8db7c7ba18f2720_m.webp",
+      "category": "city",
+      "published": 1789574400000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:16:walking-area",
       "title": "Вдоль канала «Салар» хотят продлить прогулочную зону до Central Park",
@@ -121,16 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/7440679cbd8d6088dd01d1ffa34eee7c_m.webp",
       "category": "city",
       "published": 1789102200000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:08:festivals",
-      "title": "Куда сходить в сентябре: шесть фестивалей Узбекистана с живым звуком, автошоу и искусством",
-      "description": "В подборке — шесть масштабных фестивалей Узбекистана: от мощного рок-концерта и рева моторов редких автомобилей до экспериментального искусства на солончаке и традиционных праздников.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/08/festivals",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/f863c1c3ef0a21f87d108f0c0fac757a_m.webp",
-      "category": "city",
-      "published": 1788856440000,
       "venue": null
     },
     {
