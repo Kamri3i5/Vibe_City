@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-09-16T10:28:06.425Z",
+  "updatedAt": "2026-09-16T15:44:51.471Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
-    {
-      "id": "ru:gorod:2026:09:16:metro",
-      "title": "Студенческий справочник: на каких станциях метро можно выйти, чтобы добраться до университетов Ташкента?",
-      "description": "Отвечаем на вопрос: «Какая линия метро довезет до университетов в Ташкенте и на какой ближайшей станции выйти?»",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/16/metro",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/132c9ba7269687e84c639464dbee7933_m.webp",
-      "category": "city",
-      "published": 1789545840000,
-      "venue": null
-    },
     {
       "id": "ru:gorod:2026:09:16:walking-area",
       "title": "Вдоль канала «Салар» хотят продлить прогулочную зону до Central Park",
@@ -131,6 +121,16 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/7440679cbd8d6088dd01d1ffa34eee7c_m.webp",
       "category": "city",
       "published": 1789102200000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:08:festivals",
+      "title": "Куда сходить в сентябре: шесть фестивалей Узбекистана с живым звуком, автошоу и искусством",
+      "description": "В подборке — шесть масштабных фестивалей Узбекистана: от мощного рок-концерта и рева моторов редких автомобилей до экспериментального искусства на солончаке и традиционных праздников.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/08/festivals",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/f863c1c3ef0a21f87d108f0c0fac757a_m.webp",
+      "category": "city",
+      "published": 1788856440000,
       "venue": null
     },
     {
