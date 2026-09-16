@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-09-16T02:17:47.184Z",
+  "updatedAt": "2026-09-16T10:28:06.425Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:16:metro",
+      "title": "Студенческий справочник: на каких станциях метро можно выйти, чтобы добраться до университетов Ташкента?",
+      "description": "Отвечаем на вопрос: «Какая линия метро довезет до университетов в Ташкенте и на какой ближайшей станции выйти?»",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/16/metro",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/132c9ba7269687e84c639464dbee7933_m.webp",
+      "category": "city",
+      "published": 1789545840000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:16:walking-area",
+      "title": "Вдоль канала «Салар» хотят продлить прогулочную зону до Central Park",
+      "description": "На территории хотят создать пешеходные и велосипедные дорожки, установить скамейки и беседки, а также оборудовать детские и воркаут-площадки.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/16/walking-area",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/30723e47b8d172e3b695754ed839890d_m.webp",
+      "category": "city",
+      "published": 1789539951000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:16:stop",
+      "title": "20 сентября в центре Ташкента ограничат движение",
+      "description": "Движение транспорта ограничат из-за съемок масштабного кинопроекта, направленного на продвижение туристического потенциала столицы.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/16/stop",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/a53cfbafc3d10ed3708e5a7b42d4b358_m.webp",
+      "category": "city",
+      "published": 1789534020000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:15:promotors-show",
       "title": "Как прошел юбилейный автофестиваль Promotors Show 2026 в Самарканде. Фото",
@@ -10,7 +40,7 @@
       "url": "https://www.afisha.uz/ru/gorod/2026/09/15/promotors-show",
       "image": "https://www.afisha.uz/uploads/media/2026/09/1c6820449dfa77d502e9e8c519f88598_m.webp",
       "category": "city",
-      "published": 1789475460000,
+      "published": 1789483860000,
       "venue": null
     },
     {
@@ -101,36 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/7440679cbd8d6088dd01d1ffa34eee7c_m.webp",
       "category": "city",
       "published": 1789102200000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:08:festivals",
-      "title": "Куда сходить в сентябре: шесть фестивалей Узбекистана с живым звуком, автошоу и искусством",
-      "description": "В подборке — шесть масштабных фестивалей Узбекистана: от мощного рок-концерта и рева моторов редких автомобилей до экспериментального искусства на солончаке и традиционных праздников.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/08/festivals",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/f863c1c3ef0a21f87d108f0c0fac757a_m.webp",
-      "category": "city",
-      "published": 1788856440000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:08:tayanch-mikromoliya-banki",
-      "title": "TAYANCH MIKROMOLIYA BANKI представил свой новый формат на презентации в Ташкенте",
-      "description": "В Ташкенте TAYANCH MIKROMOLIYA BANKI представил свою новую бизнес-модель, финансовые продукты и планы по дальнейшему развитию. Мероприятие прошло в Hyatt Regency Tashkent.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/08/tayanch-mikromoliya-banki",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/9ec5e7c9a193a54bce01e8f55e34a419_m.webp",
-      "category": "city",
-      "published": 1788847200000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:07:parachute-jump",
-      "title": "Как решиться прыгнуть с парашютом в Ташкенте и что ждет новичка после приезда в SKYDIVE CENTER",
-      "description": "Что происходит с человеком после приезда в парашютный центр, сколько длится подготовка, чем отличается самостоятельный прыжок от тандема и что на самом деле самое важное во время прыжка - рассказываем вместе с командой SKYDIVE CENTER.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/07/parachute-jump",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/6eae31444f111d6720b542e4a80a3591_m.webp",
-      "category": "city",
-      "published": 1788774480000,
       "venue": null
     },
     {
