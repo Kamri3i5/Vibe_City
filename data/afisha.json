@@ -1,8 +1,24 @@
 {
-  "updatedAt": "2026-09-17T10:38:02.204Z",
+  "updatedAt": "2026-09-17T15:51:27.172Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:17:teplo-fest-2026",
+      "title": "Teplo Fest 2026: три дня локальных брендов, музыки и отдыха в Японском саду",
+      "description": "В этом году его темой стала Soul in Bloom - о состоянии, в котором человек раскрывается через любимое дело и творчество.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/17/teplo-fest-2026",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/b5c9781acf1acb88382e43d815c8ad55_m.webp",
+      "category": "city",
+      "published": 1789645908000,
+      "venue": {
+        "name": "Японский сад",
+        "coords": [
+          41.3396,
+          69.282
+        ]
+      }
+    },
     {
       "id": "ru:gorod:2026:09:17:magic-safari",
       "title": "Magic Safari приглашает на удивительное шоу птиц",
@@ -121,16 +137,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/6c18002489d98eb3cfc037ee720f9a4b_m.webp",
       "category": "city",
       "published": 1789122555000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:11:weather",
-      "title": "До +32° и дымка ожидаются в уикенд",
-      "description": "Прогноз погоды в Ташкенте на выходные 12 и 13 сентября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/11/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/8a95eaf8802d7a147c3b70701362f587_m.webp",
-      "category": "city",
-      "published": 1789121991000,
       "venue": null
     },
     {
