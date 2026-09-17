@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-09-17T02:21:47.040Z",
+  "updatedAt": "2026-09-17T10:38:02.204Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:17:magic-safari",
+      "title": "Magic Safari приглашает на удивительное шоу птиц",
+      "description": "В Magic Safari стало еще больше поводов для семейной прогулки – каждый день в парке в 16:00 и 18:00 проходит яркое шоу птиц с велосипедными гонками, баскетболом и необычными трюками.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/17/magic-safari",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/5b8d0bdd9bb74c43a93b2ad935e66f54_m.webp",
+      "category": "city",
+      "published": 1789624800000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:16:octobank",
       "title": "Octobank подключил Apple Pay и Google Pay для оплаты авиабилетов Uzbekistan Airways",
@@ -121,16 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/8a95eaf8802d7a147c3b70701362f587_m.webp",
       "category": "city",
       "published": 1789121991000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:11:the-fare",
-      "title": "Проезд в Ташкенте могут поднять до 2 500 сумов с 1 октября",
-      "description": "Стоимость тарифа на один год «автобус + метро» предлагается установить на уровне 2,7 млн сумов сумов.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/11/the-fare",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/7440679cbd8d6088dd01d1ffa34eee7c_m.webp",
-      "category": "city",
-      "published": 1789102200000,
       "venue": null
     },
     {
