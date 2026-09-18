@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-09-18T10:13:45.280Z",
+  "updatedAt": "2026-09-18T15:25:14.777Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:18:19-20-september",
+      "title": "Куда пойти на выходных в Ташкенте, 19 и 20 сентября",
+      "description": "«Собачьи звёзды» с Джейкобом Элорди, возвращение «Сумерек» и еще семь кинопремьер, рок-фестиваль IOSIS, музыкальный квартирник, выступление Fedukа и Ивана Усовича, спектакли и другие события предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/18/19-20-september",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/9716a8e1c24440e0949aa442c78959b0_m.webp",
+      "category": "city",
+      "published": 1789727844000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:18:weather",
       "title": "Жара возвращается: в столице ожидается до +34°",
@@ -20,7 +30,7 @@
       "url": "https://www.afisha.uz/ru/gorod/2026/09/18/extreme-sports",
       "image": "https://www.afisha.uz/uploads/media/2026/09/74a9d40b0df3a01eda99c4463b607dd1_m.webp",
       "category": "city",
-      "published": 1789720704000,
+      "published": 1789720680000,
       "venue": null
     },
     {
@@ -117,16 +127,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/5491e5d8b7ccf6a6ed84acd2d1fda045_m.webp",
       "category": "city",
       "published": 1789382640000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:14:mobiuz",
-      "title": "Mazza Fest: три дня, которые сделали Ташкент громче",
-      "description": "Mazza Fest вернулся уже во второй раз за год, и в этот раз организаторы вывели его на новый уровень. Мобильный оператор Mobiuz традиционно выступил партнёром фестиваля.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/14/mobiuz",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/63581dcb31413dee5639f4e8923e9fca_m.webp",
-      "category": "city",
-      "published": 1789380000000,
       "venue": null
     },
     {
