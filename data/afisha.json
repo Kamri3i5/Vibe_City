@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-09-18T02:07:32.419Z",
+  "updatedAt": "2026-09-18T10:13:45.280Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:18:weather",
+      "title": "Жара возвращается: в столице ожидается до +34°",
+      "description": "Прогноз погоды в Ташкенте на выходных 19 и 20 сентября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/18/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/abd554cb3df1bbe55ba3e306c91626ce_m.webp",
+      "category": "city",
+      "published": 1789723928000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:18:extreme-sports",
+      "title": "Где испытать себя: 8 мест для любителей адреналина в Узбекистане",
+      "description": "Роуп-джампинг с высоты 70 метров, полет на параплане над горами, прыжок с парашютом и катание на кайте - собрали места, где можно попробовать экстремальные активности и посмотреть на привычные локации с другой стороны.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/18/extreme-sports",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/74a9d40b0df3a01eda99c4463b607dd1_m.webp",
+      "category": "city",
+      "published": 1789720704000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:17:teplo-fest-2026",
       "title": "Teplo Fest 2026: три дня локальных брендов, музыки и отдыха в Японском саду",
@@ -110,16 +130,6 @@
       "venue": null
     },
     {
-      "id": "ru:gorod:2026:09:14:weather",
-      "title": "В Ташкенте ожидается до +34°",
-      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 14 по 18 сентября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/14/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/b42601e0c465c2f6516ce55e826a3574_m.webp",
-      "category": "city",
-      "published": 1789360020000,
-      "venue": null
-    },
-    {
       "id": "ru:exhibitions:2026:09:11:ccat",
       "title": "Новая точка на культурной карте Центральной Азии: в Ташкенте открылся CCA Tashkent",
       "description": "Выставки, библиотека, ресторан, концепт-стор, лекции, воркшопы и дискуссии — 6 сентября в Ташкенте официально открылся CCA Tashkent. Это первый в Узбекистане постоянный центр современного искусства международного уровня. Рассказываем, как он устроен, и кому будет интересно его посетить.",
@@ -127,16 +137,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/e5dcf82d6f8e5096028b11619a9670fd_m.webp",
       "category": "exhibition",
       "published": 1789135680000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:11:12-13-september",
-      "title": "Куда пойти на выходных в Ташкенте, 12 и 13 сентября",
-      "description": "Шесть кинопремьер, музыкальный фестиваль, спектакли, концерты «Градусов» и Саши Малого, выставки и другие события предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/11/12-13-september",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/6c18002489d98eb3cfc037ee720f9a4b_m.webp",
-      "category": "city",
-      "published": 1789122555000,
       "venue": null
     },
     {
