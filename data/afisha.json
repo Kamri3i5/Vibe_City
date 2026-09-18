@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-09-18T15:25:14.777Z",
+  "updatedAt": "2026-09-18T20:07:55.630Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:18:octobank",
+      "title": "Octobank предоставляет автокредитование на новые машины и автомобили с пробегом",
+      "description": "Физические лица могут оформить автокредит в Octobank по двум направлениям: на новые авто от официальных дилеров и на автомобили с пробегом. Каждая программа адаптирована под конкретный тип транспорта.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/18/octobank",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/e94eb666bebf921268eaa9a6b66c6c3c_m.webp",
+      "category": "city",
+      "published": 1789747200000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:18:19-20-september",
       "title": "Куда пойти на выходных в Ташкенте, 19 и 20 сентября",
@@ -117,16 +127,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/410d6d4a6ce86a689a0cfeb28c910736_m.webp",
       "category": "city",
       "published": 1789387200000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:14:buses",
-      "title": "В Ташкенте изменили шесть автобусных маршрутов",
-      "description": "В связи с ремонтом коммунальных сетей интервалы движения автобусов могут стать длиннее, а при необходимости их маршруты дополнительно скорректируют.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/14/buses",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/5491e5d8b7ccf6a6ed84acd2d1fda045_m.webp",
-      "category": "city",
-      "published": 1789382640000,
       "venue": null
     },
     {
