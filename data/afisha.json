@@ -1,8 +1,44 @@
 {
-  "updatedAt": "2026-09-21T02:17:52.090Z",
+  "updatedAt": "2026-09-21T11:24:20.881Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:21:taras-kosymbarov",
+      "title": "«Если мы будем повторять за российскими комиками, всегда будем на шаг позади»: Тарас Косымбаров о русскоязычном стендапе в Узбекистане",
+      "description": "Тарас Косымбаров - стендап-комик, который начал выступать еще в 2013 году, рассказал «Афише» о том, как развивалась местная сцена, почему соцсети изменили путь комика, чем местный стендап отличается от российского и сможет ли в Узбекистане сформироваться собственный стиль.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/21/taras-kosymbarov",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/c69fa421b7787a940d36c48df5d6efa8_m.webp",
+      "category": "city",
+      "published": 1789986159000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:21:byd",
+      "title": "BYD e-Mobility Festa 2026: третий сезон пространства технологий и новой мобильности",
+      "description": "В Tashkent City Park с 1 по 4 октября пройдет третий BYD e-Mobility Festa 2026. Гостей ждут национальные автопремьеры, показ YangWang U9, шоу-программа и подарки.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/21/byd",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/5f2cb5d60019466d7b5e4e0aacb7c650_m.webp",
+      "category": "city",
+      "published": 1789977600000,
+      "venue": {
+        "name": "Tashkent City",
+        "coords": [
+          41.3165,
+          69.2484
+        ]
+      }
+    },
+    {
+      "id": "ru:gorod:2026:09:21:weather",
+      "title": "Жара до +32° и дым по ночам прогнозируются в столице",
+      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 21 по 25 сентября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/21/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/3715b6ba77202c3d3ffe4724889cc53d_m.webp",
+      "category": "city",
+      "published": 1789967871000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:18:octobank",
       "title": "Octobank предоставляет автокредитование на новые машины и автомобили с пробегом",
@@ -97,36 +133,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/a53cfbafc3d10ed3708e5a7b42d4b358_m.webp",
       "category": "city",
       "published": 1789534020000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:15:promotors-show",
-      "title": "Как прошел юбилейный автофестиваль Promotors Show 2026 в Самарканде. Фото",
-      "description": "В выставочном центре SOF Expo прошел юбилейный, пятый Promotors Show — фестиваль автомобилей, тюнинга и автоспорта, который в 2026 году собрал около 400 участников из Узбекистана, Казахстана, Таджикистана, Кыргызстана и России.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/15/promotors-show",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/1c6820449dfa77d502e9e8c519f88598_m.webp",
-      "category": "city",
-      "published": 1789483860000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:15:metro",
-      "title": "Ташкентское метро перевезло рекордное количество пассажиров за день",
-      "description": "Новый рекорд оказался выше предыдущего примерно на 4,3%.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/15/metro",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/2e051589562de2d799f62f66b59eba31_m.webp",
-      "category": "city",
-      "published": 1789470272000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:14:yandex-maps",
-      "title": "В Yandex Maps появилась навигация внутри аэропортов и торговых центров Ташкента и Самарканда",
-      "description": "В Yandex Maps появилась возможность строить маршруты внутри аэропортов и торговых центров Ташкента и Самарканда. Маршруты можно прокладывать между этажами с учетом переходов, лестниц, лифтов и эскалаторов.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/14/yandex-maps",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/410d6d4a6ce86a689a0cfeb28c910736_m.webp",
-      "category": "city",
-      "published": 1789387200000,
       "venue": null
     },
     {
