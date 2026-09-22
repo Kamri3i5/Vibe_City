@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-09-22T02:21:48.275Z",
+  "updatedAt": "2026-09-22T10:33:01.075Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:22:bike-path",
+      "title": "На улице Лутфий протестировали отдельную полосу для велосипедов и скутеров",
+      "description": "По итогам тестирования специалисты ЦОДД уже рассматривают другие улицы столицы, где можно применить аналогичное решение.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/22/bike-path",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/56abf0437d1a3ffb4476c2555ad306ff_m.webp",
+      "category": "city",
+      "published": 1790052927000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:21:intercontinental",
       "title": "Где провести мероприятие в Ташкенте: MICE-возможности InterContinental Tashkent",
@@ -81,7 +91,7 @@
     },
     {
       "id": "ru:gorod:2026:09:18:extreme-sports",
-      "title": "Где испытать себя: 8 мест для любителей адреналина в Узбекистане",
+      "title": "Экстрим в Ташкенте и не только: 8 мест для любителей адреналина в Узбекистане 2026",
       "description": "Роуп-джампинг с высоты 70 метров, полет на параплане над горами, прыжок с парашютом и катание на кайте - собрали места, где можно попробовать экстремальные активности и посмотреть на привычные локации с другой стороны.",
       "url": "https://www.afisha.uz/ru/gorod/2026/09/18/extreme-sports",
       "image": "https://www.afisha.uz/uploads/media/2026/09/74a9d40b0df3a01eda99c4463b607dd1_m.webp",
@@ -123,16 +133,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/adf7ae846c05b0acc8db7c7ba18f2720_m.webp",
       "category": "city",
       "published": 1789574400000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:16:walking-area",
-      "title": "Вдоль канала «Салар» хотят продлить прогулочную зону до Central Park",
-      "description": "На территории хотят создать пешеходные и велосипедные дорожки, установить скамейки и беседки, а также оборудовать детские и воркаут-площадки.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/16/walking-area",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/30723e47b8d172e3b695754ed839890d_m.webp",
-      "category": "city",
-      "published": 1789539951000,
       "venue": null
     },
     {
