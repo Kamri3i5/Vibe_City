@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-09-22T10:33:01.075Z",
+  "updatedAt": "2026-09-22T15:56:03.338Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:22:people",
+      "title": "Ташкент поднялся на 128 позиций в рейтинге крупнейших городов мира",
+      "description": "При этом по отдельным показателям столица показала более высокие результаты: 188-е место по экономике и 108-е — по человеческому капиталу.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/22/people",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/adef7daf3fa27928b169be35e47d07ea_m.webp",
+      "category": "city",
+      "published": 1790077723000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:22:bike-path",
       "title": "На улице Лутфий протестировали отдельную полосу для велосипедов и скутеров",
@@ -123,16 +133,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/5b8d0bdd9bb74c43a93b2ad935e66f54_m.webp",
       "category": "city",
       "published": 1789624800000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:16:octobank",
-      "title": "Octobank подключил Apple Pay и Google Pay для оплаты авиабилетов Uzbekistan Airways",
-      "description": "Пассажирам Uzbekistan Airways стала доступна бесконтактная покупка авиабилетов через Apple Pay и Google Pay без ручного ввода реквизитов карты. Онлайн-оплата работает на технологической инфраструктуре Octobank.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/16/octobank",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/adf7ae846c05b0acc8db7c7ba18f2720_m.webp",
-      "category": "city",
-      "published": 1789574400000,
       "venue": null
     },
     {
