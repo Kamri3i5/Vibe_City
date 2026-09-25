@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-09-25T10:47:32.693Z",
+  "updatedAt": "2026-09-25T16:07:15.728Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:25:coca-cola",
+      "title": "Coca-Cola запустила в Узбекистане новую кампанию Keldik Ketmadik",
+      "description": "Coca-Cola запустила в Узбекистане кампанию Keldik Ketmadik — о том, как привычный магазин у дома превращается в место встреч, а возвратная стеклянная бутылка становится частью новых историй.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/25/coca-cola",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/53f35c3c9f1309a352b885e0988657c3_m.webp",
+      "category": "city",
+      "published": 1790344800000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:25:26-27-september",
       "title": "Куда пойти на выходных в Ташкенте, 26 и 27 сентября",
@@ -117,16 +127,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/9716a8e1c24440e0949aa442c78959b0_m.webp",
       "category": "city",
       "published": 1789727844000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:18:weather",
-      "title": "Жара возвращается: в столице ожидается до +34°",
-      "description": "Прогноз погоды в Ташкенте на выходных 19 и 20 сентября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/18/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/abd554cb3df1bbe55ba3e306c91626ce_m.webp",
-      "category": "city",
-      "published": 1789723928000,
       "venue": null
     },
     {
