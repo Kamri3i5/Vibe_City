@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-09-25T02:26:58.053Z",
+  "updatedAt": "2026-09-25T10:47:32.693Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:25:26-27-september",
+      "title": "Куда пойти на выходных в Ташкенте, 26 и 27 сентября",
+      "description": "Расширенная версия «Мстителей» и еще три кинопремьеры, спектакли, рок-фестиваль SLAM, детские мастер-классы в CCA Tashkent, концерты при свечах, выставки, стендапы и другие мероприятия предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/25/26-27-september",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/e4c0c030208ab57a7193abd8869aee93_m.webp",
+      "category": "city",
+      "published": 1790323606000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:25:weather",
+      "title": "Прогнозируются солнечные выходные и понижение температуры до +25° в Ташкенте",
+      "description": "Прогноз погоды в Ташкенте на выходных 26 и 27 сентября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/25/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/a7ba7076506b4c7dec189fae24e7ea47_m.webp",
+      "category": "city",
+      "published": 1790316360000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:23:tourism",
       "title": "От прыжков с парашютом до отдыха на Арале: какие новые туристические локации 2026 представили в Узбекистане",
@@ -108,32 +128,6 @@
       "category": "city",
       "published": 1789723928000,
       "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:18:extreme-sports",
-      "title": "Экстрим в Ташкенте и не только: 8 мест для любителей адреналина в Узбекистане 2026",
-      "description": "Роуп-джампинг с высоты 70 метров, полет на параплане над горами, прыжок с парашютом и катание на кайте - собрали места, где можно попробовать экстремальные активности и посмотреть на привычные локации с другой стороны.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/18/extreme-sports",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/74a9d40b0df3a01eda99c4463b607dd1_m.webp",
-      "category": "city",
-      "published": 1789720680000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:17:teplo-fest-2026",
-      "title": "Teplo Fest 2026: три дня локальных брендов, музыки и отдыха в Японском саду",
-      "description": "В этом году его темой стала Soul in Bloom - о состоянии, в котором человек раскрывается через любимое дело и творчество.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/17/teplo-fest-2026",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/b5c9781acf1acb88382e43d815c8ad55_m.webp",
-      "category": "city",
-      "published": 1789645908000,
-      "venue": {
-        "name": "Японский сад",
-        "coords": [
-          41.3396,
-          69.282
-        ]
-      }
     },
     {
       "id": "ru:exhibitions:2026:09:11:ccat",
