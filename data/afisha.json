@@ -1,8 +1,48 @@
 {
-  "updatedAt": "2026-09-28T02:31:20.503Z",
+  "updatedAt": "2026-09-28T12:19:31.682Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:28:train-tickets",
+      "title": "Запущено приложение для покупки билетов на пригородные поезда",
+      "description": "Электронный билет в приложении содержит QR-код, который можно предъявить контролеру даже без подключения к интернету.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/28/train-tickets",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/b02e8762da74c5efc82f80b403f7f0d4_m.webp",
+      "category": "city",
+      "published": 1790582237000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:28:kiut",
+      "title": "KIUT Business School и Narxoz Business School совместно запускают программу MBA",
+      "description": "Kimyo International University in Tashkent и Narxoz Business School запустят в Узбекистане программы MBA, Executive MBA и DBA на русском языке, объединяющие академическую подготовку с работой над практическими задачами бизнеса.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/28/kiut",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/fd6f9e1076964f78faa686ced322a945_m.webp",
+      "category": "city",
+      "published": 1790575200000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:28:weather",
+      "title": "В столицу придут дожди на стыке сентября и октября",
+      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 28 сентября по 2 октября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/28/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/beb5101ae5ccc05ec4644ddbca248e07_m.webp",
+      "category": "city",
+      "published": 1790574696000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:28:the-fare",
+      "title": "В Ташкенте с 1 октября проезд в автобусах и метро подорожает на 800 сумов",
+      "description": "При оплате наличными стоимость проезда останется на уровне 3 000 сумов, а провоз багажа будет стоить 4 000 сумов.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/28/the-fare",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/9833186bbefc887819d1b629d56d0cf3_m.webp",
+      "category": "city",
+      "published": 1790571840000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:25:coca-cola",
       "title": "Coca-Cola запустила в Узбекистане новую кампанию Keldik Ketmadik",
@@ -81,52 +121,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/c69fa421b7787a940d36c48df5d6efa8_m.webp",
       "category": "city",
       "published": 1789986120000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:21:byd",
-      "title": "BYD e-Mobility Festa 2026: третий сезон пространства технологий и новой мобильности",
-      "description": "В Tashkent City Park с 1 по 4 октября пройдет третий BYD e-Mobility Festa 2026. Гостей ждут национальные автопремьеры, показ YangWang U9, шоу-программа и подарки.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/21/byd",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/5f2cb5d60019466d7b5e4e0aacb7c650_m.webp",
-      "category": "city",
-      "published": 1789977600000,
-      "venue": {
-        "name": "Tashkent City",
-        "coords": [
-          41.3165,
-          69.2484
-        ]
-      }
-    },
-    {
-      "id": "ru:gorod:2026:09:21:weather",
-      "title": "Жара до +32° и дым по ночам прогнозируются в столице",
-      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 21 по 25 сентября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/21/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/3715b6ba77202c3d3ffe4724889cc53d_m.webp",
-      "category": "city",
-      "published": 1789967871000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:18:octobank",
-      "title": "Octobank предоставляет автокредитование на новые машины и автомобили с пробегом",
-      "description": "Физические лица могут оформить автокредит в Octobank по двум направлениям: на новые авто от официальных дилеров и на автомобили с пробегом. Каждая программа адаптирована под конкретный тип транспорта.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/18/octobank",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/e94eb666bebf921268eaa9a6b66c6c3c_m.webp",
-      "category": "city",
-      "published": 1789747200000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:18:19-20-september",
-      "title": "Куда пойти на выходных в Ташкенте, 19 и 20 сентября",
-      "description": "«Собачьи звёзды» с Джейкобом Элорди, возвращение «Сумерек» и еще семь кинопремьер, рок-фестиваль IOSIS, музыкальный квартирник, выступление Fedukа и Ивана Усовича, спектакли и другие события предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/18/19-20-september",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/9716a8e1c24440e0949aa442c78959b0_m.webp",
-      "category": "city",
-      "published": 1789727844000,
       "venue": null
     },
     {
