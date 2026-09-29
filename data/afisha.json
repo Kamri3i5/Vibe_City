@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-09-29T03:14:01.580Z",
+  "updatedAt": "2026-09-29T11:47:01.220Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:29:russian-art-festival",
+      "title": "В Ташкенте стартовал II Фестиваль российского искусства «Мир искусств»",
+      "description": "В течение шести дней фестиваль объединит изобразительное искусство, современное искусство, музыку, театр, балет и кино, а также образовательную программу с лекциями и дискуссиями.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/29/russian-art-festival",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/114adcc9a6e30a89610d3396228c4e29_m.webp",
+      "category": "city",
+      "published": 1790663820000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:29:metro",
+      "title": "Метро Ташкента установило новый рекорд",
+      "description": "Второму пассажиру вручили транспортную карту, дающую право бесплатно пользоваться общественным транспортом в течение года.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/29/metro",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/396129c2dadae03232990cd97c83298e_m.webp",
+      "category": "city",
+      "published": 1790660802000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:28:train-tickets",
       "title": "Запущено приложение для покупки билетов на пригородные поезда",
@@ -101,26 +121,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/56abf0437d1a3ffb4476c2555ad306ff_m.webp",
       "category": "city",
       "published": 1790052927000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:21:intercontinental",
-      "title": "Где провести мероприятие в Ташкенте: MICE-возможности InterContinental Tashkent",
-      "description": "От деловых переговоров и тренингов до международных конференций, бизнес-форумов и масштабных приемов — InterContinental Tashkent объединяет современные MICE-пространства и технические возможности для мероприятий разных форматов в центре столицы.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/21/intercontinental",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/519101100034ab255b20f09121e7633d_m.webp",
-      "category": "city",
-      "published": 1789999200000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:21:taras-kosymbarov",
-      "title": "«Если мы будем повторять за российскими комиками, всегда будем на шаг позади»: Тарас Косымбаров о русскоязычном стендапе в Узбекистане",
-      "description": "Тарас Косымбаров — стендап-комик, который начал выступать еще в 2013 году, рассказал «Афише» о том, как развивалась местная сцена, почему соцсети изменили путь комика, чем местный стендап отличается от российского и сможет ли в Узбекистане сформироваться собственный стиль.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/21/taras-kosymbarov",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/c69fa421b7787a940d36c48df5d6efa8_m.webp",
-      "category": "city",
-      "published": 1789986120000,
       "venue": null
     },
     {
