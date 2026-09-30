@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-09-30T02:56:28.125Z",
+  "updatedAt": "2026-09-30T11:33:24.643Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:09:30:lake",
+      "title": "В Ботаническом саду появится новое озеро",
+      "description": "Будет создана велосипедная и пешеходная дорожка длиной 1,2 км, а также высажено дополнительно 180 деревьев.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/30/lake",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/258f0df1ae5bef78cbb9f23e21d17379_m.webp",
+      "category": "city",
+      "published": 1790763135000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:09:30:nrg-bi",
+      "title": "NRG-BI и Costa Coffee провели первый Coffee Rave в жилом комплексе San’at",
+      "description": "27 сентября на территории жилого комплекса San’at состоялся Coffee Rave — совместное событие NRG-BI и Costa Coffee, объединившее электронную музыку, кофе, гастрономию и современную архитектуру. Мероприятие собрало около 120 гостей.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/09/30/nrg-bi",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/22a19557cb4b8658983742ac118bc141_m.webp",
+      "category": "city",
+      "published": 1790762400000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:09:30:shakira",
+      "title": "Шакира выступит в Бишкеке",
+      "description": "Концерт станет первым выступлением Шакиры в Центральной Азии в рамках текущего мирового тура.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/09/30/shakira",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/bdd9369d45be2592b317063958c248ef_m.webp",
+      "category": "concert",
+      "published": 1790759760000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:29:russian-art-festival",
       "title": "В Ташкенте стартовал II Фестиваль российского искусства «Мир искусств»",
@@ -101,26 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/c4b2621d9f436f253555a30c6c4e06e3_m.webp",
       "category": "city",
       "published": 1790144755000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:22:people",
-      "title": "Ташкент поднялся на 128 позиций в рейтинге крупнейших городов мира",
-      "description": "При этом по отдельным показателям столица показала более высокие результаты: 188-е место по экономике и 108-е — по человеческому капиталу.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/22/people",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/adef7daf3fa27928b169be35e47d07ea_m.webp",
-      "category": "city",
-      "published": 1790077723000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:22:bike-path",
-      "title": "На улице Лутфий протестировали отдельную полосу для велосипедов и скутеров",
-      "description": "По итогам тестирования специалисты ЦОДД уже рассматривают другие улицы столицы, где можно применить аналогичное решение.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/22/bike-path",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/56abf0437d1a3ffb4476c2555ad306ff_m.webp",
-      "category": "city",
-      "published": 1790052927000,
       "venue": null
     },
     {
@@ -321,16 +331,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/06/60ed79225899d549dfbb2a3e69eba4e1_m.webp",
       "category": "exhibition",
       "published": 1781510400000,
-      "venue": null
-    },
-    {
-      "id": "ru:concerts:2026:06:12:lejend",
-      "title": "Концерт Джона Ледженда прошел на площади Регистан",
-      "description": "8 июня на площади Регистан в Самарканде состоялся концерт американского певца и автора песен Джона Ледженда, обладателя премий «Грэмми», «Оскар», «Тони» и «Эмми».",
-      "url": "https://www.afisha.uz/ru/concerts/2026/06/12/lejend",
-      "image": "https://www.afisha.uz/uploads/media/2026/06/e245d59de0b135c90904697889d4532d_m.webp",
-      "category": "concert",
-      "published": 1781267046000,
       "venue": null
     },
     {
