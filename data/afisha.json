@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-10-02T03:05:02.928Z",
+  "updatedAt": "2026-10-02T11:33:25.708Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:02:weather",
+      "title": "В столице на выходных ожидаются дожди и до +30°",
+      "description": "Прогноз погоды в Ташкенте на выходные 3 и 4 октября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/02/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/898d888604cda6bccca74af53808cf9c_m.webp",
+      "category": "city",
+      "published": 1790932484000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:02:equestrian-competitions",
+      "title": "В Кашкадарье пройдут конные соревнования в память об Амире Темуре",
+      "description": "Гости смогут увидеть традиционные национальные конные игры, соревнования по улак-копкари и скачки оломон улав, а также познакомиться с лошадьми узбекской породы карабаир.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/02/equestrian-competitions",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/5553a0421426f1f45feb36e295b22314_m.webp",
+      "category": "city",
+      "published": 1790924357000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:02:drone-show",
+      "title": "В парке «Янги Узбекистан» проведут дрон-шоу",
+      "description": "В честь исторической победы сборной Узбекистана на 46-й Всемирной шахматной олимпиаде FIDE.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/02/drone-show",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/dbb3e9dd01e642915b72c6b22319db1d_m.webp",
+      "category": "city",
+      "published": 1790920356000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:09:30:kia",
       "title": "Kia Sonet Prime расширяет семейство Sonet в Узбекистане",
@@ -101,36 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/9833186bbefc887819d1b629d56d0cf3_m.webp",
       "category": "city",
       "published": 1790571840000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:25:coca-cola",
-      "title": "Coca-Cola запустила в Узбекистане новую кампанию Keldik Ketmadik",
-      "description": "Coca-Cola запустила в Узбекистане кампанию Keldik Ketmadik — о том, как привычный магазин у дома превращается в место встреч, а возвратная стеклянная бутылка становится частью новых историй.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/25/coca-cola",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/53f35c3c9f1309a352b885e0988657c3_m.webp",
-      "category": "city",
-      "published": 1790344800000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:25:26-27-september",
-      "title": "Куда пойти на выходных в Ташкенте, 26 и 27 сентября",
-      "description": "Расширенная версия «Мстителей» и еще три кинопремьеры, спектакли, рок-фестиваль SLAM, детские мастер-классы в CCA Tashkent, концерты при свечах, выставки, стендапы и другие мероприятия предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/25/26-27-september",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/e4c0c030208ab57a7193abd8869aee93_m.webp",
-      "category": "city",
-      "published": 1790323606000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:25:weather",
-      "title": "Прогнозируются солнечные выходные и понижение температуры до +25° в Ташкенте",
-      "description": "Прогноз погоды в Ташкенте на выходных 26 и 27 сентября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/25/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/a7ba7076506b4c7dec189fae24e7ea47_m.webp",
-      "category": "city",
-      "published": 1790316360000,
       "venue": null
     },
     {
