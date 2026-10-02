@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-10-02T11:33:25.708Z",
+  "updatedAt": "2026-10-02T17:00:53.319Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:02:uzcard",
+      "title": "В честь 22-летия UZCARD представляет лимитированную коллекцию браслетов",
+      "description": "К 22-летию компания UZCARD подготовила лимитированную коллекцию браслетов, вдохновленную символами Узбекистана. Пользователи смогут выбрать цвет и размер браслета, три шарма и собрать свой вариант в онлайн-конструкторе.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/02/uzcard",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/3786c5b2eecb43f4fd36898604d9d1ca_m.webp",
+      "category": "city",
+      "published": 1790949600000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:02:3-4-october",
+      "title": "Куда пойти на выходных в Ташкенте, 3 и 4 октября",
+      "description": "Восемь кинопремьер, музыкальный квартирник, автофестиваль, студенческий забег, турнир по паделу, концерты, выставки, спектакли и другие мероприятия предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/02/3-4-october",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/f2549b97a93ca2c6d7145633bdab01a9_m.webp",
+      "category": "city",
+      "published": 1790943180000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:10:02:weather",
       "title": "В столице на выходных ожидаются дожди и до +30°",
@@ -18,9 +38,9 @@
       "title": "В Кашкадарье пройдут конные соревнования в память об Амире Темуре",
       "description": "Гости смогут увидеть традиционные национальные конные игры, соревнования по улак-копкари и скачки оломон улав, а также познакомиться с лошадьми узбекской породы карабаир.",
       "url": "https://www.afisha.uz/ru/gorod/2026/10/02/equestrian-competitions",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/5553a0421426f1f45feb36e295b22314_m.webp",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/07b31b7f408e3eb9693cdb0ed4f75bff_m.webp",
       "category": "city",
-      "published": 1790924357000,
+      "published": 1790924340000,
       "venue": null
     },
     {
@@ -111,26 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/fd6f9e1076964f78faa686ced322a945_m.webp",
       "category": "city",
       "published": 1790575200000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:28:weather",
-      "title": "В столицу придут дожди на стыке сентября и октября",
-      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 28 сентября по 2 октября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/28/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/beb5101ae5ccc05ec4644ddbca248e07_m.webp",
-      "category": "city",
-      "published": 1790574696000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:28:the-fare",
-      "title": "В Ташкенте с 1 октября проезд в автобусах и метро подорожает на 800 сумов",
-      "description": "При оплате наличными стоимость проезда останется на уровне 3 000 сумов, а провоз багажа будет стоить 4 000 сумов.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/28/the-fare",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/9833186bbefc887819d1b629d56d0cf3_m.webp",
-      "category": "city",
-      "published": 1790571840000,
       "venue": null
     },
     {
