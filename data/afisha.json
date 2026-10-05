@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-10-05T02:58:21.420Z",
+  "updatedAt": "2026-10-05T12:59:01.240Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:05:classic-music-fest",
+      "title": "Classic Music Fest пройдет в Ташкенте с 10 по 19 октября. Полная программа",
+      "description": "Всего запланировано девять музыкальных программ — от произведений Дворжака, Бетховена и Чайковского до сочинений современных авторов.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/05/classic-music-fest",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/34e3fd29338a89d1c1c230785cca68cb_m.webp",
+      "category": "city",
+      "published": 1791186871000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:05:tashwell",
+      "title": "Tashwell: стартовал второй этап продаж — рассрочка до 48 месяцев с платежами от 5 000 000 сумов",
+      "description": "В Tashwell все квартиры в блоках A1 и B1 уже проданы. С открытием продаж блока B2 стартовал второй этап проекта, в рамках которого желающим приобрести жилье предлагается рассрочка сроком до 48 месяцев с ежемесячными платежами от 5 000 000 сумов.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/05/tashwell",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/721eff9e23dc2d9687a875b3449f613a_m.webp",
+      "category": "city",
+      "published": 1791180000000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:05:weather",
+      "title": "В столице потеплеет до +26°",
+      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 5 по 9 октября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/05/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/14335443b4a64d4d86c9ba5ac898d2af_m.webp",
+      "category": "city",
+      "published": 1791178380000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:10:02:uzcard",
       "title": "В честь 22-летия UZCARD представляет лимитированную коллекцию браслетов",
@@ -101,36 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/114adcc9a6e30a89610d3396228c4e29_m.webp",
       "category": "city",
       "published": 1790663820000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:29:metro",
-      "title": "Метро Ташкента установило новый рекорд",
-      "description": "Второму пассажиру вручили транспортную карту, дающую право бесплатно пользоваться общественным транспортом в течение года.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/29/metro",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/396129c2dadae03232990cd97c83298e_m.webp",
-      "category": "city",
-      "published": 1790660802000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:28:train-tickets",
-      "title": "Запущено приложение для покупки билетов на пригородные поезда",
-      "description": "Электронный билет в приложении содержит QR-код, который можно предъявить контролеру даже без подключения к интернету.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/28/train-tickets",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/b02e8762da74c5efc82f80b403f7f0d4_m.webp",
-      "category": "city",
-      "published": 1790582237000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:28:kiut",
-      "title": "KIUT Business School и Narxoz Business School совместно запускают программу MBA",
-      "description": "Kimyo International University in Tashkent и Narxoz Business School запустят в Узбекистане программы MBA, Executive MBA и DBA на русском языке, объединяющие академическую подготовку с работой над практическими задачами бизнеса.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/28/kiut",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/fd6f9e1076964f78faa686ced322a945_m.webp",
-      "category": "city",
-      "published": 1790575200000,
       "venue": null
     },
     {
