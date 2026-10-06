@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-10-06T03:47:45.792Z",
+  "updatedAt": "2026-10-06T12:24:04.896Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:06:mrbeast",
+      "title": "В Ташкент впервые едет самый популярный YouTube-блогер в мире — MrBeast",
+      "description": "Случайным образом отобранные фанаты смогут встретиться с блогером лично на публичном мероприятии.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/06/mrbeast",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/0911912a90384901c937de045601aa4f_m.webp",
+      "category": "city",
+      "published": 1791272280000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:10:06:concert",
+      "title": "Концерты октября, которые стоит посетить в Ташкенте",
+      "description": "Собрали главные концерты октября в Ташкенте — выбирайте исполнителей, даты и площадки и планируйте музыкальные вечера заранее.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/10/06/concert",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/93865e213e8475e68d55a7330f347023_m.webp",
+      "category": "concert",
+      "published": 1791265680000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:10:05:classic-music-fest",
       "title": "Classic Music Fest пройдет в Ташкенте с 10 по 19 октября. Полная программа",
@@ -121,16 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/bdd9369d45be2592b317063958c248ef_m.webp",
       "category": "concert",
       "published": 1790759760000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:29:russian-art-festival",
-      "title": "В Ташкенте стартовал II Фестиваль российского искусства «Мир искусств»",
-      "description": "В течение шести дней фестиваль объединит изобразительное искусство, современное искусство, музыку, театр, балет и кино, а также образовательную программу с лекциями и дискуссиями.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/29/russian-art-festival",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/114adcc9a6e30a89610d3396228c4e29_m.webp",
-      "category": "city",
-      "published": 1790663820000,
       "venue": null
     },
     {
@@ -311,16 +321,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/9036da641d4c04ef63b8cf9cc38ca53e_m.webp",
       "category": "exhibition",
       "published": 1783344879000,
-      "venue": null
-    },
-    {
-      "id": "ru:concerts:2026:06:27:ultimate",
-      "title": "Концертный тур узбекских рэперов Ultimate Tour пройдет в восьми городах Узбекистана",
-      "description": "На сцене выступят Massa, Doxxim, Asl Wayne, Minor, AbroBey и Mubinlolo.",
-      "url": "https://www.afisha.uz/ru/concerts/2026/06/27/ultimate",
-      "image": "https://www.afisha.uz/uploads/media/2026/06/f8f7bc6910e70c766d0fa8e7001817bc_m.webp",
-      "category": "concert",
-      "published": 1782532800000,
       "venue": null
     },
     {
