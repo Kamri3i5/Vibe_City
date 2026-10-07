@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-10-07T03:15:32.579Z",
+  "updatedAt": "2026-10-07T12:16:49.621Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:07:weather",
+      "title": "Когда в Ташкенте на самом деле начинается осень",
+      "description": "Почему в начале осени еще нужен кондиционер, чего ждать от второго и третьего осеннего месяца, когда убирать летние вещи и как одеваться, планируя прогулки по городу.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/07/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/9cfdefb7c106cdcc7bd2cebdebeffd8f_m.webp",
+      "category": "city",
+      "published": 1791373355000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:07:hangar",
+      "title": "В Hangar сделали вход платным",
+      "description": "В пространстве Hangar ввели условия посещения.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/07/hangar",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/992c7518a133772d4bf64abff85fc45e_m.webp",
+      "category": "city",
+      "published": 1791370140000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:10:07:a-studio",
+      "title": "Концерт A’Studio в Ташкенте перенесли",
+      "description": "Концерт A’Studio, запланированный на 24 октября 2026 года, перенесли по техническим причинам.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/10/07/a-studio",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/d7b8feaa95444747e5a07f85e7a6d183_m.webp",
+      "category": "concert",
+      "published": 1791369060000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:10:06:mrbeast",
       "title": "В Ташкент впервые едет самый популярный YouTube-блогер в мире — MrBeast",
@@ -111,26 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/b1d3adb925abfad792df259fa1a5c753_m.webp",
       "category": "city",
       "published": 1790769600000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:30:lake",
-      "title": "В Ботаническом саду появится новое озеро",
-      "description": "Будет создана велосипедная и пешеходная дорожка длиной 1,2 км, а также высажено дополнительно 180 деревьев.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/30/lake",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/258f0df1ae5bef78cbb9f23e21d17379_m.webp",
-      "category": "city",
-      "published": 1790763135000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:30:nrg-bi",
-      "title": "NRG-BI и Costa Coffee провели первый Coffee Rave в жилом комплексе San’at",
-      "description": "27 сентября на территории жилого комплекса San’at состоялся Coffee Rave — совместное событие NRG-BI и Costa Coffee, объединившее электронную музыку, кофе, гастрономию и современную архитектуру. Мероприятие собрало около 120 гостей.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/30/nrg-bi",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/22a19557cb4b8658983742ac118bc141_m.webp",
-      "category": "city",
-      "published": 1790762400000,
       "venue": null
     },
     {
@@ -301,16 +311,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/9e7b5bfb853b2225795ae5b261014707_m.webp",
       "category": "concert",
       "published": 1784894400000,
-      "venue": null
-    },
-    {
-      "id": "ru:concerts:2026:07:22:otmena",
-      "title": "Концерт Мари Краймбрери отменен",
-      "description": "Колл-центр организаторов 200-033-399 свяжется с каждым покупателем, чтобы уточнить реквизиты для возврата.",
-      "url": "https://www.afisha.uz/ru/concerts/2026/07/22/otmena",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/8278112e0672b83a11cae808aa7d2db2_m.webp",
-      "category": "concert",
-      "published": 1784719620000,
       "venue": null
     },
     {
