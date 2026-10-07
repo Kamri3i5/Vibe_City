@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-10-07T12:16:49.621Z",
+  "updatedAt": "2026-10-07T22:25:11.925Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:07:zavtrak",
+      "title": "Как прошла закрытая презентация нового сезона «ЗАВТРАК.клуб» в Ташкенте",
+      "description": "",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/07/zavtrak",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/8c8f1dcc01391337fd68e6011ceb8149_m.webp",
+      "category": "city",
+      "published": 1791377640000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:10:07:weather",
       "title": "Когда в Ташкенте на самом деле начинается осень",
@@ -131,16 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/dbb3e9dd01e642915b72c6b22319db1d_m.webp",
       "category": "city",
       "published": 1790920356000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:09:30:kia",
-      "title": "Kia Sonet Prime расширяет семейство Sonet в Узбекистане",
-      "description": "В Узбекистане стартуют продажи нового кроссовера Kia Sonet Prime. Модель получила обновлённый дизайн и комплекс систем помощи водителю. Sonet Prime дополнит уже представленный на рынке Kia Sonet – обе модели будут продаваться одновременно.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/09/30/kia",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/b1d3adb925abfad792df259fa1a5c753_m.webp",
-      "category": "city",
-      "published": 1790769600000,
       "venue": null
     },
     {
