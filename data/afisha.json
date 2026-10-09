@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-10-09T03:36:24.332Z",
+  "updatedAt": "2026-10-09T12:15:52.566Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:09:10-11-october",
+      "title": "Куда пойти на выходных в Ташкенте, 10 и 11 октября",
+      "description": "Восемь кинопремьер, пять фестивалей, концерт «Ночных снайперов» и турецкой музыки при свечах на острове, арт-базар, пешая экскурсия по зданиям ташкентского модернизма, выставки, спектакли и другие события предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/09/10-11-october",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/452e5eb7f710ed1c2e2afabe669dbb4b_m.webp",
+      "category": "city",
+      "published": 1791542340000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:09:pogoda",
+      "title": "Столицу ожидают теплые выходные с дождливым финалом",
+      "description": "Прогноз погоды в Ташкенте на выходные 10 и 11 октября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/09/pogoda",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/47fa541e330db986faa58753477f0893_m.webp",
+      "category": "city",
+      "published": 1791541500000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:09:egypt",
+      "title": "Египет ужесточит правила въезда для граждан Узбекистана с 1 ноября",
+      "description": "При въезде потребуется предоставить подтверждение брони отеля, данные для мобильной связи и подтверждение финансового обеспечения.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/09/egypt",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/54a88e566bc4aa8644ff819a7bbce9e6_m.webp",
+      "category": "city",
+      "published": 1791523025000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:10:07:zavtrak",
       "title": "Как прошла закрытая презентация нового сезона «ЗАВТРАК.клуб» в Ташкенте",
@@ -111,36 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/f2549b97a93ca2c6d7145633bdab01a9_m.webp",
       "category": "city",
       "published": 1790943180000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:02:weather",
-      "title": "В столице на выходных ожидаются дожди и до +30°",
-      "description": "Прогноз погоды в Ташкенте на выходные 3 и 4 октября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/02/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/898d888604cda6bccca74af53808cf9c_m.webp",
-      "category": "city",
-      "published": 1790932484000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:02:equestrian-competitions",
-      "title": "В Кашкадарье пройдут конные соревнования в память об Амире Темуре",
-      "description": "Гости смогут увидеть традиционные национальные конные игры, соревнования по улак-копкари и скачки оломон улав, а также познакомиться с лошадьми узбекской породы карабаир.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/02/equestrian-competitions",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/07b31b7f408e3eb9693cdb0ed4f75bff_m.webp",
-      "category": "city",
-      "published": 1790924340000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:02:drone-show",
-      "title": "В парке «Янги Узбекистан» проведут дрон-шоу",
-      "description": "В честь исторической победы сборной Узбекистана на 46-й Всемирной шахматной олимпиаде FIDE.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/02/drone-show",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/dbb3e9dd01e642915b72c6b22319db1d_m.webp",
-      "category": "city",
-      "published": 1790920356000,
       "venue": null
     },
     {
