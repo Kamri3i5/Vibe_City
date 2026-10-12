@@ -1,8 +1,48 @@
 {
-  "updatedAt": "2026-10-12T03:13:47.754Z",
+  "updatedAt": "2026-10-12T13:51:16.290Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:12:uzpost-fest",
+      "title": "UzPost Fest: как в Ташкенте возвращают культуру рукописных писем",
+      "description": "В Ташкенте прошел UzPost Fest 2026 — фестиваль, посвященный культуре писем, открыток и бумажной переписки. В программе были мастер-классы, лекции, маркет локальных авторов, обмен открытками и капсула времени, которую откроют через десять лет.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/12/uzpost-fest",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/80593c81ccbcd57d68933f0e900cc3b8_m.webp",
+      "category": "city",
+      "published": 1791811260000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:12:buses",
+      "title": "В Ташкенте изменили пять автобусных маршрутов",
+      "description": "В связи со строительством выделенной полосы для автобусов на улице Шахрисабз.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/12/buses",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/f3bbcba416cad2142f07113e51def1ab_m.webp",
+      "category": "city",
+      "published": 1791798015000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:12:gnta",
+      "title": "Горы, море и вкус осени: впечатления, за которыми стоит поехать в Грузию",
+      "description": "Сентябрь и октябрь в Грузии — время бархатного сезона на побережье, сбора винограда и поездок по горным регионам. Какие впечатления может предложить страна в это время — об этом в материале.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/12/gnta",
+      "image": "https://www.afisha.uz/uploads/media/2026/09/3e8b119b920f8c427d2cfe03c2f42c01_m.webp",
+      "category": "city",
+      "published": 1791784800000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:12:weather",
+      "title": "После проливных дождей ожидается до +25°",
+      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 12 по 16 октября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/12/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/ce145ba5f3948537ef5d939d4baf4cae_m.webp",
+      "category": "city",
+      "published": 1791783232000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:10:09:10-11-october",
       "title": "Куда пойти на выходных в Ташкенте, 10 и 11 октября",
@@ -101,46 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/34e3fd29338a89d1c1c230785cca68cb_m.webp",
       "category": "city",
       "published": 1791186871000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:05:tashwell",
-      "title": "Tashwell: стартовал второй этап продаж — рассрочка до 48 месяцев с платежами от 5 000 000 сумов",
-      "description": "В Tashwell все квартиры в блоках A1 и B1 уже проданы. С открытием продаж блока B2 стартовал второй этап проекта, в рамках которого желающим приобрести жилье предлагается рассрочка сроком до 48 месяцев с ежемесячными платежами от 5 000 000 сумов.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/05/tashwell",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/721eff9e23dc2d9687a875b3449f613a_m.webp",
-      "category": "city",
-      "published": 1791180000000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:05:weather",
-      "title": "В столице потеплеет до +26°",
-      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 5 по 9 октября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/05/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/14335443b4a64d4d86c9ba5ac898d2af_m.webp",
-      "category": "city",
-      "published": 1791178380000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:02:uzcard",
-      "title": "В честь 22-летия UZCARD представляет лимитированную коллекцию браслетов",
-      "description": "К 22-летию компания UZCARD подготовила лимитированную коллекцию браслетов, вдохновленную символами Узбекистана. Пользователи смогут выбрать цвет и размер браслета, три шарма и собрать свой вариант в онлайн-конструкторе.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/02/uzcard",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/3786c5b2eecb43f4fd36898604d9d1ca_m.webp",
-      "category": "city",
-      "published": 1790949600000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:02:3-4-october",
-      "title": "Куда пойти на выходных в Ташкенте, 3 и 4 октября",
-      "description": "Восемь кинопремьер, музыкальный квартирник, автофестиваль, студенческий забег, турнир по паделу, концерты, выставки, спектакли и другие мероприятия предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/02/3-4-october",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/f2549b97a93ca2c6d7145633bdab01a9_m.webp",
-      "category": "city",
-      "published": 1790943180000,
       "venue": null
     },
     {
