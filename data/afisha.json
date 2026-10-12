@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-10-12T13:51:16.290Z",
+  "updatedAt": "2026-10-12T23:56:29.089Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:12:lactel",
+      "title": "Lactel «Лёгкое утро» 3,2% представлен в новом удобном формате 200 мл",
+      "description": "Бренд Lactel представил новый формат безлактозного молока Lactel «Легкое утро» 3,2% – компактную упаковку объемом 200 мл. Новый формат сохраняет привычный вкус и свойства молока, дополняя существующую упаковку объемом 1 л.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/12/lactel",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/0caa658b0d370df7cc301e427bbc173e_m.webp",
+      "category": "city",
+      "published": 1791813600000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:10:12:uzpost-fest",
       "title": "UzPost Fest: как в Ташкенте возвращают культуру рукописных писем",
@@ -131,16 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/93865e213e8475e68d55a7330f347023_m.webp",
       "category": "concert",
       "published": 1791265680000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:05:classic-music-fest",
-      "title": "Classic Music Fest пройдет в Ташкенте с 10 по 19 октября. Полная программа",
-      "description": "Всего запланировано девять музыкальных программ — от произведений Дворжака, Бетховена и Чайковского до сочинений современных авторов.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/05/classic-music-fest",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/34e3fd29338a89d1c1c230785cca68cb_m.webp",
-      "category": "city",
-      "published": 1791186871000,
       "venue": null
     },
     {
