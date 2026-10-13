@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-10-13T04:55:14.373Z",
+  "updatedAt": "2026-10-13T13:09:00.220Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:13:buses",
+      "title": "На Ферганском шоссе установили камеры для контроля автобусных полос",
+      "description": "Они охватывают участок протяженностью 6 км в обоих направлениях и должны контролировать соблюдение правил движения по выделенным полосам.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/13/buses",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/cc381aedc32854a3362d6a586a4e6e00_m.webp",
+      "category": "city",
+      "published": 1791873358000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:10:12:lactel",
       "title": "Lactel «Лёгкое утро» 3,2% представлен в новом удобном формате 200 мл",
@@ -121,16 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/d7b8feaa95444747e5a07f85e7a6d183_m.webp",
       "category": "concert",
       "published": 1791369060000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:06:mrbeast",
-      "title": "В Ташкент впервые едет самый популярный YouTube-блогер в мире — MrBeast",
-      "description": "Случайным образом отобранные фанаты смогут встретиться с блогером лично на публичном мероприятии.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/06/mrbeast",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/0911912a90384901c937de045601aa4f_m.webp",
-      "category": "city",
-      "published": 1791272280000,
       "venue": null
     },
     {
