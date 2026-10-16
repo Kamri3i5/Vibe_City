@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-10-16T10:19:25.193Z",
+  "updatedAt": "2026-10-16T15:44:57.622Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:16:17-18-october",
+      "title": "Куда пойти на выходных в Ташкенте, 17 и 18 октября",
+      "description": "Шесть кинопремьер, детские мастер-классы в CCA Tashkent, показ игр узбекских разработчиков, турнир по единоборствам, десять выставок, концерты и другие события предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/16/17-18-october",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/5be2e0bb27f917510471b031f643ca4d_m.webp",
+      "category": "city",
+      "published": 1792150680000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:16:weather",
+      "title": "На выходных потеплеет до +24° и ожидается туман",
+      "description": "Прогноз погоды в Ташкенте на выходные 17 и 18 октября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/16/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/074ff675aa4b66fe6ed9e7116a715042_m.webp",
+      "category": "city",
+      "published": 1792147629000,
+      "venue": null
+    },
     {
       "id": "ru:concerts:2026:10:15:sublimation-fest",
       "title": "«Плачу на техно»: как прошел Sublimation Festival 2026 в Ташкенте",
@@ -111,26 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/452e5eb7f710ed1c2e2afabe669dbb4b_m.webp",
       "category": "city",
       "published": 1791550200000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:09:pogoda",
-      "title": "Столицу ожидают теплые выходные с дождливым финалом",
-      "description": "Прогноз погоды в Ташкенте на выходные 10 и 11 октября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/09/pogoda",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/47fa541e330db986faa58753477f0893_m.webp",
-      "category": "city",
-      "published": 1791541500000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:09:egypt",
-      "title": "Египет ужесточит правила въезда для граждан Узбекистана с 1 ноября",
-      "description": "При въезде потребуется предоставить подтверждение брони отеля, данные для мобильной связи и подтверждение финансового обеспечения.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/09/egypt",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/54a88e566bc4aa8644ff819a7bbce9e6_m.webp",
-      "category": "city",
-      "published": 1791523025000,
       "venue": null
     },
     {
