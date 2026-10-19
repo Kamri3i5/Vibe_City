@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-10-19T02:20:44.839Z",
+  "updatedAt": "2026-10-19T11:31:40.234Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:concerts:2026:10:19:scally-milano",
+      "title": "Концерт Scally Milano отменен",
+      "description": "Концерт Scally Milano , который должен был состояться 22 октября в стендап-клубе SAHNA, отменен.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/10/19/scally-milano",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/440638a028047e8ec49a4e0b2811b933_m.webp",
+      "category": "concert",
+      "published": 1792401480000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:19:mobiuz",
+      "title": "Mobiuz и Фонд развития культуры и искусства Узбекистана подписали меморандум о сотрудничестве",
+      "description": "Mobiuz и Фонд развития культуры и искусства Узбекистана подписали меморандум о сотрудничестве в сфере культуры и образования. Стороны планируют реализовывать совместные проекты и расширять доступ жителей страны к культурным инициативам с помощью цифровых технологий.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/19/mobiuz",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/1af47ea46822acb300f3c4501a40081a_m.webp",
+      "category": "city",
+      "published": 1792389600000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:19:weather",
+      "title": "До +25° в начале недели и +20° к пятнице ожидается в столице",
+      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 19 по 23 октября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/19/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/6a89bcd78392469c2d731cd237ddcbec_m.webp",
+      "category": "city",
+      "published": 1792387180000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:10:16:17-18-october",
       "title": "Куда пойти на выходных в Ташкенте, 17 и 18 октября",
@@ -111,26 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/3e8b119b920f8c427d2cfe03c2f42c01_m.webp",
       "category": "city",
       "published": 1791784800000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:12:weather",
-      "title": "После проливных дождей ожидается до +25°",
-      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 12 по 16 октября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/12/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/ce145ba5f3948537ef5d939d4baf4cae_m.webp",
-      "category": "city",
-      "published": 1791783232000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:09:10-11-october",
-      "title": "Куда пойти на выходных в Ташкенте, 10 и 11 октября",
-      "description": "Восемь кинопремьер, пять фестивалей, концерт «Ночных снайперов» и турецкой музыки при свечах на острове, арт-базар, пешая экскурсия по зданиям ташкентского модернизма, выставки, спектакли и другие события предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/09/10-11-october",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/452e5eb7f710ed1c2e2afabe669dbb4b_m.webp",
-      "category": "city",
-      "published": 1791550200000,
       "venue": null
     },
     {
@@ -301,16 +311,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/15ce0ea257a2985ac2bbe1abf43bbde8_m.webp",
       "category": "concert",
       "published": 1786366080000,
-      "venue": null
-    },
-    {
-      "id": "ru:concerts:2026:08:08:muzone-fest",
-      "title": "В Ташкенте пройдёт MUZONE Fest – международный фестиваль электронной музыки мирового уровня",
-      "description": "С 31 августа по 2 сентября Ташкент примет MUZONE Fest – международный фестиваль электронной музыки. На сцене летней площадки дворца «Туркистон» выступят Don Diablo, Shimza, Vanco, а также специальный хедлайнер, имя которого пока держат в секрете.",
-      "url": "https://www.afisha.uz/ru/concerts/2026/08/08/muzone-fest",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/a25c9f3304b2d3e657b86ca0e9cc3172_m.webp",
-      "category": "concert",
-      "published": 1786190400000,
       "venue": null
     },
     {
