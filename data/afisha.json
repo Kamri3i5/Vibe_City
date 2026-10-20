@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-10-20T02:34:15.334Z",
+  "updatedAt": "2026-10-20T10:37:09.664Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:20:buses",
+      "title": "В Ташкенте изменили два автобусных маршрута",
+      "description": "Сокращение №58 объяснили ограниченной вместимостью остановки, а маршрут №100 изменили с учетом обращений пассажиров.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/20/buses",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/ab2a80186269c35701f08f279740ac1d_m.webp",
+      "category": "city",
+      "published": 1792478817000,
+      "venue": null
+    },
     {
       "id": "ru:concerts:2026:10:19:scally-milano",
       "title": "Концерт Scally Milano отменен",
@@ -131,16 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/f3bbcba416cad2142f07113e51def1ab_m.webp",
       "category": "city",
       "published": 1791798015000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:12:gnta",
-      "title": "Горы, море и вкус осени: впечатления, за которыми стоит поехать в Грузию",
-      "description": "Сентябрь и октябрь в Грузии — время бархатного сезона на побережье, сбора винограда и поездок по горным регионам. Какие впечатления может предложить страна в это время — об этом в материале.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/12/gnta",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/3e8b119b920f8c427d2cfe03c2f42c01_m.webp",
-      "category": "city",
-      "published": 1791784800000,
       "venue": null
     },
     {
