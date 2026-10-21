@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-10-20T20:59:20.578Z",
+  "updatedAt": "2026-10-21T10:48:36.812Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:exhibitions:2026:10:21:motorfest",
+      "title": "Программа MOTORFEST 2026: зрителей ждут шоу, выставка автомобилей и дрифт-такси",
+      "description": "Выставка машин, дрифт-шоу BMW M FEST, тюнинг-проекты, соревнования с голосованием зрителей, музыка и развлекательные мероприятия.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/10/21/motorfest",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/4c51716119e3829709af1e6b59bcafe7_m.webp",
+      "category": "exhibition",
+      "published": 1792562585000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:10:20:buses",
       "title": "В Ташкенте изменили два автобусных маршрута",
@@ -351,16 +361,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/06/d6c4774505c3c9a9a8fd72952eb5a681_m.webp",
       "category": "exhibition",
       "published": 1780574820000,
-      "venue": null
-    },
-    {
-      "id": "ru:exhibitions:2026:06:01:cca",
-      "title": "Объявлена дата открытия Центра Современного Искусства в Ташкенте",
-      "description": "Открытие начнется с выставки «Хикмах» (Hikmah). Название переводится как «мудрость» и обращается к темам прозрения, интеллекта и божественного знания.",
-      "url": "https://www.afisha.uz/ru/exhibitions/2026/06/01/cca",
-      "image": "https://www.afisha.uz/uploads/media/2026/06/70b4e314b84e5aeccc54c4b8ab5029e3_m.webp",
-      "category": "exhibition",
-      "published": 1780320994000,
       "venue": null
     },
     {
