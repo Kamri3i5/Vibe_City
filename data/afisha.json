@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-10-22T02:24:30.109Z",
+  "updatedAt": "2026-10-22T10:49:25.742Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:22:alphabet",
+      "title": "В Узбекистане утвердили новый узбекский алфавит",
+      "description": "В новой версии будет 28 букв и апостроф, а несколько привычных буквосочетаний заменят отдельными символами.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/22/alphabet",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/dfaa2c15259acf935b45099e9473877d_m.webp",
+      "category": "city",
+      "published": 1792655802000,
+      "venue": null
+    },
     {
       "id": "ru:exhibitions:2026:10:21:motorfest",
       "title": "Программа MOTORFEST 2026: зрителей ждут шоу, выставка автомобилей и дрифт-такси",
@@ -141,16 +151,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/80593c81ccbcd57d68933f0e900cc3b8_m.webp",
       "category": "city",
       "published": 1791811260000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:12:buses",
-      "title": "В Ташкенте изменили пять автобусных маршрутов",
-      "description": "В связи со строительством выделенной полосы для автобусов на улице Шахрисабз.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/12/buses",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/f3bbcba416cad2142f07113e51def1ab_m.webp",
-      "category": "city",
-      "published": 1791798015000,
       "venue": null
     },
     {
