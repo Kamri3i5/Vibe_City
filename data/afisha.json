@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-10-22T10:49:25.742Z",
+  "updatedAt": "2026-10-22T16:15:59.919Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:22:waterside",
+      "title": "Больше, чем массаж: в Waterside знакомят с особой культурой отдыха",
+      "description": "Традиционные китайские техники, иностранные специалисты, приватные VIP-кабинеты, особое внимание к гигиене и коллекция из 20 видов чая — о пространстве Waterside в Ташкенте, где привычный отдых приобретает совершенно другой характер.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/22/waterside",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/79474de760d128528cd21877d0af303a_m.webp",
+      "category": "city",
+      "published": 1792677600000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:10:22:alphabet",
       "title": "В Узбекистане утвердили новый узбекский алфавит",
@@ -141,16 +151,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/0caa658b0d370df7cc301e427bbc173e_m.webp",
       "category": "city",
       "published": 1791813600000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:12:uzpost-fest",
-      "title": "UzPost Fest: как в Ташкенте возвращают культуру рукописных писем",
-      "description": "В Ташкенте прошел UzPost Fest 2026 — фестиваль, посвященный культуре писем, открыток и бумажной переписки. В программе были мастер-классы, лекции, маркет локальных авторов, обмен открытками и капсула времени, которую откроют через десять лет.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/12/uzpost-fest",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/80593c81ccbcd57d68933f0e900cc3b8_m.webp",
-      "category": "city",
-      "published": 1791811260000,
       "venue": null
     },
     {
