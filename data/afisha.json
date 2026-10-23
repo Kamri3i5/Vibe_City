@@ -1,8 +1,64 @@
 {
-  "updatedAt": "2026-10-23T02:29:51.123Z",
+  "updatedAt": "2026-10-23T10:41:30.558Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:23:lake",
+      "title": "В Учтепинском районе Ташкента построят искусственное озеро с зоной отдыха",
+      "description": "Проект призван улучшить микроклимат территории, снизить запыленность и создать новое место для отдыха жителей.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/23/lake",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/5f166cd0aadc8af2a6dbc66f842eacb7_m.webp",
+      "category": "city",
+      "published": 1792752014000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:23:24-25-october",
+      "title": "Куда пойти на выходных в Ташкенте, 24 и 25 октября",
+      "description": "Пять кинопремьер, XI Фестиваль европейского кино, «уДачная» ярмарка, спектакли, концерт Мота, дни астрономии в Планетарии, юмористические шоу и други события предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/23/24-25-october",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/cb42cab4444ad9b615c90432a9cfa1af_m.webp",
+      "category": "city",
+      "published": 1792750260000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:23:kia",
+      "title": "Новый Kia Seltos дебютировал в Узбекистане на Motorfest 2026",
+      "description": "200 лошадиных сил, полный привод и новый дизайн — современный городской кроссовер Kia Seltos второго поколения представлен в Ташкенте на выставке Motorfest 2026. Модель доступна в пяти версиях и в рассрочку до 60 месяцев.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/23/kia",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/cf7ac00477e9b1172ca427259c93d5d4_m.webp",
+      "category": "city",
+      "published": 1792749600000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:23:weather",
+      "title": "В столице ожидается до +19° днем и дымка ночью",
+      "description": "Прогноз погоды в Ташкенте на выходные 24 и 25 октября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/23/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/147fb4ea07fa1188d9a9c3ea7a7711dc_m.webp",
+      "category": "city",
+      "published": 1792747508000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:23:chococream",
+      "title": "20 лет сладких традиций: Chococream приглашает на грандиозный семейный праздник в Magic City",
+      "description": "25 октября в ташкентском парке Magic City состоится празднование 20-летия бренда Chococream. В честь юбилея гостей ждут выступления популярных артистов, интерактивные развлечения, яркая шоу-программа, сладкие подарки и розыгрыш главных призов.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/23/chococream",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/1fde4801621d6a4ea3626b4ddf0ea2b7_m.webp",
+      "category": "city",
+      "published": 1792735200000,
+      "venue": {
+        "name": "Magic City",
+        "coords": [
+          41.3036,
+          69.245
+        ]
+      }
+    },
     {
       "id": "ru:gorod:2026:10:22:waterside",
       "title": "Больше, чем массаж: в Waterside знакомят с особой культурой отдыха",
@@ -101,56 +157,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/02ff56bc33b70353399b08ed9a49ff87_m.webp",
       "category": "concert",
       "published": 1792059854000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:15:artificial-lake",
-      "title": "В Сергелийском районе Ташкента строят искусственное озеро",
-      "description": "Ожидается, что новая зона отдыха поможет снизить запыленность и улучшить микроклимат на прилегающей территории.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/15/artificial-lake",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/6b97da0b0584cd574435d07d411b8a4d_m.webp",
-      "category": "city",
-      "published": 1792044461000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:14:mira-developments",
-      "title": "Mira Developments представила мультибрендовый жилой проект Mira Golf Estates",
-      "description": "Компания Mira Developments представила в Ташкенте мультибрендовый жилой проект Mira Golf Estates. На территории комплекса планируется разместить пятизвездочный отель, учебные заведения, зоны отдыха, а также поле для гольфа.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/14/mira-developments",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/0e4a884bf85113d7a5286d10a45b3d22_m.webp",
-      "category": "city",
-      "published": 1791993600000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:14:bebeauty",
-      "title": "Салон красоты BeBeauty возобновил работу",
-      "description": "После перерыва в BeBeauty снова принимают гостей: в салоне доступны стрижки и укладки, окрашивание, маникюр, педикюр, макияж и оформление бровей.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/14/bebeauty",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/8eb3541f2a69f771880a06e7e244ac68_m.webp",
-      "category": "city",
-      "published": 1791986400000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:13:buses",
-      "title": "На Ферганском шоссе установили камеры для контроля автобусных полос",
-      "description": "Они охватывают участок протяженностью 6 км в обоих направлениях и должны контролировать соблюдение правил движения по выделенным полосам.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/13/buses",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/cc381aedc32854a3362d6a586a4e6e00_m.webp",
-      "category": "city",
-      "published": 1791873358000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:12:lactel",
-      "title": "Lactel «Легкое утро» 3,2% представлен в новом удобном формате 200 мл",
-      "description": "Бренд Lactel представил новый формат безлактозного молока Lactel «Легкое утро» 3,2% – компактную упаковку объемом 200 мл. Новый формат сохраняет привычный вкус и свойства молока, дополняя существующую упаковку объемом 1 л.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/12/lactel",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/0caa658b0d370df7cc301e427bbc173e_m.webp",
-      "category": "city",
-      "published": 1791813600000,
       "venue": null
     },
     {
