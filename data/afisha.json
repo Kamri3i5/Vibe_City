@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-10-23T10:41:30.558Z",
+  "updatedAt": "2026-10-23T16:05:49.951Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
-    {
-      "id": "ru:gorod:2026:10:23:lake",
-      "title": "В Учтепинском районе Ташкента построят искусственное озеро с зоной отдыха",
-      "description": "Проект призван улучшить микроклимат территории, снизить запыленность и создать новое место для отдыха жителей.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/23/lake",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/5f166cd0aadc8af2a6dbc66f842eacb7_m.webp",
-      "category": "city",
-      "published": 1792752014000,
-      "venue": null
-    },
     {
       "id": "ru:gorod:2026:10:23:24-25-october",
       "title": "Куда пойти на выходных в Ташкенте, 24 и 25 октября",
@@ -20,7 +10,27 @@
       "url": "https://www.afisha.uz/ru/gorod/2026/10/23/24-25-october",
       "image": "https://www.afisha.uz/uploads/media/2026/10/cb42cab4444ad9b615c90432a9cfa1af_m.webp",
       "category": "city",
-      "published": 1792750260000,
+      "published": 1792754460000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:23:iaa",
+      "title": "В Ташкенте покажут спецтехнику и выступления ОВД с конной кавалерией",
+      "description": "Гостям покажут современную специальную технику и служебные автомобили, а также полеты дронов.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/23/iaa",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/ee1ba0212f1d0df73a0e715a8bdc8605_m.webp",
+      "category": "city",
+      "published": 1792752537000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:23:lake",
+      "title": "В Учтепинском районе Ташкента построят искусственное озеро с зоной отдыха",
+      "description": "Проект призван улучшить микроклимат территории, снизить запыленность и создать новое место для отдыха жителей.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/23/lake",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/5f166cd0aadc8af2a6dbc66f842eacb7_m.webp",
+      "category": "city",
+      "published": 1792752000000,
       "venue": null
     },
     {
@@ -137,16 +147,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/5be2e0bb27f917510471b031f643ca4d_m.webp",
       "category": "city",
       "published": 1792150680000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:16:weather",
-      "title": "На выходных потеплеет до +24° и ожидается туман",
-      "description": "Прогноз погоды в Ташкенте на выходные 17 и 18 октября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/16/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/074ff675aa4b66fe6ed9e7116a715042_m.webp",
-      "category": "city",
-      "published": 1792147629000,
       "venue": null
     },
     {
