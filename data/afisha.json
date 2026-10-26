@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-10-26T02:15:30.348Z",
+  "updatedAt": "2026-10-26T11:50:28.078Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:26:brt",
+      "title": "В Ташкенте ограничили движение на двух дорогах из-за строительства BRT",
+      "description": "Ограничения затронут центральную часть проезжей части, остальные полосы останутся открытыми для движения.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/26/brt",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/149afcf5d550cf4942e6558ff1ff5d6a_m.webp",
+      "category": "city",
+      "published": 1792993339000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:26:weather",
+      "title": "В столице рабочая неделя будет теплой",
+      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 26 по 30 октября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/26/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/65e5acbf12db478d84333beda77a33f8_m.webp",
+      "category": "city",
+      "published": 1792989934000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:10:23:24-25-october",
       "title": "Куда пойти на выходных в Ташкенте, 24 и 25 октября",
@@ -127,26 +147,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/1af47ea46822acb300f3c4501a40081a_m.webp",
       "category": "city",
       "published": 1792389600000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:19:weather",
-      "title": "До +25° в начале недели и +20° к пятнице ожидается в столице",
-      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 19 по 23 октября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/19/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/6a89bcd78392469c2d731cd237ddcbec_m.webp",
-      "category": "city",
-      "published": 1792387180000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:16:17-18-october",
-      "title": "Куда пойти на выходных в Ташкенте, 17 и 18 октября",
-      "description": "Шесть кинопремьер, детские мастер-классы в CCA Tashkent, показ игр узбекских разработчиков, турнир по единоборствам, десять выставок, концерты и другие события предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/16/17-18-october",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/5be2e0bb27f917510471b031f643ca4d_m.webp",
-      "category": "city",
-      "published": 1792150680000,
       "venue": null
     },
     {
