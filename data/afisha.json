@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-10-26T11:50:28.078Z",
+  "updatedAt": "2026-10-26T17:52:25.227Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:exhibitions:2026:10:26:motorfest-2026",
+      "title": "MOTORFEST 2026: три дня автомобильного драйва. Фото",
+      "description": "Фестиваль стал местом встречи автомобильных энтузиастов, которые с увлечением рассказывали о своих проектах и делились любовью к машинам.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/10/26/motorfest-2026",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/3a1e529ef994aac7a8d6d00160e8274d_m.webp",
+      "category": "exhibition",
+      "published": 1793015820000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:10:26:brt",
       "title": "В Ташкенте ограничили движение на двух дорогах из-за строительства BRT",
@@ -357,16 +367,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/06/ca5ecdad3be776c3362c20ff8f997cb7_m.webp",
       "category": "exhibition",
       "published": 1780987260000,
-      "venue": null
-    },
-    {
-      "id": "ru:exhibitions:2026:06:04:bukhara-biennial",
-      "title": "Художественным руководителем второй Бухарской биеннале в 2027 станет Кулапат Янтрасаст",
-      "description": "Весной 2026 года он спроектировал национальный павильон «Когда цветут абрикосы» на Миланской неделе дизайна.",
-      "url": "https://www.afisha.uz/ru/exhibitions/2026/06/04/bukhara-biennial",
-      "image": "https://www.afisha.uz/uploads/media/2026/06/d6c4774505c3c9a9a8fd72952eb5a681_m.webp",
-      "category": "exhibition",
-      "published": 1780574820000,
       "venue": null
     },
     {
