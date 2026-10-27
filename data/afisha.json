@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-10-27T11:14:57.845Z",
+  "updatedAt": "2026-10-27T17:00:12.822Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:27:octobank",
+      "title": "Держатели карт Octobank одними из первых в Узбекистане получили доступ к Apple Pay",
+      "description": "Octobank подключил Apple Pay для держателей карт Visa и Mastercard, которые теперь можно добавить в Apple Wallet. Клиенты могут оплачивать покупки в магазинах с помощью iPhone и Apple Watch, а также совершать онлайн-платежи с iPad и Mac без ручного ввода реквизитов карты.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/27/octobank",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/02da1c84d925331a91c8bc6e2d87456c_m.webp",
+      "category": "city",
+      "published": 1793106000000,
+      "venue": null
+    },
     {
       "id": "ru:exhibitions:2026:10:26:motorfest-2026",
       "title": "MOTORFEST 2026: три дня автомобильного драйва. Фото",
@@ -147,16 +157,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/440638a028047e8ec49a4e0b2811b933_m.webp",
       "category": "concert",
       "published": 1792401480000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:19:mobiuz",
-      "title": "Mobiuz и Фонд развития культуры и искусства Узбекистана подписали меморандум о сотрудничестве",
-      "description": "Mobiuz и Фонд развития культуры и искусства Узбекистана подписали меморандум о сотрудничестве в сфере культуры и образования. Стороны планируют реализовывать совместные проекты и расширять доступ жителей страны к культурным инициативам с помощью цифровых технологий.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/19/mobiuz",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/1af47ea46822acb300f3c4501a40081a_m.webp",
-      "category": "city",
-      "published": 1792389600000,
       "venue": null
     },
     {
