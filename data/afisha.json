@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-10-28T02:59:05.567Z",
+  "updatedAt": "2026-10-28T11:48:59.314Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:28:kuzgi-toshkent",
+      "title": "Ташкент в золотых красках осени — фоторепортаж",
+      "description": "Столица постепенно окрашивается в желтые, оранжевые и золотистые оттенки. Показываем, как выглядят улицы и Ботанический сад в одно из самых красивых времен года.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/28/kuzgi-toshkent",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/3de950a40a3cc61f462566097781491f_m.webp",
+      "category": "city",
+      "published": 1793173977000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:28:tashkent-design-week",
+      "title": "В Ташкенте стартовала Неделя дизайна: макет Нового Ташкента, выставки и городские маршруты",
+      "description": "С 26 октября по 1 ноября Tashkent Design Week объединит более 20 площадок столицы. В программе — первая публичная презентация макета Нового Ташкента, проекты Zaha Hadid Architects и Studio KO, выставка узбекской мебели, архитектурные дискуссии и бесплатные дизайн-туры.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/28/tashkent-design-week",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/de2b3bb6c2caa5617e1247b5c9e6d33c_m.webp",
+      "category": "city",
+      "published": 1793168741000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:10:27:octobank",
       "title": "Держатели карт Octobank одними из первых в Узбекистане получили доступ к Apple Pay",
@@ -120,16 +140,6 @@
       "venue": null
     },
     {
-      "id": "ru:gorod:2026:10:22:alphabet",
-      "title": "В Узбекистане утвердили новый алфавит",
-      "description": "В новой версии будет 28 букв и апостроф, а несколько привычных буквосочетаний заменят отдельными символами.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/22/alphabet",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/dfaa2c15259acf935b45099e9473877d_m.webp",
-      "category": "city",
-      "published": 1792655760000,
-      "venue": null
-    },
-    {
       "id": "ru:exhibitions:2026:10:21:motorfest",
       "title": "Программа MOTORFEST 2026: зрителей ждут шоу, выставка автомобилей и дрифт-такси",
       "description": "Выставка машин, дрифт-шоу BMW M FEST, тюнинг-проекты, соревнования с голосованием зрителей, музыка и развлекательные мероприятия.",
@@ -137,16 +147,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/4c51716119e3829709af1e6b59bcafe7_m.webp",
       "category": "exhibition",
       "published": 1792562580000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:20:buses",
-      "title": "В Ташкенте изменили два автобусных маршрута",
-      "description": "Сокращение №58 объяснили ограниченной вместимостью остановки, а маршрут №100 изменили с учетом обращений пассажиров.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/20/buses",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/ab2a80186269c35701f08f279740ac1d_m.webp",
-      "category": "city",
-      "published": 1792478817000,
       "venue": null
     },
     {
