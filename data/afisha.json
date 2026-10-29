@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-10-29T11:56:44.145Z",
+  "updatedAt": "2026-10-29T17:53:50.132Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:29:ergo",
+      "title": "ERGO и дизайн-студия THERKALO представили совместный проект на Tashkent Design Week 2026",
+      "description": "Проект «Архитектурный код Ташкента» переносит формы пяти модернистских зданий столицы из списка ЮНЕСКО в мебель и предметы интерьера. Компания ERGO подготовила его вместе с дизайн-студией THERKALO.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/29/ergo",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/a25b022ad85043f1e4570aad2d2a906c_m.webp",
+      "category": "city",
+      "published": 1793275200000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:10:29:golden-autumn",
       "title": "Когда в Ташкенте наступает золотая осень и где её искать?",
@@ -121,16 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/5f166cd0aadc8af2a6dbc66f842eacb7_m.webp",
       "category": "city",
       "published": 1792752000000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:23:kia",
-      "title": "Новый Kia Seltos дебютировал в Узбекистане на Motorfest 2026",
-      "description": "200 лошадиных сил, полный привод и новый дизайн — современный городской кроссовер Kia Seltos второго поколения представлен в Ташкенте на выставке Motorfest 2026. Модель доступна в пяти версиях и в рассрочку до 60 месяцев.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/23/kia",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/cf7ac00477e9b1172ca427259c93d5d4_m.webp",
-      "category": "city",
-      "published": 1792749600000,
       "venue": null
     },
     {
