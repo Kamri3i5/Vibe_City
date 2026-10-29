@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-10-29T03:25:54.389Z",
+  "updatedAt": "2026-10-29T11:56:44.145Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:29:golden-autumn",
+      "title": "Когда в Ташкенте наступает золотая осень и где её искать?",
+      "description": "Когда ехать в Ботанический сад, где погулять без билета и как не пропустить время жёлтых аллей.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/29/golden-autumn",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/7830275c63672c6eb2354262dfe8b1a3_m.webp",
+      "category": "city",
+      "published": 1793270100000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:29:lake",
+      "title": "В Алмазарском районе Ташкента строят искусственное озеро",
+      "description": "Все многолетние деревья обещают сохранить на прежних местах, а некоторые небольшие деревья пересадят на другие подходящие участки.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/29/lake",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/92c98985e2598fb536e24c804c40eac0_m.webp",
+      "category": "city",
+      "published": 1793264962000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:29:beldersoy-resort",
+      "title": "Beldersoy Resort & SPA: как устроен новый премиальный курорт в горах",
+      "description": "Всесезонный курорт Beldersoy Resort & SPA воплотил мировые стандарты Hyatt, но сохранил национальную идентичность через уважение к узбекской культуре, ремеслам и гастрономическим традициям.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/29/beldersoy-resort",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/2aae0f89b366c9cf86573817b9dffda6_m.webp",
+      "category": "city",
+      "published": 1793253600000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:10:28:kuzgi-toshkent",
       "title": "Ташкент в золотых красках осени — фоторепортаж",
@@ -101,42 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/cf7ac00477e9b1172ca427259c93d5d4_m.webp",
       "category": "city",
       "published": 1792749600000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:23:weather",
-      "title": "В столице ожидается до +19° днем и дымка ночью",
-      "description": "Прогноз погоды в Ташкенте на выходные 24 и 25 октября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/23/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/147fb4ea07fa1188d9a9c3ea7a7711dc_m.webp",
-      "category": "city",
-      "published": 1792747508000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:23:chococream",
-      "title": "20 лет сладких традиций: Chococream приглашает на грандиозный семейный праздник в Magic City",
-      "description": "25 октября в ташкентском парке Magic City состоится празднование 20-летия бренда Chococream. В честь юбилея гостей ждут выступления популярных артистов, интерактивные развлечения, яркая шоу-программа, сладкие подарки и розыгрыш главных призов.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/23/chococream",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/1fde4801621d6a4ea3626b4ddf0ea2b7_m.webp",
-      "category": "city",
-      "published": 1792735200000,
-      "venue": {
-        "name": "Magic City",
-        "coords": [
-          41.3036,
-          69.245
-        ]
-      }
-    },
-    {
-      "id": "ru:gorod:2026:10:22:waterside",
-      "title": "Больше, чем массаж: в Waterside знакомят с особой культурой отдыха",
-      "description": "Традиционные китайские техники, иностранные специалисты, приватные VIP-кабинеты, особое внимание к гигиене и коллекция из 20 видов чая — о пространстве Waterside в Ташкенте, где привычный отдых приобретает совершенно другой характер.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/22/waterside",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/79474de760d128528cd21877d0af303a_m.webp",
-      "category": "city",
-      "published": 1792677600000,
       "venue": null
     },
     {
