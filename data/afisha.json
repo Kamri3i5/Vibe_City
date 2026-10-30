@@ -1,8 +1,44 @@
 {
-  "updatedAt": "2026-10-30T03:28:09.540Z",
+  "updatedAt": "2026-10-30T11:50:49.027Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:10:30:31october-1november",
+      "title": "Куда пойти на выходных в Ташкенте, 31 октября и 1 ноября",
+      "description": "Семь кинопремьер, фестиваль «Индия рядом», шоу «Чарли и морские котики» в цирке, книжный фестиваль, дни астрономии, концерты Агутина и Меладзе, выставки, спектакли и другие события предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/30/31october-1november",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/44ac535ab44345c11f2b4bab6f58b1ac_m.webp",
+      "category": "city",
+      "published": 1793360220000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:30:weather",
+      "title": "На выходных ожидается +21°C",
+      "description": "Прогноз погоды в Ташкенте на выходные 31 октября и 1 ноября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/30/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/a70b84b9790797c9462a4e077f01fce0_m.webp",
+      "category": "city",
+      "published": 1793356364000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:10:30:chococream",
+      "title": "20 лет вместе: Chococream отметил юбилей семейным праздником в Magic City",
+      "description": "25 октября в ташкентском парке Magic City состоялся праздник в честь 20-летия Chococream. Гостей ждали интерактивные развлечения, выступления Хамдама Собирова и Milan Band, танцевальная программа и розыгрыш главных призов.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/10/30/chococream",
+      "image": "https://www.afisha.uz/uploads/media/2026/10/ed77f26fc4bdca03570bfc8dff26e1fc_m.webp",
+      "category": "city",
+      "published": 1793340000000,
+      "venue": {
+        "name": "Magic City",
+        "coords": [
+          41.3036,
+          69.245
+        ]
+      }
+    },
     {
       "id": "ru:gorod:2026:10:29:ergo",
       "title": "ERGO и дизайн-студия THERKALO представили совместный проект на Tashkent Design Week 2026",
@@ -101,36 +137,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/65e5acbf12db478d84333beda77a33f8_m.webp",
       "category": "city",
       "published": 1792989934000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:23:24-25-october",
-      "title": "Куда пойти на выходных в Ташкенте, 24 и 25 октября",
-      "description": "Пять кинопремьер, XI Фестиваль европейского кино, «уДачная» ярмарка, спектакли, концерт Мота, дни астрономии в Планетарии, юмористические шоу и други события предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/23/24-25-october",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/cb42cab4444ad9b615c90432a9cfa1af_m.webp",
-      "category": "city",
-      "published": 1792754460000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:23:iaa",
-      "title": "В Ташкенте покажут спецтехнику и выступления ОВД с конной кавалерией",
-      "description": "Гостям покажут современную специальную технику и служебные автомобили, а также полеты дронов.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/23/iaa",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/ee1ba0212f1d0df73a0e715a8bdc8605_m.webp",
-      "category": "city",
-      "published": 1792752537000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:23:lake",
-      "title": "В Учтепинском районе Ташкента построят искусственное озеро с зоной отдыха",
-      "description": "Проект призван улучшить микроклимат территории, снизить запыленность и создать новое место для отдыха жителей.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/23/lake",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/5f166cd0aadc8af2a6dbc66f842eacb7_m.webp",
-      "category": "city",
-      "published": 1792752000000,
       "venue": null
     },
     {
