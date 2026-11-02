@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-11-02T03:19:49.693Z",
+  "updatedAt": "2026-11-02T14:09:34.399Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:concerts:2026:11:02:richter-trio",
+      "title": "Концерт Richter Trio в Ташкенте перенесли на март 2027",
+      "description": "Выступление ансамбля Кирилла Рихтера Richter Trio перенесли на 12 марта 2027 года.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/11/02/richter-trio",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/7f569886bd8c2cf719cf4ceb878fda5a_m.webp",
+      "category": "concert",
+      "published": 1793606400000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:02:weather",
+      "title": "В столице ожидаются потепление до +25° и дожди",
+      "description": "Прогноз погоды в Ташкенте на рабочую неделю со 2 по 6 ноября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/02/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/451423fbc9367c4266c9b95b5252c2df_m.webp",
+      "category": "city",
+      "published": 1793597121000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:01:uzum-avto",
+      "title": "Uzum Avto выкупит четыре автомобиля по 300 млн сумов",
+      "description": "В рамках акции «Авто за 300 миллионов» Uzum Avto выкупит четыре автомобиля с пробегом по 300 млн сумов. Победителей определят 20 и 27 ноября, 4 и 11 декабря, а результаты каждой недели опубликуют в Instagram сервиса.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/01/uzum-avto",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/6f85ff218125d42ca591d92321f2cfa9_m.webp",
+      "category": "city",
+      "published": 1793527200000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:10:30:31october-1november",
       "title": "Куда пойти на выходных в Ташкенте, 31 октября и 1 ноября",
@@ -117,26 +147,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/3a1e529ef994aac7a8d6d00160e8274d_m.webp",
       "category": "exhibition",
       "published": 1793015820000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:26:brt",
-      "title": "В Ташкенте ограничили движение на двух дорогах из-за строительства BRT",
-      "description": "Ограничения затронут центральную часть проезжей части, остальные полосы останутся открытыми для движения.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/26/brt",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/149afcf5d550cf4942e6558ff1ff5d6a_m.webp",
-      "category": "city",
-      "published": 1792993339000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:26:weather",
-      "title": "В столице рабочая неделя будет теплой",
-      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 26 по 30 октября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/26/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/65e5acbf12db478d84333beda77a33f8_m.webp",
-      "category": "city",
-      "published": 1792989934000,
       "venue": null
     },
     {
@@ -327,16 +337,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/df0b2a0d5c31d2b30c6b88428619c3fc_m.webp",
       "category": "concert",
       "published": 1786516860000,
-      "venue": null
-    },
-    {
-      "id": "ru:concerts:2026:08:10:pekin",
-      "title": "Концерт Ланг Ланга и Национального симфонического оркестра Узбекистана у Великой Китайской стены перенесен",
-      "description": "Точная новая дата проведения концерта у древнего памятника архитектуры будет объявлена организаторами дополнительно.",
-      "url": "https://www.afisha.uz/ru/concerts/2026/08/10/pekin",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/15ce0ea257a2985ac2bbe1abf43bbde8_m.webp",
-      "category": "concert",
-      "published": 1786366080000,
       "venue": null
     },
     {
