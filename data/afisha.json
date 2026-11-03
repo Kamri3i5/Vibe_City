@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-11-03T00:11:03.628Z",
+  "updatedAt": "2026-11-03T13:14:01.807Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:concerts:2026:11:03:concerts-novemb",
+      "title": "Концерты ноября 2026, которые стоит посетить в Ташкенте",
+      "description": "Собрали подборку концертов, которые стоит посетить в этом месяце.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/11/03/concerts-novemb",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/58846b515516cd370b9b7cba3bc8913e_m.webp",
+      "category": "concert",
+      "published": 1793711499000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:03:mobiuz",
+      "title": "Mobiuz стал генеральным партнером Samarkand Marathon 2026",
+      "description": "С 7 по 8 ноября в Самарканде состоится одно из главных спортивных событий года – Samarkand Marathon 2026. Mobiuz выступит генеральным партнером мероприятия, беря на себя технологическое обеспечение масштабного праздника спорта.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/03/mobiuz",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/ddd1f8b70266ee1f21640564f5470e84_m.webp",
+      "category": "city",
+      "published": 1793685600000,
+      "venue": null
+    },
     {
       "id": "ru:concerts:2026:11:02:richter-trio",
       "title": "Концерт Richter Trio в Ташкенте перенесли на март 2027",
@@ -127,16 +147,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/de2b3bb6c2caa5617e1247b5c9e6d33c_m.webp",
       "category": "city",
       "published": 1793168741000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:27:octobank",
-      "title": "Держатели карт Octobank одними из первых в Узбекистане получили доступ к Apple Pay",
-      "description": "Octobank подключил Apple Pay для держателей карт Visa и Mastercard, которые теперь можно добавить в Apple Wallet. Клиенты могут оплачивать покупки в магазинах с помощью iPhone и Apple Watch, а также совершать онлайн-платежи с iPad и Mac без ручного ввода реквизитов карты.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/27/octobank",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/02da1c84d925331a91c8bc6e2d87456c_m.webp",
-      "category": "city",
-      "published": 1793106000000,
       "venue": null
     },
     {
@@ -327,16 +337,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/b622c5be9a969a678b12798a7558b5bb_m.webp",
       "category": "concert",
       "published": 1786527840000,
-      "venue": null
-    },
-    {
-      "id": "ru:concerts:2026:08:12:9gramm",
-      "title": "Концерт 9 Грамм в Ташкенте отменен",
-      "description": "По словам артиста, команда обязательно придет в Ташкент снова — но уже с другими организаторами.",
-      "url": "https://www.afisha.uz/ru/concerts/2026/08/12/9gramm",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/df0b2a0d5c31d2b30c6b88428619c3fc_m.webp",
-      "category": "concert",
-      "published": 1786516860000,
       "venue": null
     },
     {
