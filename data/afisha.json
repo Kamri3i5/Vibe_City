@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-11-04T03:51:54.853Z",
+  "updatedAt": "2026-11-04T13:27:27.389Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:04:lego",
+      "title": "LEGO выпустит гигантскую Годзиллу из 5363 деталей",
+      "description": "Конструктор высотой более 70 сантиметров станет самым большим набором в истории серии LEGO Ideas. В продажу он поступит 27 ноября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/04/lego",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/f31d9c39232aaa423b3745fe36b1931c_m.webp",
+      "category": "city",
+      "published": 1793796498000,
+      "venue": null
+    },
     {
       "id": "ru:concerts:2026:11:03:concerts-novemb",
       "title": "Концерты ноября 2026, которые стоит посетить в Ташкенте",
@@ -10,7 +20,7 @@
       "url": "https://www.afisha.uz/ru/concerts/2026/11/03/concerts-novemb",
       "image": "https://www.afisha.uz/uploads/media/2026/11/58846b515516cd370b9b7cba3bc8913e_m.webp",
       "category": "concert",
-      "published": 1793711499000,
+      "published": 1793711460000,
       "venue": null
     },
     {
@@ -137,16 +147,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/3de950a40a3cc61f462566097781491f_m.webp",
       "category": "city",
       "published": 1793173977000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:28:tashkent-design-week",
-      "title": "В Ташкенте стартовала Неделя дизайна: макет Нового Ташкента, выставки и городские маршруты",
-      "description": "С 26 октября по 1 ноября Tashkent Design Week объединит более 20 площадок столицы. В программе — первая публичная презентация макета Нового Ташкента, проекты Zaha Hadid Architects и Studio KO, выставка узбекской мебели, архитектурные дискуссии и бесплатные дизайн-туры.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/28/tashkent-design-week",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/de2b3bb6c2caa5617e1247b5c9e6d33c_m.webp",
-      "category": "city",
-      "published": 1793168741000,
       "venue": null
     },
     {
