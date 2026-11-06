@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-11-06T04:08:26.351Z",
+  "updatedAt": "2026-11-06T13:26:09.596Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:06:7-8-november",
+      "title": "Куда пойти на выходных в Ташкенте, 7 и 8 ноября",
+      "description": "Девять кинопремьер, экскурсия по зданиям ташкентского модернизма, международный фестиваль «Наука 0+», шоу в Цирке, концерт Валерии, стендап и другие события предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/06/7-8-november",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/94e7b491d27ed3b0032ec316d03c9117_m.webp",
+      "category": "city",
+      "published": 1793960100000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:06:weather",
+      "title": "В столице на выходных сохранится теплая погода",
+      "description": "Прогноз погоды в Ташкенте на выходные 7 и 8 ноября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/06/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/173124df6bd3daf284eaa5b80b55bf90_m.webp",
+      "category": "city",
+      "published": 1793959080000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:04:lego",
       "title": "LEGO выпустит гигантскую Годзиллу из 5363 деталей",
@@ -127,26 +147,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/10/92c98985e2598fb536e24c804c40eac0_m.webp",
       "category": "city",
       "published": 1793264962000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:29:beldersoy-resort",
-      "title": "Beldersoy Resort & SPA: как устроен новый премиальный курорт в горах",
-      "description": "Всесезонный курорт Beldersoy Resort & SPA воплотил мировые стандарты Hyatt, но сохранил национальную идентичность через уважение к узбекской культуре, ремеслам и гастрономическим традициям.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/29/beldersoy-resort",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/2aae0f89b366c9cf86573817b9dffda6_m.webp",
-      "category": "city",
-      "published": 1793253600000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:28:kuzgi-toshkent",
-      "title": "Ташкент в золотых красках осени — фоторепортаж",
-      "description": "Столица постепенно окрашивается в желтые, оранжевые и золотистые оттенки. Показываем, как выглядят улицы и Ботанический сад в одно из самых красивых времен года.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/28/kuzgi-toshkent",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/3de950a40a3cc61f462566097781491f_m.webp",
-      "category": "city",
-      "published": 1793173977000,
       "venue": null
     },
     {
