@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-11-09T03:38:02.096Z",
+  "updatedAt": "2026-11-09T14:39:55.636Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:09:mobiuz",
+      "title": "В ритме Samarkand Marathon 2026: Mobiuz делится фотоотчетом",
+      "description": "Мобильный оператор Mobiuz выступил генеральным партнером Samarkand Marathon 2026 и обеспечил мобильную связь и доступ в интернет на трассе и площадках марафона. На старт вышли более 80 сотрудников компании из разных регионов Узбекистана.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/09/mobiuz",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/a9111836a33e180f1dc955b82b274d62_m.webp",
+      "category": "city",
+      "published": 1794218400000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:09:lake",
+      "title": "В Национальном парке Ташкента восстановят озеро, осушенное шесть лет назад",
+      "description": "Озеро восстановят в рамках общенационального проекта «Чистый воздух», направленного на снижение запыленности, улучшение качества воздуха и микроклимата в столице.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/09/lake",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/068d5eedf18e9058889a8e11fe1ee875_m.webp",
+      "category": "city",
+      "published": 1794198810000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:09:weather",
+      "title": "До +3° ночью и дожди ожидаются в столице",
+      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 9 по 13 ноября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/09/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/d897d35d1f4f093feeb79abda6c240c8_m.webp",
+      "category": "city",
+      "published": 1794197109000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:06:7-8-november",
       "title": "Куда пойти на выходных в Ташкенте, 7 и 8 ноября",
@@ -118,36 +148,6 @@
           69.245
         ]
       }
-    },
-    {
-      "id": "ru:gorod:2026:10:29:ergo",
-      "title": "ERGO и дизайн-студия THERKALO представили совместный проект на Tashkent Design Week 2026",
-      "description": "Проект «Архитектурный код Ташкента» переносит формы пяти модернистских зданий столицы из списка ЮНЕСКО в мебель и предметы интерьера. Компания ERGO подготовила его вместе с дизайн-студией THERKALO.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/29/ergo",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/a25b022ad85043f1e4570aad2d2a906c_m.webp",
-      "category": "city",
-      "published": 1793275200000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:29:golden-autumn",
-      "title": "Когда в Ташкенте наступает золотая осень и где её искать?",
-      "description": "Когда ехать в Ботанический сад, где погулять без билета и как не пропустить время жёлтых аллей.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/29/golden-autumn",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/7830275c63672c6eb2354262dfe8b1a3_m.webp",
-      "category": "city",
-      "published": 1793270100000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:29:lake",
-      "title": "В Алмазарском районе Ташкента строят искусственное озеро",
-      "description": "Все многолетние деревья обещают сохранить на прежних местах, а некоторые небольшие деревья пересадят на другие подходящие участки.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/29/lake",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/92c98985e2598fb536e24c804c40eac0_m.webp",
-      "category": "city",
-      "published": 1793264962000,
-      "venue": null
     },
     {
       "id": "ru:exhibitions:2026:10:26:motorfest-2026",
