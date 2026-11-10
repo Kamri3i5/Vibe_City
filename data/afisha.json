@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-11-10T13:56:22.391Z",
+  "updatedAt": "2026-11-10T22:38:45.859Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:10:bnb",
+      "title": "В Ташкенте открылся девятый филиал B&B – B&B Aviator",
+      "description": "Новая кофейня на улице Махтумкули стала первой франчайзинговой точкой сети B&B Beans & Brews.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/10/bnb",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/6b6981634a60257d9923ba1436ab48d2_m.webp",
+      "category": "city",
+      "published": 1794319200000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:10:customs",
       "title": "Проверка до 30 дней и свыше $1 000: ввоз iPhone в Узбекистан изменился",
@@ -131,16 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/11/6f85ff218125d42ca591d92321f2cfa9_m.webp",
       "category": "city",
       "published": 1793527200000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:30:31october-1november",
-      "title": "Куда пойти на выходных в Ташкенте, 31 октября и 1 ноября",
-      "description": "Семь кинопремьер, фестиваль «Индия рядом», шоу «Чарли и морские котики» в цирке, книжный фестиваль, дни астрономии, концерты Агутина и Меладзе, выставки, спектакли и другие события предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/30/31october-1november",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/44ac535ab44345c11f2b4bab6f58b1ac_m.webp",
-      "category": "city",
-      "published": 1793360220000,
       "venue": null
     },
     {
