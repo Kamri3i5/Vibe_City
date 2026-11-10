@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-11-10T00:58:00.544Z",
+  "updatedAt": "2026-11-10T13:56:22.391Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:10:customs",
+      "title": "Проверка до 30 дней и свыше $1 000: ввоз iPhone в Узбекистан изменился",
+      "description": "Причина — выявленные случаи подделки и клонирования IMEI-кодов, а также незаконного ввоза устройств.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/10/customs",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/efb3e8959e69754049fce9cf71923c59_m.webp",
+      "category": "city",
+      "published": 1794313500000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:10:haval",
+      "title": "Haval – три года в ритме Узбекистана: от первых автомобилей до тысяч историй на дорогах страны",
+      "description": "Три года назад Haval начал свою историю в Узбекистане. Сегодня бренд объединяет тысячи автовладельцев, представлен в разных регионах страны и продолжает расширять возможности для тех, кто ценит комфорт, современные технологии и свободу передвижения.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/10/haval",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/e3e42830454229fe5fbc3d651a731c3f_m.webp",
+      "category": "city",
+      "published": 1794290400000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:09:mobiuz",
       "title": "В ритме Samarkand Marathon 2026: Mobiuz делится фотоотчетом",
@@ -122,32 +142,6 @@
       "category": "city",
       "published": 1793360220000,
       "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:30:weather",
-      "title": "На выходных ожидается +21°C",
-      "description": "Прогноз погоды в Ташкенте на выходные 31 октября и 1 ноября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/30/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/a70b84b9790797c9462a4e077f01fce0_m.webp",
-      "category": "city",
-      "published": 1793356364000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:10:30:chococream",
-      "title": "20 лет вместе: Chococream отметил юбилей семейным праздником в Magic City",
-      "description": "25 октября в ташкентском парке Magic City состоялся праздник в честь 20-летия Chococream. Гостей ждали интерактивные развлечения, выступления Хамдама Собирова и Milan Band, танцевальная программа и розыгрыш главных призов.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/10/30/chococream",
-      "image": "https://www.afisha.uz/uploads/media/2026/10/ed77f26fc4bdca03570bfc8dff26e1fc_m.webp",
-      "category": "city",
-      "published": 1793340000000,
-      "venue": {
-        "name": "Magic City",
-        "coords": [
-          41.3036,
-          69.245
-        ]
-      }
     },
     {
       "id": "ru:exhibitions:2026:10:26:motorfest-2026",
