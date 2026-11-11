@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-11-11T03:42:52.199Z",
+  "updatedAt": "2026-11-11T13:10:20.434Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:11:samarkand-marathon-2026",
+      "title": "Samarkand Marathon 2026 собрал более 10 тысяч участников из 67 стран",
+      "description": "Международный благотворительный марафон впервые прошел со статусом World Athletics Elite Label. Старт главной дистанции дал четырехкратный олимпийский чемпион Мо Фара, а победителями стали спортсмены из Кении и Эфиопии.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/11/samarkand-marathon-2026",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/77a09250b8aa75054a97b0a3747dff59_m.webp",
+      "category": "city",
+      "published": 1794393180000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:11:11:robert-plant",
+      "title": "Роберт Плант, вокалист рок-группы Led Zeppelin, выступит в Ташкенте",
+      "description": "Концерт состоится в Ташкенте 31 августа во Дворце «Дружба Народов».",
+      "url": "https://www.afisha.uz/ru/concerts/2026/11/11/robert-plant",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/ad78e9c5d0c55d9726f5970ab60ddb05_m.webp",
+      "category": "concert",
+      "published": 1794392520000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:10:bnb",
       "title": "В Ташкенте открылся девятый филиал B&B – B&B Aviator",
@@ -15,8 +35,8 @@
     },
     {
       "id": "ru:gorod:2026:11:10:customs",
-      "title": "Проверка до 30 дней и свыше $1 000: ввоз iPhone в Узбекистан изменился",
-      "description": "Причина — выявленные случаи подделки и клонирования IMEI-кодов, а также незаконного ввоза устройств.",
+      "title": "В аэропорту Ташкента временно приостановили оформление смартфонов",
+      "description": "Причиной стали случаи подделки и копирования IMEI-кодов, позволяющие обходить правила регистрации телефонов.",
       "url": "https://www.afisha.uz/ru/gorod/2026/11/10/customs",
       "image": "https://www.afisha.uz/uploads/media/2026/11/efb3e8959e69754049fce9cf71923c59_m.webp",
       "category": "city",
@@ -131,16 +151,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/11/451423fbc9367c4266c9b95b5252c2df_m.webp",
       "category": "city",
       "published": 1793597121000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:01:uzum-avto",
-      "title": "Uzum Avto выкупит четыре автомобиля по 300 млн сумов",
-      "description": "В рамках акции «Авто за 300 миллионов» Uzum Avto выкупит четыре автомобиля с пробегом по 300 млн сумов. Победителей определят 20 и 27 ноября, 4 и 11 декабря, а результаты каждой недели опубликуют в Instagram сервиса.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/01/uzum-avto",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/6f85ff218125d42ca591d92321f2cfa9_m.webp",
-      "category": "city",
-      "published": 1793527200000,
       "venue": null
     },
     {
@@ -321,16 +331,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/8e6fa79c15a5fea5e9cc6a09172fbc71_m.webp",
       "category": "concert",
       "published": 1786536576000,
-      "venue": null
-    },
-    {
-      "id": "ru:concerts:2026:08:12:lang-samarkand",
-      "title": "Дополнительный авиарейс и спецскидки на отели: как добраться на концерт Ланг Ланга в Самарканде",
-      "description": "Зрители смогут легко добраться до Самарканта на утреннем рейсе и сэкономить на проживании благодаря специальному промокоду.",
-      "url": "https://www.afisha.uz/ru/concerts/2026/08/12/lang-samarkand",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/b622c5be9a969a678b12798a7558b5bb_m.webp",
-      "category": "concert",
-      "published": 1786527840000,
       "venue": null
     },
     {
