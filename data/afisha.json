@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-11-11T13:10:20.434Z",
+  "updatedAt": "2026-11-11T23:50:16.206Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:11:imei",
+      "title": "В аэропорту Ташкента возобновили оформление ввезенных смартфонов",
+      "description": "Таможенный комитет и центр UzIMEI договорились о новом порядке проверки устройств.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/11/imei",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/38d332bc31b31adb900555154e57fa84_m.webp",
+      "category": "city",
+      "published": 1794402599000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:11:samarkand-marathon-2026",
       "title": "Samarkand Marathon 2026 собрал более 10 тысяч участников из 67 стран",
@@ -141,16 +151,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/11/7f569886bd8c2cf719cf4ceb878fda5a_m.webp",
       "category": "concert",
       "published": 1793606400000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:02:weather",
-      "title": "В столице ожидаются потепление до +25° и дожди",
-      "description": "Прогноз погоды в Ташкенте на рабочую неделю со 2 по 6 ноября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/02/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/451423fbc9367c4266c9b95b5252c2df_m.webp",
-      "category": "city",
-      "published": 1793597121000,
       "venue": null
     },
     {
