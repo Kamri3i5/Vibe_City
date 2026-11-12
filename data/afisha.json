@@ -1,8 +1,54 @@
 {
-  "updatedAt": "2026-11-12T04:51:18.973Z",
+  "updatedAt": "2026-11-12T14:13:43.898Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:12:aman-develpoment",
+      "title": "Грандиозное открытие Aman Development: в Новом Ташкенте представят Geraldika Residence",
+      "description": "14 ноября в 14:00 в дирекции Нового Ташкента состоятся грандиозное открытие Aman Development, презентация и старт продаж жилого комплекса бизнес-класса Geraldika Residence.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/12/aman-develpoment",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/a5000fbdee02a4a67cb016ab06cf7113_m.webp",
+      "category": "city",
+      "published": 1794492000000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:12:magic-city",
+      "title": "Magic City и Pepsi приглашают на торжественное открытие волшебной новогодней ёлки",
+      "description": "14 ноября в 19:00 в парке Magic City состоится одно из самых ожидаемых праздничных событий – зажжение огней на главной новогодней ёлке.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/12/magic-city",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/4c916ece3d4ea5d2f49821d52f90fd1f_m.webp",
+      "category": "city",
+      "published": 1794484800000,
+      "venue": {
+        "name": "Magic City",
+        "coords": [
+          41.3036,
+          69.245
+        ]
+      }
+    },
+    {
+      "id": "ru:exhibitions:2026:11:12:britishcouncil",
+      "title": "В Ташкенте проходит выставка «Кто мы?», посвященная 30-летию работы Британского совета",
+      "description": "Британский совет отмечает 30-летие работы в Узбекистане выставкой о памяти, идентичности и вещах, которые хранят наши истории. В Ташкентском доме фотографии представили работы британских художников и архив современного Узбекистана.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/11/12/britishcouncil",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/33450cf79e03f16e274508f394d8a722_m.webp",
+      "category": "exhibition",
+      "published": 1794472680000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:12:brt",
+      "title": "В Ташкенте создают автобусный BRT-коридор протяженностью 22,7 км: какие улицы он охватит",
+      "description": "В 2026 году по сравнению с 2023-м средняя скорость автобусов на участке улицы Шота Руставели выросла на 45%, а легковых автомобилей — на 18%.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/12/brt",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/0e08709fd1bb70bf8d9d3cc2b3a63216_m.webp",
+      "category": "city",
+      "published": 1794469277000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:12:tourists",
       "title": "За десять месяцев Узбекистан посетили 11,6 млн иностранных туристов",
@@ -101,36 +147,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/11/d897d35d1f4f093feeb79abda6c240c8_m.webp",
       "category": "city",
       "published": 1794197109000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:06:7-8-november",
-      "title": "Куда пойти на выходных в Ташкенте, 7 и 8 ноября",
-      "description": "Девять кинопремьер, экскурсия по зданиям ташкентского модернизма, международный фестиваль «Наука 0+», шоу в Цирке, концерт Валерии, стендап и другие события предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/06/7-8-november",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/94e7b491d27ed3b0032ec316d03c9117_m.webp",
-      "category": "city",
-      "published": 1793960100000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:06:weather",
-      "title": "В столице на выходных сохранится теплая погода",
-      "description": "Прогноз погоды в Ташкенте на выходные 7 и 8 ноября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/06/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/173124df6bd3daf284eaa5b80b55bf90_m.webp",
-      "category": "city",
-      "published": 1793959080000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:04:lego",
-      "title": "LEGO выпустит гигантскую Годзиллу из 5363 деталей",
-      "description": "Конструктор высотой более 70 сантиметров станет самым большим набором в истории серии LEGO Ideas. В продажу он поступит 27 ноября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/04/lego",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/f31d9c39232aaa423b3745fe36b1931c_m.webp",
-      "category": "city",
-      "published": 1793796498000,
       "venue": null
     },
     {
@@ -351,16 +367,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/06/60ed79225899d549dfbb2a3e69eba4e1_m.webp",
       "category": "exhibition",
       "published": 1781510400000,
-      "venue": null
-    },
-    {
-      "id": "ru:exhibitions:2026:06:09:x-ray",
-      "title": "Эстетика многослойности: в Ташкенте открылась выставка Бобура Алимходжаева Duality: X-Ray of Memory",
-      "description": "Центральной частью экспозиции стали шесть уникальных фотопанно. Бобур Алимходжаев решился на смелый технологический эксперимент и распечатал свои кадры на шелковой ткани.",
-      "url": "https://www.afisha.uz/ru/exhibitions/2026/06/09/x-ray",
-      "image": "https://www.afisha.uz/uploads/media/2026/06/ca5ecdad3be776c3362c20ff8f997cb7_m.webp",
-      "category": "exhibition",
-      "published": 1780987260000,
       "venue": null
     },
     {
