@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-11-11T23:50:16.206Z",
+  "updatedAt": "2026-11-12T04:51:18.973Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:12:tourists",
+      "title": "За десять месяцев Узбекистан посетили 11,6 млн иностранных туристов",
+      "description": "Только в октябре в страну приехали 1,31 млн человек — это максимальный месячный показатель за все время наблюдений.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/12/tourists",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/bbcbe50ed62c7ec87c47d41660067683_m.webp",
+      "category": "city",
+      "published": 1794457740000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:11:imei",
       "title": "В аэропорту Ташкента возобновили оформление ввезенных смартфонов",
@@ -131,16 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/11/58846b515516cd370b9b7cba3bc8913e_m.webp",
       "category": "concert",
       "published": 1793711460000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:03:mobiuz",
-      "title": "Mobiuz стал генеральным партнером Samarkand Marathon 2026",
-      "description": "С 7 по 8 ноября в Самарканде состоится одно из главных спортивных событий года – Samarkand Marathon 2026. Mobiuz выступит генеральным партнером мероприятия, беря на себя технологическое обеспечение масштабного праздника спорта.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/03/mobiuz",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/ddd1f8b70266ee1f21640564f5470e84_m.webp",
-      "category": "city",
-      "published": 1793685600000,
       "venue": null
     },
     {
