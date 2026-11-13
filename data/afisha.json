@@ -1,8 +1,44 @@
 {
-  "updatedAt": "2026-11-13T04:01:58.680Z",
+  "updatedAt": "2026-11-13T13:36:59.309Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:13:14-15-november",
+      "title": "Куда пойти на выходных в Ташкенте, 14 и 15 ноября",
+      "description": "«Рамаяна» и еще восемь кинопремьер, закрытие мотосезона, фестиваль экспериментального кино и видеоарта, Drift Show, гастроли Свердловского театра музыкальной комедии, выставки, юмористический концерт Карена Аванесяна и другие мероприятия предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/13/14-15-november",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/ed2ea9ce6d3d5f044c6bbe6751eb17a2_m.webp",
+      "category": "city",
+      "published": 1794564392000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:13:weather",
+      "title": "В столице потеплеет до +15° и прогнозируется дымка днем",
+      "description": "Прогноз погоды в Ташкенте на выходные 14 и 15 ноября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/13/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/5de8569d532fdfb3d7593576d02060d6_m.webp",
+      "category": "city",
+      "published": 1794561932000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:11:13:anvar-djurayev",
+      "title": "Анвар Джураев о VIP-билетах на концерт, выборе Humo Arena, дуэте с Констой и сюрпризах",
+      "description": "21 ноября группа Sahar выступит на Humo Arena с программой Ayol. На пресс-конференции Анвар Джураев рассказал, почему выбрал большую арену, какие сюрпризы готовит для поклонников и почему выступает против искусственного интеллекта в музыке. Рэпер Konsta поделился подробностями их совместной работы.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/11/13/anvar-djurayev",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/f3e19cb0648fb26fce4f1df668db70e4_m.webp",
+      "category": "concert",
+      "published": 1794546000000,
+      "venue": {
+        "name": "Humo Arena",
+        "coords": [
+          41.308,
+          69.2519
+        ]
+      }
+    },
     {
       "id": "ru:gorod:2026:11:12:aman-develpoment",
       "title": "Грандиозное открытие Aman Development: в Новом Ташкенте представят Geraldika Residence",
@@ -127,26 +163,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/11/a9111836a33e180f1dc955b82b274d62_m.webp",
       "category": "city",
       "published": 1794218400000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:09:lake",
-      "title": "В Национальном парке Ташкента восстановят озеро, осушенное шесть лет назад",
-      "description": "Озеро восстановят в рамках общенационального проекта «Чистый воздух», направленного на снижение запыленности, улучшение качества воздуха и микроклимата в столице.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/09/lake",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/068d5eedf18e9058889a8e11fe1ee875_m.webp",
-      "category": "city",
-      "published": 1794198810000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:09:weather",
-      "title": "До +3° ночью и дожди ожидаются в столице",
-      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 9 по 13 ноября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/09/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/d897d35d1f4f093feeb79abda6c240c8_m.webp",
-      "category": "city",
-      "published": 1794197109000,
       "venue": null
     },
     {
@@ -337,16 +353,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/f76a7c249503a815f574429b4cdb3595_m.webp",
       "category": "exhibition",
       "published": 1787567580000,
-      "venue": null
-    },
-    {
-      "id": "ru:concerts:2026:08:12:concerts",
-      "title": "Концерты, которые стоит посетить до конца лета в Ташкенте 2026",
-      "description": "В программе как классические концерты, так и клубные вечера с приглашенными артистами и диджеями.",
-      "url": "https://www.afisha.uz/ru/concerts/2026/08/12/concerts",
-      "image": "https://www.afisha.uz/uploads/media/2026/08/8e6fa79c15a5fea5e9cc6a09172fbc71_m.webp",
-      "category": "concert",
-      "published": 1786536576000,
       "venue": null
     },
     {
