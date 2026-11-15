@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-11-15T03:45:25.193Z",
+  "updatedAt": "2026-11-15T13:08:15.427Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:15:business-meetings",
+      "title": "Где провести конференцию или переговоры в Ташкенте — 10 отелей с залами для деловых встреч",
+      "description": "В подборке — вместимость залов, варианты рассадки и возможности для параллельных сессий и деловых ужинов.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/15/business-meetings",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/98a75c80c5bb9fdaf23390d3c21f1d03_m.webp",
+      "category": "city",
+      "published": 1794718800000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:13:14-15-november",
       "title": "Куда пойти на выходных в Ташкенте, 14 и 15 ноября",
@@ -153,16 +163,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/11/e3e42830454229fe5fbc3d651a731c3f_m.webp",
       "category": "city",
       "published": 1794290400000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:09:mobiuz",
-      "title": "В ритме Samarkand Marathon 2026: Mobiuz делится фотоотчетом",
-      "description": "Мобильный оператор Mobiuz выступил генеральным партнером Samarkand Marathon 2026 и обеспечил мобильную связь и доступ в интернет на трассе и площадках марафона. На старт вышли более 80 сотрудников компании из разных регионов Узбекистана.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/09/mobiuz",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/a9111836a33e180f1dc955b82b274d62_m.webp",
-      "category": "city",
-      "published": 1794218400000,
       "venue": null
     },
     {
