@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-11-16T03:46:31.007Z",
+  "updatedAt": "2026-11-16T14:15:27.461Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:16:hero-s-journey",
+      "title": "В Ташкенте откроется фитнес-студия Hero’s Journey",
+      "description": "Казахстанская сеть фитнес-студий Hero’s Journey привезет в Ташкент формат с готовыми программами, тренером на каждом занятии и пятью видами тренировок.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/16/hero-s-journey",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/31cb6bc05fce67dfc1962f025e7ab97b_m.webp",
+      "category": "city",
+      "published": 1794808800000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:16:weather",
+      "title": "В столице рабочая неделя завершится потеплением до +22°",
+      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 16 по 20 ноября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/16/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/3100cb31fe3235db0d3c0e1684857adc_m.webp",
+      "category": "city",
+      "published": 1794804325000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:15:business-meetings",
       "title": "Где провести конференцию или переговоры в Ташкенте — 10 отелей с залами для деловых встреч",
@@ -143,26 +163,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/11/6b6981634a60257d9923ba1436ab48d2_m.webp",
       "category": "city",
       "published": 1794319200000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:10:customs",
-      "title": "В аэропорту Ташкента временно приостановили оформление смартфонов",
-      "description": "Причиной стали случаи подделки и копирования IMEI-кодов, позволяющие обходить правила регистрации телефонов.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/10/customs",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/efb3e8959e69754049fce9cf71923c59_m.webp",
-      "category": "city",
-      "published": 1794313500000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:10:haval",
-      "title": "Haval – три года в ритме Узбекистана: от первых автомобилей до тысяч историй на дорогах страны",
-      "description": "Три года назад Haval начал свою историю в Узбекистане. Сегодня бренд объединяет тысячи автовладельцев, представлен в разных регионах страны и продолжает расширять возможности для тех, кто ценит комфорт, современные технологии и свободу передвижения.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/10/haval",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/e3e42830454229fe5fbc3d651a731c3f_m.webp",
-      "category": "city",
-      "published": 1794290400000,
       "venue": null
     },
     {
