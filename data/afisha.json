@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-11-17T01:16:00.186Z",
+  "updatedAt": "2026-11-17T15:08:13.955Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:17:uzum-market",
+      "title": "Беговая дорожка, велотренажер, наушники за 1000 сумов: какие акционные товары покупали на Uzum Market",
+      "description": "В Uzum Market рассказали, какие товары узбекистанцы смогли приобрести за 1000 сумов во время распродажи «11.11». За неделю в ней приняли участие жители 600 населенных пунктов, а общая стоимость товаров превысила 2 млрд сумов.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/17/uzum-market",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/acd48243d6f7bf20795b6061465464d2_m.webp",
+      "category": "city",
+      "published": 1794924000000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:17:dreamland",
+      "title": "Dreamland Ashrafiy: как память о великих именах формирует облик современного Ташкента",
+      "description": "Имя композитора Мухтара Ашрафи, внесшего вклад в развитие музыкального искусства Узбекистана, живёт в современном Ташкенте. На улице, названной в его честь, Dreamland Development возводит жилой комплекс Dreamland Ashrafiy из трех семиэтажных блоков.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/17/dreamland",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/5c66b3f54d85521a228c30763e900f1b_m.webp",
+      "category": "city",
+      "published": 1794916800000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:17:picturesque-locations",
+      "title": "Где фотографироваться в Узбекистане: красивые места Ташкента, Самарканда, Бухары и Хивы",
+      "description": "Собрали места, где трудно убрать телефон, и подсказали, что рассмотреть между снимками.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/17/picturesque-locations",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/cc64745513996e0eb40673a4192aad2d_m.webp",
+      "category": "city",
+      "published": 1794890700000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:16:hero-s-journey",
       "title": "В Ташкенте откроется фитнес-студия Hero’s Journey",
@@ -126,26 +156,6 @@
       "venue": null
     },
     {
-      "id": "ru:gorod:2026:11:11:imei",
-      "title": "В аэропорту Ташкента возобновили оформление ввезенных смартфонов",
-      "description": "Таможенный комитет и центр UzIMEI договорились о новом порядке проверки устройств.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/11/imei",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/38d332bc31b31adb900555154e57fa84_m.webp",
-      "category": "city",
-      "published": 1794402599000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:11:samarkand-marathon-2026",
-      "title": "Samarkand Marathon 2026 собрал более 10 тысяч участников из 67 стран",
-      "description": "Международный благотворительный марафон впервые прошел со статусом World Athletics Elite Label. Старт главной дистанции дал четырехкратный олимпийский чемпион Мо Фара, а победителями стали спортсмены из Кении и Эфиопии.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/11/samarkand-marathon-2026",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/77a09250b8aa75054a97b0a3747dff59_m.webp",
-      "category": "city",
-      "published": 1794393180000,
-      "venue": null
-    },
-    {
       "id": "ru:concerts:2026:11:11:robert-plant",
       "title": "Роберт Плант, вокалист рок-группы Led Zeppelin, выступит в Ташкенте",
       "description": "Концерт состоится в Ташкенте 31 августа во Дворце «Дружба Народов».",
@@ -153,16 +163,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/11/ad78e9c5d0c55d9726f5970ab60ddb05_m.webp",
       "category": "concert",
       "published": 1794392520000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:10:bnb",
-      "title": "В Ташкенте открылся девятый филиал B&B – B&B Aviator",
-      "description": "Новая кофейня на улице Махтумкули стала первой франчайзинговой точкой сети B&B Beans & Brews.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/10/bnb",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/6b6981634a60257d9923ba1436ab48d2_m.webp",
-      "category": "city",
-      "published": 1794319200000,
       "venue": null
     },
     {
