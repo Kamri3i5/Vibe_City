@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-11-17T15:08:13.955Z",
+  "updatedAt": "2026-11-18T00:11:02.909Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:17:octobank",
+      "title": "Карты HUMO от Octobank теперь поддерживают Apple Pay",
+      "description": "У держателей карт HUMO от Octobank появилась возможность привязать к Apple Wallet физические, виртуальные и моментальные карты HUMO и оплачивать покупки с помощью iPhone и Apple Watch.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/17/octobank",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/77d2c99dd88b6231ca84c79e529f84b2_m.webp",
+      "category": "city",
+      "published": 1794931200000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:17:uzum-market",
       "title": "Беговая дорожка, велотренажер, наушники за 1000 сумов: какие акционные товары покупали на Uzum Market",
@@ -143,16 +153,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/11/0e08709fd1bb70bf8d9d3cc2b3a63216_m.webp",
       "category": "city",
       "published": 1794469277000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:12:tourists",
-      "title": "За десять месяцев Узбекистан посетили 11,6 млн иностранных туристов",
-      "description": "Только в октябре в страну приехали 1,31 млн человек — это максимальный месячный показатель за все время наблюдений.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/12/tourists",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/bbcbe50ed62c7ec87c47d41660067683_m.webp",
-      "category": "city",
-      "published": 1794457740000,
       "venue": null
     },
     {
