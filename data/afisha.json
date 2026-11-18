@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-11-18T00:11:02.909Z",
+  "updatedAt": "2026-11-18T14:46:36.538Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:18:flag-day",
+      "title": "В Ташкенте пройдет военное шествие в честь 35-летия государственного флага",
+      "description": "Жителей ждут показательные выступления, шествие войск, боевые призывы, выступление оркестра, пролет вертолета с флагом Узбекистана и шоу дронов.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/18/flag-day",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/de7d2268bbe2641c1bedc57da9dc197d_m.webp",
+      "category": "city",
+      "published": 1794977053000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:17:octobank",
       "title": "Карты HUMO от Octobank теперь поддерживают Apple Pay",
@@ -28,7 +38,7 @@
       "title": "Dreamland Ashrafiy: как память о великих именах формирует облик современного Ташкента",
       "description": "Имя композитора Мухтара Ашрафи, внесшего вклад в развитие музыкального искусства Узбекистана, живёт в современном Ташкенте. На улице, названной в его честь, Dreamland Development возводит жилой комплекс Dreamland Ashrafiy из трех семиэтажных блоков.",
       "url": "https://www.afisha.uz/ru/gorod/2026/11/17/dreamland",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/5c66b3f54d85521a228c30763e900f1b_m.webp",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/8b4b10428ade194e0ab4cea133aa50b4_m.webp",
       "category": "city",
       "published": 1794916800000,
       "venue": null
@@ -143,16 +153,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/11/33450cf79e03f16e274508f394d8a722_m.webp",
       "category": "exhibition",
       "published": 1794472680000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:12:brt",
-      "title": "В Ташкенте создают автобусный BRT-коридор протяженностью 22,7 км: какие улицы он охватит",
-      "description": "В 2026 году по сравнению с 2023-м средняя скорость автобусов на участке улицы Шота Руставели выросла на 45%, а легковых автомобилей — на 18%.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/12/brt",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/0e08709fd1bb70bf8d9d3cc2b3a63216_m.webp",
-      "category": "city",
-      "published": 1794469277000,
       "venue": null
     },
     {
