@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-11-20T06:21:08.415Z",
+  "updatedAt": "2026-11-20T19:24:42.976Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:20:listee",
+      "title": "Купить у незнакомца и не пожалеть: как сделать онлайн-сделку комфортной для обеих сторон",
+      "description": "Зафар Исхаков, Country Manager Listee в Узбекистане, рассказал, на что обращать внимание при покупке вещей с рук, как выстраивать доверие между незнакомыми людьми и избегать недопонимания при онлайн-сделках.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/20/listee",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/0fb539fcd9a7eb873a002aef8acd20bc_m.webp",
+      "category": "city",
+      "published": 1795176000000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:20:21-22-november",
+      "title": "Куда пойти на выходных в Ташкенте, 21 и 22 ноября",
+      "description": "Новые «Голодные игры» и еще шесть кинопремьер, спектакли, шоу «Импровизаторы», концерт группы «Пошлая Молли», прожарка, ярмарка и другие события предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/20/21-22-november",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/eb5ad71ccf375620867e250ac00cb759_m.webp",
+      "category": "city",
+      "published": 1795174920000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:20:weather",
+      "title": "До +21° и облачная погода ожидаются в столице",
+      "description": "Прогноз погоды в Ташкенте на выходные 21 и 22 ноября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/20/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/b6d1669082fe7ac6fbd165285e6714c2_m.webp",
+      "category": "city",
+      "published": 1795170271000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:18:flag-day",
       "title": "В Ташкенте пройдет военное шествие в честь 35-летия государственного флага",
@@ -94,16 +124,6 @@
       "venue": null
     },
     {
-      "id": "ru:gorod:2026:11:13:weather",
-      "title": "В столице потеплеет до +15° и прогнозируется дымка днем",
-      "description": "Прогноз погоды в Ташкенте на выходные 14 и 15 ноября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/13/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/5de8569d532fdfb3d7593576d02060d6_m.webp",
-      "category": "city",
-      "published": 1794561932000,
-      "venue": null
-    },
-    {
       "id": "ru:concerts:2026:11:13:anvar-djurayev",
       "title": "Анвар Джураев о VIP-билетах на концерт, выборе Humo Arena, дуэте с Констой и сюрпризах",
       "description": "21 ноября группа Sahar выступит на Humo Arena с программой Ayol. На пресс-конференции Анвар Джураев рассказал, почему выбрал большую арену, какие сюрпризы готовит для поклонников и почему выступает против искусственного интеллекта в музыке. Рэпер Konsta поделился подробностями их совместной работы.",
@@ -116,32 +136,6 @@
         "coords": [
           41.308,
           69.2519
-        ]
-      }
-    },
-    {
-      "id": "ru:gorod:2026:11:12:aman-develpoment",
-      "title": "Грандиозное открытие Aman Development: в Новом Ташкенте представят Geraldika Residence",
-      "description": "14 ноября в 14:00 в дирекции Нового Ташкента состоятся грандиозное открытие Aman Development, презентация и старт продаж жилого комплекса бизнес-класса Geraldika Residence.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/12/aman-develpoment",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/a5000fbdee02a4a67cb016ab06cf7113_m.webp",
-      "category": "city",
-      "published": 1794492000000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:12:magic-city",
-      "title": "Magic City и Pepsi приглашают на торжественное открытие волшебной новогодней ёлки",
-      "description": "14 ноября в 19:00 в парке Magic City состоится одно из самых ожидаемых праздничных событий – зажжение огней на главной новогодней ёлке.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/12/magic-city",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/4c916ece3d4ea5d2f49821d52f90fd1f_m.webp",
-      "category": "city",
-      "published": 1794484800000,
-      "venue": {
-        "name": "Magic City",
-        "coords": [
-          41.3036,
-          69.245
         ]
       }
     },
