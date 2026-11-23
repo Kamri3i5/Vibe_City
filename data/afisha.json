@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-11-22T22:56:45.026Z",
+  "updatedAt": "2026-11-23T04:41:38.745Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:23:weather",
+      "title": "В столице прогнозируют дожди и потепление до +26°",
+      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 23 по 27 ноября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/23/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/453fd17ecd417f8fc41db53e2f6c5c24_m.webp",
+      "category": "city",
+      "published": 1795408257000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:20:listee",
       "title": "Купить у незнакомца и не пожалеть: как сделать онлайн-сделку комфортной для обеих сторон",
@@ -111,16 +121,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/11/98a75c80c5bb9fdaf23390d3c21f1d03_m.webp",
       "category": "city",
       "published": 1794718800000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:13:14-15-november",
-      "title": "Куда пойти на выходных в Ташкенте, 14 и 15 ноября",
-      "description": "«Рамаяна» и еще восемь кинопремьер, закрытие мотосезона, фестиваль экспериментального кино и видеоарта, Drift Show, гастроли Свердловского театра музыкальной комедии, выставки, юмористический концерт Карена Аванесяна и другие мероприятия предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/13/14-15-november",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/ed2ea9ce6d3d5f044c6bbe6751eb17a2_m.webp",
-      "category": "city",
-      "published": 1794564392000,
       "venue": null
     },
     {
