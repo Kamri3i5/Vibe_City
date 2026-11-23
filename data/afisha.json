@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-11-23T04:41:38.745Z",
+  "updatedAt": "2026-11-23T16:48:20.527Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:23:restaurant-for-wedding",
+      "title": "Как выбрать ресторан для свадьбы в Ташкенте: 10 важных критериев",
+      "description": "Разбираемся, на что обратить внимание при выборе свадебной площадки в Ташкенте и почему сравнивать рестораны только по стоимости меню не стоит.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/23/restaurant-for-wedding",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/db4431dbdf9aa12537e063cd4b781bc1_m.webp",
+      "category": "city",
+      "published": 1795438800000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:23:bus",
+      "title": "В Ташкенте запустили новый автобусный маршрут до поселка Кенсай",
+      "description": "На маршруте работают 10 автобусов средней вместимости.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/23/bus",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/d2b862f5115cfa56810e01b6d7a215b9_m.webp",
+      "category": "city",
+      "published": 1795434773000,
+      "venue": null
+    },
+    {
+      "id": "ru:concerts:2026:11:23:tehnikum-bloggers-awards",
+      "title": "Мальбэк и Сюзанна стали вторым хедлайнером Tehnikum Bloggers Awards 2026",
+      "description": "В программе вечера — выступления трех музыкальных хедлайнеров, награждение лучших блогеров 2026 года, шоу-программа, фотозоны и контент-локации.",
+      "url": "https://www.afisha.uz/ru/concerts/2026/11/23/tehnikum-bloggers-awards",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/d2a52e86c9a8c391f4090adfa22c28b7_m.webp",
+      "category": "concert",
+      "published": 1795428603000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:23:weather",
       "title": "В столице прогнозируют дожди и потепление до +26°",
@@ -101,26 +131,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/11/31cb6bc05fce67dfc1962f025e7ab97b_m.webp",
       "category": "city",
       "published": 1794808800000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:16:weather",
-      "title": "В столице рабочая неделя завершится потеплением до +22°",
-      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 16 по 20 ноября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/16/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/3100cb31fe3235db0d3c0e1684857adc_m.webp",
-      "category": "city",
-      "published": 1794804325000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:15:business-meetings",
-      "title": "Где провести конференцию или переговоры в Ташкенте — 10 отелей с залами для деловых встреч",
-      "description": "В подборке — вместимость залов, варианты рассадки и возможности для параллельных сессий и деловых ужинов.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/15/business-meetings",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/98a75c80c5bb9fdaf23390d3c21f1d03_m.webp",
-      "category": "city",
-      "published": 1794718800000,
       "venue": null
     },
     {
@@ -277,16 +287,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/09/13d2420393bf9b5e819a4115d7d2739e_m.webp",
       "category": "concert",
       "published": 1788506700000,
-      "venue": null
-    },
-    {
-      "id": "ru:concerts:2026:09:04:vitamin-x",
-      "title": "Концерт группы Vitamin X отменен",
-      "description": "Группа известна такими композициями, как: About to Crack, Bad Trip, Chop Chop Chop, Beat My Head, Block Bust, Modern Man.",
-      "url": "https://www.afisha.uz/ru/concerts/2026/09/04/vitamin-x",
-      "image": "https://www.afisha.uz/uploads/media/2026/09/a6869b130952aedcd55ec048a72e40d4_m.webp",
-      "category": "concert",
-      "published": 1788506542000,
       "venue": null
     },
     {
