@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-11-24T03:35:45.745Z",
+  "updatedAt": "2026-11-24T16:41:26.600Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:24:mastercard",
+      "title": "Mastercard разыгрывает iPhone 18 Pro и MacBook Air за оплату смартфоном",
+      "description": "Mastercard превращает привычные покупки в возможность выиграть ценные гаджеты.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/24/mastercard",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/7101d45a9de0a139ee0265c7d8d9d044_m.webp",
+      "category": "city",
+      "published": 1795514400000,
+      "venue": null
+    },
+    {
+      "id": "ru:exhibitions:2026:11:24:art-vernissage",
+      "title": "Больше, чем галерея: что скрывается за дверями Art Vernissage в Ташкенте",
+      "description": "Здесь можно познакомиться с узбекскими художниками, приобрести картину или предмет прикладного искусства, узнать стоимость и принять участие в настоящем аукционе. За Art Vernissage скрывается целая система, которая может изменить отношение к предметам искусства в Узбекистане.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/11/24/art-vernissage",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/3bfa4602870bf1eb70665513bed9d263_m.webp",
+      "category": "exhibition",
+      "published": 1795499558000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:23:restaurant-for-wedding",
       "title": "Как выбрать ресторан для свадьбы в Ташкенте: 10 важных критериев",
@@ -121,16 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/11/cc64745513996e0eb40673a4192aad2d_m.webp",
       "category": "city",
       "published": 1794890700000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:16:hero-s-journey",
-      "title": "В Ташкенте откроется фитнес-студия Hero’s Journey",
-      "description": "Казахстанская сеть фитнес-студий Hero’s Journey привезет в Ташкент формат с готовыми программами, тренером на каждом занятии и пятью видами тренировок.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/16/hero-s-journey",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/31cb6bc05fce67dfc1962f025e7ab97b_m.webp",
-      "category": "city",
-      "published": 1794808800000,
       "venue": null
     },
     {
@@ -357,16 +367,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/07/9036da641d4c04ef63b8cf9cc38ca53e_m.webp",
       "category": "exhibition",
       "published": 1783344879000,
-      "venue": null
-    },
-    {
-      "id": "ru:exhibitions:2026:06:15:watches-wonders",
-      "title": "Время чудес: что показали на выставке Watches & Wonders",
-      "description": "Женевский салон Watches & Wonders обозначил ключевые тренды года. В их числе — популярность скелетонов, циферблаты из натуральных минералов и технологическое обновление культовых исторических коллекций.",
-      "url": "https://www.afisha.uz/ru/exhibitions/2026/06/15/watches-wonders",
-      "image": "https://www.afisha.uz/uploads/media/2026/06/60ed79225899d549dfbb2a3e69eba4e1_m.webp",
-      "category": "exhibition",
-      "published": 1781510400000,
       "venue": null
     },
     {
