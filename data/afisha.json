@@ -1,8 +1,18 @@
 {
-  "updatedAt": "2026-11-25T01:44:05.952Z",
+  "updatedAt": "2026-11-25T16:25:54.537Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:25:uzum-market",
+      "title": "Что читают узбекистанцы в 2026 году",
+      "description": "С начала 2026 года пользователи Uzum Market приобрели около 3 миллионов книг. Чаще всего покупатели выбирали издания на узбекском языке, а самой популярной книгой стала повесть Улмаса Умарбекова «Трудно быть человеком».",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/25/uzum-market",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/ad934062a1e3eb73e195fee485be7d80_m.webp",
+      "category": "city",
+      "published": 1795615200000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:24:mastercard",
       "title": "Mastercard разыгрывает iPhone 18 Pro и MacBook Air за оплату смартфоном",
@@ -131,16 +141,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/11/8b4b10428ade194e0ab4cea133aa50b4_m.webp",
       "category": "city",
       "published": 1794916800000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:17:picturesque-locations",
-      "title": "Где фотографироваться в Узбекистане: красивые места Ташкента, Самарканда, Бухары и Хивы",
-      "description": "Собрали места, где трудно убрать телефон, и подсказали, что рассмотреть между снимками.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/17/picturesque-locations",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/cc64745513996e0eb40673a4192aad2d_m.webp",
-      "category": "city",
-      "published": 1794890700000,
       "venue": null
     },
     {
