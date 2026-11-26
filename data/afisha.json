@@ -1,8 +1,64 @@
 {
-  "updatedAt": "2026-11-26T01:18:12.377Z",
+  "updatedAt": "2026-11-26T15:59:35.276Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:26:visit-malaysia",
+      "title": "В Ташкенте пройдет неделя культуры Малайзии",
+      "description": "С 27 по 29 ноября в Tashkent City Mall пройдёт Malaysia Cultural Week 2026 с национальными танцами, модными показами, выставкой традиционных ремёсел и кулинарными мастер-классами. Вход свободный.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/26/visit-malaysia",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/b014b8ee06da2cf89c229daf0c4c7d4b_m.webp",
+      "category": "city",
+      "published": 1795694400000,
+      "venue": {
+        "name": "Tashkent City",
+        "coords": [
+          41.3165,
+          69.2484
+        ]
+      }
+    },
+    {
+      "id": "ru:gorod:2026:11:26:wunder-digital",
+      "title": "Wunder Digital Uzbekistan получило награду Top Performing Agency на GALA 2026",
+      "description": "Инновационный digital-хаб Wunder Digital Uzbekistan отметили на Global Agency Leadership Awards в Кейптауне. Церемония награждения состоялась 19 ноября в рамках международной встречи руководителей рекламного бизнеса.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/26/wunder-digital",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/febdebc2ff682d9ad61a7610aff25f86_m.webp",
+      "category": "city",
+      "published": 1795687200000,
+      "venue": null
+    },
+    {
+      "id": "ru:exhibitions:2026:11:26:bukharabiennale-2027",
+      "title": "Бухарская биеннале 2027 объявила тему второго сезона и первых участников",
+      "description": "В 2027 году биеннале вернется в Бухару. Тему подсказала история людей, которые когда-то приехали в город по Великому шелковому пути и остались здесь жить.",
+      "url": "https://www.afisha.uz/ru/exhibitions/2026/11/26/bukharabiennale-2027",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/218236ae2384bcbd7d59d50d21ba4970_m.webp",
+      "category": "exhibition",
+      "published": 1795684080000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:26:missuniverse-2026",
+      "title": "Узбекистан принял участие в «Мисс Вселенная 2026»",
+      "description": "В Пуэрто-Рико прошел 75-й конкурс «Мисс Вселенная», который собрал представительниц 116 стран и территорий.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/26/missuniverse-2026",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/e6e553c933079215a82645bf0fcc86fa_m.webp",
+      "category": "city",
+      "published": 1795670820000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:26:buses",
+      "title": "В Ташкенте изменили три автобусных маршрута",
+      "description": "Пассажирам рекомендуют учитывать изменения при планировании поездок на маршрутах №11, 77 и 138.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/26/buses",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/993fa81dfd4f44d186bb6a6d4e5aaa28_m.webp",
+      "category": "city",
+      "published": 1795667100000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:25:uzum-market",
       "title": "Что читают узбекистанцы в 2026 году",
@@ -101,46 +157,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/11/b6d1669082fe7ac6fbd165285e6714c2_m.webp",
       "category": "city",
       "published": 1795170271000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:18:flag-day",
-      "title": "В Ташкенте пройдет военное шествие в честь 35-летия государственного флага",
-      "description": "Жителей ждут показательные выступления, шествие войск, боевые призывы, выступление оркестра, пролет вертолета с флагом Узбекистана и шоу дронов.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/18/flag-day",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/de7d2268bbe2641c1bedc57da9dc197d_m.webp",
-      "category": "city",
-      "published": 1794977053000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:17:octobank",
-      "title": "Карты HUMO от Octobank теперь поддерживают Apple Pay",
-      "description": "У держателей карт HUMO от Octobank появилась возможность привязать к Apple Wallet физические, виртуальные и моментальные карты HUMO и оплачивать покупки с помощью iPhone и Apple Watch.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/17/octobank",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/77d2c99dd88b6231ca84c79e529f84b2_m.webp",
-      "category": "city",
-      "published": 1794931200000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:17:uzum-market",
-      "title": "Беговая дорожка, велотренажер, наушники за 1000 сумов: какие акционные товары покупали на Uzum Market",
-      "description": "В Uzum Market рассказали, какие товары узбекистанцы смогли приобрести за 1000 сумов во время распродажи «11.11». За неделю в ней приняли участие жители 600 населенных пунктов, а общая стоимость товаров превысила 2 млрд сумов.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/17/uzum-market",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/acd48243d6f7bf20795b6061465464d2_m.webp",
-      "category": "city",
-      "published": 1794924000000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:17:dreamland",
-      "title": "Dreamland Ashrafiy: как память о великих именах формирует облик современного Ташкента",
-      "description": "Имя композитора Мухтара Ашрафи, внесшего вклад в развитие музыкального искусства Узбекистана, живёт в современном Ташкенте. На улице, названной в его честь, Dreamland Development возводит жилой комплекс Dreamland Ashrafiy из трех семиэтажных блоков.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/17/dreamland",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/8b4b10428ade194e0ab4cea133aa50b4_m.webp",
-      "category": "city",
-      "published": 1794916800000,
       "venue": null
     },
     {
@@ -357,16 +373,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/08/f76a7c249503a815f574429b4cdb3595_m.webp",
       "category": "exhibition",
       "published": 1787567580000,
-      "venue": null
-    },
-    {
-      "id": "ru:exhibitions:2026:07:06:bienal",
-      "title": "Объявлен прием заявок на XI Ташкентскую международную биеннале современного искусства",
-      "description": "В биеннале могут принять участие художники различных направлений современного искусства и представить свои работы по тематике «Горизонт событий».",
-      "url": "https://www.afisha.uz/ru/exhibitions/2026/07/06/bienal",
-      "image": "https://www.afisha.uz/uploads/media/2026/07/9036da641d4c04ef63b8cf9cc38ca53e_m.webp",
-      "category": "exhibition",
-      "published": 1783344879000,
       "venue": null
     },
     {
