@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-11-27T01:16:25.460Z",
+  "updatedAt": "2026-11-27T15:48:20.531Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:27:28-29-november",
+      "title": "Куда пойти на выходных в Ташкенте, 28 и 29 ноября",
+      "description": "Семь кинопремьер, забег в честь Дня флага, экспо-маркет «Керамистан», шоу в Цирке, концерты группы Benom и DJ Piligrim, балет «Золушка» Прокофьева, выставки и другие мероприятия предстоящих выходных.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/27/28-29-november",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/05a16a1b9afabcff473eb70495163b81_m.webp",
+      "category": "city",
+      "published": 1795777775000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:27:weather",
+      "title": "В столице ожидается похолодание до +14°",
+      "description": "Прогноз погоды в Ташкенте на выходные 28 и 29 ноября.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/27/weather",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/df119752d83617e3bcce01351e2f6c8b_m.webp",
+      "category": "city",
+      "published": 1795776214000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:26:visit-malaysia",
       "title": "В Ташкенте пройдет неделя культуры Малайзии",
@@ -137,26 +157,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/11/0fb539fcd9a7eb873a002aef8acd20bc_m.webp",
       "category": "city",
       "published": 1795176000000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:20:21-22-november",
-      "title": "Куда пойти на выходных в Ташкенте, 21 и 22 ноября",
-      "description": "Новые «Голодные игры» и еще шесть кинопремьер, спектакли, шоу «Импровизаторы», концерт группы «Пошлая Молли», прожарка, ярмарка и другие события предстоящих выходных.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/20/21-22-november",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/eb5ad71ccf375620867e250ac00cb759_m.webp",
-      "category": "city",
-      "published": 1795174920000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:20:weather",
-      "title": "До +21° и облачная погода ожидаются в столице",
-      "description": "Прогноз погоды в Ташкенте на выходные 21 и 22 ноября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/20/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/b6d1669082fe7ac6fbd165285e6714c2_m.webp",
-      "category": "city",
-      "published": 1795170271000,
       "venue": null
     },
     {
