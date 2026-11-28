@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-11-28T00:49:42.366Z",
+  "updatedAt": "2026-11-28T14:44:00.719Z",
   "source": "https://www.afisha.uz",
   "attribution": "Данные о событиях: Afisha.uz",
   "events": [
+    {
+      "id": "ru:gorod:2026:11:28:neon-alisa",
+      "title": "От заказа до прибыли: как NEON Alisa помогает ресторанам Узбекистана",
+      "description": "Официант принимает заказ, повар начинает готовить, кассир выписывает счет – и это лишь малая часть того, что происходит в ресторане каждый вечер. О том, как программа для автоматизации NEON Alisa помогает наладить эти процессы – в статье.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/28/neon-alisa",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/f584af08f091d859e18258585e9e76cf_m.webp",
+      "category": "city",
+      "published": 1795867200000,
+      "venue": null
+    },
+    {
+      "id": "ru:gorod:2026:11:28:tiff-2026",
+      "title": "Узбекистан в миниатюре и путешествия по миру: что посмотреть на туристической ярмарке TITF 2026",
+      "description": "Какие стенды стоит обратить внимание и чем интересна TITF 2026 не только представителям туристического бизнеса, но и путешественникам.",
+      "url": "https://www.afisha.uz/ru/gorod/2026/11/28/tiff-2026",
+      "image": "https://www.afisha.uz/uploads/media/2026/11/5292b695264c4a63d4451e89028f193e_m.webp",
+      "category": "city",
+      "published": 1795845600000,
+      "venue": null
+    },
     {
       "id": "ru:gorod:2026:11:27:28-29-november",
       "title": "Куда пойти на выходных в Ташкенте, 28 и 29 ноября",
@@ -137,26 +157,6 @@
       "image": "https://www.afisha.uz/uploads/media/2026/11/d2a52e86c9a8c391f4090adfa22c28b7_m.webp",
       "category": "concert",
       "published": 1795428603000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:23:weather",
-      "title": "В столице прогнозируют дожди и потепление до +26°",
-      "description": "Прогноз погоды в Ташкенте на рабочую неделю с 23 по 27 ноября.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/23/weather",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/453fd17ecd417f8fc41db53e2f6c5c24_m.webp",
-      "category": "city",
-      "published": 1795408257000,
-      "venue": null
-    },
-    {
-      "id": "ru:gorod:2026:11:20:listee",
-      "title": "Купить у незнакомца и не пожалеть: как сделать онлайн-сделку комфортной для обеих сторон",
-      "description": "Зафар Исхаков, Country Manager Listee в Узбекистане, рассказал, на что обращать внимание при покупке вещей с рук, как выстраивать доверие между незнакомыми людьми и избегать недопонимания при онлайн-сделках.",
-      "url": "https://www.afisha.uz/ru/gorod/2026/11/20/listee",
-      "image": "https://www.afisha.uz/uploads/media/2026/11/0fb539fcd9a7eb873a002aef8acd20bc_m.webp",
-      "category": "city",
-      "published": 1795176000000,
       "venue": null
     },
     {
